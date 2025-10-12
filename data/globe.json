@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "name": "Africa" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[20, -35], [50, -35], [50, 35], [20, 35], [20, -35]]]
+      }
+    },
+    {
+      "type": "Feature", 
+      "properties": { "name": "Asia" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[60, -10], [140, -10], [140, 70], [60, 70], [60, -10]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Europe" },
+      "geometry": {
+        "type": "Polygon", 
+        "coordinates": [[[0, 35], [40, 35], [40, 70], [0, 70], [0, 35]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "North America" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-140, 20], [-60, 20], [-60, 70], [-140, 70], [-140, 20]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "South America" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-80, -55], [-35, -55], [-35, 15], [-80, 15], [-80, -55]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "name": "Australia" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[110, -45], [155, -45], [155, -10], [110, -10], [110, -45]]]
+      }
+    }
+  ]
+}
