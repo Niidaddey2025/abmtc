@@ -72,12 +72,12 @@ export async function POST(request: NextRequest) {
     const reference2Email = getString('reference2Email')
     const reference2Phone = getString('reference2Phone')
 
-    // Validate required fields
+    // Validate required fields (guardianFullName and guardianProfession are now optional)
     const requiredPersonalFields = [
       firstName, lastName, dateOfBirth, gender, maritalStatus, nationality,
       email, phone, profession, currentWork, postalAddress, residentialAddress,
       settlement, nextOfKin, nextOfKinContact, fatherFullName, fatherProfession,
-      motherFullName, motherProfession, guardianFullName, guardianProfession,
+      motherFullName, motherProfession,
       parentGuardianOwnHouse, parentGuardianRentHouse, parentGuardianOwnBusiness,
       parentGuardianOwnCar, financialSupport
     ]
@@ -103,9 +103,10 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    if (!testimony || !churchName || !pastorName || !pastorEmail) {
+    // testimony and pastorEmail are now optional, ministryExperience was already optional
+    if (!churchName || !pastorName) {
       return NextResponse.json(
-        { error: 'Missing required spiritual background fields' },
+        { error: 'Missing required spiritual background fields (Church Name and Pastor Name)' },
         { status: 400 }
       )
     }
@@ -117,9 +118,10 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    if (!reference1Name || !reference1Email || !reference1Phone || !reference2Name || !reference2Email || !reference2Phone) {
+    // Reference 2 is now optional
+    if (!reference1Name || !reference1Email || !reference1Phone) {
       return NextResponse.json(
-        { error: 'Missing required reference fields' },
+        { error: 'Missing required reference fields (Reference 1 is required)' },
         { status: 400 }
       )
     }
@@ -139,20 +141,20 @@ export async function POST(request: NextRequest) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: process.env.EMAIL_FROM || 'quantumflairetechnologies@gmail.com',
+        user: process.env.EMAIL_FROM,
         pass: process.env.EMAIL_PASSWORD,
       },
     })
 
     // Email content
     const mailOptions = {
-      from: process.env.EMAIL_FROM || 'quantumflairetechnologies@gmail.com',
-      to: process.env.EMAIL_TO || 'sdadzie1221@gmail.com',
+      from: process.env.EMAIL_FROM,
+      to: process.env.EMAIL_TO,
       subject: `ABMTC Application Submission - ${firstName} ${lastName}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto;">
           <h2 style="color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px;">
-            New ABMTC Application Submission
+            ABMTC Application Submission
           </h2>
           
           <!-- Personal Information -->

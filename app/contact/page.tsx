@@ -3,6 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
+import { toast } from "@/hooks/use-toast"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card } from "@/components/ui/card"
@@ -41,15 +42,26 @@ export default function ContactPage() {
       })
 
       if (response.ok) {
-        alert("Thank you for your message! We'll get back to you soon.")
+        toast({
+          title: "Message sent",
+          description: "Thank you for your message! We'll get back to you soon.",
+        })
         setFormData({ name: "", email: "", phone: "", subject: "", message: "" })
       } else {
         const errorData = await response.json()
-        alert(`Error: ${errorData.error || 'Failed to send message'}`)
+        toast({
+          title: "Submission failed",
+          description: errorData.error || "Failed to send message",
+          variant: "destructive",
+        })
       }
     } catch (error) {
       console.error('Error submitting form:', error)
-      alert('An error occurred while sending your message. Please try again.')
+      toast({
+        title: "Network error",
+        description: "An error occurred while sending your message. Please try again.",
+        variant: "destructive",
+      })
     } finally {
       setIsSubmitting(false)
     }
@@ -199,32 +211,26 @@ export default function ContactPage() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               <DepartmentCard
                 title="Admissions Office"
-                email="admissions@abmtc.org"
                 description="Questions about applications, requirements, and enrollment"
               />
               <DepartmentCard
                 title="Financial Aid"
-                email="financialaid@abmtc.org"
                 description="Scholarships, payment plans, and financial assistance"
               />
               <DepartmentCard
                 title="Student Services"
-                email="students@abmtc.org"
                 description="Current student support, housing, and campus life"
               />
               <DepartmentCard
                 title="Alumni Relations"
-                email="alumni@abmtc.org"
                 description="Alumni network, events, and continuing education"
               />
               <DepartmentCard
                 title="Academic Affairs"
-                email="academics@abmtc.org"
                 description="Curriculum, courses, and academic policies"
               />
               <DepartmentCard
                 title="International Students"
-                email="international@abmtc.org"
                 description="Visa assistance, travel, and international student support"
               />
             </div>
@@ -284,13 +290,10 @@ function ContactInfoCard({ icon: Icon, title, details }: { icon: any; title: str
   )
 }
 
-function DepartmentCard({ title, email, description }: { title: string; email: string; description: string }) {
+function DepartmentCard({ title, description }: { title: string; description: string }) {
   return (
-    <Card className="p-6 hover:shadow-lg transition-shadow">
-      <h3 className="text-lg font-bold text-foreground mb-2">{title}</h3>
-      <a href={`mailto:${email}`} className="text-sm text-primary hover:underline mb-3 block">
-        {email}
-      </a>
+    <Card className="p-4 hover:shadow-lg transition-shadow">
+      <h3 className="text-lg font-bold text-foreground">{title}</h3>
       <p className="text-sm text-muted-foreground leading-relaxed">{description}</p>
     </Card>
   )

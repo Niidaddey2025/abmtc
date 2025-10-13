@@ -3,6 +3,7 @@
 import type React from "react"
 
 import { useState, Fragment } from "react"
+import { toast } from "@/hooks/use-toast"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card } from "@/components/ui/card"
@@ -107,6 +108,7 @@ export default function ApplyPage() {
       { field: 'fatherProfession', label: "Father's Profession" },
       { field: 'motherFullName', label: "Mother's Full Name" },
       { field: 'motherProfession', label: "Mother's Profession" },
+      // guardianFullName and guardianProfession are now optional
       { field: 'parentGuardianOwnHouse', label: 'Does Parent/Guardian Own House?' },
       { field: 'parentGuardianRentHouse', label: 'Are Your Parents/Guardian Renting A House?' },
       { field: 'parentGuardianOwnBusiness', label: 'Do Your Parents/Guardian Own A Business?' },
@@ -158,9 +160,49 @@ export default function ApplyPage() {
     error.toLowerCase().includes('educational certificate'),
   )
 
+  const validateAllSteps = () => {
+    const errors: string[] = []
+    
+    // Step 1: Personal Information (already validated by validateStep1)
+    if (!validateStep1()) {
+      errors.push('Please complete all required fields in Step 1: Personal Information')
+    }
+    
+    // Step 2: Spiritual Background
+    // testimony is now optional
+    if (!formData.churchName.trim()) errors.push('Church Name is required')
+    if (!formData.pastorName.trim()) errors.push('Pastor Name is required')
+    // pastorEmail is now optional
+    // ministryExperience is already optional
+    
+    // Step 3: Program Selection
+    if (!formData.program.trim()) errors.push('Program selection is required')
+    if (!formData.startDate.trim()) errors.push('Start Date is required')
+    
+    // Step 4: References
+    if (!formData.reference1Name.trim()) errors.push('Reference 1 Name is required')
+    if (!formData.reference1Email.trim()) errors.push('Reference 1 Email is required')
+    if (!formData.reference1Phone.trim()) errors.push('Reference 1 Phone is required')
+    // Reference 2 is now optional
+    
+    return errors
+  }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
+
+    // Validate all steps before submission
+    const allErrors = validateAllSteps()
+    if (allErrors.length > 0) {
+      toast({
+        title: "Application Incomplete",
+        description: `Please complete the following required fields:\n• ${allErrors.slice(0, 5).join('\n• ')}${allErrors.length > 5 ? `\n• ...and ${allErrors.length - 5} more` : ''}`,
+        variant: "destructive",
+      })
+      setIsSubmitting(false)
+      return
+    }
 
     try {
       const submissionData = new FormData()
@@ -178,7 +220,10 @@ export default function ApplyPage() {
       })
 
       if (response.ok) {
-        alert("Application submitted successfully! We'll be in touch soon.")
+        toast({
+          title: "Application submitted",
+          description: "Thank you! We'll be in touch soon.",
+        })
         // Reset form or redirect as needed
         setCurrentStep(1)
         setFormData({
@@ -229,11 +274,19 @@ export default function ApplyPage() {
         setValidationErrors([])
       } else {
         const errorData = await response.json()
-        alert(`Error: ${errorData.error || 'Failed to submit application'}`)
+        toast({
+          title: "Submission failed",
+          description: errorData.error || "Failed to submit application",
+          variant: "destructive",
+        })
       }
     } catch (error) {
       console.error('Error submitting application:', error)
-      alert('An error occurred while submitting your application. Please try again.')
+      toast({
+        title: "Network error",
+        description: "An error occurred while submitting your application. Please try again.",
+        variant: "destructive",
+      })
     } finally {
       setIsSubmitting(false)
     }

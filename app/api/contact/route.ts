@@ -18,20 +18,20 @@ export async function POST(request: NextRequest) {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: process.env.EMAIL_FROM || 'quantumflairetechnologies@gmail.com',
+        user: process.env.EMAIL_FROM,
         pass: process.env.EMAIL_PASSWORD,
       },
     })
 
     // Email content
     const mailOptions = {
-      from: process.env.EMAIL_FROM || 'quantumflairetechnologies@gmail.com',
-      to: process.env.EMAIL_TO || 'sdadzie1221@gmail.com',
+      from: process.env.EMAIL_FROM,
+      to: process.env.EMAIL_TO,
       subject: `ABMTC Contact Form: ${subject}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px;">
-            New Contact Form Submission
+            ABMTC Contact Form Submission
           </h2>
           
           <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0;">
