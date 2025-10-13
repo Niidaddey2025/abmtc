@@ -40,7 +40,7 @@ export function Navigation() {
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-background/95 backdrop-blur-md shadow-md" : "bg-transparent"
+        isScrolled || isMobileMenuOpen ? "bg-background/95 backdrop-blur-md shadow-md" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4 lg:px-8">
@@ -57,7 +57,7 @@ export function Navigation() {
             />
             <div className={`cursor-pointer transition-colors ${
                 isHomePage
-                  ? isScrolled
+                  ? (isScrolled || isMobileMenuOpen)
                     ? "text-foreground hover:text-primary text-2xl"
                     : "text-white hover:text-foreground text-2xl"
                   : "text-foreground hover:text-primary text-2xl"
@@ -106,7 +106,13 @@ export function Navigation() {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2 text-foreground"
+            className={`lg:hidden p-2 transition-colors ${
+              isHomePage
+                ? (isScrolled || isMobileMenuOpen)
+                  ? "text-foreground"
+                  : "text-white"
+                : "text-foreground"
+            }`}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -124,13 +130,7 @@ export function Navigation() {
                   href={link.href}
                   prefetch={true}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`relative text-lg font-medium transition-colors py-2 text-left cursor-pointer after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:scale-x-0 after:bg-current after:content-[''] after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 ${
-                    isHomePage
-                      ? isScrolled
-                        ? "text-foreground/80 hover:text-primary"
-                        : "text-white hover:text-secondary"
-                      : "text-foreground hover:text-primary"
-                  }`}
+                  className="relative text-lg font-medium transition-colors py-2 text-left cursor-pointer after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:scale-x-0 after:bg-current after:content-[''] after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 text-foreground/80 hover:text-primary"
                 >
                   {link.label}
                 </Link>
@@ -139,13 +139,7 @@ export function Navigation() {
                 <Button
                   variant="outline"
                   asChild
-                  className={`relative w-full bg-transparent cursor-pointer transition-colors after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:scale-x-0 after:bg-current after:content-[''] after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 ${
-                    isHomePage
-                      ? isScrolled
-                        ? "text-foreground hover:text-primary"
-                        : "text-white hover:text-foreground"
-                      : "text-foreground hover:text-primary"
-                  }`}
+                  className="relative w-full bg-transparent cursor-pointer transition-colors after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:scale-x-0 after:bg-current after:content-[''] after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 text-foreground hover:text-primary"
                 >
                   <Link href="/contact" prefetch={true} onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
                 </Button>

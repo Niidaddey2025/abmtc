@@ -56,7 +56,7 @@ export default function AlumniPage() {
                 name="Sarah Kim"
                 class="Class of 2020"
                 location="Thailand"
-                image="/young-korean-woman-student-portrait.jpg"
+                image="https://images.unsplash.com/photo-1650784854554-c077585b9720?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687"
                 story="After graduating from ABMTC, Sarah moved to rural Thailand where she has planted three thriving churches with over 150 believers. Her ministry focuses on unreached villages in the northern provinces, combining evangelism with community development projects. Sarah credits her time at ABMTC for preparing her to navigate cross-cultural challenges and build sustainable ministry."
                 impact={["3 churches planted", "150+ believers", "5 villages reached", "10 local leaders trained"]}
               />
@@ -65,7 +65,7 @@ export default function AlumniPage() {
                 name="Emmanuel Banda"
                 class="Class of 2019"
                 location="Mozambique"
-                image="/young-zambian-man-student-smiling.jpg"
+                image="https://images.unsplash.com/photo-1631131431211-4f768d89087d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
                 story="Emmanuel returned to his home region in Southern Africa with a vision to reach unreached people groups. He has established two churches in Mozambique and trains local pastors through a discipleship program. His ministry has grown to include a Bible school that equips indigenous leaders for church planting. Emmanuel's story demonstrates the multiplying impact of ABMTC training."
                 impact={["2 churches established", "80+ members", "Bible school founded", "15 pastors trained"]}
               />
@@ -74,7 +74,7 @@ export default function AlumniPage() {
                 name="Maria Santos"
                 class="Class of 2021"
                 location="Peru"
-                image="/young-brazilian-woman-student-smiling.jpg"
+                image=""
                 story="From Brazil to Peru, Maria followed God's call to reach Latin America. She recently planted a church in Lima that has grown to 45 believers in just two years. Maria's ministry emphasizes discipleship and leadership development, ensuring sustainable growth. She regularly mentors young women in ministry and hosts training workshops for church planters across South America."
                 impact={[
                   "1 church planted",
