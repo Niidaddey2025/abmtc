@@ -152,117 +152,117 @@ export async function POST(request: NextRequest) {
       to: process.env.EMAIL_TO,
       subject: `ABMTC Application Submission - ${firstName} ${lastName}`,
       html: `
-        <div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto;">
-          <h2 style="color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px;">
+        <div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; font-size: 16px; line-height: 1.6;">
+          <h2 style="color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px; font-size: 28px;">
             ABMTC Application Submission
           </h2>
           
           <!-- Personal Information -->
           <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0;">
-            <h3 style="color: #007bff; margin-top: 0;">Personal Information</h3>
+            <h3 style="color: #007bff; margin-top: 0; font-size: 22px;">Personal Information</h3>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-              <p><strong>First Name:</strong> ${firstName}</p>
-              <p><strong>Last Name:</strong> ${lastName}</p>
-              <p><strong>Date of Birth:</strong> ${dateOfBirth}</p>
-              <p><strong>Gender:</strong> ${gender}</p>
-              <p><strong>Marital Status:</strong> ${maritalStatus}</p>
-              <p><strong>Nationality:</strong> ${nationality}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>First Name:</strong> ${firstName}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Last Name:</strong> ${lastName}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Date of Birth:</strong> ${dateOfBirth}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Gender:</strong> ${gender}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Marital Status:</strong> ${maritalStatus}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Nationality:</strong> ${nationality}</p>
             </div>
             
-            <h4 style="color: #007bff; margin-top: 20px;">Contact Information</h4>
+            <h4 style="color: #007bff; margin-top: 20px; font-size: 18px;">Contact Information</h4>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-              <p><strong>Email:</strong> ${email}</p>
-              <p><strong>Phone:</strong> ${phone}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Email:</strong> ${email}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Phone:</strong> ${phone}</p>
             </div>
             
-            <h4 style="color: #007bff; margin-top: 20px;">Professional Information</h4>
+            <h4 style="color: #007bff; margin-top: 20px; font-size: 18px;">Professional Information</h4>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-              <p><strong>Profession:</strong> ${profession}</p>
-              <p><strong>Current Work:</strong> ${currentWork}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Profession:</strong> ${profession}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Current Work:</strong> ${currentWork}</p>
             </div>
             
-            <h4 style="color: #007bff; margin-top: 20px;">Address Information</h4>
-            <p><strong>Postal Address:</strong> ${postalAddress}</p>
-            <p><strong>Residential Address:</strong> ${residentialAddress}</p>
-            <p><strong>Settlement:</strong> ${settlement}</p>
+            <h4 style="color: #007bff; margin-top: 20px; font-size: 18px;">Address Information</h4>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Postal Address:</strong> ${postalAddress}</p>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Residential Address:</strong> ${residentialAddress}</p>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Settlement:</strong> ${settlement}</p>
             
-            <h4 style="color: #007bff; margin-top: 20px;">Next of Kin</h4>
+            <h4 style="color: #007bff; margin-top: 20px; font-size: 18px;">Next of Kin</h4>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-              <p><strong>Next of Kin:</strong> ${nextOfKin}</p>
-              <p><strong>Contact:</strong> ${nextOfKinContact}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Next of Kin:</strong> ${nextOfKin}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Contact:</strong> ${nextOfKinContact}</p>
             </div>
             
-            <h4 style="color: #007bff; margin-top: 20px;">Family Information</h4>
+            <h4 style="color: #007bff; margin-top: 20px; font-size: 18px;">Family Information</h4>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-              <p><strong>Father's Name:</strong> ${fatherFullName}</p>
-              <p><strong>Father's Profession:</strong> ${fatherProfession}</p>
-              <p><strong>Mother's Name:</strong> ${motherFullName}</p>
-              <p><strong>Mother's Profession:</strong> ${motherProfession}</p>
-              <p><strong>Guardian's Name:</strong> ${guardianFullName}</p>
-              <p><strong>Guardian's Profession:</strong> ${guardianProfession}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Father's Name:</strong> ${fatherFullName}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Father's Profession:</strong> ${fatherProfession}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Mother's Name:</strong> ${motherFullName}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Mother's Profession:</strong> ${motherProfession}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Guardian's Name:</strong> ${guardianFullName}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Guardian's Profession:</strong> ${guardianProfession}</p>
             </div>
             
-            <h4 style="color: #007bff; margin-top: 20px;">Family Financial Information</h4>
+            <h4 style="color: #007bff; margin-top: 20px; font-size: 18px;">Family Financial Information</h4>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
-              <p><strong>Parent/Guardian Own House:</strong> ${parentGuardianOwnHouse}</p>
-              <p><strong>Parent/Guardian Rent House:</strong> ${parentGuardianRentHouse}</p>
-              <p><strong>Parent/Guardian Own Business:</strong> ${parentGuardianOwnBusiness}</p>
-              <p><strong>Parent/Guardian Own Car:</strong> ${parentGuardianOwnCar}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Parent/Guardian Own House:</strong> ${parentGuardianOwnHouse}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Parent/Guardian Rent House:</strong> ${parentGuardianRentHouse}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Parent/Guardian Own Business:</strong> ${parentGuardianOwnBusiness}</p>
+              <p style="font-size: 16px; margin: 10px 0;"><strong>Parent/Guardian Own Car:</strong> ${parentGuardianOwnCar}</p>
             </div>
-            <p><strong>Financial Support:</strong> ${financialSupport}</p>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Financial Support:</strong> ${financialSupport}</p>
             
-            <h4 style="color: #007bff; margin-top: 20px;">Educational Information</h4>
-            <p><strong>Educational Certificate:</strong> ${educationalCertificateFile?.name || 'See attached PDF'}</p>
+            <h4 style="color: #007bff; margin-top: 20px; font-size: 18px;">Educational Information</h4>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Educational Certificate:</strong> ${educationalCertificateFile?.name || 'See attached PDF'}</p>
           </div>
           
           <!-- Spiritual Background -->
           <div style="background-color: #fff; padding: 20px; border: 1px solid #dee2e6; border-radius: 5px; margin: 20px 0;">
-            <h3 style="color: #007bff; margin-top: 0;">Spiritual Background</h3>
-            <p><strong>Church Name:</strong> ${churchName}</p>
-            <p><strong>Pastor's Name:</strong> ${pastorName}</p>
-            <p><strong>Pastor's Email:</strong> ${pastorEmail}</p>
-            ${salvationDate ? `<p><strong>Salvation Date:</strong> ${salvationDate}</p>` : ''}
+            <h3 style="color: #007bff; margin-top: 0; font-size: 22px;">Spiritual Background</h3>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Church Name:</strong> ${churchName}</p>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Pastor's Name:</strong> ${pastorName}</p>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Pastor's Email:</strong> ${pastorEmail}</p>
+            ${salvationDate ? `<p style="font-size: 16px; margin: 10px 0;"><strong>Salvation Date:</strong> ${salvationDate}</p>` : ''}
             
-            <h4 style="color: #007bff; margin-top: 20px;">Personal Testimony</h4>
+            <h4 style="color: #007bff; margin-top: 20px; font-size: 18px;">Personal Testimony</h4>
             <div style="background-color: #f8f9fa; padding: 15px; border-radius: 3px;">
-              <p style="line-height: 1.6; white-space: pre-wrap;">${testimony}</p>
+              <p style="line-height: 1.6; white-space: pre-wrap; font-size: 16px;">${testimony}</p>
             </div>
             
             ${ministryExperience ? `
-              <h4 style="color: #007bff; margin-top: 20px;">Ministry Experience</h4>
+              <h4 style="color: #007bff; margin-top: 20px; font-size: 18px;">Ministry Experience</h4>
               <div style="background-color: #f8f9fa; padding: 15px; border-radius: 3px;">
-                <p style="line-height: 1.6; white-space: pre-wrap;">${ministryExperience}</p>
+                <p style="line-height: 1.6; white-space: pre-wrap; font-size: 16px;">${ministryExperience}</p>
               </div>
             ` : ''}
           </div>
           
           <!-- Program Selection -->
           <div style="background-color: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0;">
-            <h3 style="color: #007bff; margin-top: 0;">Program Details</h3>
-            <p><strong>Program:</strong> ${program}</p>
-            <p><strong>Start Date:</strong> ${startDate}</p>
-            ${housingNeeded ? `<p><strong>Housing Needed:</strong> ${housingNeeded}</p>` : ''}
-            ${dietaryRestrictions ? `<p><strong>Dietary Restrictions:</strong> ${dietaryRestrictions}</p>` : ''}
+            <h3 style="color: #007bff; margin-top: 0; font-size: 22px;">Program Details</h3>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Program:</strong> ${program}</p>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Start Date:</strong> ${startDate}</p>
+            ${housingNeeded ? `<p style="font-size: 16px; margin: 10px 0;"><strong>Housing Needed:</strong> ${housingNeeded}</p>` : ''}
+            ${dietaryRestrictions ? `<p style="font-size: 16px; margin: 10px 0;"><strong>Dietary Restrictions:</strong> ${dietaryRestrictions}</p>` : ''}
           </div>
           
           <!-- References -->
           <div style="background-color: #fff; padding: 20px; border: 1px solid #dee2e6; border-radius: 5px; margin: 20px 0;">
-            <h3 style="color: #007bff; margin-top: 0;">References</h3>
+            <h3 style="color: #007bff; margin-top: 0; font-size: 22px;">References</h3>
             
-            <h4 style="color: #007bff;">Reference 1 (Primary Pastor)</h4>
-            <p><strong>Name:</strong> ${reference1Name}</p>
-            <p><strong>Email:</strong> ${reference1Email}</p>
-            <p><strong>Phone:</strong> ${reference1Phone}</p>
+            <h4 style="color: #007bff; font-size: 18px;">Reference 1 (Primary Pastor)</h4>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Name:</strong> ${reference1Name}</p>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Email:</strong> ${reference1Email}</p>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Phone:</strong> ${reference1Phone}</p>
             
-            <h4 style="color: #007bff; margin-top: 20px;">Reference 2 (Ministry Leader)</h4>
-            <p><strong>Name:</strong> ${reference2Name}</p>
-            <p><strong>Email:</strong> ${reference2Email}</p>
-            <p><strong>Phone:</strong> ${reference2Phone}</p>
+            <h4 style="color: #007bff; margin-top: 20px; font-size: 18px;">Reference 2 (Ministry Leader)</h4>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Name:</strong> ${reference2Name}</p>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Email:</strong> ${reference2Email}</p>
+            <p style="font-size: 16px; margin: 10px 0;"><strong>Phone:</strong> ${reference2Phone}</p>
           </div>
           
-          <div style="margin-top: 20px; padding: 15px; background-color: #e9ecef; border-radius: 5px; font-size: 12px; color: #6c757d;">
-            <p>This application was submitted through the ABMTC website.</p>
-            <p>Submitted on: ${new Date().toLocaleString()}</p>
+          <div style="margin-top: 20px; padding: 15px; background-color: #e9ecef; border-radius: 5px; font-size: 14px; color: #6c757d;">
+            <p style="margin: 8px 0;">This application was submitted through the ABMTC website.</p>
+            <p style="margin: 8px 0;">Submitted on: ${new Date().toLocaleString()}</p>
           </div>
         </div>
       `,
