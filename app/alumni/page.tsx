@@ -74,7 +74,7 @@ export default function AlumniPage() {
                 name="Maria Santos"
                 class="Class of 2021"
                 location="Peru"
-                image=""
+                image="/young-brazilian-woman-student-smiling.jpg"
                 story="From Brazil to Peru, Maria followed God's call to reach Latin America. She recently planted a church in Lima that has grown to 45 believers in just two years. Maria's ministry emphasizes discipleship and leadership development, ensuring sustainable growth. She regularly mentors young women in ministry and hosts training workshops for church planters across South America."
                 impact={[
                   "1 church planted",
