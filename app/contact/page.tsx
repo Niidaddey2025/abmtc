@@ -245,7 +245,7 @@ export default function ContactPage() {
             <div className="text-center mb-12">
               <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Visit Our Campus</h2>
               <p className="text-xl text-muted-foreground">
-                Located in Accra, Ghana - Schedule a visit to experience ABMTC firsthand
+                Located in Mampong, Ghana - Schedule a visit to experience ABMTC firsthand
               </p>
             </div>
 
@@ -266,7 +266,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
       <Footer />
     </main>
   )
