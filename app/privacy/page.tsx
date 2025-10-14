@@ -9,7 +9,7 @@ export default function PrivacyPage() {
       <main className="pt-32 pb-20">
         <div className="container mx-auto px-4 lg:px-8 max-w-4xl">
           <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">Privacy Policy</h1>
-          <p className="text-muted-foreground mb-12">Last updated: {new Date().toLocaleDateString()}</p>
+          <p className="text-muted-foreground mb-12">Last updated: 10/14/2025</p>
 
           <div className="prose prose-lg max-w-none space-y-8">
             <section>
@@ -31,7 +31,7 @@ export default function PrivacyPage() {
                 <li>Application materials (educational background, ministry experience, references)</li>
                 <li>Financial information for scholarship and financial aid purposes</li>
                 <li>Communication preferences and correspondence with us</li>
-                <li>Technical data (IP address, browser type, device information) when you visit our website</li>
+                {/* <li>Technical data (IP address, browser type, device information) when you visit our website</li> */}
               </ul>
             </section>
 
@@ -119,18 +119,17 @@ export default function PrivacyPage() {
                 <p className="text-foreground/80">
                   <strong>Anagkazo Bible & Ministry Training Center</strong>
                   <br />
-                  Accra, Ghana
+                  Mampong, Ghana
                   <br />
-                  Email: info@abmtc.org
+                  Email: anagkazorecruitment@gmail.com
                   <br />
-                  Phone: +233 123 456 789
+                  Phone: +233 55 746 7460 || +233 59 231 9140
                 </p>
               </div>
             </section>
           </div>
         </div>
       </main>
-
       <Footer />
     </div>
   )
