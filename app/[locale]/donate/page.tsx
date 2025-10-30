@@ -8,10 +8,10 @@ import { Label } from "@/components/ui/label"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { useTranslations, useLocale } from "next-intl"
 import { useSearchParams } from "next/navigation"
-import { useState } from "react"
+import { useState, Suspense } from "react"
 import { Heart, CreditCard, Smartphone } from "lucide-react"
 
-export default function DonatePage() {
+function DonateContent() {
   const t = useTranslations('donate')
   const locale = useLocale()
   const searchParams = useSearchParams()
@@ -239,5 +239,13 @@ export default function DonatePage() {
         </div>
       </section>
     </main>
+  )
+}
+
+export default function DonatePage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+      <DonateContent />
+    </Suspense>
   )
 }
