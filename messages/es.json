@@ -1,0 +1,1368 @@
+{
+  "nav": {
+    "about": "Acerca de",
+    "academics": "Académicos",
+    "admissions": "Admisiones",
+    "studentLife": "Vida estudiantil",
+    "ministry": "Ministerio",
+    "alumni": "Exalumnos",
+    "media": "Medios",
+    "news": "Noticias y eventos",
+    "online": "Anagkazo en línea",
+    "impact": "Impacto global",
+    "faq": "Preguntas frecuentes",
+    "financialAid": "Ayuda financiera",
+    "resources": "Recursos",
+    "give": "Donar",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Formando ministros ungidos para la obra del ministerio",
+    "subtitle": "Únete a estudiantes de más de 40 naciones en ABMTC en Ghana para una formación bíblica transformadora, experiencia ministerial práctica e impacto global de por vida.",
+    "applyNow": "Aplicar ahora",
+    "viewPrograms": "Ver programas",
+    "stats": {
+      "nations": "Naciones representadas",
+      "churchPlants": "Países con plantaciones de iglesias",
+      "graduates": "Graduados sirviendo globalmente"
+    }
+  },
+  "common": {
+    "learnMore": "Saber más",
+    "readMore": "Leer más",
+    "contactUs": "Contáctenos",
+    "applyNow": "Aplicar ahora",
+    "more": "Más",
+    "getStarted": "Comenzar",
+    "viewAll": "Ver todo",
+    "download": "Descargar",
+    "subscribe": "Suscribirse",
+    "submit": "Enviar",
+    "close": "Cerrar",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "loading": "Cargando...",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "address": "Dirección",
+    "followUs": "Síguenos"
+  },
+  "footer": {
+    "quickLinks": "Enlaces rápidos",
+    "resources": "Recursos",
+    "contact": "Contacto",
+    "description": "Centro de Formación Bíblica y Ministerial Anagkazo - Equipando estudiantes de más de 40 naciones para misiones globales y plantación de iglesias.",
+    "tagline": "De las naciones a Ghana, de Ghana a las naciones.",
+    "copyright": "© {year} Centro de Formación Bíblica y Ministerial Anagkazo. Todos los derechos reservados.",
+    "location": "Mampong, Ghana",
+    "socialMedia": "Síguenos"
+  },
+  "home": {
+    "journey": {
+      "title": "Tu viaje en ABMTC",
+      "subtitle": "Experimenta la transformación a través de cuatro pilares de formación que te preparan para una vida de ministerio e impacto global.",
+      "biblicalTraining": "Formación bíblica profunda",
+      "biblicalTrainingDesc": "Estudio integral de las Escrituras con maestros experimentados de todo el mundo.",
+      "community": "Comunidad y vida devocional",
+      "communityDesc": "Adoración diaria, oración y comunión que transforman corazones y construyen amistades para toda la vida.",
+      "evangelism": "Evangelismo práctico",
+      "evangelismDesc": "Experiencia ministerial práctica a través del evangelismo callejero y alcance comunitario en Ghana.",
+      "missions": "Oportunidades de misión global",
+      "missionsDesc": "Preparación y envío para plantar iglesias y servir en misiones en todo el mundo.",
+      "exploreStudentLife": "Explorar la vida estudiantil"
+    },
+    "scripture": {
+      "callToAction": "Miles ya han respondido...",
+      "willYouBeNext": "¿Serás el próximo?"
+    },
+    "founders": {
+      "title": "Un mensaje de nuestro fundador",
+      "name": "Obispo Dag Heward-Mills",
+      "role": "Fundador y Canciller",
+      "message1": "El Centro de Formación Bíblica y Ministerial Anagkazo fue fundado en 1996 con un fuerte deseo de ver a hombres y mujeres jóvenes capacitados y equipados para la obra del ministerio, según Efesios 4:11-12.",
+      "message2": "Es mi mayor deseo que esta escuela siempre siga siendo una escuela de formación pastoral, sin evolucionar nunca hacia una institución secular, ya sea parcial o totalmente. Estamos comprometidos a formar ministros ungidos que obliguen, necesiten, rueguen y constriñan a los no salvos a entrar en el reino de Dios.",
+      "message3": "Nuestros graduados son conocidos por su pasión por ganar almas y plantar iglesias, y tienen un fuerte deseo de ver el evangelio predicado a cada alma en todas partes. Su objetivo en la vida es ver a cada alma 'anagkazeada' en el reino de nuestro Señor Jesucristo.",
+      "message4": "Venir a Anagkazo definitivamente te ayudará a nutrir y cumplir el llamado de Dios en tu vida.",
+      "founderName": "Obispo Dag Heward-Mills",
+      "founderTitle1": "Fundador y Canciller, ABMTC",
+      "founderTitle2": "Obispo Presidente, Lighthouse Chapel International",
+      "learnMoreHistory": "Conoce más sobre nuestra historia"
+    },
+    "testimonials": {
+      "title1": "Historias de",
+      "title2": "Transformación",
+      "subtitle": "Escucha a estudiantes y graduados cuyas vidas han sido transformadas a través de la formación de ABMTC y ahora están impactando naciones."
+    },
+    "finalCta": {
+      "title": "Responde al llamado hoy",
+      "subtitle": "Únete a un movimiento global de ministros transformando naciones a través del evangelio. Tu formación comienza aquí.",
+      "viewAdmissions": "Ver admisiones",
+      "freeApplication": "Solicitud gratuita",
+      "scholarshipsAvailable": "Becas disponibles",
+      "noCommitment": "Sin compromiso requerido"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Acerca de ABMTC",
+      "subtitle": "Formando ministros ungidos para la obra del ministerio desde 1996"
+    },
+    "story": {
+      "title": "Nuestra historia",
+      "subtitle": "Equipando creyentes de cada nación para cumplir la Gran Comisión a través de formación bíblica, ministerio práctico y comunidad global.",
+      "p1": "El Centro de Formación Bíblica y Ministerial Anagkazo (ABMTC) fue fundado en 1996 por el Obispo Presidente de la Denominación Lighthouse Chapel International; Obispo Dag Heward-Mills. Esto fue impulsado por el fuerte deseo del Obispo Dag de ver a jóvenes hombres y mujeres capacitados y equipados para la obra del ministerio, según Efesios 4:11-12. Es el mayor deseo del fundador que la escuela siempre permanezca como una escuela de formación pastoral, sin evolucionar nunca hacia una institución secular, ya sea parcial o totalmente.",
+      "p2": "Anagkazo comenzó como una escuela bíblica de medio tiempo de un año. La primera graduación tuvo lugar en noviembre de 1997 con 12 estudiantes. Luego evolucionó a un programa de tiempo completo de dos años.",
+      "p3": "Basándose en la convicción de que los ministros deben tener una formación adecuada en diferentes aspectos del ministerio, se tomó la decisión durante el año académico 2006 de extender el período de formación a cuatro años. En este punto, la escuela se llamaba Christ Missions Academy, luego se cambió de nuevo a Centro de Formación Bíblica y Ministerial Anagkazo.",
+      "p4": "La palabra 'anagkazo' es la palabra griega para obligar (Lucas 14:23). Nuestros estudiantes son capacitados para obligar, necesitar, rogar y constreñir a los no salvos a entrar en el reino de Dios.",
+      "p5": "El primer grupo de 45 estudiantes del programa de cuatro años se graduó en noviembre de 2008. En noviembre de 2009, otro grupo de 67 estudiantes se graduó de la institución. A lo largo de los años, la Escuela Bíblica Anagkazo, que ahora es bien reconocida, se ha convertido en un terreno internacional para la formación pastoral y misionera.",
+      "p6": "Actualmente, Anagkazo tiene más de 800 estudiantes residenciales de tiempo completo. Después de mucho ajuste, el alcance completo de la formación ofrecida por la escuela actualmente abarca tres años.",
+      "p7": "Nuestros estudiantes provienen de África, Europa, Asia, Australia, el Caribe y más. Los graduados de Anagkazo son conocidos por su pasión por ganar almas y plantar iglesias, y tienen un fuerte deseo de ver el evangelio predicado a cada alma en todas partes. Su objetivo de vida es ver cada alma 'anagkazoed' en el reino de nuestro Señor Jesucristo.",
+      "p8": "Venir a Anagkazo definitivamente te ayudará a nutrir y cumplir el llamado de Dios en tu vida."
+    },
+    "mission": "Nuestra misión",
+    "missionText": "Capacitar y equipar a creyentes para misiones efectivas, plantación de iglesias y discipulado en cada nación, proporcionando educación bíblica y experiencia ministerial práctica.",
+    "vision": "Nuestra visión",
+    "visionText": "Un mundo donde cada nación tenga acceso a misioneros capacitados y equipados que planten iglesias saludables y hagan discípulos que multipliquen el impacto del evangelio.",
+    "values": "Nuestros valores",
+    "valuesText": "Autoridad bíblica, formación práctica, sensibilidad cultural, formación espiritual, vida comunitaria y servicio sacrificial en el cumplimiento de la Gran Comisión.",
+    "coreValues": {
+      "title": "Nuestros valores fundamentales",
+      "subtitle": "Los principios que guían todo lo que hacemos",
+      "biblicalAuthority": "Autoridad bíblica",
+      "biblicalAuthorityDesc": "Creemos que la Biblia es la Palabra inspirada y autoritativa de Dios y el fundamento para toda fe y práctica. Nuestro plan de estudios está arraigado en teología bíblica sólida y hermenéutica.",
+      "practicalTraining": "Formación práctica",
+      "practicalTrainingDesc": "La teoría sin práctica está incompleta. Combinamos el aprendizaje en el aula con experiencia ministerial práctica a través de evangelismo, pasantías en iglesias y viajes misioneros.",
+      "culturalSensitivity": "Sensibilidad cultural",
+      "culturalSensitivityDesc": "Con estudiantes de 40+ naciones, celebramos la diversidad y capacitamos a los estudiantes para ministrar efectivamente a través de fronteras culturales con respeto y comprensión.",
+      "spiritualFormation": "Formación espiritual",
+      "spiritualFormationDesc": "El carácter importa tanto como la competencia. Enfatizamos la oración, la adoración, las disciplinas espirituales y la santidad personal como esenciales para un ministerio efectivo.",
+      "communityLiving": "Vida comunitaria",
+      "communityLivingDesc": "Creemos que la transformación ocurre en comunidad. Los estudiantes viven, comen, estudian y ministran juntos, formando vínculos de por vida y aprendiendo a trabajar en equipos.",
+      "sacrificialService": "Servicio sacrificial",
+      "sacrificialServiceDesc": "Siguiendo el ejemplo de Cristo, llamamos a los estudiantes a una vida de sacrificio, sirviendo a otros y priorizando el evangelio por encima de la comodidad y la ambición personal."
+    },
+    "heritage": {
+      "title": "Nuestro legado",
+      "subtitle": "Una línea de tiempo de crecimiento, graduaciones e hitos",
+      "1996": {
+        "title": "Fundación de ABMTC",
+        "desc": "El Obispo Dag Heward-Mills establece la Escuela Bíblica Anagkazo como un programa de medio tiempo de un año para capacitar ministros para la obra del ministerio."
+      },
+      "1997": {
+        "title": "Primera graduación",
+        "desc": "La primera ceremonia de graduación tiene lugar en noviembre con 12 estudiantes, marcando el comienzo de un movimiento global."
+      },
+      "2006": {
+        "title": "Expansión del programa",
+        "desc": "El período de formación se extiende a cuatro años para proporcionar educación ministerial integral. La escuela se renombra Christ Missions Academy, luego se cambia de nuevo a ABMTC."
+      },
+      "2008": {
+        "title": "Lanzamiento del programa de cuatro años",
+        "desc": "El primer grupo de 45 estudiantes se gradúa del programa ampliado de cuatro años, demostrando el compromiso con la formación ministerial exhaustiva."
+      },
+      "2009": {
+        "title": "Impacto creciente",
+        "desc": "67 estudiantes se gradúan, y ABMTC gana reconocimiento internacional como un terreno de primer nivel para la formación pastoral y misionera."
+      },
+      "present": {
+        "title": "Centro de formación global",
+        "desc": "Más de 800 estudiantes residenciales de tiempo completo de 40+ naciones. El programa integral de tres años produce graduados sirviendo en 45+ naciones en todo el mundo."
+      }
+    },
+    "leadership": {
+      "title": "Equipo de liderazgo",
+      "subtitle": "Líderes experimentados comprometidos con equipar a la próxima generación",
+      "founder": "Fundador y canciller",
+      "viceChancellor": "Vicecanciller",
+      "founderBio": "Fundador de ABMTC y Obispo Presidente de Lighthouse Chapel International. Autor de numerosos libros sobre ministerio y crecimiento de la iglesia.",
+      "vcBio": "Ministro y educador experimentado supervisando programas académicos y desarrollo estudiantil en ABMTC."
+    },
+    "cta": {
+      "title": "Únete a nuestra misión",
+      "subtitle": "Sé parte de un movimiento global capacitando misioneros para alcanzar cada nación con el evangelio.",
+      "applyNow": "Aplicar ahora",
+      "learnMore": "Saber más"
+    }
+  },
+  "admissions": {
+    "hero": {
+      "title": "Admisiones",
+      "subtitle": "Comienza tu viaje para convertirte en un ministro ungido",
+      "cta": "Aplicar ahora"
+    },
+    "requirements": {
+      "title": "Requisitos de admisión",
+      "subtitle": "Lo que necesitas para aplicar a ABMTC",
+      "basicTitle": "Requisitos Básicos",
+      "basic1": "Al menos 18 años de edad",
+      "basic2": "Educación secundaria o equivalente completada",
+      "basic3": "Sentido claro del llamado al ministerio",
+      "basic4": "Evidencia de fe cristiana y carácter",
+      "basic5": "Dos referencias pastorales o de líderes ministeriales",
+      "basic6": "Dominio básico del inglés",
+      "materialsTitle": "Documentos Requeridos",
+      "material1": "Formulario de solicitud completado",
+      "material2": "Copia de certificados educativos",
+      "material3": "Dos cartas de referencia pastoral",
+      "material4": "Declaración personal de fe y llamado",
+      "material5": "Fotografía reciente tamaño pasaporte",
+      "material6": "Copia de identificación válida o pasaporte",
+      "age": "Requisito de edad",
+      "ageDesc": "Los solicitantes deben tener al menos 18 años",
+      "education": "Formación académica",
+      "educationDesc": "Educación secundaria o equivalente completada",
+      "calling": "Llamado al ministerio",
+      "callingDesc": "Sentido claro del llamado al ministerio y deseo de servir a Dios",
+      "character": "Carácter cristiano",
+      "characterDesc": "Evidencia de fe cristiana, carácter y compromiso",
+      "references": "Referencias",
+      "referencesDesc": "Se requieren dos referencias pastorales o de líderes ministeriales",
+      "language": "Dominio del idioma",
+      "languageDesc": "Dominio básico del inglés (las clases se imparten en inglés)"
+    },
+    "process": {
+      "title": "Cómo aplicar",
+      "subtitle": "Sigue estos sencillos pasos para comenzar tu solicitud",
+      "description": "Nuestro equipo de admisiones te acompaña desde la solicitud hasta tu llegada, haciendo cada paso claro y sencillo.",
+      "step1": "Completar la solicitud",
+      "step1Desc": "Completa el formulario de solicitud en línea con tu información personal y antecedentes ministeriales",
+      "step2": "Enviar documentos",
+      "step2Desc": "Carga los documentos requeridos, incluidos certificados educativos y referencias pastorales",
+      "step3": "Revisión de la solicitud",
+      "step3Desc": "Nuestro equipo de admisiones revisa tu solicitud (típicamente 2-3 semanas)",
+      "step4": "Entrevista",
+      "step4Desc": "Los solicitantes seleccionados participan en una entrevista telefónica o por video",
+      "step5": "Decisión de admisión",
+      "step5Desc": "Recibe tu decisión de admisión e instrucciones de inscripción",
+      "step6": "Inscribirse",
+      "step6Desc": "Completa la inscripción, organiza las finanzas y prepárate para tu llegada",
+      "ctaTitle": "¿Listo para enviar tu solicitud?",
+      "ctaSubtitle": "Estamos aquí para ayudarte a dar el siguiente paso. Nuestro equipo de admisiones se comunicará dentro de 2-3 días hábiles después de que apliques."
+    },
+    "financial": {
+      "title": "Becas y ayuda financiera",
+      "subtitle": "Creemos que las finanzas nunca deberían ser un obstáculo para responder al llamado de Dios",
+      "housing": "Alojamiento provisto",
+      "housingDesc": "El alojamiento en el campus está completamente cubierto para que puedas enfocarte en tu crecimiento espiritual y académico.",
+      "scholarships": "Becas disponibles",
+      "scholarshipsDesc": "Las becas basadas en mérito y necesidad ayudan a reducir los costos de matrícula para los estudiantes calificados.",
+      "travel": "Asistencia para viajes",
+      "travelDesc": "Se ofrece apoyo de viaje limitado para estudiantes internacionales según la necesidad.",
+      "payment": "Planes de pago flexibles",
+      "paymentDesc": "Arreglos de pago sin intereses te ayudan a manejar cómodamente la matrícula restante.",
+      "merit": "Becas al mérito",
+      "meritDesc": "Otorgadas en función de la excelencia académica y la experiencia ministerial",
+      "need": "Ayuda basada en necesidad",
+      "needDesc": "Asistencia financiera para estudiantes que demuestran necesidad financiera",
+      "country": "Becas específicas por país",
+      "countryDesc": "Becas especiales para estudiantes de regiones subrepresentadas",
+      "workStudy": "Programas de trabajo-estudio",
+      "workStudyDesc": "Gana mientras aprendes a través de oportunidades de trabajo en el campus"
+    },
+    "financialBreakdown": {
+      "title": "Inversión total del programa",
+      "subtitle": "Precios transparentes con el máximo apoyo",
+      "tuitionAmount": "Llama para conocer",
+      "tuitionLabel": "Matrícula anual",
+      "tuitionNote": "Becas disponibles",
+      "housingLabel": "Alojamiento y comidas",
+      "housingNote": "Completamente gratis",
+      "personalAmount": "Varía",
+      "personalLabel": "Gastos personales",
+      "personalNote": "Libros, viajes, etc."
+    },
+    "financialCta": {
+      "title": "¿Listo para invertir en tu futuro?",
+      "subtitle": "No dejes que las finanzas te detengan de tu llamado. Nuestro equipo de ayuda financiera está aquí para ayudarte a crear un plan de financiación personalizado que se adapte a tu situación.",
+      "primary": "Explorar opciones de ayuda financiera",
+      "secondary": "Hablar con el equipo de ayuda financiera"
+    },
+    "faqs": {
+      "title": "Preguntas frecuentes sobre admisiones",
+      "subtitle": "Preguntas comunes sobre la solicitud a ABMTC",
+      "q1": "¿Quién puede aplicar?",
+      "a1": "Cualquier persona con un llamado genuino al ministerio o pasión por servir a Dios puede aplicar. Damos la bienvenida a estudiantes de todas las naciones y orígenes que tienen un corazón para el ministerio y disposición para aprender.",
+      "q2": "¿Necesito experiencia pastoral?",
+      "a2": "No, pero un corazón para el ministerio y disposición para aprender son esenciales. Capacitamos a estudiantes de diversos orígenes que están comprometidos a servir a Dios.",
+      "q3": "¿Hay becas disponibles?",
+      "a3": "Sí, se ofrecen becas parciales según el mérito y la necesidad. Creemos que las finanzas nunca deben ser una barrera para responder al llamado de Dios. Contacta nuestra oficina de ayuda financiera para más información.",
+      "q4": "¿Cuándo es la próxima admisión?",
+      "a4": "Las admisiones generalmente ocurren dos veces al año. Consulta la página de Admisiones para actualizaciones sobre fechas límite de solicitud y fechas de inicio.",
+      "q5": "¿Pueden aplicar estudiantes internacionales?",
+      "a5": "Sí. Damos la bienvenida a estudiantes de todas las naciones; hay orientación sobre visas disponible. Actualmente, tenemos estudiantes de 40+ naciones estudiando en ABMTC.",
+      "q6": "¿Necesito hablar inglés con fluidez?",
+      "a6": "Se requiere dominio básico del inglés ya que las clases se imparten en inglés. Sin embargo, ofrecemos apoyo lingüístico y tenemos estudiantes de muchos orígenes lingüísticos.",
+      "q7": "¿Puedo aplicar si estoy casado?",
+      "a7": "¡Sí! Damos la bienvenida a estudiantes casados. Hay vivienda familiar disponible, y los cónyuges también pueden inscribirse en el programa.",
+      "q8": "¿Cuánto tiempo toma el proceso de solicitud?",
+      "a8": "Desde la presentación hasta la decisión típicamente toma 2-3 semanas, siempre que todos los materiales y referencias se reciban prontamente.",
+      "q9": "¿Puedo diferir mi admisión?",
+      "a9": "Sí, los estudiantes aceptados pueden diferir la admisión hasta un año con la aprobación de la oficina de admisiones.",
+      "q10": "¿Cuál es el costo de asistencia?",
+      "a10": "La matrícula varía según el programa. Sin embargo, el alojamiento y las comidas se proporcionan sin cargo. Hay becas y ayuda financiera disponibles para ayudar a cubrir los costos de matrícula. Contáctanos para precios detallados."
+    },
+    "cta": {
+      "title": "¿Listo para aplicar?",
+      "subtitle": "Da el primer paso hacia el cumplimiento de tu llamado. Tu viaje para convertirte en un ministro ungido comienza aquí.",
+      "startApplication": "Comenzar tu solicitud"
+    }
+  },
+  "ministry": {
+    "hero": {
+      "title": "Formación ministerial",
+      "subtitle": "Capacitando hombres y mujeres para ganar a los perdidos y plantar iglesias en todo el mundo",
+      "scripture": "\"Id por todo el mundo y predicad el evangelio a toda criatura\" - Marcos 16:15"
+    },
+    "intro": {
+      "title": "Equipándote para un ministerio efectivo",
+      "subtitle": "En ABMTC, no solo enseñamos teoría, te capacitamos en las trincheras del ministerio real. Nuestra formación práctica integral te prepara para evangelizar, discipular y plantar iglesias que multipliquen el impacto del evangelio a través de las naciones.",
+      "soulsWon": "Almas ganadas anualmente",
+      "nationsReached": "Naciones alcanzadas",
+      "churchesPlanted": "Iglesias plantadas"
+    },
+    "programs": {
+      "title": "Nuestros programas de formación",
+      "subtitle": "Formación ministerial práctica integral",
+      "evangelism": "Evangelismo y ganancia de almas",
+      "evangelismDesc": "Aprende métodos probados para evangelismo efectivo a través de predicación callejera, alcance puerta a puerta y cruzadas masivas. Los estudiantes participan en actividades de evangelismo semanales.",
+      "churchPlanting": "Plantación de iglesias",
+      "churchPlantingDesc": "Domina el arte de plantar y hacer crecer iglesias desde cero. Aprende estrategias para multiplicación sostenible de iglesias a través de culturas.",
+      "missions": "Misiones y ministerio transcultural",
+      "missionsDesc": "Prepárate para misiones internacionales con capacitación en comunicación transcultural, contextualización y vida misionera.",
+      "discipleship": "Discipulado y liderazgo",
+      "discipleshipDesc": "Desarrolla habilidades para discipular a nuevos creyentes y formar líderes que continuarán la obra del ministerio en las iglesias locales."
+    },
+    "cta": {
+      "title": "¿Listo para experimentar ABMTC?",
+      "subtitle": "Estos recursos te dan una idea de la vida en ABMTC. Aplica hoy para experimentarlo tú mismo."
+    }
+  },
+  "give": {
+    "hero": {
+      "title": "Donar y asociarse",
+      "subtitle": "Apoya la formación de ministros que transformarán naciones con el evangelio",
+      "scripture": "\"De gracia recibisteis, dad de gracia\" - Mateo 10:8"
+    },
+    "why": {
+      "title": "Por qué importa tu apoyo",
+      "subtitle": "Tu asociación nos permite capacitar ministros ungidos que plantarán iglesias, ganarán almas y discipularán naciones. Cada donación impacta directamente el avance del evangelio en todo el mundo.",
+      "studentsTrained": "Estudiantes capacitados",
+      "studentsTrainedDesc": "Matrícula actual de 40+ naciones",
+      "nationsReached": "Naciones alcanzadas",
+      "nationsReachedDesc": "Exalumnos sirviendo en todo el mundo",
+      "churchesPlanted": "Iglesias plantadas",
+      "churchesPlantedDesc": "Por graduados recientes",
+      "alumniNetwork": "Red de exalumnos",
+      "alumniNetworkDesc": "Ministros en el campo"
+    },
+    "ways": {
+      "title": "Formas de donar",
+      "subtitle": "Elige la opción de donación que mejor te funcione",
+      "oneTime": "Donación única",
+      "oneTimeDesc": "Haz una donación única para apoyar la misión de ABMTC y los programas de formación ministerial",
+      "oneTimeAction": "Donar una vez",
+      "monthly": "Asociación mensual",
+      "monthlyDesc": "Conviértete en un socio mensual y proporciona apoyo constante para becas estudiantiles",
+      "monthlyAction": "Donar mensualmente",
+      "sponsor": "Patrocinar un estudiante",
+      "sponsorDesc": "Patrocina total o parcialmente la formación de un estudiante y cambia su vida para siempre",
+      "sponsorAction": "Patrocinar ahora",
+      "giveOnce": "Donar una vez",
+      "giveMonthly": "Donar mensualmente",
+      "sponsorNow": "Patrocinar ahora"
+    },
+    "methods": {
+      "title": "Métodos de donación",
+      "subtitle": "Aceptamos donaciones a través de múltiples canales seguros",
+      "mobileMoney": "Dinero móvil",
+      "mobileMoneyDesc": "MTN, Vodafone, AirtelTigo",
+      "mobileMoneyDetail1": "MTN: 0557467460",
+      "mobileMoneyDetail2": "Vodafone: 0592319140",
+      "mobileMoneyDetail3": "Nombre: ABMTC",
+      "bankTransfer": "Transferencia bancaria",
+      "bankTransferDesc": "Depósito bancario directo",
+      "bankTransferDetail1": "Banco: [Nombre del Banco]",
+      "bankTransferDetail2": "Cuenta: [Número de Cuenta]",
+      "bankTransferDetail3": "Contáctenos para detalles",
+      "international": "Internacional",
+      "internationalDesc": "PayPal, transferencia bancaria",
+      "internationalDetail1": "PayPal: Disponible",
+      "internationalDetail2": "Transferencia bancaria: Disponible",
+      "internationalDetail3": "Contactar para detalles",
+      "needHelp": "¿Necesitas ayuda?",
+      "needHelpDesc": "Nuestro equipo está listo para ayudarte con tu donación o responder cualquier pregunta",
+      "contactUs": "Contáctanos"
+    },
+    "impact": {
+      "title": "Historias de impacto",
+      "subtitle": "Ve cómo tu apoyo transforma vidas y naciones",
+      "story1Name": "Maria Santos",
+      "story1Location": "Perú",
+      "story1Text": "Gracias al apoyo de becas, Maria completó su formación en ABMTC y plantó una iglesia próspera en Lima con 45 creyentes. Ahora mentora a mujeres jóvenes en el ministerio en toda Sudamérica.",
+      "story1Impact": "1 iglesia plantada, 45 creyentes, Ministerio de formación regional",
+      "story2Name": "Emmanuel Banda",
+      "story2Location": "Mozambique",
+      "story2Text": "Con el apoyo financiero de socios, Emmanuel estableció dos iglesias y una escuela bíblica en Mozambique. Ha capacitado a 15 pastores que ahora están plantando iglesias en áreas no alcanzadas.",
+      "story2Impact": "2 iglesias, 80+ miembros, 15 pastores capacitados, Escuela bíblica fundada"
+    },
+    "info": {
+      "title": "Información sobre donaciones",
+      "taxReceipts": "Recibos fiscales:",
+      "taxReceiptsDesc": "Todas las donaciones se reconocen con recibos oficiales para tus registros.",
+      "transparency": "Transparencia:",
+      "transparencyDesc": "Mantenemos los más altos estándares de responsabilidad financiera y administración.",
+      "usage": "Uso:",
+      "usageDesc": "Tus donaciones apoyan directamente becas estudiantiles, mantenimiento de instalaciones y programas de formación ministerial.",
+      "contact": "Contacto:",
+      "contactDesc": "Para preguntas sobre donaciones, contacta nuestra oficina de finanzas en anagkazorecruitment@gmail.com"
+    },
+    "cta": {
+      "title": "Asóciate con nosotros hoy",
+      "subtitle": "Tu generosidad permite que la próxima generación de ministros sea capacitada y enviada para transformar naciones con el evangelio. Dona hoy y sé parte de este movimiento global.",
+      "giveNow": "Donar ahora",
+      "contact": "Contáctanos",
+      "contactFinance": "Contactar equipo de finanzas",
+      "ctaTitle2": "Asóciate con nosotros hoy",
+      "ctaSubtitle2": "Tu generosidad permite que la próxima generación de ministros sea capacitada y enviada para transformar naciones con el evangelio. Dona hoy y sé parte de este movimiento global."
+    }
+  },
+  "donate": {
+    "title": "Hacer una donación",
+    "subtitle": "Tu generosidad transforma vidas y avanza el evangelio en todo el mundo",
+    "donationType": "Seleccionar tipo de donación",
+    "oneTime": "Donación única",
+    "oneTimeDesc": "Haz una donación única para apoyar la misión de ABMTC",
+    "monthly": "Asociación mensual",
+    "monthlyDesc": "Conviértete en un socio mensual con donaciones recurrentes",
+    "sponsor": "Patrocinar un estudiante",
+    "sponsorDesc": "Patrocina total o parcialmente la formación de un estudiante",
+    "selectAmount": "Seleccionar monto (GH₵)",
+    "customAmount": "Monto personalizado",
+    "enterAmount": "Ingresa tu monto personalizado",
+    "personalInfo": "Información personal",
+    "fullName": "Nombre completo",
+    "fullNamePlaceholder": "Ingresa tu nombre completo",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "Ingresa tu correo electrónico",
+    "phone": "Número de teléfono",
+    "phonePlaceholder": "Ingresa tu número de teléfono",
+    "paymentMethods": "Pago seguro a través de Mobile Money, Tarjeta o Transferencia Bancaria con tecnología de Hubtel",
+    "proceedToPayment": "Proceder al pago",
+    "processing": "Procesando...",
+    "securePayment": "Tu pago es seguro y encriptado",
+    "fillAllFields": "Por favor completa todos los campos requeridos",
+    "paymentError": "La inicialización del pago falló. Por favor inténtalo de nuevo.",
+    "successTitle": "¡Gracias por tu donación!",
+    "successMessage": "Tu generoso regalo ha sido recibido exitosamente.",
+    "successDetails": "Recibirás un correo electrónico de confirmación en breve con tu recibo de donación.",
+    "backToHome": "Volver al inicio",
+    "viewGivePage": "Ver página de donaciones",
+    "cancelledTitle": "Donación cancelada",
+    "cancelledMessage": "Tu donación no se completó. No se realizaron cargos.",
+    "tryAgain": "Intentar de nuevo",
+    "contactUs": "Contáctanos"
+  },
+  "alumni": {
+    "hero": {
+      "badge": "Una vez Anagkazo, siempre Anagkazo",
+      "title": "Red de exalumnos",
+      "subtitle": "Únete a una familia global de más de 300 graduados sirviendo en 45+ naciones, plantando iglesias y transformando comunidades a través del evangelio."
+    },
+    "stats": {
+      "alumniWorldwide": "Exalumnos en todo el mundo",
+      "nationsServed": "Naciones servidas",
+      "churchesPlanted": "Iglesias plantadas",
+      "livesTransformed": "Vidas transformadas"
+    },
+    "stories": {
+      "title": "Historias de éxito de exalumnos",
+      "subtitle": "Vea cómo los graduados de ABMTC están teniendo un impacto en todo el mundo",
+      "ministryImpact": "Impacto del ministerio:",
+      "classOf": "Promoción de"
+    },
+    "benefits": {
+      "title": "Beneficios de la red de exalumnos",
+      "subtitle": "Manténgase conectado y apoyado a lo largo de su viaje ministerial",
+      "globalNetwork": {
+        "title": "Red global",
+        "description": "Conéctese con exalumnos que sirven en 45+ naciones para colaboración y aliento"
+      },
+      "continuingEducation": {
+        "title": "Educación continua",
+        "description": "Acceso a talleres, seminarios web y oportunidades de capacitación avanzada"
+      },
+      "prayerSupport": {
+        "title": "Apoyo en oración",
+        "description": "Únase a redes de oración y reciba intercesión por su ministerio"
+      },
+      "resourceLibrary": {
+        "title": "Biblioteca de recursos",
+        "description": "Acceso exclusivo a recursos ministeriales, currículos y materiales didácticos"
+      },
+      "mentorship": {
+        "title": "Mentoría",
+        "description": "Conéctese con exalumnos experimentados para orientación y rendición de cuentas"
+      },
+      "annualReunion": {
+        "title": "Reunión anual",
+        "description": "Asista a reuniones anuales para reconectarse, compartir historias y renovarse"
+      }
+    },
+    "testimonials": {
+      "title": "Lo que dicen los exalumnos"
+    },
+    "cta": {
+      "title": "Únete a esta familia global",
+      "subtitle": "Tu historia podría ser la próxima. Solicita hoy y sé parte de un movimiento que transforma naciones a través del evangelio.",
+      "applyNow": "Solicitar ahora",
+      "contactAlumni": "Contactar oficina de exalumnos"
+    }
+  },
+  "media": {
+    "hero": {
+      "title": "Medios y recursos",
+      "subtitle": "Accede a sermones, conferencias, fotos y recursos descargables para apoyar tu crecimiento espiritual"
+    },
+    "videos": {
+      "title": "Predicaciones y enseñanzas",
+      "subtitle": "Mira mensajes y enseñanzas poderosas del ABMTC",
+      "watch": "Ver en YouTube",
+      "viewAll": "Ver todos los videos",
+      "items": {
+        "video1": {
+          "title": "Saved AND Called: The True Christian Vision That Protects You From Destruction | Dag Heward-Mills"
+        },
+        "video2": {
+          "title": "𝟏𝟎𝟎 𝐌𝐢𝐥𝐥𝐢𝐨𝐧 𝐒𝐨𝐮𝐥𝐬: The Evangelistic Mission of Dag Heward-Mills | Healing Jesus Campaign"
+        },
+        "video3": {
+          "title": "Latest Message: Exhortation From 1 Timothy 5 || Dag Heward-Mills"
+        }
+      }
+    },
+    "gallery": {
+      "title": "Galería de fotos",
+      "subtitle": "Experimenta la vida en ABMTC a través de nuestra colección de fotos"
+    },
+    "downloads": {
+      "title": "Descargas",
+      "subtitle": "Accede a documentos y recursos importantes"
+    },
+    "newsletter": {
+      "title": "Devocionales y boletines",
+      "subtitle": "Mantente conectado con contenido espiritual regular y actualizaciones",
+      "subscribeTitle": "Suscríbete a nuestro boletín",
+      "subscribeDesc": "Recibe las últimas actualizaciones, devocionales y recursos en tu bandeja de entrada",
+      "emailPlaceholder": "Ingresa tu correo electrónico"
+    }
+  },
+  "news": {
+    "hero": {
+      "title": "Noticias y eventos",
+      "subtitle": "Mantente actualizado con las últimas novedades del ABMTC"
+    },
+    "events": {
+      "title": "Próximos eventos",
+      "subtitle": "Marca tu calendario para estas fechas importantes"
+    },
+    "upcoming": {
+      "title": "Próximos eventos",
+      "subtitle": "Marca tu calendario para estas fechas importantes"
+    },
+    "latest": {
+      "title": "Últimas noticias",
+      "subtitle": "Actualizaciones y anuncios recientes de ABMTC"
+    },
+    "press": {
+      "title": "Comunicados de prensa"
+    },
+    "cta": {
+      "title": "Sé parte de la historia",
+      "subtitle": "Únete a ABMTC y sé parte de un movimiento global transformando naciones a través del evangelio."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contáctanos",
+      "subtitle": "Ponte en contacto con nosotros. Nos encantaría saber de ti."
+    },
+    "form": {
+      "title": "Envíanos un mensaje",
+      "name": "Nombre completo",
+      "namePlaceholder": "Ingresa tu nombre completo",
+      "email": "Correo electrónico",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "phone": "Número de teléfono",
+      "phonePlaceholder": "Ingresa tu número de teléfono",
+      "subject": "Asunto",
+      "subjectPlaceholder": "¿De qué se trata?",
+      "message": "Mensaje",
+      "messagePlaceholder": "Dinos cómo podemos ayudarte...",
+      "send": "Enviar mensaje"
+    },
+    "info": {
+      "title": "Información de contacto",
+      "subtitle": "Visita nuestro campus o contáctanos a través de cualquiera de los siguientes canales. ¡Estamos aquí para ayudarte!",
+      "location": "Ubicación",
+      "locationAddress": "Mampong, Región Ashanti, Ghana",
+      "phone": "Teléfono",
+      "email": "Correo electrónico",
+      "hours": "Horario de oficina",
+      "hoursTime": "Lunes - Viernes: 8:00 AM - 5:00 PM"
+    },
+    "departments": {
+      "title": "Contactos de departamentos",
+      "subtitle": "Contacta con departamentos específicos para asistencia especializada",
+      "admissions": {
+        "title": "Oficina de admisiones",
+        "description": "Preguntas sobre solicitudes, requisitos e inscripción"
+      },
+      "financialAid": {
+        "title": "Ayuda financiera",
+        "description": "Becas, planes de pago y asistencia financiera"
+      },
+      "studentServices": {
+        "title": "Servicios estudiantiles",
+        "description": "Apoyo a estudiantes actuales, alojamiento y vida en el campus"
+      },
+      "alumni": {
+        "title": "Relaciones con exalumnos",
+        "description": "Red de exalumnos, eventos y educación continua"
+      },
+      "academic": {
+        "title": "Asuntos académicos",
+        "description": "Currículo, cursos y políticas académicas"
+      },
+      "international": {
+        "title": "Estudiantes internacionales",
+        "description": "Asistencia con visas, viajes y apoyo a estudiantes internacionales"
+      }
+    },
+    "visit": {
+      "title": "Visita nuestro campus",
+      "subtitle": "Ubicado en Mampong, Ghana - Programa una visita para experimentar ABMTC de primera mano"
+    }
+  },
+  "studentLife": {
+    "hero": {
+      "title": "Vida en ABMTC",
+      "subtitle": "Experimenta la transformación a través de la comunidad, la adoración, el estudio y el ministerio práctico en una familia internacional diversa."
+    },
+    "campusLife": {
+      "title": "Vida en el campus",
+      "description1": "Anagkazo es más que una escuela: es una familia espiritual. Los estudiantes oran juntos, estudian juntos y sirven juntos. Cada momento está diseñado para cultivar disciplina, humildad y amor por la obra de Dios.",
+      "description2": "Con instalaciones de clase mundial, salas de conferencias, jardines de oración, dormitorios y auditorios, el Campus Anagkazo proporciona una atmósfera donde no solo aprendes, sino que encuentras a Dios."
+    },
+    "aspects": {
+      "dormLife": "Vida en dormitorios",
+      "dormLifeDesc": "Alojamiento compartido cómodo con estudiantes de todo el mundo",
+      "meals": "Comidas juntos",
+      "mealsDesc": "Tres comidas diarias fomentando la comunión y el intercambio cultural",
+      "worship": "Adoración diaria",
+      "worshipDesc": "Adoración matutina y vespertina en múltiples idiomas y estilos",
+      "community": "Comunidad global",
+      "communityDesc": "Construye amistades de por vida con estudiantes de 40+ naciones"
+    },
+    "whyChoose": {
+      "title": "Por qué elegir Anagkazo",
+      "reason1": "Fundado y guiado por el Obispo Dag Heward-Mills, una voz apostólica global cuyo ministerio ha tocado millones en todos los continentes.",
+      "reason2": "Más de 5,000 iglesias plantadas en todo el mundo por ministros capacitados.",
+      "reason3": "Formación ministerial práctica guiada por el Espíritu que transforma vidas.",
+      "reason4": "Asequible y accesible, haciendo que la educación ministerial de calidad esté disponible para todos.",
+      "reason5": "Red global de misioneros, pastores y líderes sirviendo en más de 90 naciones.",
+      "reason6": "Una atmósfera divina de adoración, oración y santidad."
+    },
+    "sections": {
+      "communityTitle": "Comunidad y amistad",
+      "communityText": "En ABMTC, te unirás a una familia diversa de creyentes de más de 40 naciones. Nuestra comunidad internacional crea un ambiente único donde las barreras culturales se rompen y se forman amistades de por vida.",
+      "communityPoint1": "Discipulado en grupos pequeños y rendición de cuentas",
+      "communityPoint2": "Noches de intercambio cultural y celebraciones",
+      "communityPoint3": "Mentoría de líderes experimentados",
+      "communityPoint4": "Actividades recreativas y construcción de equipos",
+      "spiritualTitle": "Formación espiritual",
+      "spiritualText": "Tu crecimiento espiritual es nuestra prioridad. Los servicios diarios de capilla, reuniones de oración y sesiones de adoración crean una atmósfera donde puedes encontrarte con Dios y desarrollar tu relación con Él.",
+      "spiritualPoint1": "Devocionales matutinos y oración",
+      "spiritualPoint2": "Servicios semanales de capilla con oradores invitados",
+      "spiritualPoint3": "Mentoría espiritual personal",
+      "spiritualPoint4": "Semanas de ayuno y oración",
+      "academicTitle": "Vida académica",
+      "academicText": "La formación bíblica y teológica rigurosa te prepara para un ministerio efectivo. Nuestro plan de estudios combina el aprendizaje en el aula con la aplicación práctica.",
+      "academicPoint1": "Cursos completos de estudio bíblico",
+      "academicPoint2": "Clases de teología y doctrina",
+      "academicPoint3": "Formación en habilidades ministeriales",
+      "academicPoint4": "Biblioteca y recursos de estudio",
+      "practicalTitle": "Ministerio práctico",
+      "practicalText": "Aprender haciendo es central en ABMTC. Participarás en evangelismo regular, visitas a iglesias y oportunidades ministeriales durante toda tu formación.",
+      "practicalPoint1": "Evangelismo callejero semanal",
+      "practicalPoint2": "Pasantías de plantación de iglesias",
+      "practicalPoint3": "Programas de alcance comunitario",
+      "practicalPoint4": "Viajes misioneros y cruzadas"
+    },
+    "testimonials": {
+      "title": "Lo que dicen los estudiantes",
+      "subtitle": "Escucha de estudiantes actuales sobre su experiencia en ABMTC",
+      "quote1": "ABMTC se convirtió en mi familia. La comunidad aquí me ha moldeado más de lo que jamás imaginé.",
+      "name1": "Grace Adeyemi",
+      "country1": "Nigeria",
+      "quote2": "La experiencia práctica del ministerio me preparó para la plantación de iglesias en el mundo real de maneras que ningún aula podría.",
+      "name2": "Miguel Cruz",
+      "country2": "Filipinas",
+      "quote3": "Vivir con estudiantes de 40+ naciones abrió mis ojos al corazón de Dios por todos los pueblos.",
+      "name3": "Ruth Mwangi",
+      "country3": "Kenia"
+    },
+    "facilities": {
+      "title": "Instalaciones del campus",
+      "subtitle": "Todo lo que necesitas para una vida cómoda y un aprendizaje efectivo",
+      "dormitories": "Dormitorios",
+      "dormitoriesDesc": "Habitaciones compartidas con camas cómodas y almacenamiento",
+      "library": "Biblioteca",
+      "libraryDesc": "Extensa biblioteca teológica y espacios de estudio",
+      "classrooms": "Aulas",
+      "classroomsDesc": "Instalaciones de enseñanza modernas con equipo audiovisual",
+      "chapel": "Capilla",
+      "chapelDesc": "Espacio de adoración para servicios diarios y eventos",
+      "diningHall": "Comedor",
+      "diningHallDesc": "Comidas comunitarias con cocina diversa",
+      "recreation": "Recreación",
+      "recreationDesc": "Instalaciones deportivas y áreas comunes"
+    },
+    "cta": {
+      "title": "¿Listo para experimentar ABMTC?",
+      "subtitle": "Únete a nuestra comunidad internacional.",
+      "ctaTitle": "Experimenta la vida en ABMTC",
+      "ctaSubtitle": "Únete a una comunidad transformadora donde estudiantes de todas las naciones se reúnen para ser equipados para el ministerio global."
+    }
+  },
+  "apply": {
+    "title": "Formulario de solicitud",
+    "subtitle": "Completa todos los pasos para enviar tu solicitud a ABMTC",
+    "steps": {
+      "step1": "Información personal",
+      "step2": "Antecedentes espirituales",
+      "step3": "Detalles del programa",
+      "step4": "Referencias"
+    },
+    "personalInfo": {
+      "title": "Información personal",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "dateOfBirth": "Fecha de nacimiento",
+      "gender": "Género",
+      "selectGender": "Seleccionar género",
+      "male": "Masculino",
+      "female": "Femenino",
+      "maritalStatus": "Estado civil",
+      "selectStatus": "Seleccionar estado",
+      "single": "Soltero/a",
+      "married": "Casado/a",
+      "divorced": "Divorciado/a",
+      "widowed": "Viudo/a",
+      "nationality": "Nacionalidad",
+      "selectNationality": "Seleccionar nacionalidad",
+      "searchCountries": "Buscar países...",
+      "noCountryFound": "No se encontró ningún país.",
+      "startTyping": "Comienza a escribir para buscar tu país."
+    },
+    "contactInfo": {
+      "title": "Información de contacto",
+      "email": "Correo electrónico",
+      "phone": "Contacto",
+      "profession": "Profesión",
+      "currentWork": "Trabajo actual"
+    },
+    "addressInfo": {
+      "title": "Información de dirección",
+      "postalAddress": "Dirección postal",
+      "residentialAddress": "Dirección residencial",
+      "settlement": "Asentamiento",
+      "selectSettlement": "Seleccionar tipo de asentamiento",
+      "city": "Ciudad",
+      "town": "Pueblo",
+      "village": "Aldea",
+      "slum": "Barrio marginal"
+    },
+    "nextOfKin": {
+      "title": "Información del pariente más cercano",
+      "name": "Pariente más cercano",
+      "contact": "Contacto del pariente más cercano"
+    },
+    "familyInfo": {
+      "title": "Información familiar",
+      "fatherName": "Nombre completo del padre",
+      "fatherProfession": "Profesión del padre",
+      "motherName": "Nombre completo de la madre",
+      "motherProfession": "Profesión de la madre",
+      "guardianName": "Nombre completo del tutor",
+      "guardianProfession": "Profesión del tutor"
+    },
+    "financialInfo": {
+      "title": "Información financiera familiar",
+      "ownHouse": "¿El padre/tutor es propietario de una casa?",
+      "rentHouse": "¿Tus padres/tutor alquilan una casa?",
+      "ownBusiness": "¿Tus padres/tutor tienen un negocio?",
+      "ownCar": "¿Tus padres/tutor tienen un automóvil?",
+      "selectOption": "Seleccionar opción",
+      "yes": "Sí",
+      "no": "No",
+      "financialSupport": "¿Quién se hará cargo de tus necesidades financieras?"
+    },
+    "educationalInfo": {
+      "title": "Información educativa",
+      "certificate": "Certificado educativo",
+      "uploadPdf": "Subir archivo PDF",
+      "pdfOnly": "Solo archivos PDF"
+    },
+    "spiritualBackground": {
+      "title": "Antecedentes espirituales",
+      "testimony": "Tu testimonio",
+      "salvationDate": "Fecha de salvación",
+      "churchName": "Nombre de la iglesia",
+      "pastorName": "Nombre del pastor",
+      "pastorEmail": "Correo electrónico del pastor",
+      "ministryExperience": "Experiencia ministerial"
+    },
+    "programDetails": {
+      "title": "Selección de programa",
+      "program": "Programa",
+      "selectProgram": "Seleccionar programa",
+      "startDate": "Fecha de inicio preferida",
+      "housingNeeded": "Alojamiento necesario",
+      "dietaryRestrictions": "Restricciones dietéticas"
+    },
+    "references": {
+      "title": "Referencias",
+      "reference1": "Referencia 1",
+      "reference2": "Referencia 2",
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "phone": "Teléfono"
+    },
+    "validation": {
+      "requiredFields": "Por favor completa todos los campos requeridos:",
+      "incompleteApplication": "Solicitud incompleta",
+      "completeFields": "Por favor completa los siguientes campos requeridos:"
+    },
+    "buttons": {
+      "next": "Siguiente",
+      "previous": "Anterior",
+      "submit": "Enviar solicitud",
+      "submitting": "Enviando..."
+    },
+    "messages": {
+      "submitted": "Solicitud enviada",
+      "thankYou": "¡Gracias! Nos pondremos en contacto pronto.",
+      "submissionFailed": "Envío fallido",
+      "failedToSubmit": "No se pudo enviar la solicitud",
+      "networkError": "Error de red",
+      "errorOccurred": "Ocurrió un error al enviar tu solicitud. Por favor, inténtalo de nuevo."
+    }
+  },
+  "blog": {
+    "title": "Blog y noticias",
+    "subtitle": "Historias, perspectivas y actualizaciones de ABMTC y nuestra red global de exalumnos",
+    "readMore": "Leer más",
+    "loadMore": "Cargar más artículos",
+    "newsletter": {
+      "title": "Mantente actualizado",
+      "subtitle": "Suscríbete para recibir las últimas historias, actualizaciones y perspectivas ministeriales de ABMTC",
+      "placeholder": "Ingresa tu correo electrónico",
+      "subscribe": "Suscribirse"
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Encuentra respuestas a preguntas comunes sobre ABMTC, nuestros programas, admisiones y vida estudiantil",
+    "stillHaveQuestions": "¿Aún tienes preguntas?",
+    "admissionsHelp": "Nuestro equipo de admisiones está aquí para ayudar. Contáctanos y te responderemos en 24 horas.",
+    "contactAdmissions": "Contactar admisiones",
+    "scheduleCall": "Programar una llamada"
+  },
+  "financialAid": {
+    "title": "Ayuda financiera y becas",
+    "subtitle": "Creemos que las finanzas nunca deben ser una barrera para responder al llamado de Dios. Descubre el apoyo disponible para hacer posible tu formación.",
+    "costOfAttendance": {
+      "title": "Costo de asistencia",
+      "subtitle": "Comprender la inversión en tu formación",
+      "residential": "Programa residencial",
+      "online": "Anagkazo en línea",
+      "tuition": "Matrícula (por año)",
+      "housing": "Alojamiento",
+      "meals": "Comidas (3 diarias)",
+      "books": "Libros y materiales",
+      "travel": "Viaje a Ghana",
+      "visa": "Visa y médico",
+      "personal": "Gastos personales",
+      "digitalResources": "Recursos digitales",
+      "liveClasses": "Clases en vivo",
+      "eLibrary": "Acceso a biblioteca electrónica",
+      "internet": "Conexión a Internet",
+      "estimatedTotal": "Total estimado (Año 1)",
+      "free": "GRATIS",
+      "included": "Incluido",
+      "selfProvided": "Autoabastecido",
+      "variesByLocation": "Varía según la ubicación",
+      "perYear": "Por año",
+      "optional": "opcional"
+    },
+    "scholarships": {
+      "title": "Becas disponibles",
+      "subtitle": "Múltiples oportunidades de becas para apoyar tu formación",
+      "merit": "Beca por mérito",
+      "meritAmount": "Hasta $1,500",
+      "meritDesc": "Otorgada según la excelencia académica y el potencial ministerial",
+      "needBased": "Ayuda basada en necesidad",
+      "needAmount": "Hasta $2,000",
+      "needDesc": "Asistencia financiera para estudiantes con necesidad demostrada",
+      "regional": "Becas regionales",
+      "regionalAmount": "Varía",
+      "regionalDesc": "Financiamiento especial para estudiantes de regiones o países específicos",
+      "partner": "Beca de socio ministerial",
+      "partnerAmount": "Hasta $1,000",
+      "partnerDesc": "Para estudiantes enviados por iglesias y organizaciones asociadas",
+      "travel": "Subvención de viaje",
+      "travelAmount": "Hasta $1,500",
+      "travelDesc": "Asistencia con costos de viaje internacional a Ghana",
+      "family": "Beca familiar",
+      "familyAmount": "20% de descuento",
+      "familyDesc": "Matrícula reducida para parejas casadas que se inscriben juntas",
+      "criteria": "Criterios:"
+    },
+    "howToApply": {
+      "title": "Cómo solicitar ayuda financiera",
+      "step1": "Completa tu solicitud de admisión",
+      "step1Desc": "Envía primero tu solicitud de admisión. La ayuda financiera solo está disponible para estudiantes aceptados.",
+      "step2": "Envía la solicitud de ayuda financiera",
+      "step2Desc": "Completa el formulario de solicitud de ayuda financiera por separado, incluida la documentación de necesidad financiera.",
+      "step3": "Proporciona documentos de respaldo",
+      "step3Desc": "Envía los documentos requeridos como estados de ingresos, extractos bancarios y presupuesto personal.",
+      "step4": "Escribe una declaración personal",
+      "step4Desc": "Explica tu situación financiera, llamado al ministerio y cómo la ayuda te ayudaría a asistir a ABMTC.",
+      "step5": "Recibe la decisión de ayuda",
+      "step5Desc": "Las decisiones de ayuda financiera generalmente se toman dentro de 2 semanas de recibir las solicitudes completas.",
+      "priorityDeadline": "Fecha límite prioritaria",
+      "priorityDesc": "Envía tu solicitud de ayuda financiera antes del 31 de mayo para consideración prioritaria. Las solicitudes tardías se revisan de forma continua según la disponibilidad de fondos."
+    },
+    "paymentOptions": {
+      "title": "Opciones de pago",
+      "subtitle": "Formas flexibles de gestionar tus costos educativos",
+      "paymentPlans": "Planes de pago",
+      "paymentPlansDesc": "Distribuye los pagos de matrícula en cuotas mensuales durante el año académico",
+      "fundraising": "Apoyo para recaudación de fondos",
+      "fundraisingDesc": "Proporcionamos recursos y orientación para recaudar apoyo de iglesias e individuos",
+      "sponsorMatching": "Emparejamiento de patrocinadores",
+      "sponsorMatchingDesc": "Podemos conectarte con patrocinadores potenciales y socios ministeriales que apoyan a estudiantes"
+    },
+    "cta": {
+      "title": "No dejes que las finanzas te detengan",
+      "subtitle": "Si Dios te ha llamado a la formación misionera, trabajaremos contigo para hacerlo financieramente posible. Aplica hoy y hablemos de tus opciones.",
+      "applyNow": "Aplicar ahora",
+      "contactFinance": "Contactar oficina de ayuda financiera"
+    }
+  },
+  "impact": {
+    "hero": {
+      "title": "Impacto global",
+      "subtitle": "Ve cómo los graduados de ABMTC están transformando naciones a través de la plantación de iglesias, el discipulado y el trabajo misionero en todo el mundo."
+    },
+    "mapSection": {
+      "title": "Impacto Global",
+      "subtitle": "🌍 Orígenes de los Estudiantes",
+      "quote": "Desde Ghana hasta los confines de la tierra, Anagkazo da la bienvenida a estudiantes de todos los continentes: África, Europa, Asia, América del Norte y del Sur, Australia y más allá.",
+      "paragraph1": "A lo largo de los años, nuestro campus ha albergado a hombres y mujeres de diversas naciones y orígenes, todos unidos por un propósito divino: ser capacitados y enviados como obreros en la cosecha de Dios.",
+      "paragraph2": "Esta rica mezcla internacional hace de Anagkazo un verdadero centro de formación ministerial global, donde las culturas se encuentran, los destinos se moldean y la Gran Comisión cobra vida de una manera poderosa y práctica."
+    },
+    "missionFocus": {
+      "title": "Nuestro enfoque misionero",
+      "churchPlanting": "Plantación de iglesias",
+      "churchPlantingDesc": "Establecer nuevas iglesias en áreas no alcanzadas y equipar a líderes locales para un crecimiento sostenible.",
+      "discipleship": "Discipulado",
+      "discipleshipDesc": "Capacitar a creyentes para convertirse en discípulos maduros que puedan enseñar a otros y multiplicar el impacto del evangelio.",
+      "communityDev": "Desarrollo comunitario",
+      "communityDevDesc": "Servir a las comunidades a través del ministerio práctico, satisfacer necesidades y demostrar el amor de Cristo."
+    },
+    "cta": {
+      "title": "Sé parte de este movimiento global",
+      "subtitle": "Únete a cientos de estudiantes que están siendo equipados para transformar naciones a través del evangelio. Tu historia podría ser la próxima en este mapa.",
+      "applyNow": "Aplicar ahora",
+      "viewAlumni": "Ver historias de exalumnos"
+    }
+  },
+  "online": {
+    "title": "Anagkazo en línea",
+    "subtitle": "Experimenta una formación bíblica transformadora desde cualquier lugar del mundo. Accede al plan de estudios probado de ABMTC a través de nuestra plataforma en línea flexible.",
+    "description": {
+      "title": "Cursos en Línea",
+      "quote": "Anagkazo también ofrece cursos en línea dinámicos de vez en cuando, diseñados para satisfacer las necesidades cambiantes de formación ministerial y liderazgo en todo el mundo.",
+      "paragraph1": "Estos cursos brindan acceso flexible a enseñanza de calidad, llena del Espíritu, asegurando que cualquier persona, en cualquier lugar, pueda ser equipada para la obra del ministerio.",
+      "paragraph2": "Ya sea que seas pastor, misionero o creyente que busca una comprensión más profunda, nuestros programas en línea se lanzan según surja la necesidad, respondiendo a la dirección del Espíritu y la demanda de la iglesia global."
+    },
+    "enrollNow": "Inscríbete ahora",
+    "watchDemo": "Ver demostración",
+    "features": {
+      "learnAnywhere": "Aprende en cualquier lugar",
+      "learnAnywhereDesc": "Accede a cursos desde cualquier ubicación con conectividad a Internet",
+      "flexibleSchedule": "Horario flexible",
+      "flexibleScheduleDesc": "Estudia a tu propio ritmo mientras equilibras el trabajo y el ministerio",
+      "liveInteraction": "Interacción en vivo",
+      "liveInteractionDesc": "Únete a sesiones en vivo con instructores y compañeros estudiantes",
+      "hdVideo": "Lecciones en video HD",
+      "hdVideoDesc": "Contenido de video de alta calidad con recursos descargables",
+      "sameCurriculum": "Mismo plan de estudios",
+      "sameCurriculumDesc": "Accede al mismo contenido transformador que nuestro programa residencial",
+      "certificate": "Certificado",
+      "certificateDesc": "Obtén un certificado oficial al completar el curso"
+    },
+    "courseStructure": {
+      "title": "Estructura del curso",
+      "foundation": "Cursos básicos",
+      "foundationDuration": "12 semanas",
+      "foundationDesc": "Fundamentos bíblicos, teología y principios ministeriales",
+      "advanced": "Estudios avanzados",
+      "advancedDuration": "12 semanas",
+      "advancedDesc": "Inmersión profunda en misiones, plantación de iglesias y liderazgo",
+      "practical": "Ministerio práctico",
+      "practicalDuration": "Continuo",
+      "practicalDesc": "Aplica el aprendizaje a través de oportunidades ministeriales locales"
+    },
+    "pricing": {
+      "title": "Asequible y accesible",
+      "subtitle": "Creemos que el costo nunca debe ser una barrera para la formación ministerial. Anagkazo en línea ofrece opciones de pago flexibles y becas.",
+      "perCourse": "por curso",
+      "applyScholarship": "Solicitar beca"
+    },
+    "cta": {
+      "title": "¿Listo para comenzar tu viaje?",
+      "subtitle": "Únete a estudiantes de todo el mundo que están siendo equipados para el ministerio a través de Anagkazo en línea.",
+      "enrollToday": "Inscríbete hoy"
+    }
+  },
+  "programs": {
+    "hero": {
+      "title": "Diplomas Ofrecidos",
+      "subtitle": "El Centro de Capacitación Bíblica y Ministerial Anagkazo ofrece cuatro programas de diploma integrales diseñados para equiparte para un ministerio efectivo y liderazgo pastoral."
+    },
+    "diplomaDetails": {
+      "title": "Detalles del Diploma",
+      "subtitle": "Haz clic en cada diploma para ver el plan de estudios detallado y los requisitos"
+    },
+    "common": {
+      "duration": "Duración",
+      "qualification": "Calificación",
+      "outcome": "Resultado",
+      "academicRotations": "Rotaciones Académicas",
+      "practicalComponents": "Componentes de Ministerio Práctico",
+      "grandFinal": "Examen Final General",
+      "qualifyingPoints": "Los estudiantes califican con",
+      "points": "puntos",
+      "programStructure": "Estructura del Programa"
+    },
+    "makarios": {
+      "title": "El Diploma Makarios",
+      "badge": "Fundación",
+      "duration": "1 Año",
+      "durationDetail": "12 meses",
+      "intakes": "(Marzo-Febrero; Septiembre-Agosto)",
+      "qualification": "BECE o equivalente",
+      "outcome": "Diploma Makarios",
+      "rotationDesc": "Rotaciones de seis semanas con Exámenes de Fin de Rotación que consisten en un examen MCQ, una tarea escrita y un examen oral.",
+      "examDesc": "Examen MCQ de 2 horas que consta de 200 MCQs",
+      "oralExam": "Examen Oral con Examinadores Externos"
+    },
+    "machaneh": {
+      "title": "El Diploma Machaneh",
+      "badge": "Intermedio",
+      "duration": "18 Meses",
+      "qualification": "BECE o equivalente",
+      "outcome": "Diploma Machaneh",
+      "rotationDesc": "Rotaciones de cuatro semanas con Exámenes de Fin de Rotación que consisten en un examen MCQ, una tarea escrita y un examen oral.",
+      "rotationCount": "Rotaciones Académicas (15)",
+      "examDesc": "Examen MCQ de 3 horas que consta de 300 MCQs",
+      "oralExam": "Examen Oral con Examinadores Externos"
+    },
+    "manthano": {
+      "title": "El Diploma Manthano",
+      "badge": "Avanzado",
+      "duration": "3 Años",
+      "durationDetail": "36 meses (3 años)",
+      "qualification": "BECE o equivalente",
+      "outcome": "Diploma Manthano",
+      "structureDesc": "Este Diploma se compone de dos Pasantías de 18 meses cada una: Junior y Senior. Las rotaciones son de 4 semanas en la Pasantía Junior, extendiéndose a 6-8 semanas en la Pasantía Senior. Cada rotación termina con Exámenes de Fin de Rotación que consisten en un examen MCQ, una tarea escrita y un examen oral.",
+      "examDesc": "Examen MCQ de 3 horas que consta de 300 MCQs",
+      "oralExam": "Examen Oral con Examinadores Externos"
+    },
+    "anagkazo": {
+      "title": "El Diploma Anagkazo",
+      "badge": "Profesional",
+      "duration": "4 Años",
+      "durationDetail": "4 años (48 meses)",
+      "qualification": "BECE o equivalente",
+      "outcome": "Diploma Anagkazo + Nombramiento Pastoral",
+      "structureDesc": "El Diploma Anagkazo consiste en todo el contenido del Diploma Manthano (3 años) más un cuarto año especializado con tres rotaciones profesionales.",
+      "fourthYearTitle": "Rotaciones Profesionales del Cuarto Año",
+      "ruralRotation": "Rotación Rural (9 meses)",
+      "ruralDesc": "El estudiante es asignado para pastorear una iglesia local bajo la supervisión de un Obispo seleccionado. Durante este período, el estudiante realizará investigaciones sobre crecimiento de iglesias y misiones.",
+      "adminRotation": "Rotación Administrativa (9 meses)",
+      "adminDesc": "El estudiante observa y aprende procedimientos administrativos y de gobierno de la iglesia, incluyendo:",
+      "evangelismRotation": "Rotación de Evangelismo Práctico",
+      "evangelismDesc": "El estudiante participa y asiste al menos a una campaña de Sanidad de Jesús, involucrado desde el principio (equipo avanzado), a través de la preparación (movilización, ensayos del coro), y en las noches de cruzada (montaje y desmontaje).",
+      "researchPresentation": "Presentación de Hallazgos de Investigación (50%)",
+      "researchDesc": "Presentar la investigación realizada durante la Rotación Rural sobre crecimiento de iglesias y misiones.",
+      "oralExam": "Examen Oral Final General (50%)",
+      "oralExamDesc": "Exámenes estructurados objetivos basados en el ministerio que demuestran cómo el estudiante ha aplicado todo el aprendizaje de tres años en el campus al trabajo de campo."
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar tu Capacitación?",
+      "subtitle": "Elige el programa que se ajuste a tu llamado y comienza tu viaje hacia el impacto ministerial global.",
+      "applyNow": "Aplicar Ahora",
+      "contactUs": "Contáctanos"
+    }
+  },
+  "resources": {
+    "title": "Centro de recursos",
+    "subtitle": "Accede a materiales de enseñanza, recursos ministeriales y contenido de formación para apoyar tu viaje en misiones y ministerio.",
+    "hero": {
+      "title": "Centro de recursos",
+      "subtitle": "Accede a materiales de enseñanza, recursos ministeriales y contenido de formación para apoyar tu viaje en misiones y ministerio."
+    },
+    "ebooks": {
+      "title": "Libros electrónicos",
+      "subtitle": "Descarga libros electrónicos gratuitos del obispo Dag Heward-Mills",
+      "seeMore": "Ver más libros electrónicos",
+      "book1": {
+        "title": "100% de oraciones respondidas",
+        "author": "Por Dag Heward-Mills"
+      },
+      "book2": {
+        "title": "Un buen general",
+        "author": "Por Dag Heward-Mills"
+      },
+      "book3": {
+        "title": "¿Soy bueno para nada?",
+        "author": "Por Dag Heward-Mills"
+      },
+      "book4": {
+        "title": "Amplifica tu ministerio",
+        "author": "Por Dag Heward-Mills"
+      },
+      "book5": {
+        "title": "Anagkazo",
+        "author": "Por Dag Heward-Mills"
+      },
+      "book6": {
+        "title": "Intenta grandes cosas para Dios",
+        "author": "Por Dag Heward-Mills"
+      }
+    },
+    "audiobooks": {
+      "title": "Audiolibros",
+      "subtitle": "Escucha poderosas enseñanzas en audio",
+      "book1": {
+        "title": "Datos clave para nuevos creyentes",
+        "author": "Por Dag Heward-Mills"
+      },
+      "book2": {
+        "title": "Despierta, oh durmiente",
+        "author": "Por Dag Heward-Mills"
+      },
+      "book3": {
+        "title": "Llanto y crujir de dientes",
+        "author": "Por Dag Heward-Mills"
+      },
+      "book4": {
+        "title": "La oración cambia las cosas",
+        "author": "Por Dag Heward-Mills"
+      },
+      "book5": {
+        "title": "Jezabel: Una mujer fuera de orden",
+        "author": "Por Dag Heward-Mills"
+      },
+      "book6": {
+        "title": "La palabra de mi paciencia",
+        "author": "Por Dag Heward-Mills"
+      }
+    },
+    "videos": {
+      "title": "Videos de YouTube",
+      "subtitle": "Mira enseñanzas en video y sermones inspiradores",
+      "watch": "Ver en YouTube",
+      "seeMore": "Ver más videos",
+      "items": {
+        "video1": {
+          "title": "Saved AND Called: The True Christian Vision That Protects You From Destruction | Dag Heward-Mills"
+        },
+        "video2": {
+          "title": "𝟏𝟎𝟎 𝐌𝐢𝐥𝐥𝐢𝐨𝐧 𝐒𝐨𝐮𝐥𝐬: The Evangelistic Mission of Dag Heward-Mills | Healing Jesus Campaign"
+        },
+        "video3": {
+          "title": "Latest Message: Exhortation From 1 Timothy 5 || Dag Heward-Mills"
+        },
+        "video4": {
+          "title": "Latest Message : The Truth About Fornication, Uncleanness & Greed / Dag Heward-Mills"
+        },
+        "video5": {
+          "title": "The Devil’s favorite Church Members I Dag Heward-Mills"
+        },
+        "video6": {
+          "title": "Latest Messages : Afflictions As A Form of Guidance // Dag Heward-Mills"
+        }
+      }
+    },
+    "music": {
+      "title": "Música",
+      "subtitle": "Escucha música de adoración e inspiradora",
+      "listen": "Escuchar",
+      "items": {
+        "track1": {
+          "title": "7 Great Principles"
+        },
+        "track2": {
+          "title": "A Faithful Friend"
+        },
+        "track3": {
+          "title": "A Great Door"
+        },
+        "track4": {
+          "title": "A Lovely Diamond"
+        },
+        "track5": {
+          "title": "A Mega Church"
+        },
+        "track6": {
+          "title": "A Soul is A Soul"
+        }
+      }
+    },
+    "categories": {
+      "studyMaterials": "Materiales de estudio",
+      "studyCount": "150+ recursos",
+      "videoTeachings": "Enseñanzas en video",
+      "videoCount": "80+ videos",
+      "articles": "Artículos y guías",
+      "articlesCount": "200+ artículos",
+      "podcast": "Serie de podcast",
+      "podcastCount": "50+ episodios"
+    },
+    "featured": {
+      "title": "Recursos destacados",
+      "subtitle": "Materiales populares para estudiantes y exalumnos"
+    },
+    "collections": {
+      "title": "Colecciones de recursos",
+      "subtitle": "Colecciones curadas para áreas ministeriales específicas"
+    },
+    "library": {
+      "title": "Acceso a biblioteca digital",
+      "subtitle": "Los estudiantes actuales y exalumnos tienen acceso a nuestra extensa biblioteca digital con miles de libros, revistas y recursos teológicos.",
+      "books": "Libros digitales",
+      "journals": "Artículos de revistas",
+      "videos": "Cursos en video",
+      "applyAccess": "Aplicar para acceder a la biblioteca"
+    },
+    "downloads": {
+      "title": "Centro de descargas",
+      "subtitle": "Recursos gratuitos disponibles para descarga inmediata"
+    },
+    "cta": {
+      "title": "¿Necesitas más recursos?",
+      "subtitle": "Contacta nuestro centro de recursos para materiales específicos o contenido de formación personalizado para tu contexto ministerial.",
+      "contact": "Contactar centro de recursos"
+    }
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "lastUpdated": "Última actualización:",
+    "introduction": {
+      "title": "Introducción",
+      "content": "En el Centro de Formación Bíblica y Ministerial Anagkazo (ABMTC), estamos comprometidos a proteger tu privacidad y garantizar la seguridad de tu información personal. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando visitas nuestro sitio web o solicitas nuestros programas."
+    },
+    "informationCollected": {
+      "title": "Información que recopilamos",
+      "intro": "Recopilamos información que nos proporcionas directamente, incluyendo:"
+    },
+    "howWeUse": {
+      "title": "Cómo usamos tu información",
+      "intro": "Usamos la información que recopilamos para:"
+    },
+    "sharing": {
+      "title": "Compartir y divulgación de información",
+      "intro": "No vendemos, intercambiamos ni alquilamos tu información personal a terceros. Podemos compartir tu información con:"
+    },
+    "security": {
+      "title": "Seguridad de datos",
+      "content": "Implementamos medidas técnicas y organizativas apropiadas para proteger tu información personal contra acceso no autorizado, alteración, divulgación o destrucción. Sin embargo, ningún método de transmisión por Internet es 100% seguro y no podemos garantizar seguridad absoluta."
+    },
+    "rights": {
+      "title": "Tus derechos",
+      "intro": "Tienes derecho a:"
+    },
+    "cookies": {
+      "title": "Cookies y tecnologías de seguimiento",
+      "content": "Usamos cookies y tecnologías de seguimiento similares para mejorar tu experiencia en nuestro sitio web, analizar patrones de uso y entregar contenido personalizado. Puedes controlar la configuración de cookies a través de las preferencias de tu navegador."
+    },
+    "children": {
+      "title": "Privacidad de los niños",
+      "content": "Nuestros servicios no están dirigidos a personas menores de 18 años. No recopilamos intencionalmente información personal de niños. Si crees que hemos recopilado información de un niño, contáctanos inmediatamente."
+    },
+    "changes": {
+      "title": "Cambios a esta política",
+      "content": "Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos de cualquier cambio publicando la nueva política en esta página y actualizando la fecha de \"Última actualización\". Te animamos a revisar esta política periódicamente."
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "intro": "Si tienes alguna pregunta sobre esta Política de Privacidad o nuestras prácticas de datos, contáctanos:"
+    }
+  },
+  "terms": {
+    "title": "Términos de servicio",
+    "lastUpdated": "Última actualización:",
+    "agreement": {
+      "title": "Acuerdo de términos",
+      "content": "Al acceder o usar el sitio web y los servicios del Centro de Formación Bíblica y Ministerial Anagkazo (ABMTC), aceptas estar sujeto a estos Términos de Servicio. Si no estás de acuerdo con estos términos, por favor no uses nuestro sitio web o servicios."
+    },
+    "useOfServices": {
+      "title": "Uso de servicios",
+      "intro": "Aceptas usar nuestros servicios solo para fines legales y de acuerdo con estos términos. Aceptas no:"
+    },
+    "application": {
+      "title": "Solicitud y admisión",
+      "intro": "Enviar una solicitud a ABMTC no garantiza la admisión. Todas las solicitudes están sujetas a revisión y aprobación por nuestro comité de admisiones. Nos reservamos el derecho de:"
+    },
+    "tuition": {
+      "title": "Matrícula y tarifas",
+      "content": "La matrícula y las tarifas están sujetas a cambios. Los estudiantes aceptados recibirán información detallada sobre costos, calendarios de pago y ayuda financiera disponible. Todas las tarifas deben pagarse según el calendario acordado. El incumplimiento del pago puede resultar en la expulsión del programa."
+    },
+    "conduct": {
+      "title": "Conducta estudiantil",
+      "intro": "Se espera que los estudiantes mantengan altos estándares de conducta cristiana y se adhieran al código de conducta de ABMTC. Esto incluye:"
+    },
+    "intellectualProperty": {
+      "title": "Propiedad intelectual",
+      "content": "Todo el contenido del sitio web de ABMTC, incluidos texto, gráficos, logotipos, imágenes y software, es propiedad de ABMTC o sus proveedores de contenido y está protegido por derechos de autor y otras leyes de propiedad intelectual. No puedes reproducir, distribuir o crear obras derivadas sin nuestro permiso por escrito."
+    },
+    "disclaimer": {
+      "title": "Descargo de garantías",
+      "content": "Nuestro sitio web y servicios se proporcionan \"tal cual\" sin garantías de ningún tipo, ya sean expresas o implícitas. No garantizamos que nuestros servicios serán ininterrumpidos, seguros o libres de errores. No somos responsables de ningún problema técnico que pueda afectar tu acceso a nuestro sitio web."
+    },
+    "limitation": {
+      "title": "Limitación de responsabilidad",
+      "content": "En la máxima medida permitida por la ley, ABMTC no será responsable de ningún daño indirecto, incidental, especial, consecuente o punitivo que surja de tu uso de nuestros servicios o la imposibilidad de usar nuestros servicios, incluso si hemos sido advertidos de la posibilidad de tales daños."
+    },
+    "termination": {
+      "title": "Terminación",
+      "content": "Nos reservamos el derecho de terminar o suspender el acceso a nuestros servicios inmediatamente, sin previo aviso, por cualquier motivo, incluido el incumplimiento de estos Términos de Servicio. Al terminar, tu derecho a usar nuestros servicios cesará inmediatamente."
+    },
+    "governingLaw": {
+      "title": "Ley aplicable",
+      "content": "Estos Términos de Servicio se regirán e interpretarán de acuerdo con las leyes de Ghana, sin tener en cuenta sus disposiciones sobre conflictos de leyes. Cualquier disputa que surja de estos términos se resolverá en los tribunales de Ghana."
+    },
+    "changes": {
+      "title": "Cambios a los términos",
+      "content": "Nos reservamos el derecho de modificar estos Términos de Servicio en cualquier momento. Notificaremos a los usuarios de cualquier cambio material publicando los términos actualizados en esta página. Tu uso continuado de nuestros servicios después de que se publiquen los cambios constituye la aceptación de los términos modificados."
+    },
+    "contact": {
+      "title": "Información de contacto",
+      "intro": "Si tienes alguna pregunta sobre estos Términos de Servicio, contáctanos:"
+    }
+  }
+}

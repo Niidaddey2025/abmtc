@@ -1,0 +1,1368 @@
+{
+  "nav": {
+    "about": "About",
+    "academics": "Academics",
+    "admissions": "Admissions",
+    "studentLife": "Student Life",
+    "ministry": "Ministry",
+    "alumni": "Alumni",
+    "media": "Media",
+    "news": "News & Events",
+    "online": "Anagkazo Online",
+    "impact": "Global Impact",
+    "faq": "FAQ",
+    "financialAid": "Financial Aid",
+    "resources": "Resources",
+    "give": "Give",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Raising Anointed Ministers for the Work of the Ministry",
+    "subtitle": "Join students from over 40 nations at ABMTC in Ghana for transformative Bible training, practical ministry experience, and a lifetime of global impact.",
+    "applyNow": "Apply Now",
+    "viewPrograms": "View Programs",
+    "stats": {
+      "nations": "Nations Represented",
+      "churchPlants": "Countries with Church Plants",
+      "graduates": "Graduates Serving Globally"
+    }
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "contactUs": "Contact Us",
+    "applyNow": "Apply Now",
+    "more": "More",
+    "getStarted": "Get Started",
+    "viewAll": "View All",
+    "download": "Download",
+    "subscribe": "Subscribe",
+    "submit": "Submit",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "loading": "Loading...",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "followUs": "Follow Us"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "resources": "Resources",
+    "contact": "Contact",
+    "description": "Anagkazo Bible & Ministry Training Center - Equipping students from 40+ nations for global missions and church planting.",
+    "tagline": "From the nations to Ghana, from Ghana to the nations.",
+    "copyright": "© {year} Anagkazo Bible & Ministry Training Centre. All rights reserved.",
+    "location": "Mampong, Ghana",
+    "socialMedia": "Follow Us"
+  },
+  "home": {
+    "journey": {
+      "title": "Your Journey at ABMTC",
+      "subtitle": "Experience transformation through four pillars of training that prepare you for a lifetime of ministry and global impact.",
+      "biblicalTraining": "Deep Biblical Training",
+      "biblicalTrainingDesc": "Comprehensive study of Scripture with experienced teachers from around the world.",
+      "community": "Community & Devotional Life",
+      "communityDesc": "Daily worship, prayer, and fellowship that transforms hearts and builds lifelong friendships.",
+      "evangelism": "Practical Evangelism",
+      "evangelismDesc": "Hands-on ministry experience through street evangelism and community outreach in Ghana.",
+      "missions": "Global Mission Opportunities",
+      "missionsDesc": "Preparation and sending to plant churches and serve in missions worldwide.",
+      "exploreStudentLife": "Explore Student Life"
+    },
+    "scripture": {
+      "callToAction": "Thousands have already responded...",
+      "willYouBeNext": "Will you be next?"
+    },
+    "founders": {
+      "title": "A Message from Our Founder",
+      "name": "Bishop Dag Heward-Mills",
+      "role": "Founder & Chancellor",
+      "message1": "The Anagkazo Bible & Ministry Training Centre was founded in 1996 with a strong desire to see young men and women trained and equipped for the work of the ministry, according to Ephesians 4:11-12.",
+      "message2": "It is my greatest desire that this school would always remain a pastors' training school, without ever evolving into a secular institution whether partly or fully. We are committed to raising anointed ministers who will compel, necessitate, entreat and constrain the unsaved to enter into the kingdom of God.",
+      "message3": "Our graduates are known for their soul-winning and church-planting passion, and have a strong desire to see the gospel preached to every soul everywhere! Their life's aim is to see every soul 'anagkazoed' into the kingdom of our Lord Jesus Christ.",
+      "message4": "Coming to Anagkazo will definitely help you to nurture and fulfil God's calling upon your life.",
+      "founderName": "Bishop Dag Heward-Mills",
+      "founderTitle1": "Founder & Chancellor, ABMTC",
+      "founderTitle2": "Presiding Bishop, Lighthouse Chapel International",
+      "learnMoreHistory": "Learn More About Our History"
+    },
+    "testimonials": {
+      "title1": "Stories of",
+      "title2": "Transformation",
+      "subtitle": "Hear from students and graduates whose lives have been transformed through ABMTC's training and are now impacting nations."
+    },
+    "finalCta": {
+      "title": "Answer the Call Today",
+      "subtitle": "Join a global movement of ministers transforming nations through the gospel. Your training begins here.",
+      "viewAdmissions": "View Admissions",
+      "freeApplication": "Free application",
+      "scholarshipsAvailable": "Scholarships available",
+      "noCommitment": "No commitment required"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About ABMTC",
+      "subtitle": "Raising anointed ministers for the work of the ministry since 1996"
+    },
+    "story": {
+      "title": "Our Story",
+      "subtitle": "Equipping believers from every nation to fulfill the Great Commission through biblical training, practical ministry, and global community.",
+      "p1": "The Anagkazo Bible & Ministry Training Centre (ABMTC) was founded in 1996 by the Presiding Bishop of the Lighthouse Chapel International Denomination; Bishop Dag Heward-Mills. This was prompted by Bishop Dag's strong desire to see young men and women trained and equipped for the work of the ministry, according to Ephesians 4:11-12. It is the founder's greatest desire that the school would always remain a pastors' training school, without ever evolving into a secular institution whether partly or fully.",
+      "p2": "Anagkazo started as a one-year part-time bible school. The first graduation came on in November 1997 with 12 students. It then later evolved into a two-year full-time program.",
+      "p3": "Based on the conviction that ministers must have adequate training in different aspects of ministry, a decision was taken during the 2006 academic year to extend the period of training to four years. At this point, the school was called; Christ Missions Academy, later being changed back to Anagkazo Bible & Ministry Training Centre.",
+      "p4": "The word 'anagkazo' is the Greek word for compel (Luke 14:23). Our students are trained to compel, necessitate, entreat and constrain the unsaved to enter into the kingdom of God.",
+      "p5": "The first batch of 45 students for the four-year program graduated in November 2008. In November 2009, another batch of 67 students were graduated from the institution. Over the years, Anagkazo Bible School, which is now well recognized has become an international ground for pastoral and missionary training.",
+      "p6": "Currently, Anagkazo has over 800 full-time residential students. After much fine-tuning, the full scope of training offered by the school currently spans three years.",
+      "p7": "Our students come from Africa, Europe, Asia, Australia, the Caribbean, and more. Graduates of Anagkazo are known for their soul-winning and church-planting passion, and have a strong desire to see the gospel preached to every soul everywhere! Their life's aim is to see every soul 'anagkazoed' into the kingdom of our Lord Jesus Christ.",
+      "p8": "Coming to Anagkazo would definitely help you to nurture and fulfil God's calling upon your life."
+    },
+    "mission": "Our Mission",
+    "missionText": "To train and equip believers for effective missions, church planting, and discipleship in every nation, providing biblical education and practical ministry experience.",
+    "vision": "Our Vision",
+    "visionText": "A world where every nation has access to trained, equipped missionaries who plant healthy churches and make disciples that multiply the gospel impact.",
+    "values": "Our Values",
+    "valuesText": "Biblical authority, practical training, cultural sensitivity, spiritual formation, community living, and sacrificial service in fulfilling the Great Commission.",
+    "coreValues": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that guide everything we do",
+      "biblicalAuthority": "Biblical Authority",
+      "biblicalAuthorityDesc": "We believe the Bible is God's inspired, authoritative Word and the foundation for all faith and practice. Our curriculum is rooted in sound biblical theology and hermeneutics.",
+      "practicalTraining": "Practical Training",
+      "practicalTrainingDesc": "Theory without practice is incomplete. We combine classroom learning with hands-on ministry experience through evangelism, church internships, and mission trips.",
+      "culturalSensitivity": "Cultural Sensitivity",
+      "culturalSensitivityDesc": "With students from 40+ nations, we celebrate diversity and train students to minister effectively across cultural boundaries with respect and understanding.",
+      "spiritualFormation": "Spiritual Formation",
+      "spiritualFormationDesc": "Character matters as much as competence. We emphasize prayer, worship, spiritual disciplines, and personal holiness as essential to effective ministry.",
+      "communityLiving": "Community Living",
+      "communityLivingDesc": "We believe transformation happens in community. Students live, eat, study, and minister together, forming lifelong bonds and learning to work in teams.",
+      "sacrificialService": "Sacrificial Service",
+      "sacrificialServiceDesc": "Following Christ's example, we call students to a life of sacrifice, serving others, and prioritizing the gospel above personal comfort and ambition."
+    },
+    "heritage": {
+      "title": "Our Heritage",
+      "subtitle": "A timeline of growth, graduations, and milestones",
+      "1996": {
+        "title": "ABMTC Founded",
+        "desc": "Bishop Dag Heward-Mills establishes Anagkazo Bible School as a one-year part-time program to train ministers for the work of the ministry."
+      },
+      "1997": {
+        "title": "First Graduation",
+        "desc": "The first graduation ceremony takes place in November with 12 students, marking the beginning of a global movement."
+      },
+      "2006": {
+        "title": "Program Expansion",
+        "desc": "Training period extended to four years to provide comprehensive ministry education. School renamed Christ Missions Academy, later changed back to ABMTC."
+      },
+      "2008": {
+        "title": "Four-Year Program Launch",
+        "desc": "First batch of 45 students graduate from the expanded four-year program, demonstrating commitment to thorough ministry training."
+      },
+      "2009": {
+        "title": "Growing Impact",
+        "desc": "67 students graduate, and ABMTC gains international recognition as a premier ground for pastoral and missionary training."
+      },
+      "present": {
+        "title": "Global Training Center",
+        "desc": "Over 800 full-time residential students from 40+ nations. Three-year comprehensive program produces graduates serving in 45+ nations worldwide."
+      }
+    },
+    "leadership": {
+      "title": "Leadership Team",
+      "subtitle": "Experienced leaders committed to equipping the next generation",
+      "founder": "Founder and Chancellor",
+      "viceChancellor": "Vice Chancellor",
+      "founderBio": "Founder of ABMTC and Presiding Bishop of Lighthouse Chapel International. Author of numerous books on ministry and church growth.",
+      "vcBio": "Experienced minister and educator overseeing academic programs and student development at ABMTC."
+    },
+    "cta": {
+      "title": "Join Our Mission",
+      "subtitle": "Be part of a global movement training missionaries to reach every nation with the gospel.",
+      "applyNow": "Apply Now",
+      "learnMore": "Learn More"
+    }
+  },
+  "admissions": {
+    "hero": {
+      "title": "Admissions",
+      "subtitle": "Begin your journey to becoming an anointed minister",
+      "cta": "Apply Now"
+    },
+    "requirements": {
+      "title": "Admission Requirements",
+      "subtitle": "What you need to apply to ABMTC",
+      "basicTitle": "Basic Requirements",
+      "basic1": "At least 18 years old",
+      "basic2": "Completed secondary/high school education or equivalent",
+      "basic3": "Clear sense of calling to ministry",
+      "basic4": "Evidence of Christian faith and character",
+      "basic5": "Two pastoral or ministry leader references",
+      "basic6": "Basic English proficiency",
+      "materialsTitle": "Required Documents",
+      "material1": "Completed application form",
+      "material2": "Copy of educational certificates",
+      "material3": "Two pastoral reference letters",
+      "material4": "Personal statement of faith and calling",
+      "material5": "Recent passport-size photograph",
+      "material6": "Copy of valid ID or passport",
+      "age": "Age Requirement",
+      "ageDesc": "Applicants must be at least 18 years old",
+      "education": "Educational Background",
+      "educationDesc": "Completed secondary/high school education or equivalent",
+      "calling": "Ministry Calling",
+      "callingDesc": "Clear sense of calling to ministry and desire to serve God",
+      "character": "Christian Character",
+      "characterDesc": "Evidence of Christian faith, character, and commitment",
+      "references": "References",
+      "referencesDesc": "Two pastoral or ministry leader references required",
+      "language": "Language Proficiency",
+      "languageDesc": "Basic English proficiency (classes taught in English)"
+    },
+    "process": {
+      "title": "How to Apply",
+      "subtitle": "Follow these simple steps to begin your application",
+      "description": "Our admissions team walks alongside you from application to arrival, making each step clear and supportive.",
+      "step1": "Complete Application",
+      "step1Desc": "Fill out the online application form with your personal information and ministry background",
+      "step2": "Submit Documents",
+      "step2Desc": "Upload required documents including educational certificates and pastoral references",
+      "step3": "Application Review",
+      "step3Desc": "Our admissions team reviews your application (typically 2-3 weeks)",
+      "step4": "Interview",
+      "step4Desc": "Selected applicants participate in a phone or video interview",
+      "step5": "Admission Decision",
+      "step5Desc": "Receive your admission decision and enrollment instructions",
+      "step6": "Enroll",
+      "step6Desc": "Complete enrollment, arrange finances, and prepare for your arrival",
+      "ctaTitle": "Ready to Submit Your Application?",
+      "ctaSubtitle": "We are here to help you take the next step. Our admissions team will reach out within 2-3 business days after you apply."
+    },
+    "financial": {
+      "title": "Scholarships & Financial Aid",
+      "subtitle": "We believe finances should never be a barrier to answering God's call",
+      "housing": "Housing Provided",
+      "housingDesc": "On-campus accommodation is fully covered so you can focus on spiritual and academic growth.",
+      "scholarships": "Scholarships Available",
+      "scholarshipsDesc": "Merit and need-based scholarships offset tuition costs for qualified students.",
+      "travel": "Travel Assistance",
+      "travelDesc": "Limited travel support is available for international students based on need.",
+      "payment": "Flexible Payment Plans",
+      "paymentDesc": "Interest-free payment arrangements help you manage remaining tuition comfortably.",
+      "merit": "Merit Scholarships",
+      "meritDesc": "Awarded based on academic excellence and ministry experience",
+      "need": "Need-Based Aid",
+      "needDesc": "Financial assistance for students demonstrating financial need",
+      "country": "Country-Specific Scholarships",
+      "countryDesc": "Special scholarships for students from underrepresented regions",
+      "workStudy": "Work-Study Programs",
+      "workStudyDesc": "Earn while you learn through on-campus work opportunities"
+    },
+    "financialBreakdown": {
+      "title": "Total Program Investment",
+      "subtitle": "Transparent pricing with maximum support",
+      "tuitionAmount": "Call to find out",
+      "tuitionLabel": "Annual Tuition",
+      "tuitionNote": "Scholarships Available",
+      "housingLabel": "Housing & Meals",
+      "housingNote": "Completely Free",
+      "personalAmount": "Varies",
+      "personalLabel": "Personal Expenses",
+      "personalNote": "Books, Travel, etc."
+    },
+    "financialCta": {
+      "title": "Ready to Invest in Your Future?",
+      "subtitle": "Don't let finances hold you back from your calling. Our financial aid team is here to help you create a personalized funding plan that works for your situation.",
+      "primary": "Explore Financial Aid Options",
+      "secondary": "Speak with Financial Aid Team"
+    },
+    "faqs": {
+      "title": "Admissions FAQs",
+      "subtitle": "Common questions about applying to ABMTC",
+      "q1": "Who can apply?",
+      "a1": "Anyone with a genuine call to ministry or passion to serve God can apply. We welcome students from all nations and backgrounds who have a heart for ministry and readiness to learn.",
+      "q2": "Do I need a pastoral background?",
+      "a2": "No, but a heart for ministry and readiness to learn are essential. We train students from various backgrounds who are committed to serving God.",
+      "q3": "Are scholarships available?",
+      "a3": "Yes, partial scholarships are offered based on merit and need. We believe finances should never be a barrier to answering God's call. Contact our financial aid office for more information.",
+      "q4": "When is the next intake?",
+      "a4": "Intakes usually occur twice a year. Check the Admissions page for updates on application deadlines and start dates. We recommend applying early for scholarship consideration.",
+      "q5": "Can international students apply?",
+      "a5": "Yes. We welcome students from all nations; visa guidance is available. Currently, we have students from 40+ nations studying at ABMTC.",
+      "q6": "Do I need to be fluent in English?",
+      "a6": "Basic English proficiency is required as classes are taught in English. However, we provide language support and have students from many language backgrounds.",
+      "q7": "Can I apply if I'm married?",
+      "a7": "Yes! We welcome married students. Family housing is available, and spouses can also enroll in the program.",
+      "q8": "How long does the application process take?",
+      "a8": "From submission to decision typically takes 2-3 weeks, provided all materials and references are received promptly.",
+      "q9": "Can I defer my admission?",
+      "a9": "Yes, accepted students can defer admission for up to one year with approval from the admissions office.",
+      "q10": "What is the cost of attendance?",
+      "a10": "Tuition varies by program. However, housing and meals are provided free of charge. Scholarships and financial aid are available to help cover tuition costs. Contact us for detailed pricing."
+    },
+    "cta": {
+      "title": "Ready to Apply?",
+      "subtitle": "Take the first step toward fulfilling your calling. Your journey to becoming an anointed minister begins here.",
+      "startApplication": "Start Your Application"
+    }
+  },
+  "ministry": {
+    "hero": {
+      "title": "Ministry Training",
+      "subtitle": "Training men and women to win the lost and plant churches worldwide",
+      "scripture": "\"Go into all the world and preach the gospel to all creation\" - Mark 16:15"
+    },
+    "intro": {
+      "title": "Equipping You for Effective Ministry",
+      "subtitle": "At ABMTC, we don't just teach theory—we train you in the trenches of real ministry. Our comprehensive practical training prepares you to evangelize, disciple, and plant churches that multiply the gospel impact across nations.",
+      "soulsWon": "Souls Won Annually",
+      "nationsReached": "Nations Reached",
+      "churchesPlanted": "Churches Planted"
+    },
+    "programs": {
+      "title": "Our Training Programs",
+      "subtitle": "Comprehensive hands-on ministry training",
+      "evangelism": "Evangelism & Soul Winning",
+      "evangelismDesc": "Learn proven methods for effective evangelism through street preaching, door-to-door outreach, and mass crusades. Students participate in weekly evangelism activities.",
+      "churchPlanting": "Church Planting",
+      "churchPlantingDesc": "Master the art of planting and growing churches from the ground up. Learn strategies for sustainable church multiplication across cultures.",
+      "missions": "Missions & Cross-Cultural Ministry",
+      "missionsDesc": "Prepare for international missions with training in cross-cultural communication, contextualization, and missionary life.",
+      "discipleship": "Discipleship & Leadership",
+      "discipleshipDesc": "Develop skills to disciple new believers and raise up leaders who will continue the work of ministry in local churches."
+    },
+    "cta": {
+      "title": "Ready to Experience ABMTC?",
+      "subtitle": "These resources give you a glimpse of life at ABMTC. Apply today to experience it firsthand."
+    }
+  },
+  "give": {
+    "hero": {
+      "title": "Give & Partner",
+      "subtitle": "Support the training of ministers who will transform nations with the gospel",
+      "scripture": "\"Freely you have received, freely give\" - Matthew 10:8"
+    },
+    "why": {
+      "title": "Why Your Support Matters",
+      "subtitle": "Your partnership enables us to train anointed ministers who will plant churches, win souls, and disciple nations. Every gift directly impacts the advancement of the gospel worldwide.",
+      "studentsTrained": "Students Trained",
+      "studentsTrainedDesc": "Current enrollment from 40+ nations",
+      "nationsReached": "Nations Reached",
+      "nationsReachedDesc": "Alumni serving worldwide",
+      "churchesPlanted": "Churches Planted",
+      "churchesPlantedDesc": "By recent graduates",
+      "alumniNetwork": "Alumni Network",
+      "alumniNetworkDesc": "Ministers in the field"
+    },
+    "ways": {
+      "title": "Ways to Give",
+      "subtitle": "Choose the giving option that works best for you",
+      "oneTime": "One-Time Gift",
+      "oneTimeDesc": "Make a single donation to support ABMTC's mission and ministry training programs",
+      "oneTimeAction": "Give Once",
+      "monthly": "Monthly Partnership",
+      "monthlyDesc": "Become a monthly partner and provide consistent support for student scholarships",
+      "monthlyAction": "Give Monthly",
+      "sponsor": "Sponsor a Student",
+      "sponsorDesc": "Fully or partially sponsor a student's training and change their life forever",
+      "sponsorAction": "Sponsor Now",
+      "giveOnce": "Give Once",
+      "giveMonthly": "Give Monthly",
+      "sponsorNow": "Sponsor Now"
+    },
+    "methods": {
+      "title": "Donation Methods",
+      "subtitle": "We accept donations through multiple secure channels",
+      "mobileMoney": "Mobile Money",
+      "mobileMoneyDesc": "MTN, Vodafone, AirtelTigo",
+      "mobileMoneyDetail1": "MTN: 0557467460",
+      "mobileMoneyDetail2": "Vodafone: 0592319140",
+      "mobileMoneyDetail3": "Name: ABMTC",
+      "bankTransfer": "Bank Transfer",
+      "bankTransferDesc": "Direct bank deposit",
+      "bankTransferDetail1": "Bank: [Bank Name]",
+      "bankTransferDetail2": "Account: [Account Number]",
+      "bankTransferDetail3": "Contact us for details",
+      "international": "International",
+      "internationalDesc": "PayPal, Wire Transfer",
+      "internationalDetail1": "PayPal: Available",
+      "internationalDetail2": "Wire Transfer: Available",
+      "internationalDetail3": "Contact for details",
+      "needHelp": "Need Help?",
+      "needHelpDesc": "Our team is ready to assist you with your donation or answer any questions",
+      "contactUs": "Contact Us"
+    },
+    "impact": {
+      "title": "Stories of Impact",
+      "subtitle": "See how your support transforms lives and nations",
+      "story1Name": "Maria Santos",
+      "story1Location": "Peru",
+      "story1Text": "Thanks to scholarship support, Maria completed her training at ABMTC and planted a thriving church in Lima with 45 believers. She now mentors young women in ministry across South America.",
+      "story1Impact": "1 church planted, 45 believers, Regional training ministry",
+      "story2Name": "Emmanuel Banda",
+      "story2Location": "Mozambique",
+      "story2Text": "With financial support from partners, Emmanuel established two churches and a Bible school in Mozambique. He has trained 15 pastors who are now planting churches in unreached areas.",
+      "story2Impact": "2 churches, 80+ members, 15 pastors trained, Bible school founded"
+    },
+    "info": {
+      "title": "Giving Information",
+      "taxReceipts": "Tax Receipts:",
+      "taxReceiptsDesc": "All donations are acknowledged with official receipts for your records.",
+      "transparency": "Transparency:",
+      "transparencyDesc": "We maintain the highest standards of financial accountability and stewardship.",
+      "usage": "Usage:",
+      "usageDesc": "Your donations directly support student scholarships, facility maintenance, and ministry training programs.",
+      "contact": "Contact:",
+      "contactDesc": "For questions about giving, contact our finance office at anagkazorecruitment@gmail.com"
+    },
+    "cta": {
+      "title": "Partner With Us Today",
+      "subtitle": "Your generosity enables the next generation of ministers to be trained and sent out to transform nations with the gospel. Give today and be part of this global movement.",
+      "giveNow": "Give Now",
+      "contact": "Contact Us",
+      "contactFinance": "Contact Finance Team",
+      "ctaTitle2": "Partner With Us Today",
+      "ctaSubtitle2": "Your generosity enables the next generation of ministers to be trained and sent out to transform nations with the gospel. Give today and be part of this global movement."
+    }
+  },
+  "donate": {
+    "title": "Make a Donation",
+    "subtitle": "Your generosity transforms lives and advances the gospel worldwide",
+    "donationType": "Select Donation Type",
+    "oneTime": "One-Time Gift",
+    "oneTimeDesc": "Make a single donation to support ABMTC's mission",
+    "monthly": "Monthly Partnership",
+    "monthlyDesc": "Become a monthly partner with recurring donations",
+    "sponsor": "Sponsor a Student",
+    "sponsorDesc": "Fully or partially sponsor a student's training",
+    "selectAmount": "Select Amount (GH₵)",
+    "customAmount": "Custom Amount",
+    "enterAmount": "Enter your custom amount",
+    "personalInfo": "Personal Information",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "paymentMethods": "Secure payment via Mobile Money, Card, or Bank Transfer powered by Hubtel",
+    "proceedToPayment": "Proceed to Payment",
+    "processing": "Processing...",
+    "securePayment": "Your payment is secure and encrypted",
+    "fillAllFields": "Please fill in all required fields",
+    "paymentError": "Payment initialization failed. Please try again.",
+    "successTitle": "Thank You for Your Donation!",
+    "successMessage": "Your generous gift has been received successfully.",
+    "successDetails": "You will receive a confirmation email shortly with your donation receipt.",
+    "backToHome": "Back to Home",
+    "viewGivePage": "View Give Page",
+    "cancelledTitle": "Donation Cancelled",
+    "cancelledMessage": "Your donation was not completed. No charges were made.",
+    "tryAgain": "Try Again",
+    "contactUs": "Contact Us"
+  },
+  "alumni": {
+    "hero": {
+      "badge": "Once Anagkazo, Always Anagkazo",
+      "title": "Alumni Network",
+      "subtitle": "Join a global family of over 300 graduates serving in 45+ nations, planting churches, and transforming communities through the gospel."
+    },
+    "stats": {
+      "alumniWorldwide": "Alumni Worldwide",
+      "nationsServed": "Nations Served",
+      "churchesPlanted": "Churches Planted",
+      "livesTransformed": "Lives Transformed"
+    },
+    "stories": {
+      "title": "Alumni Success Stories",
+      "subtitle": "See how ABMTC graduates are making an impact around the world",
+      "ministryImpact": "Ministry Impact:",
+      "classOf": "Class of"
+    },
+    "benefits": {
+      "title": "Alumni Network Benefits",
+      "subtitle": "Stay connected and supported throughout your ministry journey",
+      "globalNetwork": {
+        "title": "Global Network",
+        "description": "Connect with alumni serving in 45+ nations for collaboration and encouragement"
+      },
+      "continuingEducation": {
+        "title": "Continuing Education",
+        "description": "Access to workshops, webinars, and advanced training opportunities"
+      },
+      "prayerSupport": {
+        "title": "Prayer Support",
+        "description": "Join prayer networks and receive intercession for your ministry"
+      },
+      "resourceLibrary": {
+        "title": "Resource Library",
+        "description": "Exclusive access to ministry resources, curriculum, and teaching materials"
+      },
+      "mentorship": {
+        "title": "Mentorship",
+        "description": "Connect with experienced alumni for guidance and accountability"
+      },
+      "annualReunion": {
+        "title": "Annual Reunion",
+        "description": "Attend yearly gatherings to reconnect, share stories, and be refreshed"
+      }
+    },
+    "testimonials": {
+      "title": "What Alumni Say"
+    },
+    "cta": {
+      "title": "Join This Global Family",
+      "subtitle": "Your story could be next. Apply today and become part of a movement transforming nations through the gospel.",
+      "applyNow": "Apply Now",
+      "contactAlumni": "Contact Alumni Office"
+    }
+  },
+  "media": {
+    "hero": {
+      "title": "Media & Resources",
+      "subtitle": "Access sermons, lectures, photos, and downloadable resources to support your spiritual growth"
+    },
+    "videos": {
+      "title": "Sermons & Lectures",
+      "subtitle": "Watch powerful messages and teachings from ABMTC",
+      "watch": "Watch on YouTube",
+      "viewAll": "View All Videos",
+      "items": {
+        "video1": {
+          "title": "Saved AND Called: The True Christian Vision That Protects You From Destruction | Dag Heward-Mills"
+        },
+        "video2": {
+          "title": "𝟏𝟎𝟎 𝐌𝐢𝐥𝐥𝐢𝐨𝐧 𝐒𝐨𝐮𝐥𝐬: The Evangelistic Mission of Dag Heward-Mills | Healing Jesus Campaign"
+        },
+        "video3": {
+          "title": "Latest Message: Exhortation From 1 Timothy 5 || Dag Heward-Mills"
+        }
+      }
+    },
+    "gallery": {
+      "title": "Photo Gallery",
+      "subtitle": "Experience life at ABMTC through our photo collection"
+    },
+    "downloads": {
+      "title": "Downloads",
+      "subtitle": "Access important documents and resources"
+    },
+    "newsletter": {
+      "title": "Devotionals & Newsletters",
+      "subtitle": "Stay connected with regular spiritual content and updates",
+      "subscribeTitle": "Subscribe to Our Newsletter",
+      "subscribeDesc": "Get the latest updates, devotionals, and resources delivered to your inbox",
+      "emailPlaceholder": "Enter your email"
+    }
+  },
+  "news": {
+    "hero": {
+      "title": "News & Events",
+      "subtitle": "Stay updated with the latest happenings at ABMTC"
+    },
+    "events": {
+      "title": "Upcoming Events",
+      "subtitle": "Mark your calendar for these important dates"
+    },
+    "upcoming": {
+      "title": "Upcoming Events",
+      "subtitle": "Mark your calendar for these important dates"
+    },
+    "latest": {
+      "title": "Latest News",
+      "subtitle": "Recent updates and announcements from ABMTC"
+    },
+    "press": {
+      "title": "Press Releases"
+    },
+    "cta": {
+      "title": "Be Part of the Story",
+      "subtitle": "Join ABMTC and become part of a global movement transforming nations through the gospel."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with us. We'd love to hear from you."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "phone": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is this regarding?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "send": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "subtitle": "Visit our campus or reach out to us through any of the following channels. We're here to help!",
+      "location": "Location",
+      "locationAddress": "Mampong, Ashanti Region, Ghana",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Office Hours",
+      "hoursTime": "Monday - Friday: 8:00 AM - 5:00 PM"
+    },
+    "departments": {
+      "title": "Department Contacts",
+      "subtitle": "Reach out to specific departments for specialized assistance",
+      "admissions": {
+        "title": "Admissions Office",
+        "description": "Questions about applications, requirements, and enrollment"
+      },
+      "financialAid": {
+        "title": "Financial Aid",
+        "description": "Scholarships, payment plans, and financial assistance"
+      },
+      "studentServices": {
+        "title": "Student Services",
+        "description": "Current student support, housing, and campus life"
+      },
+      "alumni": {
+        "title": "Alumni Relations",
+        "description": "Alumni network, events, and continuing education"
+      },
+      "academic": {
+        "title": "Academic Affairs",
+        "description": "Curriculum, courses, and academic policies"
+      },
+      "international": {
+        "title": "International Students",
+        "description": "Visa assistance, travel, and international student support"
+      }
+    },
+    "visit": {
+      "title": "Visit Our Campus",
+      "subtitle": "Located in Mampong, Ghana - Schedule a visit to experience ABMTC firsthand"
+    }
+  },
+  "studentLife": {
+    "hero": {
+      "title": "Life at ABMTC",
+      "subtitle": "Experience transformation through community, worship, study, and practical ministry in a diverse international family."
+    },
+    "campusLife": {
+      "title": "Campus Life",
+      "description1": "Anagkazo is more than a school — it is a spiritual family. Students pray together, study together, and serve together. Every moment is designed to cultivate discipline, humility, and love for God's work.",
+      "description2": "With world-class facilities, lecture halls, prayer gardens, dormitories, and auditoriums, the Anagkazo Campus provides an atmosphere where you not only learn — you encounter God."
+    },
+    "aspects": {
+      "dormLife": "Dorm Life",
+      "dormLifeDesc": "Comfortable shared housing with students from around the world",
+      "meals": "Meals Together",
+      "mealsDesc": "Three daily meals fostering fellowship and cultural exchange",
+      "worship": "Daily Worship",
+      "worshipDesc": "Morning and evening worship in multiple languages and styles",
+      "community": "Global Community",
+      "communityDesc": "Build lifelong friendships with students from 40+ nations"
+    },
+    "whyChoose": {
+      "title": "Why Choose Anagkazo",
+      "reason1": "Founded and guided by Bishop Dag Heward-Mills, a global apostolic voice whose ministry has touched millions across continents.",
+      "reason2": "Over 5,000 churches planted worldwide by trained ministers.",
+      "reason3": "Spirit-led, practical ministry training that transforms lives.",
+      "reason4": "Affordable and accessible, making quality ministry education available to all.",
+      "reason5": "Global network of missionaries, pastors, and leaders serving in more than 90 nations.",
+      "reason6": "A divine atmosphere of worship, prayer, and holiness."
+    },
+    "sections": {
+      "communityTitle": "Community & Friendship",
+      "communityText": "At ABMTC, you'll join a diverse family of believers from over 40 nations. Our international community creates a unique environment where cultural barriers break down and lifelong friendships are formed.",
+      "communityPoint1": "Small group discipleship and accountability",
+      "communityPoint2": "Cultural exchange nights and celebrations",
+      "communityPoint3": "Mentorship from experienced leaders",
+      "communityPoint4": "Recreational activities and team building",
+      "spiritualTitle": "Spiritual Formation",
+      "spiritualText": "Your spiritual growth is our priority. Daily chapel services, prayer meetings, and worship sessions create an atmosphere where you can encounter God and develop your relationship with Him.",
+      "spiritualPoint1": "Morning devotions and prayer",
+      "spiritualPoint2": "Weekly chapel services with guest speakers",
+      "spiritualPoint3": "Personal spiritual mentorship",
+      "spiritualPoint4": "Fasting and prayer weeks",
+      "academicTitle": "Academic Life",
+      "academicText": "Rigorous biblical and theological training prepares you for effective ministry. Our curriculum combines classroom learning with practical application.",
+      "academicPoint1": "Comprehensive Bible study courses",
+      "academicPoint2": "Theology and doctrine classes",
+      "academicPoint3": "Ministry skills training",
+      "academicPoint4": "Library and study resources",
+      "practicalTitle": "Practical Ministry",
+      "practicalText": "Learning by doing is central to ABMTC. You'll engage in regular evangelism, church visits, and ministry opportunities throughout your training.",
+      "practicalPoint1": "Weekly street evangelism",
+      "practicalPoint2": "Church planting internships",
+      "practicalPoint3": "Community outreach programs",
+      "practicalPoint4": "Mission trips and crusades"
+    },
+    "testimonials": {
+      "title": "What Students Say",
+      "subtitle": "Hear from current students about their experience at ABMTC",
+      "quote1": "ABMTC became my family. The community here has shaped me more than I ever imagined.",
+      "name1": "Grace Adeyemi",
+      "country1": "Nigeria",
+      "quote2": "The practical ministry experience prepared me for real-world church planting in ways no classroom could.",
+      "name2": "Miguel Cruz",
+      "country2": "Philippines",
+      "quote3": "Living with students from 40+ nations opened my eyes to God's heart for all peoples.",
+      "name3": "Ruth Mwangi",
+      "country3": "Kenya"
+    },
+    "facilities": {
+      "title": "Campus Facilities",
+      "subtitle": "Everything you need for comfortable living and effective learning",
+      "dormitories": "Dormitories",
+      "dormitoriesDesc": "Shared rooms with comfortable beds and storage",
+      "library": "Library",
+      "libraryDesc": "Extensive theological library and study spaces",
+      "classrooms": "Classrooms",
+      "classroomsDesc": "Modern teaching facilities with AV equipment",
+      "chapel": "Chapel",
+      "chapelDesc": "Worship space for daily services and events",
+      "diningHall": "Dining Hall",
+      "diningHallDesc": "Communal meals with diverse cuisine",
+      "recreation": "Recreation",
+      "recreationDesc": "Sports facilities and common areas"
+    },
+    "cta": {
+      "title": "Ready to Experience ABMTC?",
+      "subtitle": "Join our international community.",
+      "ctaTitle": "Experience Life at ABMTC",
+      "ctaSubtitle": "Join a transformative community where students from every nation come together to be equipped for global ministry."
+    }
+  },
+  "apply": {
+    "title": "Application Form",
+    "subtitle": "Complete all steps to submit your application to ABMTC",
+    "steps": {
+      "step1": "Personal Info",
+      "step2": "Spiritual Background",
+      "step3": "Program Details",
+      "step4": "References"
+    },
+    "personalInfo": {
+      "title": "Personal Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "dateOfBirth": "Date of Birth",
+      "gender": "Gender",
+      "selectGender": "Select gender",
+      "male": "Male",
+      "female": "Female",
+      "maritalStatus": "Marital Status",
+      "selectStatus": "Select status",
+      "single": "Single",
+      "married": "Married",
+      "divorced": "Divorced",
+      "widowed": "Widowed",
+      "nationality": "Nationality",
+      "selectNationality": "Select nationality",
+      "searchCountries": "Search countries...",
+      "noCountryFound": "No country found.",
+      "startTyping": "Start typing to search for your country."
+    },
+    "contactInfo": {
+      "title": "Contact Information",
+      "email": "Email Address",
+      "phone": "Contact",
+      "profession": "Profession",
+      "currentWork": "Current Work"
+    },
+    "addressInfo": {
+      "title": "Address Information",
+      "postalAddress": "Postal Address",
+      "residentialAddress": "Residential Address",
+      "settlement": "Settlement",
+      "selectSettlement": "Select settlement type",
+      "city": "City",
+      "town": "Town",
+      "village": "Village",
+      "slum": "Slum"
+    },
+    "nextOfKin": {
+      "title": "Next of Kin Information",
+      "name": "Next Of Kin",
+      "contact": "Next Of Kin Contact"
+    },
+    "familyInfo": {
+      "title": "Family Information",
+      "fatherName": "Father's Full Name",
+      "fatherProfession": "Father's Profession",
+      "motherName": "Mother's Full Name",
+      "motherProfession": "Mother's Profession",
+      "guardianName": "Guardian's Full Name",
+      "guardianProfession": "Guardian's Profession"
+    },
+    "financialInfo": {
+      "title": "Family Financial Information",
+      "ownHouse": "Does Parent / Guardian Own House?",
+      "rentHouse": "Are Your Parents/Guardian Renting A House?",
+      "ownBusiness": "Do Your Parents/Guardian Own A Business?",
+      "ownCar": "Do Your Parents/Guardian Own A Car?",
+      "selectOption": "Select option",
+      "yes": "Yes",
+      "no": "No",
+      "financialSupport": "Who will take care of your financial needs?"
+    },
+    "educationalInfo": {
+      "title": "Educational Information",
+      "certificate": "Educational Certificate",
+      "uploadPdf": "Upload PDF file",
+      "pdfOnly": "PDF files only"
+    },
+    "spiritualBackground": {
+      "title": "Spiritual Background",
+      "testimony": "Your Testimony",
+      "salvationDate": "Date of Salvation",
+      "churchName": "Church Name",
+      "pastorName": "Pastor Name",
+      "pastorEmail": "Pastor Email",
+      "ministryExperience": "Ministry Experience"
+    },
+    "programDetails": {
+      "title": "Program Selection",
+      "program": "Program",
+      "selectProgram": "Select program",
+      "startDate": "Preferred Start Date",
+      "housingNeeded": "Housing Needed",
+      "dietaryRestrictions": "Dietary Restrictions"
+    },
+    "references": {
+      "title": "References",
+      "reference1": "Reference 1",
+      "reference2": "Reference 2",
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "validation": {
+      "requiredFields": "Please fill in all required fields:",
+      "incompleteApplication": "Application Incomplete",
+      "completeFields": "Please complete the following required fields:"
+    },
+    "buttons": {
+      "next": "Next",
+      "previous": "Previous",
+      "submit": "Submit Application",
+      "submitting": "Submitting..."
+    },
+    "messages": {
+      "submitted": "Application submitted",
+      "thankYou": "Thank you! We'll be in touch soon.",
+      "submissionFailed": "Submission failed",
+      "failedToSubmit": "Failed to submit application",
+      "networkError": "Network error",
+      "errorOccurred": "An error occurred while submitting your application. Please try again."
+    }
+  },
+  "blog": {
+    "title": "Blog & News",
+    "subtitle": "Stories, insights, and updates from ABMTC and our global alumni network",
+    "readMore": "Read More",
+    "loadMore": "Load More Articles",
+    "newsletter": {
+      "title": "Stay Updated",
+      "subtitle": "Subscribe to receive the latest stories, updates, and ministry insights from ABMTC",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to common questions about ABMTC, our programs, admissions, and student life",
+    "stillHaveQuestions": "Still Have Questions?",
+    "admissionsHelp": "Our admissions team is here to help. Reach out and we'll get back to you within 24 hours.",
+    "contactAdmissions": "Contact Admissions",
+    "scheduleCall": "Schedule a Call"
+  },
+  "financialAid": {
+    "title": "Financial Aid & Scholarships",
+    "subtitle": "We believe finances should never be a barrier to answering God's call. Discover the support available to make your training possible.",
+    "costOfAttendance": {
+      "title": "Cost of Attendance",
+      "subtitle": "Understanding the investment in your training",
+      "residential": "Residential Program",
+      "online": "Anagkazo Online",
+      "tuition": "Tuition (per year)",
+      "housing": "Housing",
+      "meals": "Meals (3 daily)",
+      "books": "Books & Materials",
+      "travel": "Travel to Ghana",
+      "visa": "Visa & Medical",
+      "personal": "Personal Expenses",
+      "digitalResources": "Digital Resources",
+      "liveClasses": "Live Classes",
+      "eLibrary": "E-Library Access",
+      "internet": "Internet Connection",
+      "estimatedTotal": "Estimated Total (Year 1)",
+      "free": "FREE",
+      "included": "Included",
+      "selfProvided": "Self-provided",
+      "variesByLocation": "Varies by location",
+      "perYear": "Per year",
+      "optional": "optional"
+    },
+    "scholarships": {
+      "title": "Available Scholarships",
+      "subtitle": "Multiple scholarship opportunities to support your training",
+      "merit": "Merit Scholarship",
+      "meritAmount": "Up to $1,500",
+      "meritDesc": "Awarded based on academic excellence and ministry potential",
+      "needBased": "Need-Based Aid",
+      "needAmount": "Up to $2,000",
+      "needDesc": "Financial assistance for students with demonstrated need",
+      "regional": "Regional Scholarships",
+      "regionalAmount": "Varies",
+      "regionalDesc": "Special funding for students from specific regions or countries",
+      "partner": "Ministry Partner Scholarship",
+      "partnerAmount": "Up to $1,000",
+      "partnerDesc": "For students sent by partner churches and organizations",
+      "travel": "Travel Grant",
+      "travelAmount": "Up to $1,500",
+      "travelDesc": "Assistance with international travel costs to Ghana",
+      "family": "Family Scholarship",
+      "familyAmount": "20% discount",
+      "familyDesc": "Reduced tuition for married couples enrolling together",
+      "criteria": "Criteria:"
+    },
+    "howToApply": {
+      "title": "How to Apply for Financial Aid",
+      "step1": "Complete Your Admission Application",
+      "step1Desc": "Submit your application for admission first. Financial aid is only available to accepted students.",
+      "step2": "Submit Financial Aid Application",
+      "step2Desc": "Fill out the separate financial aid application form, including documentation of financial need.",
+      "step3": "Provide Supporting Documents",
+      "step3Desc": "Submit required documents such as income statements, bank statements, and personal budget.",
+      "step4": "Write Personal Statement",
+      "step4Desc": "Explain your financial situation, calling to ministry, and how aid would help you attend ABMTC.",
+      "step5": "Receive Aid Decision",
+      "step5Desc": "Financial aid decisions are typically made within 2 weeks of receiving complete applications.",
+      "priorityDeadline": "Priority Deadline",
+      "priorityDesc": "Submit your financial aid application by May 31st for priority consideration. Late applications are reviewed on a rolling basis as funds are available."
+    },
+    "paymentOptions": {
+      "title": "Payment Options",
+      "subtitle": "Flexible ways to manage your educational costs",
+      "paymentPlans": "Payment Plans",
+      "paymentPlansDesc": "Spread tuition payments over monthly installments throughout the academic year",
+      "fundraising": "Fundraising Support",
+      "fundraisingDesc": "We provide resources and guidance for raising support from churches and individuals",
+      "sponsorMatching": "Sponsor Matching",
+      "sponsorMatchingDesc": "We can connect you with potential sponsors and ministry partners who support students"
+    },
+    "cta": {
+      "title": "Don't Let Finances Hold You Back",
+      "subtitle": "If God has called you to missions training, we'll work with you to make it financially possible. Apply today and let's discuss your options.",
+      "applyNow": "Apply Now",
+      "contactFinance": "Contact Financial Aid Office"
+    }
+  },
+  "impact": {
+    "hero": {
+      "title": "Global Impact",
+      "subtitle": "See how ABMTC graduates are transforming nations through church planting, discipleship, and missions work around the world."
+    },
+    "mapSection": {
+      "title": "Global Impact",
+      "subtitle": "🌍 Student Origins",
+      "quote": "From Ghana to the ends of the earth, Anagkazo welcomes students from every continent — Africa, Europe, Asia, North and South America, Australia, and beyond.",
+      "paragraph1": "Over the years, our campus has hosted men and women from diverse nations and backgrounds, all united by one divine purpose: to be trained and sent forth as laborers in God's harvest field.",
+      "paragraph2": "This rich international blend makes Anagkazo a true global ministry training center, where cultures meet, destinies are shaped, and the Great Commission comes alive in a powerful, practical way."
+    },
+    "missionFocus": {
+      "title": "Our Mission Focus",
+      "churchPlanting": "Church Planting",
+      "churchPlantingDesc": "Establishing new churches in unreached areas and equipping local leaders for sustainable growth.",
+      "discipleship": "Discipleship",
+      "discipleshipDesc": "Training believers to become mature disciples who can teach others and multiply the gospel impact.",
+      "communityDev": "Community Development",
+      "communityDevDesc": "Serving communities through practical ministry, meeting needs, and demonstrating Christ's love."
+    },
+    "cta": {
+      "title": "Be Part of This Global Movement",
+      "subtitle": "Join hundreds of students who are being equipped to transform nations through the gospel. Your story could be next on this map.",
+      "applyNow": "Apply Now",
+      "viewAlumni": "View Alumni Stories"
+    }
+  },
+  "online": {
+    "title": "Anagkazo Online",
+    "subtitle": "Experience transformative Bible training from anywhere in the world. Access ABMTC's proven curriculum through our flexible online platform.",
+    "description": {
+      "title": "Online Courses",
+      "quote": "Anagkazo also offers dynamic online courses from time to time, designed to meet the evolving needs of ministry and leadership training around the world.",
+      "paragraph1": "These courses provide flexible access to quality, Spirit-filled teaching — ensuring that anyone, anywhere, can be equipped for the work of the ministry.",
+      "paragraph2": "Whether you're a pastor, missionary, or believer seeking deeper understanding, our online programs are released as the need arises, responding to the leading of the Spirit and the demand of the global church."
+    },
+    "enrollNow": "Enroll Now",
+    "watchDemo": "Watch Demo",
+    "features": {
+      "learnAnywhere": "Learn Anywhere",
+      "learnAnywhereDesc": "Access courses from any location with internet connectivity",
+      "flexibleSchedule": "Flexible Schedule",
+      "flexibleScheduleDesc": "Study at your own pace while balancing work and ministry",
+      "liveInteraction": "Live Interaction",
+      "liveInteractionDesc": "Join live sessions with instructors and fellow students",
+      "hdVideo": "HD Video Lessons",
+      "hdVideoDesc": "High-quality video content with downloadable resources",
+      "sameCurriculum": "Same Curriculum",
+      "sameCurriculumDesc": "Access the same transformative content as our residential program",
+      "certificate": "Certificate",
+      "certificateDesc": "Earn an official certificate upon course completion"
+    },
+    "courseStructure": {
+      "title": "Course Structure",
+      "foundation": "Foundation Courses",
+      "foundationDuration": "12 weeks",
+      "foundationDesc": "Biblical foundations, theology, and ministry principles",
+      "advanced": "Advanced Studies",
+      "advancedDuration": "12 weeks",
+      "advancedDesc": "Deep dive into missions, church planting, and leadership",
+      "practical": "Practical Ministry",
+      "practicalDuration": "Ongoing",
+      "practicalDesc": "Apply learning through local ministry opportunities"
+    },
+    "pricing": {
+      "title": "Affordable & Accessible",
+      "subtitle": "We believe cost should never be a barrier to ministry training. Anagkazo Online offers flexible payment options and scholarships.",
+      "perCourse": "per course",
+      "applyScholarship": "Apply for Scholarship"
+    },
+    "cta": {
+      "title": "Ready to Begin Your Journey?",
+      "subtitle": "Join students from around the world who are being equipped for ministry through Anagkazo Online.",
+      "enrollToday": "Enroll Today"
+    }
+  },
+  "programs": {
+    "hero": {
+      "title": "Diplomas Offered",
+      "subtitle": "Anagkazo Bible and Ministry Training Centre offers four comprehensive diploma programs designed to equip you for effective ministry and pastoral leadership."
+    },
+    "diplomaDetails": {
+      "title": "Diploma Details",
+      "subtitle": "Click on each diploma to view detailed curriculum and requirements"
+    },
+    "common": {
+      "duration": "Duration",
+      "qualification": "Qualification",
+      "outcome": "Outcome",
+      "academicRotations": "Academic Rotations",
+      "practicalComponents": "Practical Ministry Components",
+      "grandFinal": "Grand Final Examination",
+      "qualifyingPoints": "Students qualify with",
+      "points": "points",
+      "programStructure": "Program Structure"
+    },
+    "makarios": {
+      "title": "The Makarios Diploma",
+      "badge": "Foundation",
+      "duration": "1 Year",
+      "durationDetail": "12 months",
+      "intakes": "(March-February; September-August)",
+      "qualification": "BECE or equivalent",
+      "outcome": "Makarios Diploma",
+      "rotationDesc": "Six-week rotations with End-of-Rotation Examinations consisting of an MCQ paper, a written assignment, and an oral examination.",
+      "examDesc": "2-hour MCQ paper consisting of 200 MCQs",
+      "oralExam": "Oral Examination with External Examiners"
+    },
+    "machaneh": {
+      "title": "The Machaneh Diploma",
+      "badge": "Intermediate",
+      "duration": "18 Months",
+      "qualification": "BECE or equivalent",
+      "outcome": "Machaneh Diploma",
+      "rotationDesc": "Four-week rotations with End-of-Rotation Examinations consisting of an MCQ paper, a written assignment, and an oral examination.",
+      "rotationCount": "Academic Rotations (15)",
+      "examDesc": "3-hour MCQ paper consisting of 300 MCQs",
+      "oralExam": "Oral Examination with External Examiners"
+    },
+    "manthano": {
+      "title": "The Manthano Diploma",
+      "badge": "Advanced",
+      "duration": "3 Years",
+      "durationDetail": "36 months (3 years)",
+      "qualification": "BECE or equivalent",
+      "outcome": "Manthano Diploma",
+      "structureDesc": "This Diploma is made up of two Clerkships of 18 months each - Junior and Senior. Rotations are 4 weeks in Junior Clerkship, extending to 6-8 weeks in Senior Clerkship. Each rotation ends with End-of-Rotation Examinations consisting of an MCQ paper, a written assignment, and an oral examination.",
+      "examDesc": "3-hour MCQ paper consisting of 300 MCQs",
+      "oralExam": "Oral Examination with External Examiners"
+    },
+    "anagkazo": {
+      "title": "The Anagkazo Diploma",
+      "badge": "Professional",
+      "duration": "4 Years",
+      "durationDetail": "4 years (48 months)",
+      "qualification": "BECE or equivalent",
+      "outcome": "Anagkazo Diploma + Pastoral Appointment",
+      "structureDesc": "The Anagkazo Diploma consists of all the content of the Manthano Diploma (3 years) plus a specialized fourth year with three professional rotations.",
+      "fourthYearTitle": "Fourth Year Professional Rotations",
+      "ruralRotation": "Rural Rotation (9 months)",
+      "ruralDesc": "The student is posted to pastor a local church under the supervision of a selected Bishop. During this period, the student will conduct research on church growth and missions.",
+      "adminRotation": "Administrative Rotation (9 months)",
+      "adminDesc": "The student observes and learns administrative and church governing procedures including:",
+      "evangelismRotation": "Practical Evangelism Rotation",
+      "evangelismDesc": "The student engages in and attends at least one Healing Jesus campaign, involved from the beginning (advance team), through preparation (mobilization, choir rehearsals), and in the crusade nights (set up and set down).",
+      "researchPresentation": "Presentation of Research Findings (50%)",
+      "researchDesc": "Present research conducted during Rural Rotation on church growth and missions.",
+      "oralExam": "Grand Final Oral Examination (50%)",
+      "oralExamDesc": "Objective structured ministry-based examinations demonstrating how the student has applied all learning from three years on campus to field work."
+    },
+    "cta": {
+      "title": "Ready to Begin Your Training?",
+      "subtitle": "Choose the program that fits your calling and start your journey toward global ministry impact.",
+      "applyNow": "Apply Now",
+      "contactUs": "Contact Us"
+    }
+  },
+  "resources": {
+    "title": "Resource Hub",
+    "subtitle": "Access teaching materials, ministry resources, and training content to support your journey in missions and ministry.",
+    "hero": {
+      "title": "Resource Hub",
+      "subtitle": "Access teaching materials, ministry resources, and training content to support your journey in missions and ministry."
+    },
+    "ebooks": {
+      "title": "E-Books",
+      "subtitle": "Download free e-books by Bishop Dag Heward-Mills",
+      "seeMore": "See More E-Books",
+      "book1": {
+        "title": "100% Answered Prayer",
+        "author": "By Dag Heward-Mills"
+      },
+      "book2": {
+        "title": "A Good General",
+        "author": "By Dag Heward-Mills"
+      },
+      "book3": {
+        "title": "Am I Good For Nothing?",
+        "author": "By Dag Heward-Mills"
+      },
+      "book4": {
+        "title": "Amplify Your Ministry",
+        "author": "By Dag Heward-Mills"
+      },
+      "book5": {
+        "title": "Anagkazo",
+        "author": "By Dag Heward-Mills"
+      },
+      "book6": {
+        "title": "Attempt Great Things For God",
+        "author": "By Dag Heward-Mills"
+      }
+    },
+    "audiobooks": {
+      "title": "Audio Books",
+      "subtitle": "Listen to powerful audio teachings",
+      "book1": {
+        "title": "Key Facts for New Believers",
+        "author": "By Dag Heward-Mills"
+      },
+      "book2": {
+        "title": "Awake, O Sleeper",
+        "author": "By Dag Heward-Mills"
+      },
+      "book3": {
+        "title": "Weeping and Gnashing",
+        "author": "By Dag Heward-Mills"
+      },
+      "book4": {
+        "title": "Prayer Changes Things",
+        "author": "By Dag Heward-Mills"
+      },
+      "book5": {
+        "title": "Jezebel: A Woman Out of Order",
+        "author": "By Dag Heward-Mills"
+      },
+      "book6": {
+        "title": "The Word of My Patience",
+        "author": "By Dag Heward-Mills"
+      }
+    },
+    "videos": {
+      "title": "YouTube Videos",
+      "subtitle": "Watch inspiring video teachings and sermons",
+      "watch": "Watch on YouTube",
+      "seeMore": "See More Videos",
+      "items": {
+        "video1": {
+          "title": "Saved AND Called: The True Christian Vision That Protects You From Destruction | Dag Heward-Mills"
+        },
+        "video2": {
+          "title": "𝟏𝟎𝟎 𝐌𝐢𝐥𝐥𝐢𝐨𝐧 𝐒𝐨𝐮𝐥𝐬: The Evangelistic Mission of Dag Heward-Mills | Healing Jesus Campaign"
+        },
+        "video3": {
+          "title": "Latest Message: Exhortation From 1 Timothy 5 || Dag Heward-Mills"
+        },
+        "video4": {
+          "title": "Latest Message : The Truth About Fornication, Uncleanness & Greed / Dag Heward-Mills"
+        },
+        "video5": {
+          "title": "The Devil’s favorite Church Members I Dag Heward-Mills"
+        },
+        "video6": {
+          "title": "Latest Messages : Afflictions As A Form of Guidance // Dag Heward-Mills"
+        }
+      }
+    },
+    "music": {
+      "title": "Music",
+      "subtitle": "Listen to worship and inspirational music",
+      "listen": "Listen",
+      "items": {
+        "track1": {
+          "title": "7 Great Principles"
+        },
+        "track2": {
+          "title": "A Faithful Friend"
+        },
+        "track3": {
+          "title": "A Great Door"
+        },
+        "track4": {
+          "title": "A Lovely Diamond"
+        },
+        "track5": {
+          "title": "A Mega Church"
+        },
+        "track6": {
+          "title": "A Soul is A Soul"
+        }
+      }
+    },
+    "categories": {
+      "studyMaterials": "Study Materials",
+      "studyCount": "150+ Resources",
+      "videoTeachings": "Video Teachings",
+      "videoCount": "80+ Videos",
+      "articles": "Articles & Guides",
+      "articlesCount": "200+ Articles",
+      "podcast": "Podcast Series",
+      "podcastCount": "50+ Episodes"
+    },
+    "featured": {
+      "title": "Featured Resources",
+      "subtitle": "Popular materials for students and alumni"
+    },
+    "collections": {
+      "title": "Resource Collections",
+      "subtitle": "Curated collections for specific ministry areas"
+    },
+    "library": {
+      "title": "Digital Library Access",
+      "subtitle": "Current students and alumni have access to our extensive digital library with thousands of books, journals, and theological resources.",
+      "books": "Digital Books",
+      "journals": "Journal Articles",
+      "videos": "Video Courses",
+      "applyAccess": "Apply to Access Library"
+    },
+    "downloads": {
+      "title": "Download Center",
+      "subtitle": "Free resources available for immediate download"
+    },
+    "cta": {
+      "title": "Need More Resources?",
+      "subtitle": "Contact our resource center for specific materials or custom training content for your ministry context.",
+      "contact": "Contact Resource Center"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated:",
+    "introduction": {
+      "title": "Introduction",
+      "content": "At Anagkazo Bible & Ministry Training Center (ABMTC), we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or apply to our programs."
+    },
+    "informationCollected": {
+      "title": "Information We Collect",
+      "intro": "We collect information that you provide directly to us, including:"
+    },
+    "howWeUse": {
+      "title": "How We Use Your Information",
+      "intro": "We use the information we collect to:"
+    },
+    "sharing": {
+      "title": "Information Sharing and Disclosure",
+      "intro": "We do not sell, trade, or rent your personal information to third parties. We may share your information with:"
+    },
+    "security": {
+      "title": "Data Security",
+      "content": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "intro": "You have the right to:"
+    },
+    "cookies": {
+      "title": "Cookies and Tracking Technologies",
+      "content": "We use cookies and similar tracking technologies to enhance your experience on our website, analyze usage patterns, and deliver personalized content. You can control cookie settings through your browser preferences."
+    },
+    "children": {
+      "title": "Children's Privacy",
+      "content": "Our services are not directed to individuals under the age of 18. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the \"Last updated\" date. We encourage you to review this policy periodically."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "intro": "If you have any questions about this Privacy Policy or our data practices, please contact us:"
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated:",
+    "agreement": {
+      "title": "Agreement to Terms",
+      "content": "By accessing or using the Anagkazo Bible & Ministry Training Center (ABMTC) website and services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website or services."
+    },
+    "useOfServices": {
+      "title": "Use of Services",
+      "intro": "You agree to use our services only for lawful purposes and in accordance with these terms. You agree not to:"
+    },
+    "application": {
+      "title": "Application and Admission",
+      "intro": "Submitting an application to ABMTC does not guarantee admission. All applications are subject to review and approval by our admissions committee. We reserve the right to:"
+    },
+    "tuition": {
+      "title": "Tuition and Fees",
+      "content": "Tuition and fees are subject to change. Accepted students will receive detailed information about costs, payment schedules, and available financial aid. All fees must be paid according to the agreed schedule. Failure to pay may result in dismissal from the program."
+    },
+    "conduct": {
+      "title": "Student Conduct",
+      "intro": "Students are expected to maintain high standards of Christian conduct and adhere to ABMTC's code of conduct. This includes:"
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "content": "All content on the ABMTC website, including text, graphics, logos, images, and software, is the property of ABMTC or its content suppliers and is protected by copyright and other intellectual property laws. You may not reproduce, distribute, or create derivative works without our written permission."
+    },
+    "disclaimer": {
+      "title": "Disclaimer of Warranties",
+      "content": "Our website and services are provided \"as is\" without warranties of any kind, either express or implied. We do not guarantee that our services will be uninterrupted, secure, or error-free. We are not responsible for any technical issues that may affect your access to our website."
+    },
+    "limitation": {
+      "title": "Limitation of Liability",
+      "content": "To the fullest extent permitted by law, ABMTC shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our services or inability to use our services, even if we have been advised of the possibility of such damages."
+    },
+    "termination": {
+      "title": "Termination",
+      "content": "We reserve the right to terminate or suspend access to our services immediately, without prior notice, for any reason, including breach of these Terms of Service. Upon termination, your right to use our services will immediately cease."
+    },
+    "governingLaw": {
+      "title": "Governing Law",
+      "content": "These Terms of Service shall be governed by and construed in accordance with the laws of Ghana, without regard to its conflict of law provisions. Any disputes arising from these terms shall be resolved in the courts of Ghana."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "content": "We reserve the right to modify these Terms of Service at any time. We will notify users of any material changes by posting the updated terms on this page. Your continued use of our services after changes are posted constitutes acceptance of the modified terms."
+    },
+    "contact": {
+      "title": "Contact Information",
+      "intro": "If you have any questions about these Terms of Service, please contact us:"
+    }
+  }
+}

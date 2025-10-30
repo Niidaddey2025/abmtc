@@ -3,6 +3,7 @@
 import type { SVGProps } from "react"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
+import { useTranslations, useLocale } from "next-intl"
 import { Facebook, Instagram, Youtube, Mail, Phone, MapPin, Twitter } from "lucide-react"
 
 function TikTokIcon(props: SVGProps<SVGSVGElement>) {
@@ -21,6 +22,9 @@ function TikTokIcon(props: SVGProps<SVGSVGElement>) {
 
 export function Footer() {
   const router = useRouter()
+  const locale = useLocale()
+  const t = useTranslations('nav')
+  const tFooter = useTranslations('footer')
 
   const handleNavigation = (href: string) => {
     router.push(href)
@@ -33,7 +37,7 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* About */}
           <div>
-            <button onClick={() => handleNavigation("/")} className="flex items-center gap-3 group">
+            <button onClick={() => handleNavigation(`/${locale}`)} className="flex items-center gap-3 group">
               <Image
                 src="/logo.jpg"
                 alt="ABMTC Logo"
@@ -45,15 +49,14 @@ export function Footer() {
               <div className="text-2xl font-bold text-white cursor-pointer transition-colors">ABMTC</div>
             </button>
             <p className="text-primary-foreground/80 leading-relaxed mb-4">
-              Anagkazo Bible & Ministry Training Center - Equipping students from 40+ nations for global missions and
-              church planting.
+              {tFooter('description')}
             </p>
-            <div className="flex gap-4">
+            <div className="flex gap-4 cursor-pointer">
               <a
                 href="https://www.facebook.com/anagkazobibleschool/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-secondary transition-colors"
+                className="hover:text-secondary transition-colors cursor-pointer"
               >
                 <Facebook className="w-5 h-5" />
               </a>
@@ -61,7 +64,7 @@ export function Footer() {
                 href="https://www.instagram.com/anagkazobibleschool_dhmm/?hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-secondary transition-colors"
+                className="hover:text-secondary transition-colors cursor-pointer"
               >
                 <Instagram className="w-5 h-5" />
               </a>
@@ -69,7 +72,7 @@ export function Footer() {
                 href="https://x.com/anagkazoschool?lang=en"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-secondary transition-colors"
+                className="hover:text-secondary transition-colors cursor-pointer"
               >
                 <Twitter className="w-5 h-5" />
               </a>
@@ -77,7 +80,7 @@ export function Footer() {
                 href="https://www.youtube.com/@ABMTC-MampongGh"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-secondary transition-colors"
+                className="hover:text-secondary transition-colors cursor-pointer"
               >
                 <Youtube className="w-5 h-5" />
               </a>
@@ -85,7 +88,7 @@ export function Footer() {
                 href="https://www.tiktok.com/@abmtc_dhmm_official"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-secondary transition-colors"
+                className="hover:text-secondary transition-colors cursor-pointer"
               >
                 <TikTokIcon className="w-5 h-5" />
               </a>
@@ -94,46 +97,54 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-bold text-lg mb-4">Quick Links</h4>
+            <h4 className="font-bold text-lg mb-4">{tFooter('quickLinks')}</h4>
             <ul className="space-y-2">
               <li>
                 <button
-                  onClick={() => handleNavigation("/about")}
-                  className="text-primary-foreground/80 hover:text-secondary transition-colors"
+                  onClick={() => handleNavigation(`/${locale}/about`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
-                  About ABMTC
+                  {t('about')}
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleNavigation("/programs")}
-                  className="text-primary-foreground/80 hover:text-secondary transition-colors"
+                  onClick={() => handleNavigation(`/${locale}/programs`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
-                  Programs
+                  {t('academics')}
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleNavigation("/admissions")}
-                  className="text-primary-foreground/80 hover:text-secondary transition-colors"
+                  onClick={() => handleNavigation(`/${locale}/admissions`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
-                  Admissions
+                  {t('admissions')}
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleNavigation("/financial-aid")}
-                  className="text-primary-foreground/80 hover:text-secondary transition-colors"
+                  onClick={() => handleNavigation(`/${locale}/student-life`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
-                  Financial Aid
+                  {t('studentLife')}
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleNavigation("/alumni")}
-                  className="text-primary-foreground/80 hover:text-secondary transition-colors"
+                  onClick={() => handleNavigation(`/${locale}/ministry-training`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
-                  Alumni Network
+                  {t('ministry')}
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleNavigation(`/${locale}/alumni`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
+                >
+                  {t('alumni')}
                 </button>
               </li>
             </ul>
@@ -141,46 +152,54 @@ export function Footer() {
 
           {/* Resources */}
           <div>
-            <h4 className="font-bold text-lg mb-4">Resources</h4>
+            <h4 className="font-bold text-lg mb-4">{tFooter('resources')}</h4>
             <ul className="space-y-2">
               <li>
                 <button
-                  onClick={() => handleNavigation("/resources")}
-                  className="text-primary-foreground/80 hover:text-secondary transition-colors"
+                  onClick={() => handleNavigation(`/${locale}/media`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
-                  Free Resources
+                  {t('media')}
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleNavigation("/online")}
-                  className="text-primary-foreground/80 hover:text-secondary transition-colors"
+                  onClick={() => handleNavigation(`/${locale}/news`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
-                  Anagkazo Online
+                  {t('news')}
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleNavigation("/impact")}
-                  className="text-primary-foreground/80 hover:text-secondary transition-colors"
+                  onClick={() => handleNavigation(`/${locale}/impact`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
-                  Global Impact
+                  {t('impact')}
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleNavigation("/blog")}
-                  className="text-primary-foreground/80 hover:text-secondary transition-colors"
+                  onClick={() => handleNavigation(`/${locale}/give`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
-                  Blog & News
+                  {t('give')}
                 </button>
               </li>
               <li>
                 <button
-                  onClick={() => handleNavigation("/faq")}
-                  className="text-primary-foreground/80 hover:text-secondary transition-colors"
+                  onClick={() => handleNavigation(`/${locale}/faq`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
-                  FAQ
+                  {t('faq')}
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => handleNavigation(`/${locale}/online`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
+                >
+                  {t('online')}
                 </button>
               </li>
             </ul>
@@ -188,11 +207,11 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-bold text-lg mb-4">Contact Us</h4>
+            <h4 className="font-bold text-lg mb-4">{tFooter('contact')}</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <MapPin className="w-5 h-5 mt-0.5 flex-shrink-0" />
-                <span className="text-primary-foreground/80">Mampong, Ghana</span>
+                <span className="text-primary-foreground/80">{tFooter('location')}</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-5 h-5 flex-shrink-0" />
@@ -226,17 +245,17 @@ export function Footer() {
         <div className="border-t border-primary-foreground/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/60 text-sm">
-              © {new Date().getFullYear()} ABMTC. All rights reserved.
+              {tFooter('copyright', { year: new Date().getFullYear() })}
             </p>
             <div className="flex gap-6 text-sm">
               <button
-                onClick={() => handleNavigation("/privacy")}
+                onClick={() => handleNavigation(`/${locale}/privacy`)}
                 className="text-primary-foreground/60 hover:text-secondary transition-colors"
               >
                 Privacy Policy
               </button>
               <button
-                onClick={() => handleNavigation("/terms")}
+                onClick={() => handleNavigation(`/${locale}/terms`)}
                 className="text-primary-foreground/60 hover:text-secondary transition-colors"
               >
                 Terms of Service
@@ -244,7 +263,7 @@ export function Footer() {
             </div>
           </div>
           <p className="text-center text-primary-foreground/60 text-sm mt-6 italic">
-            From the nations to Ghana, from Ghana to the nations.
+            {tFooter('tagline')}
           </p>
         </div>
       </div>

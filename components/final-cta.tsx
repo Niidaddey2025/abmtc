@@ -1,11 +1,14 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Clock } from "lucide-react"
 import Link from "next/link"
 
 export function FinalCTA() {
+  const t = useTranslations('home.finalCta')
+  const tCommon = useTranslations('common')
   const [timeLeft, setTimeLeft] = useState({
     days: 45,
     hours: 12,
@@ -45,11 +48,10 @@ export function FinalCTA() {
       <div className="relative z-10 container mx-auto px-4 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Your Calling Is Waiting
+            {t('title')}
           </h2>
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-            Don't let finances, fear, or uncertainty hold you back. Join hundreds of students who have answered the call
-            to transform nations through the gospel.
+            {t('subtitle')}
           </p>
 
           {/* Countdown Timer */}
@@ -80,7 +82,7 @@ export function FinalCTA() {
             "
           >
             <Link href="/apply" className="flex items-center justify-center font-semibold tracking-wide">
-              <span className="relative z-10">Apply Now</span>
+              <span className="relative z-10">{tCommon('applyNow')}</span>
               <ArrowRight
                 className="ml-3 w-6 h-6 transform transition-transform duration-300 group-hover:translate-x-2"
               />
@@ -95,7 +97,7 @@ export function FinalCTA() {
 
           {/* Supporting Text */}
           <p className="mt-8 text-white/80 text-lg">
-            Free application • Scholarships available • No commitment required
+            {t('freeApplication')} • {t('scholarshipsAvailable')} • {t('noCommitment')}
           </p>
         </div>
       </div>

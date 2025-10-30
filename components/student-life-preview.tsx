@@ -1,40 +1,42 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { ArrowRight, BookOpen, Users, Globe, Heart } from "lucide-react"
 import Link from "next/link"
 
-const lifeAspects = [
-  {
-    icon: BookOpen,
-    title: "Deep Biblical Training",
-    description: "Comprehensive study of Scripture with experienced teachers from around the world.",
-    image: "/students-studying-bible-in-classroom.jpg",
-  },
-  {
-    icon: Heart,
-    title: "Community & Devotional Life",
-    description: "Daily worship, prayer, and fellowship that transforms hearts and builds lifelong friendships.",
-    image: "/students-worshiping-and-praying-together.jpg",
-  },
-  {
-    icon: Users,
-    title: "Practical Evangelism",
-    description: "Hands-on ministry experience through street evangelism and community outreach in Ghana.",
-    image: "/students-doing-street-ministry-and-evangelism-in-a.jpg",
-  },
-  {
-    icon: Globe,
-    title: "Global Mission Opportunities",
-    description: "Preparation and sending to plant churches and serve in missions worldwide.",
-    image: "/graduation-ceremony-sending-missionaries.jpg",
-  },
-]
-
 export function StudentLifePreview() {
+  const t = useTranslations('home.journey')
   const [visibleCards, setVisibleCards] = useState<number[]>([])
+
+  const lifeAspects = [
+    {
+      icon: BookOpen,
+      title: t('biblicalTraining'),
+      description: t('biblicalTrainingDesc'),
+      image: "/students-studying-bible-in-classroom.jpg",
+    },
+    {
+      icon: Heart,
+      title: t('community'),
+      description: t('communityDesc'),
+      image: "/students-worshiping-and-praying-together.jpg",
+    },
+    {
+      icon: Users,
+      title: t('evangelism'),
+      description: t('evangelismDesc'),
+      image: "/students-doing-street-ministry-and-evangelism-in-a.jpg",
+    },
+    {
+      icon: Globe,
+      title: t('missions'),
+      description: t('missionsDesc'),
+      image: "/graduation-ceremony-sending-missionaries.jpg",
+    },
+  ]
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -61,11 +63,10 @@ export function StudentLifePreview() {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Your Journey at <span className="text-primary">ABMTC</span>
+            {t('title')}
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Experience transformation through four pillars of training that prepare you for a lifetime of ministry and
-            global impact.
+            {t('subtitle')}
           </p>
         </div>
 
@@ -112,7 +113,7 @@ export function StudentLifePreview() {
         <div className="text-center">
           <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-lg px-8 group">
             <Link href="/student-life">
-              Explore Student Life
+              {t('exploreStudentLife')}
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Link>
           </Button>

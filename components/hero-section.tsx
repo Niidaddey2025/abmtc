@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
+import { useTranslations } from "next-intl"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Play } from "lucide-react"
 import Link from "next/link"
@@ -10,6 +11,7 @@ const heroHeadingFont = Playfair_Display({ subsets: ["latin"], weight: ["600", "
 const heroBodyFont = Lato({ subsets: ["latin"], weight: ["400", "700"], preload: true })
 
 export function HeroSection() {
+  const t = useTranslations('hero')
   const [isVisible, setIsVisible] = useState(false)
 
   useEffect(() => {
@@ -39,7 +41,7 @@ export function HeroSection() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Transform Your Life, <span>Answer the Call</span>
+            {t('title')}
           </h1>
 
           <p
@@ -47,8 +49,7 @@ export function HeroSection() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Join students from over 40 nations at ABMTC in Ghana for transformative Bible training, practical ministry
-            experience, and a lifetime of global impact.
+            {t('subtitle')}
           </p>
 
           {/* Animated Statistics */}
@@ -57,9 +58,9 @@ export function HeroSection() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            <StatItem number="40+" label="Nations Represented" />
-            <StatItem number="20+" label="Countries with Church Plants" />
-            <StatItem number="300+" label="Graduates Serving Globally" />
+            <StatItem number="40+" label={t('stats.nations')} />
+            <StatItem number="20+" label={t('stats.churchPlants')} />
+            <StatItem number="300+" label={t('stats.graduates')} />
           </div>
 
           {/* CTA Buttons */}
@@ -74,7 +75,7 @@ export function HeroSection() {
               className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 py-6 group"
             >
               <Link href="/apply">
-                Apply Now
+                {t('applyNow')}
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
@@ -86,7 +87,7 @@ export function HeroSection() {
             >
               <Link href="/programs">
                 <Play className="mr-2 group-hover:scale-110 transition-transform" />
-                View Programs
+                {t('viewPrograms')}
               </Link>
             </Button>
           </div>

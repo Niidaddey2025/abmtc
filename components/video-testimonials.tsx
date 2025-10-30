@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useRef } from "react"
+import { useTranslations } from "next-intl"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Play, ChevronLeft, ChevronRight, X } from "lucide-react"
@@ -33,6 +34,7 @@ const testimonials = [
 ]
 
 export function VideoTestimonials() {
+  const t = useTranslations('home.testimonials')
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isVideoPopupOpen, setIsVideoPopupOpen] = useState(false)
   const [currentVideoPath, setCurrentVideoPath] = useState<string | null>(null)
@@ -75,14 +77,13 @@ export function VideoTestimonials() {
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Stories of{" "}
+            {t('title1')}{" "}
             <span className="bg-gradient-to-t from-black to-gray-400 bg-clip-text text-transparent">
-              Transformation
+              {t('title2')}
             </span>
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            Hear from students and graduates whose lives have been transformed through ABMTC's training and are now
-            impacting nations.
+            {t('subtitle')}
           </p>
         </div>
 

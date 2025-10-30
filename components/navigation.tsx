@@ -1,18 +1,25 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { useRouter, usePathname } from "next/navigation"
+import { useTranslations, useLocale } from 'next-intl'
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Menu, X } from "lucide-react"
+import { LanguageSwitcher } from "@/components/language-switcher"
+import { Menu, X, ChevronDown, ChevronUp } from "lucide-react"
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isMoreOpen, setIsMoreOpen] = useState(false)
+  const moreCloseTimer = useRef<number | null>(null)
   const router = useRouter()
   const pathname = usePathname()
-  const isHomePage = pathname === "/"
+  const locale = useLocale()
+  const t = useTranslations('nav')
+  const tCommon = useTranslations('common')
+  const isHomePage = pathname === "/" || pathname.match(/^\/[a-z]{2}$/)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,15 +29,44 @@ export function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  useEffect(() => {
+    return () => {
+      if (moreCloseTimer.current) {
+        window.clearTimeout(moreCloseTimer.current)
+      }
+    }
+  }, [])
+
   const navLinks = [
-    { href: "/about", label: "About" },
-    { href: "/programs", label: "Programs" },
-    { href: "/student-life", label: "Student Life" },
-    { href: "/admissions", label: "Admissions" },
-    { href: "/impact", label: "Global Impact" },
-    { href: "/alumni", label: "Alumni" },
-    { href: "/resources", label: "Resources" },
+    { href: `/${locale}/about`, label: t('about') },
+    { href: `/${locale}/programs`, label: t('academics') },
+    { href: `/${locale}/student-life`, label: t('studentLife') },
+    { href: `/${locale}/ministry-training`, label: t('ministry') },
+    { href: `/${locale}/alumni`, label: t('alumni') },
+    { href: `/${locale}/admissions`, label: t('admissions') },
+    { href: `/${locale}/media`, label: t('media') },
+    { href: `/${locale}/give`, label: t('give') },
+    { href: `/${locale}/online`, label: t('online') },
+    { href: `/${locale}/financial-aid`, label: t('financialAid') },
+    { href: `/${locale}/resources`, label: t('resources') },
+    { href: `/${locale}/news`, label: t('news') }
   ]
+
+  const primaryLinks = navLinks.filter((link) => [
+    `/${locale}/about`,
+    `/${locale}/programs`,
+    `/${locale}/student-life`,
+    `/${locale}/ministry-training`,
+    `/${locale}/alumni`,
+  ].includes(link.href))
+
+  const moreLinks = navLinks.filter((link) => !primaryLinks.some((p) => p.href === link.href))
+
+  const colorClass = isHomePage
+    ? (isScrolled ? "text-foreground/80 hover:text-primary" : "text-white hover:text-secondary")
+    : "text-foreground hover:text-primary"
+
+  const baseLinkClass = "relative text-base font-medium transition-colors cursor-pointer after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:scale-x-0 after:bg-current after:content-[''] after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100"
 
   const handleNavigation = (href: string) => {
     setIsMobileMenuOpen(false)
@@ -46,7 +82,7 @@ export function Navigation() {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <button onClick={() => handleNavigation("/")} className="flex items-center gap-3 group">
+          <button onClick={() => handleNavigation(`/${locale}`)} className="flex items-center gap-3 group">
             <Image
               src="/logo.jpg"
               alt="ABMTC Logo"
@@ -66,26 +102,88 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8">
-            {navLinks.map((link) => (
+            {primaryLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 prefetch={true}
-                className={`relative text-base font-medium transition-colors cursor-pointer after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:scale-x-0 after:bg-current after:content-[''] after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 ${
-                  isHomePage
-                    ? isScrolled
-                      ? "text-foreground/80 hover:text-primary"
-                      : "text-white hover:text-secondary"
-                    : "text-foreground hover:text-primary"
-                }`}
+                className={`${baseLinkClass} ${colorClass}`}
               >
                 {link.label}
               </Link>
             ))}
+            {moreLinks.length > 0 && (
+              <div
+                className="relative"
+                onMouseEnter={() => {
+                  if (moreCloseTimer.current) {
+                    window.clearTimeout(moreCloseTimer.current)
+                    moreCloseTimer.current = null
+                  }
+                  setIsMoreOpen(true)
+                }}
+                onMouseLeave={() => {
+                  if (moreCloseTimer.current) {
+                    window.clearTimeout(moreCloseTimer.current)
+                  }
+                  moreCloseTimer.current = window.setTimeout(() => {
+                    setIsMoreOpen(false)
+                  }, 200)
+                }}
+              >
+                <button
+                  onClick={() => setIsMoreOpen((v) => !v)}
+                  className={`flex items-center gap-1 text-base font-medium transition-colors cursor-pointer ${
+                    isHomePage
+                      ? isScrolled
+                        ? "text-foreground/80 hover:text-primary"
+                        : "text-white hover:text-secondary"
+                      : "text-foreground hover:text-primary"
+                  }`}
+                >
+                  {tCommon('more')}
+                  {isMoreOpen ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
+                </button>
+                {isMoreOpen && (
+                  <div
+                    className="absolute right-0 mt-1 w-56 rounded-md border border-border bg-background shadow-lg py-2 z-50"
+                    onMouseEnter={() => {
+                      if (moreCloseTimer.current) {
+                        window.clearTimeout(moreCloseTimer.current)
+                        moreCloseTimer.current = null
+                      }
+                    }}
+                    onMouseLeave={() => {
+                      if (moreCloseTimer.current) {
+                        window.clearTimeout(moreCloseTimer.current)
+                      }
+                      moreCloseTimer.current = window.setTimeout(() => {
+                        setIsMoreOpen(false)
+                      }, 200)
+                    }}
+                  >
+                    {moreLinks.map((link) => (
+                      <Link
+                        key={link.href}
+                        href={link.href}
+                        prefetch={true}
+                        onClick={() => setIsMoreOpen(false)}
+                        className={`block px-4 py-2 ${baseLinkClass} ${
+                          isHomePage && !isScrolled ? "text-foreground hover:text-primary" : colorClass
+                        } text-sm hover:bg-muted/40`}
+                      >
+                        {link.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
           </div>
 
-          {/* CTA Buttons */}
+          {/* CTA Buttons & Language Switcher */}
           <div className="hidden lg:flex items-center gap-4">
+            <LanguageSwitcher />
             <Button
               variant="ghost"
               asChild
@@ -97,10 +195,10 @@ export function Navigation() {
                   : "text-foreground hover:text-primary"
               }`}
             >
-              <Link href="/contact" prefetch={true}>Contact</Link>
+              <Link href={`/${locale}/contact`} prefetch={true}>{t('contact')}</Link>
             </Button>
             <Button asChild className="bg-primary hover:bg-primary/90 cursor-pointer">
-              <Link href="/apply" prefetch={true}>Apply Now</Link>
+              <Link href={`/${locale}/apply`} prefetch={true}>{tCommon('applyNow')}</Link>
             </Button>
           </div>
 
@@ -141,10 +239,10 @@ export function Navigation() {
                   asChild
                   className="relative w-full bg-transparent cursor-pointer transition-colors after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:scale-x-0 after:bg-current after:content-[''] after:origin-left after:transition-transform after:duration-300 hover:after:scale-x-100 text-foreground hover:text-primary"
                 >
-                  <Link href="/contact" prefetch={true} onClick={() => setIsMobileMenuOpen(false)}>Contact</Link>
+                  <Link href={`/${locale}/contact`} prefetch={true} onClick={() => setIsMobileMenuOpen(false)}>{t('contact')}</Link>
                 </Button>
                 <Button asChild className="w-full bg-primary hover:bg-primary/90 cursor-pointer">
-                  <Link href="/apply" prefetch={true} onClick={() => setIsMobileMenuOpen(false)}>Apply Now</Link>
+                  <Link href={`/${locale}/apply`} prefetch={true} onClick={() => setIsMobileMenuOpen(false)}>{tCommon('applyNow')}</Link>
                 </Button>
               </div>
             </div>
