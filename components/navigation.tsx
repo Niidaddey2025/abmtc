@@ -220,7 +220,7 @@ export function Navigation() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-6 border-t border-border">
+          <div className="lg:hidden py-6 border-t border-border max-h-[calc(100vh-5rem)] overflow-y-auto">
             <div className="flex flex-col gap-4">
               {navLinks.map((link) => (
                 <Link
@@ -234,6 +234,9 @@ export function Navigation() {
                 </Link>
               ))}
               <div className="flex flex-col gap-3 pt-4 border-t border-border">
+                <div className="flex justify-center pb-2">
+                  <LanguageSwitcher />
+                </div>
                 <Button
                   variant="outline"
                   asChild
