@@ -69,7 +69,7 @@ export default function MediaPage() {
             <div className="text-center mt-12">
               <Button size="lg" asChild className="bg-primary hover:bg-primary/90">
                 <a href="https://www.youtube.com/@DagHewardMillsvideos/videos" target="_blank" rel="noopener noreferrer">
-                  View All Videos
+                  {t('videos.viewAll')}
                   <ArrowRight className="ml-2" />
                 </a>
               </Button>
@@ -91,79 +91,40 @@ export default function MediaPage() {
 
             <div className="grid md:grid-cols-3 gap-6">
               <GalleryCard
-                title="Campus Life"
+                title={t('gallery.items.campusLife')}
                 imageCount={45}
                 thumbnail="/campus-life-1.jpg"
+                photosLabel={t('gallery.photos')}
               />
               <GalleryCard
-                title="Graduation Ceremonies"
+                title={t('gallery.items.graduation')}
                 imageCount={67}
                 thumbnail="/diverse-students-praying-and-studying-together-at-.jpg"
+                photosLabel={t('gallery.photos')}
               />
               <GalleryCard
-                title="Evangelism Outreach"
+                title={t('gallery.items.evangelism')}
                 imageCount={89}
                 thumbnail="/campus-life-5.jpg"
+                photosLabel={t('gallery.photos')}
               />
               <GalleryCard
-                title="Chapel Services"
+                title={t('gallery.items.chapel')}
                 imageCount={34}
                 thumbnail="/campus-life-0.png"
+                photosLabel={t('gallery.photos')}
               />
               <GalleryCard
-                title="Student Activities"
+                title={t('gallery.items.studentActivities')}
                 imageCount={56}
                 thumbnail="/students-studying-bible-in-classroom.jpg"
+                photosLabel={t('gallery.photos')}
               />
               <GalleryCard
-                title="International Community"
+                title={t('gallery.items.international')}
                 imageCount={78}
                 thumbnail="/young-brazilian-woman-student-smiling.jpg"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Downloads */}
-      <section className="py-24 bg-background">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Downloads</h2>
-              <p className="text-xl text-muted-foreground">
-                Access important documents and resources
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-8">
-              <DownloadCard
-                icon={FileText}
-                title="Prospectus 2025"
-                description="Complete guide to ABMTC programs, admission requirements, and campus life"
-                fileSize="2.4 MB"
-                fileType="PDF"
-              />
-              <DownloadCard
-                icon={FileText}
-                title="Application Form"
-                description="Official application form for admission to ABMTC"
-                fileSize="856 KB"
-                fileType="PDF"
-              />
-              <DownloadCard
-                icon={BookOpen}
-                title="Course Catalog"
-                description="Detailed descriptions of all courses offered at ABMTC"
-                fileSize="1.8 MB"
-                fileType="PDF"
-              />
-              <DownloadCard
-                icon={FileText}
-                title="Financial Aid Guide"
-                description="Information about scholarships, grants, and payment plans"
-                fileSize="1.2 MB"
-                fileType="PDF"
+                photosLabel={t('gallery.photos')}
               />
             </div>
           </div>
@@ -175,27 +136,27 @@ export default function MediaPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Devotionals & Newsletters</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('newsletter.title')}</h2>
               <p className="text-xl text-muted-foreground">
-                Stay connected with regular spiritual content and updates
+                {t('newsletter.subtitle')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
               <NewsletterCard
-                title="Daily Devotional"
-                description="Start your day with powerful biblical insights and prayers"
-                frequency="Daily"
+                title={t('newsletter.cards.daily.title')}
+                description={t('newsletter.cards.daily.description')}
+                frequency={t('newsletter.cards.daily.frequency')}
               />
               <NewsletterCard
-                title="Monthly Newsletter"
-                description="Updates on ABMTC activities, alumni stories, and upcoming events"
-                frequency="Monthly"
+                title={t('newsletter.cards.monthly.title')}
+                description={t('newsletter.cards.monthly.description')}
+                frequency={t('newsletter.cards.monthly.frequency')}
               />
               <NewsletterCard
-                title="Prayer Bulletin"
-                description="Join us in praying for missions, students, and global needs"
-                frequency="Weekly"
+                title={t('newsletter.cards.prayer.title')}
+                description={t('newsletter.cards.prayer.description')}
+                frequency={t('newsletter.cards.prayer.frequency')}
               />
             </div>
 
@@ -225,9 +186,9 @@ export default function MediaPage() {
       <section className="py-24 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Experience ABMTC?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('cta.title')}</h2>
             <p className="text-xl text-primary-foreground/90 mb-8 leading-relaxed">
-              These resources give you a glimpse of life at ABMTC. Apply today to experience it firsthand.
+              {t('cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -236,7 +197,7 @@ export default function MediaPage() {
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 group"
               >
                 <Link href="/apply">
-                  Apply Now
+                  {t('cta.applyNow')}
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
@@ -246,7 +207,7 @@ export default function MediaPage() {
                 asChild
                 className="bg-white/10 hover:bg-white/20 text-white border-white/30 text-lg px-8"
               >
-                <Link href="/contact">Contact Us</Link>
+                <Link href="/contact">{t('cta.contactUs')}</Link>
               </Button>
             </div>
           </div>
@@ -294,10 +255,12 @@ function GalleryCard({
   title,
   imageCount,
   thumbnail,
+  photosLabel,
 }: {
   title: string
   imageCount: number
   thumbnail: string
+  photosLabel: string
 }) {
   return (
     <Card className="overflow-hidden hover:shadow-lg transition-shadow group cursor-pointer">
@@ -306,7 +269,7 @@ function GalleryCard({
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
           <div className="text-center text-white">
             <ImageIcon className="w-12 h-12 mx-auto mb-2" />
-            <p className="text-lg font-bold">{imageCount} Photos</p>
+            <p className="text-lg font-bold">{imageCount} {photosLabel}</p>
           </div>
         </div>
       </div>

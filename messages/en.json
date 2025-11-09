@@ -542,7 +542,16 @@
     },
     "gallery": {
       "title": "Photo Gallery",
-      "subtitle": "Experience life at ABMTC through our photo collection"
+      "subtitle": "Experience life at ABMTC through our photo collection",
+      "items": {
+        "campusLife": "Campus Life",
+        "graduation": "Graduation Ceremonies",
+        "evangelism": "Evangelism Outreach",
+        "chapel": "Chapel Services",
+        "studentActivities": "Student Activities",
+        "international": "International Community"
+      },
+      "photos": "Photos"
     },
     "downloads": {
       "title": "Downloads",
@@ -553,7 +562,30 @@
       "subtitle": "Stay connected with regular spiritual content and updates",
       "subscribeTitle": "Subscribe to Our Newsletter",
       "subscribeDesc": "Get the latest updates, devotionals, and resources delivered to your inbox",
-      "emailPlaceholder": "Enter your email"
+      "emailPlaceholder": "Enter your email",
+      "cards": {
+        "daily": {
+          "title": "Daily Devotional",
+          "description": "Start your day with powerful biblical insights and prayers",
+          "frequency": "Daily"
+        },
+        "monthly": {
+          "title": "Monthly Newsletter",
+          "description": "Updates on ABMTC activities, alumni stories, and upcoming events",
+          "frequency": "Monthly"
+        },
+        "prayer": {
+          "title": "Prayer Bulletin",
+          "description": "Join us in praying for missions, students, and global needs",
+          "frequency": "Weekly"
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Experience ABMTC?",
+      "subtitle": "These resources give you a glimpse of life at ABMTC. Apply today to experience it firsthand.",
+      "applyNow": "Apply Now",
+      "contactUs": "Contact Us"
     }
   },
   "news": {

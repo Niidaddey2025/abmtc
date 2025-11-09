@@ -542,7 +542,16 @@
     },
     "gallery": {
       "title": "Galería de fotos",
-      "subtitle": "Experimenta la vida en ABMTC a través de nuestra colección de fotos"
+      "subtitle": "Experimenta la vida en ABMTC a través de nuestra colección de fotos",
+      "items": {
+        "campusLife": "Vida en el campus",
+        "graduation": "Ceremonias de graduación",
+        "evangelism": "Alcance evangelístico",
+        "chapel": "Servicios de capilla",
+        "studentActivities": "Actividades estudiantiles",
+        "international": "Comunidad internacional"
+      },
+      "photos": "Fotos"
     },
     "downloads": {
       "title": "Descargas",
@@ -553,7 +562,30 @@
       "subtitle": "Mantente conectado con contenido espiritual regular y actualizaciones",
       "subscribeTitle": "Suscríbete a nuestro boletín",
       "subscribeDesc": "Recibe las últimas actualizaciones, devocionales y recursos en tu bandeja de entrada",
-      "emailPlaceholder": "Ingresa tu correo electrónico"
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "cards": {
+        "daily": {
+          "title": "Devocional diario",
+          "description": "Comienza tu día con poderosas perspectivas bíblicas y oraciones",
+          "frequency": "Diario"
+        },
+        "monthly": {
+          "title": "Boletín mensual",
+          "description": "Actualizaciones sobre actividades de ABMTC, historias de exalumnos y próximos eventos",
+          "frequency": "Mensual"
+        },
+        "prayer": {
+          "title": "Boletín de oración",
+          "description": "Únete a nosotros en oración por las misiones, los estudiantes y las necesidades globales",
+          "frequency": "Semanal"
+        }
+      }
+    },
+    "cta": {
+      "title": "¿Listo para experimentar ABMTC?",
+      "subtitle": "Estos recursos te dan una idea de la vida en ABMTC. Aplica hoy para experimentarlo tú mismo.",
+      "applyNow": "Aplicar ahora",
+      "contactUs": "Contáctanos"
     }
   },
   "news": {

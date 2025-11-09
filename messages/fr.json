@@ -542,18 +542,50 @@
     },
     "gallery": {
       "title": "Galerie de photos",
-      "subtitle": "Découvrez la vie à l'ABMTC à travers notre collection de photos"
+      "subtitle": "Découvrez la vie à l'ABMTC à travers notre collection de photos",
+      "items": {
+        "campusLife": "Vie sur le campus",
+        "graduation": "Cérémonies de remise des diplômes",
+        "evangelism": "Sensibilisation évangélique",
+        "chapel": "Services de chapelle",
+        "studentActivities": "Activités étudiantes",
+        "international": "Communauté internationale"
+      },
+      "photos": "Photos"
     },
     "downloads": {
       "title": "Téléchargements",
       "subtitle": "Accédez à des documents et ressources importants"
     },
     "newsletter": {
-      "title": "Dévotions et bulletins",
+      "title": "Dévotionnels et bulletins",
       "subtitle": "Restez connecté avec du contenu spirituel régulier et des mises à jour",
       "subscribeTitle": "Abonnez-vous à notre bulletin",
-      "subscribeDesc": "Recevez les dernières mises à jour, dévotions et ressources dans votre boîte de réception",
-      "emailPlaceholder": "Entrez votre e-mail"
+      "subscribeDesc": "Recevez les dernières mises à jour, dévotionnels et ressources dans votre boîte de réception",
+      "emailPlaceholder": "Entrez votre e-mail",
+      "cards": {
+        "daily": {
+          "title": "Dévotion quotidienne",
+          "description": "Commencez votre journée avec de puissantes perspectives bibliques et des prières",
+          "frequency": "Quotidien"
+        },
+        "monthly": {
+          "title": "Bulletin mensuel",
+          "description": "Mises à jour sur les activités de l'ABMTC, histoires d'anciens élèves et événements à venir",
+          "frequency": "Mensuel"
+        },
+        "prayer": {
+          "title": "Bulletin de prière",
+          "description": "Rejoignez-nous pour prier pour les missions, les étudiants et les besoins mondiaux",
+          "frequency": "Hebdomadaire"
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à découvrir l'ABMTC?",
+      "subtitle": "Ces ressources vous donnent un aperçu de la vie à l'ABMTC. Postulez aujourd'hui pour en faire l'expérience vous-même.",
+      "applyNow": "Postuler maintenant",
+      "contactUs": "Nous contacter"
     }
   },
   "news": {
