@@ -131,14 +131,14 @@ export function Footer() {
                   {t('studentLife')}
                 </button>
               </li>
-              <li>
+              {/* <li>
                 <button
                   onClick={() => handleNavigation(`/${locale}/ministry-training`)}
                   className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
                   {t('ministry')}
                 </button>
-              </li>
+              </li> */}
               <li>
                 <button
                   onClick={() => handleNavigation(`/${locale}/alumni`)}
@@ -154,22 +154,22 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-lg mb-4">{tFooter('resources')}</h4>
             <ul className="space-y-2">
-              <li>
+              {/* <li>
                 <button
                   onClick={() => handleNavigation(`/${locale}/media`)}
                   className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
                   {t('media')}
                 </button>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <button
                   onClick={() => handleNavigation(`/${locale}/news`)}
                   className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
                   {t('news')}
                 </button>
-              </li>
+              </li> */}
               <li>
                 <button
                   onClick={() => handleNavigation(`/${locale}/impact`)}
@@ -178,12 +178,20 @@ export function Footer() {
                   {t('impact')}
                 </button>
               </li>
-              <li>
+              {/* <li>
                 <button
                   onClick={() => handleNavigation(`/${locale}/give`)}
                   className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
                   {t('give')}
+                </button>
+              </li> */}
+              <li>
+                <button
+                  onClick={() => handleNavigation(`/${locale}/online`)}
+                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
+                >
+                  {t('online')}
                 </button>
               </li>
               <li>
@@ -192,14 +200,6 @@ export function Footer() {
                   className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
                 >
                   {t('faq')}
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNavigation(`/${locale}/online`)}
-                  className="text-primary-foreground/80 hover:text-secondary transition-colors cursor-pointer"
-                >
-                  {t('online')}
                 </button>
               </li>
             </ul>

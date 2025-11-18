@@ -4,7 +4,7 @@ import { Navigation } from "@/components/navigation"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, BookOpen, Users, Globe, Clock, GraduationCap, CheckCircle2, Award, Calendar, ChevronDown, ChevronUp } from "lucide-react"
+import { ArrowRight, BookOpen, Users, Clock, GraduationCap, CheckCircle2, Award, ChevronDown, ChevronUp } from "lucide-react"
 import Link from "next/link"
 import { useTranslations, useLocale } from "next-intl"
 import { useState } from "react"
@@ -13,6 +13,22 @@ export default function ProgramsPage() {
   const t = useTranslations('programs')
   const locale = useLocale()
   const [expandedDiploma, setExpandedDiploma] = useState<string | null>(null)
+
+  const getArray = (path: string) => {
+    const value = t.raw(path)
+    return Array.isArray(value) ? (value as string[]) : []
+  }
+
+  const makariosRotations = getArray('makarios.rotations')
+  const makariosPractical = getArray('makarios.practicalComponents')
+  const makariosFinalExam = getArray('makarios.finalExamDetails')
+  const machanehRotations = getArray('machaneh.rotations')
+  const machanehPractical = getArray('machaneh.practicalComponents')
+  const machanehFinalExam = getArray('machaneh.finalExamDetails')
+  const manthanoRotations = getArray('manthano.rotations')
+  const manthanoPractical = getArray('manthano.practicalComponents')
+  const manthanoFinalExam = getArray('manthano.finalExamDetails')
+  const anagkazoAdminList = getArray('anagkazo.adminList')
 
   const handleDiplomaClick = (diplomaId: string) => {
     setExpandedDiploma(diplomaId)
@@ -93,8 +109,8 @@ export default function ProgramsPage() {
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-4">
-                    <Badge>Foundation</Badge>
-                    <h3 className="text-2xl font-bold text-foreground">The Makarios Diploma</h3>
+                    <Badge>{t('makarios.badge')}</Badge>
+                    <h3 className="text-2xl font-bold text-foreground">{t('makarios.title')}</h3>
                   </div>
                   {expandedDiploma === 'makarios' ? (
                     <ChevronUp className="w-6 h-6 text-primary" />
@@ -112,23 +128,23 @@ export default function ProgramsPage() {
                       <div className="flex items-start gap-3">
                         <Clock className="w-5 h-5 text-primary mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Duration</div>
-                          <div className="text-sm text-muted-foreground">12 months</div>
-                          <div className="text-xs text-muted-foreground">(March-February; September-August)</div>
+                          <div className="font-semibold text-foreground">{t('common.duration')}</div>
+                          <div className="text-sm text-muted-foreground">{t('makarios.durationDetail')}</div>
+                          <div className="text-xs text-muted-foreground">{t('makarios.intakes')}</div>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
                         <GraduationCap className="w-5 h-5 text-primary mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Qualification</div>
-                          <div className="text-sm text-muted-foreground">BECE or equivalent</div>
+                          <div className="font-semibold text-foreground">{t('common.qualification')}</div>
+                          <div className="text-sm text-muted-foreground">{t('makarios.qualification')}</div>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
                         <Award className="w-5 h-5 text-primary mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Outcome</div>
-                          <div className="text-sm text-muted-foreground">Makarios Diploma</div>
+                          <div className="font-semibold text-foreground">{t('common.outcome')}</div>
+                          <div className="text-sm text-muted-foreground">{t('makarios.outcome')}</div>
                         </div>
                       </div>
                     </div>
@@ -137,21 +153,13 @@ export default function ProgramsPage() {
                     <div>
                       <h4 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
                         <BookOpen className="w-5 h-5 text-primary" />
-                        Academic Rotations
+                        {t('common.academicRotations')}
                       </h4>
                       <p className="text-sm text-muted-foreground mb-4">
-                        Six-week rotations with End-of-Rotation Examinations consisting of an MCQ paper, a written assignment, and an oral examination.
+                        {t('makarios.rotationDesc')}
                       </p>
                       <div className="grid md:grid-cols-2 gap-3">
-                        {[
-                          "Foundations for the Work of Ministry",
-                          "Core Concepts of Shepherding",
-                          "Loyalty",
-                          "Fundamentals of Evangelism",
-                          "The Art and Science of Applied Leadership",
-                          "Practical Approaches to Church Growth",
-                          "The Theory and Practice of Operating in the Anointing"
-                        ].map((course, index) => (
+                        {makariosRotations.map((course, index) => (
                           <div key={index} className="flex items-start gap-2 text-sm">
                             <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
                             <span className="text-muted-foreground">{course}</span>
@@ -164,29 +172,15 @@ export default function ProgramsPage() {
                     <div>
                       <h4 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
                         <Users className="w-5 h-5 text-primary" />
-                        Practical Ministry Components
+                        {t('common.practicalComponents')}
                       </h4>
                       <div className="space-y-2">
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">BMCDR three times and CAP if one is scheduled</span>
-                        </div>
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">SONTA work</span>
-                        </div>
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">Bacenta work observation for the first six months</span>
-                        </div>
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">Active Bacenta work for the last six months</span>
-                        </div>
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">Waiting on God</span>
-                        </div>
+                        {makariosPractical.map((item, index) => (
+                          <div key={index} className="flex items-start gap-2 text-sm">
+                            <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
+                            <span className="text-muted-foreground">{item}</span>
+                          </div>
+                        ))}
                       </div>
                     </div>
 
@@ -194,20 +188,18 @@ export default function ProgramsPage() {
                     <div className="bg-muted/30 p-4 rounded-lg">
                       <h4 className="text-lg font-bold text-foreground mb-2 flex items-center gap-2">
                         <Award className="w-5 h-5 text-primary" />
-                        Grand Final Examination
+                        {t('common.grandFinal')}
                       </h4>
                       <p className="text-sm text-muted-foreground mb-2">
-                        Students qualify with <span className="font-semibold text-foreground">1200 points</span>
+                        {t('common.qualifyingPointsFull', { points: t('makarios.points') })}
                       </p>
                       <div className="space-y-1 text-sm text-muted-foreground">
-                        <div className="flex items-start gap-2">
-                          <span className="text-primary">•</span>
-                          <span>2-hour MCQ paper consisting of 200 MCQs</span>
-                        </div>
-                        <div className="flex items-start gap-2">
-                          <span className="text-primary">•</span>
-                          <span>Oral Examination with External Examiners</span>
-                        </div>
+                        {makariosFinalExam.map((detail, index) => (
+                          <div key={index} className="flex items-start gap-2">
+                            <span className="text-primary">•</span>
+                            <span>{detail}</span>
+                          </div>
+                        ))}
                       </div>
                     </div>
                   </div>
@@ -223,8 +215,8 @@ export default function ProgramsPage() {
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-4">
-                    <Badge>Intermediate</Badge>
-                    <h3 className="text-2xl font-bold text-foreground">The Machaneh Diploma</h3>
+                    <Badge>{t('machaneh.badge')}</Badge>
+                    <h3 className="text-2xl font-bold text-foreground">{t('machaneh.title')}</h3>
                   </div>
                   {expandedDiploma === 'machaneh' ? (
                     <ChevronUp className="w-6 h-6 text-primary" />
@@ -242,22 +234,22 @@ export default function ProgramsPage() {
                       <div className="flex items-start gap-3">
                         <Clock className="w-5 h-5 text-primary mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Duration</div>
-                          <div className="text-sm text-muted-foreground">18 months</div>
+                          <div className="font-semibold text-foreground">{t('common.duration')}</div>
+                          <div className="text-sm text-muted-foreground">{t('machaneh.duration')}</div>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
                         <GraduationCap className="w-5 h-5 text-primary mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Qualification</div>
-                          <div className="text-sm text-muted-foreground">BECE or equivalent</div>
+                          <div className="font-semibold text-foreground">{t('common.qualification')}</div>
+                          <div className="text-sm text-muted-foreground">{t('machaneh.qualification')}</div>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
                         <Award className="w-5 h-5 text-primary mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Outcome</div>
-                          <div className="text-sm text-muted-foreground">Machaneh Diploma</div>
+                          <div className="font-semibold text-foreground">{t('common.outcome')}</div>
+                          <div className="text-sm text-muted-foreground">{t('machaneh.outcome')}</div>
                         </div>
                       </div>
                     </div>
@@ -266,29 +258,13 @@ export default function ProgramsPage() {
                     <div>
                       <h4 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
                         <BookOpen className="w-5 h-5 text-primary" />
-                        Academic Rotations (15)
+                        {t('machaneh.rotationCount')}
                       </h4>
                       <p className="text-sm text-muted-foreground mb-4">
-                        Four-week rotations with End-of-Rotation Examinations consisting of an MCQ paper, a written assignment, and an oral examination.
+                        {t('machaneh.rotationDesc')}
                       </p>
                       <div className="grid md:grid-cols-2 gap-3">
-                        {[
-                          "Church History",
-                          "Foundations for the Work of Ministry",
-                          "Essential Charismatic Doctrines",
-                          "Core Concepts of Shepherding",
-                          "Loyalty and Disloyalty 1",
-                          "Fundamentals of Evangelism",
-                          "Principles of Financial Management in Ministry",
-                          "The Art and Science of Applied Leadership 1",
-                          "Practical Approaches to Church Growth",
-                          "Principles of Spiritual Guidance",
-                          "The Theory and Practice of Operating in the Anointing",
-                          "Demonology: A Concise Guide",
-                          "Illustrated Principles of Marriage Counselling",
-                          "Loyalty and Disloyalty 2",
-                          "The Art and Science of Applied Leadership 2"
-                        ].map((course, index) => (
+                        {machanehRotations.map((course, index) => (
                           <div key={index} className="flex items-start gap-2 text-sm">
                             <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
                             <span className="text-muted-foreground">{course}</span>
@@ -301,29 +277,15 @@ export default function ProgramsPage() {
                     <div>
                       <h4 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
                         <Users className="w-5 h-5 text-primary" />
-                        Practical Ministry Components
+                        {t('common.practicalComponents')}
                       </h4>
                       <div className="space-y-2">
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">BMCDR four times and CAP if any are scheduled</span>
-                        </div>
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">SONTA work</span>
-                        </div>
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">Bacenta work observation for the first six months</span>
-                        </div>
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">Active Bacenta work for the last twelve months</span>
-                        </div>
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">Waiting on God</span>
-                        </div>
+                        {machanehPractical.map((item, index) => (
+                          <div key={index} className="flex items-start gap-2 text-sm">
+                            <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
+                            <span className="text-muted-foreground">{item}</span>
+                          </div>
+                        ))}
                       </div>
                     </div>
 
@@ -331,20 +293,18 @@ export default function ProgramsPage() {
                     <div className="bg-muted/30 p-4 rounded-lg">
                       <h4 className="text-lg font-bold text-foreground mb-2 flex items-center gap-2">
                         <Award className="w-5 h-5 text-primary" />
-                        Grand Final Examination
+                        {t('common.grandFinal')}
                       </h4>
                       <p className="text-sm text-muted-foreground mb-2">
-                        Students qualify with <span className="font-semibold text-foreground">1500 points</span>
+                        {t('common.qualifyingPointsFull', { points: t('machaneh.points') })}
                       </p>
                       <div className="space-y-1 text-sm text-muted-foreground">
-                        <div className="flex items-start gap-2">
-                          <span className="text-primary">•</span>
-                          <span>3-hour MCQ paper consisting of 300 MCQs</span>
-                        </div>
-                        <div className="flex items-start gap-2">
-                          <span className="text-primary">•</span>
-                          <span>Oral Examination with External Examiners</span>
-                        </div>
+                        {machanehFinalExam.map((detail, index) => (
+                          <div key={index} className="flex items-start gap-2">
+                            <span className="text-primary">•</span>
+                            <span>{detail}</span>
+                          </div>
+                        ))}
                       </div>
                     </div>
                   </div>
@@ -360,8 +320,8 @@ export default function ProgramsPage() {
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-4">
-                    <Badge>Advanced</Badge>
-                    <h3 className="text-2xl font-bold text-foreground">The Manthano Diploma</h3>
+                    <Badge>{t('manthano.badge')}</Badge>
+                    <h3 className="text-2xl font-bold text-foreground">{t('manthano.title')}</h3>
                   </div>
                   {expandedDiploma === 'manthano' ? (
                     <ChevronUp className="w-6 h-6 text-primary" />
@@ -379,56 +339,40 @@ export default function ProgramsPage() {
                       <div className="flex items-start gap-3">
                         <Clock className="w-5 h-5 text-primary mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Duration</div>
-                          <div className="text-sm text-muted-foreground">36 months (3 years)</div>
+                          <div className="font-semibold text-foreground">{t('common.duration')}</div>
+                          <div className="text-sm text-muted-foreground">{t('manthano.durationDetail')}</div>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
                         <GraduationCap className="w-5 h-5 text-primary mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Qualification</div>
-                          <div className="text-sm text-muted-foreground">BECE or equivalent</div>
+                          <div className="font-semibold text-foreground">{t('common.qualification')}</div>
+                          <div className="text-sm text-muted-foreground">{t('manthano.qualification')}</div>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
                         <Award className="w-5 h-5 text-primary mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Outcome</div>
-                          <div className="text-sm text-muted-foreground">Manthano Diploma</div>
+                          <div className="font-semibold text-foreground">{t('common.outcome')}</div>
+                          <div className="text-sm text-muted-foreground">{t('manthano.outcome')}</div>
                         </div>
                       </div>
                     </div>
 
                     {/* Program Structure */}
                     <div className="bg-primary/5 p-4 rounded-lg">
-                      <h4 className="text-lg font-bold text-foreground mb-2">Program Structure</h4>
-                      <p className="text-sm text-muted-foreground">
-                        This Diploma is made up of two Clerkships of 18 months each - Junior and Senior. Rotations are 4 weeks in Junior Clerkship, extending to 6-8 weeks in Senior Clerkship. Each rotation ends with End-of-Rotation Examinations consisting of an MCQ paper, a written assignment, and an oral examination.
-                      </p>
+                      <h4 className="text-lg font-bold text-foreground mb-2">{t('common.programStructure')}</h4>
+                      <p className="text-sm text-muted-foreground">{t('manthano.structureDesc')}</p>
                     </div>
 
                     {/* Academic Rotations */}
                     <div>
                       <h4 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
                         <BookOpen className="w-5 h-5 text-primary" />
-                        Academic Rotations
+                        {t('common.academicRotations')}
                       </h4>
                       <div className="grid md:grid-cols-2 gap-3">
-                        {[
-                          "Church History",
-                          "Foundations for the Work of Ministry",
-                          "Essential Charismatic Doctrines",
-                          "Core Concepts of Shepherding",
-                          "Loyalty and Disloyalty",
-                          "Fundamentals of Evangelism",
-                          "Principles of Financial Management in Ministry",
-                          "The Art and Science of Applied Leadership",
-                          "Practical Approaches to Church Growth",
-                          "Principles of Spiritual Guidance",
-                          "The Theory and Practice of Operating in the Anointing",
-                          "Demonology: A Concise Guide",
-                          "Illustrated Principles of Marriage Counselling"
-                        ].map((course, index) => (
+                        {manthanoRotations.map((course, index) => (
                           <div key={index} className="flex items-start gap-2 text-sm">
                             <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
                             <span className="text-muted-foreground">{course}</span>
@@ -441,29 +385,15 @@ export default function ProgramsPage() {
                     <div>
                       <h4 className="text-xl font-bold text-foreground mb-3 flex items-center gap-2">
                         <Users className="w-5 h-5 text-primary" />
-                        Practical Ministry Components
+                        {t('common.practicalComponents')}
                       </h4>
                       <div className="space-y-2">
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">BMCDR eight times and CAP if any are scheduled</span>
-                        </div>
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">SONTA work</span>
-                        </div>
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">Bacenta work observation for the first six months of Junior Clerkship</span>
-                        </div>
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">Active Bacenta work for the rest of the program</span>
-                        </div>
-                        <div className="flex items-start gap-2 text-sm">
-                          <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
-                          <span className="text-muted-foreground">Waiting on God</span>
-                        </div>
+                        {manthanoPractical.map((item, index) => (
+                          <div key={index} className="flex items-start gap-2 text-sm">
+                            <CheckCircle2 className="w-4 h-4 text-green-600 mt-0.5 flex-shrink-0" />
+                            <span className="text-muted-foreground">{item}</span>
+                          </div>
+                        ))}
                       </div>
                     </div>
 
@@ -471,20 +401,18 @@ export default function ProgramsPage() {
                     <div className="bg-muted/30 p-4 rounded-lg">
                       <h4 className="text-lg font-bold text-foreground mb-2 flex items-center gap-2">
                         <Award className="w-5 h-5 text-primary" />
-                        Grand Final Examination
+                        {t('common.grandFinal')}
                       </h4>
                       <p className="text-sm text-muted-foreground mb-2">
-                        Students qualify with <span className="font-semibold text-foreground">1500 points</span>
+                        {t('common.qualifyingPointsFull', { points: t('manthano.points') })}
                       </p>
                       <div className="space-y-1 text-sm text-muted-foreground">
-                        <div className="flex items-start gap-2">
-                          <span className="text-primary">•</span>
-                          <span>3-hour MCQ paper consisting of 300 MCQs</span>
-                        </div>
-                        <div className="flex items-start gap-2">
-                          <span className="text-primary">•</span>
-                          <span>Oral Examination with External Examiners</span>
-                        </div>
+                        {manthanoFinalExam.map((detail, index) => (
+                          <div key={index} className="flex items-start gap-2">
+                            <span className="text-primary">•</span>
+                            <span>{detail}</span>
+                          </div>
+                        ))}
                       </div>
                     </div>
                   </div>
@@ -500,8 +428,8 @@ export default function ProgramsPage() {
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-4">
-                    <Badge>Professional</Badge>
-                    <h3 className="text-2xl font-bold text-foreground">The Anagkazo Diploma</h3>
+                    <Badge>{t('anagkazo.badge')}</Badge>
+                    <h3 className="text-2xl font-bold text-foreground">{t('anagkazo.title')}</h3>
                   </div>
                   {expandedDiploma === 'anagkazo' ? (
                     <ChevronUp className="w-6 h-6 text-primary" />
@@ -519,82 +447,62 @@ export default function ProgramsPage() {
                       <div className="flex items-start gap-3">
                         <Clock className="w-5 h-5 text-primary mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Duration</div>
-                          <div className="text-sm text-muted-foreground">4 years (48 months)</div>
+                          <div className="font-semibold text-foreground">{t('common.duration')}</div>
+                          <div className="text-sm text-muted-foreground">{t('anagkazo.durationDetail')}</div>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
                         <GraduationCap className="w-5 h-5 text-primary mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Qualification</div>
-                          <div className="text-sm text-muted-foreground">BECE or equivalent</div>
+                          <div className="font-semibold text-foreground">{t('common.qualification')}</div>
+                          <div className="text-sm text-muted-foreground">{t('anagkazo.qualification')}</div>
                         </div>
                       </div>
                       <div className="flex items-start gap-3">
                         <Award className="w-5 h-5 text-primary mt-1" />
                         <div>
-                          <div className="font-semibold text-foreground">Outcome</div>
-                          <div className="text-sm text-muted-foreground">Anagkazo Diploma + Pastoral Appointment</div>
+                          <div className="font-semibold text-foreground">{t('common.outcome')}</div>
+                          <div className="text-sm text-muted-foreground">{t('anagkazo.outcome')}</div>
                         </div>
                       </div>
                     </div>
 
                     {/* Program Structure */}
                     <div className="bg-primary/5 p-4 rounded-lg">
-                      <h4 className="text-lg font-bold text-foreground mb-2">Program Structure</h4>
-                      <p className="text-sm text-muted-foreground">
-                        The Anagkazo Diploma consists of all the content of the Manthano Diploma (3 years) plus a specialized fourth year with three professional rotations.
-                      </p>
+                      <h4 className="text-lg font-bold text-foreground mb-2">{t('common.programStructure')}</h4>
+                      <p className="text-sm text-muted-foreground">{t('anagkazo.structureDesc')}</p>
                     </div>
 
                     {/* Fourth Year Rotations */}
                     <div>
                       <h4 className="text-xl font-bold text-foreground mb-4 flex items-center gap-2">
                         <BookOpen className="w-5 h-5 text-primary" />
-                        Fourth Year Professional Rotations
+                        {t('anagkazo.fourthYearTitle')}
                       </h4>
                       
                       {/* Rural Rotation */}
                       <div className="mb-4 p-4 border border-border rounded-lg">
                         <h5 className="font-bold text-foreground mb-2 flex items-center gap-2">
                           <CheckCircle2 className="w-4 h-4 text-green-600" />
-                          Rural Rotation (9 months)
+                          {t('anagkazo.ruralRotation')}
                         </h5>
-                        <p className="text-sm text-muted-foreground">
-                          The student is posted to pastor a local church under the supervision of a selected Bishop. During this period, the student will conduct research on church growth and missions.
-                        </p>
+                        <p className="text-sm text-muted-foreground">{t('anagkazo.ruralDesc')}</p>
                       </div>
 
                       {/* Administrative Rotation */}
                       <div className="mb-4 p-4 border border-border rounded-lg">
                         <h5 className="font-bold text-foreground mb-2 flex items-center gap-2">
                           <CheckCircle2 className="w-4 h-4 text-green-600" />
-                          Administrative Rotation (9 months)
+                          {t('anagkazo.adminRotation')}
                         </h5>
-                        <p className="text-sm text-muted-foreground mb-2">
-                          The student observes and learns administrative and church governing procedures including:
-                        </p>
+                        <p className="text-sm text-muted-foreground mb-2">{t('anagkazo.adminDesc')}</p>
                         <ul className="text-sm text-muted-foreground space-y-1 ml-4">
-                          <li className="flex items-start gap-2">
-                            <span className="text-primary">•</span>
-                            <span>Training and supervision of treasurers</span>
-                          </li>
-                          <li className="flex items-start gap-2">
-                            <span className="text-primary">•</span>
-                            <span>Fast-track audits</span>
-                          </li>
-                          <li className="flex items-start gap-2">
-                            <span className="text-primary">•</span>
-                            <span>Managing church facilities</span>
-                          </li>
-                          <li className="flex items-start gap-2">
-                            <span className="text-primary">•</span>
-                            <span>All twelve recognized church offices</span>
-                          </li>
-                          <li className="flex items-start gap-2">
-                            <span className="text-primary">•</span>
-                            <span>Operations of councils</span>
-                          </li>
+                          {anagkazoAdminList.map((item, index) => (
+                            <li key={index} className="flex items-start gap-2">
+                              <span className="text-primary">•</span>
+                              <span>{item}</span>
+                            </li>
+                          ))}
                         </ul>
                       </div>
 
@@ -602,11 +510,9 @@ export default function ProgramsPage() {
                       <div className="p-4 border border-border rounded-lg">
                         <h5 className="font-bold text-foreground mb-2 flex items-center gap-2">
                           <CheckCircle2 className="w-4 h-4 text-green-600" />
-                          Practical Evangelism Rotation
+                          {t('anagkazo.evangelismRotation')}
                         </h5>
-                        <p className="text-sm text-muted-foreground">
-                          The student engages in and attends at least one Healing Jesus campaign, involved from the beginning (advance team), through preparation (mobilization, choir rehearsals), and in the crusade nights (set up and set down).
-                        </p>
+                        <p className="text-sm text-muted-foreground">{t('anagkazo.evangelismDesc')}</p>
                       </div>
                     </div>
 
@@ -614,21 +520,21 @@ export default function ProgramsPage() {
                     <div className="bg-muted/30 p-4 rounded-lg">
                       <h4 className="text-lg font-bold text-foreground mb-3 flex items-center gap-2">
                         <Award className="w-5 h-5 text-primary" />
-                        Grand Final Examination
+                        {t('common.grandFinal')}
                       </h4>
                       <div className="space-y-3">
                         <div className="flex items-start gap-2 text-sm">
                           <span className="text-primary font-bold">1.</span>
                           <div>
-                            <span className="font-semibold text-foreground">Presentation of Research Findings (50%)</span>
-                            <p className="text-muted-foreground mt-1">Present research conducted during Rural Rotation on church growth and missions.</p>
+                            <span className="font-semibold text-foreground">{t('anagkazo.researchPresentation')}</span>
+                            <p className="text-muted-foreground mt-1">{t('anagkazo.researchDesc')}</p>
                           </div>
                         </div>
                         <div className="flex items-start gap-2 text-sm">
                           <span className="text-primary font-bold">2.</span>
                           <div>
-                            <span className="font-semibold text-foreground">Grand Final Oral Examination (50%)</span>
-                            <p className="text-muted-foreground mt-1">Objective structured ministry-based examinations demonstrating how the student has applied all learning from three years on campus to field work.</p>
+                            <span className="font-semibold text-foreground">{t('anagkazo.oralExam')}</span>
+                            <p className="text-muted-foreground mt-1">{t('anagkazo.oralExamDesc')}</p>
                           </div>
                         </div>
                       </div>
@@ -656,7 +562,7 @@ export default function ProgramsPage() {
                 asChild
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 group"
               >
-                <Link href="/apply">
+                <Link href={`/${locale}/apply`}>
                   {t('cta.applyNow')}
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -667,7 +573,7 @@ export default function ProgramsPage() {
                 asChild
                 className="bg-white/10 hover:bg-white/20 text-white border-white/30 text-lg px-8"
               >
-                <Link href="/contact">{t('cta.contactUs')}</Link>
+                <Link href={`/${locale}/contact`}>{t('cta.contactUs')}</Link>
               </Button>
             </div>
           </div>

@@ -11,6 +11,47 @@ import { useTranslations, useLocale } from "next-intl"
 export default function FinancialAidPage() {
   const t = useTranslations('financialAid')
   const locale = useLocale()
+  const scholarships = [
+    {
+      title: t('scholarships.merit'),
+      amount: t('scholarships.meritAmount'),
+      description: t('scholarships.meritDesc'),
+      criteria: t.raw('scholarships.meritCriteria') as string[],
+    },
+    {
+      title: t('scholarships.needBased'),
+      amount: t('scholarships.needAmount'),
+      description: t('scholarships.needDesc'),
+      criteria: t.raw('scholarships.needCriteria') as string[],
+    },
+    {
+      title: t('scholarships.regional'),
+      amount: t('scholarships.regionalAmount'),
+      description: t('scholarships.regionalDesc'),
+      criteria: t.raw('scholarships.regionalCriteria') as string[],
+    },
+    {
+      title: t('scholarships.partner'),
+      amount: t('scholarships.partnerAmount'),
+      description: t('scholarships.partnerDesc'),
+      criteria: t.raw('scholarships.partnerCriteria') as string[],
+    },
+    {
+      title: t('scholarships.travel'),
+      amount: t('scholarships.travelAmount'),
+      description: t('scholarships.travelDesc'),
+      criteria: t.raw('scholarships.travelCriteria') as string[],
+    },
+    {
+      title: t('scholarships.family'),
+      amount: t('scholarships.familyAmount'),
+      description: t('scholarships.familyDesc'),
+      criteria: t.raw('scholarships.familyCriteria') as string[],
+    },
+  ]
+
+  const aidSteps = [1, 2, 3, 4, 5]
+
   return (
     <main className="min-h-screen">
       <Navigation />
@@ -19,13 +60,8 @@ export default function FinancialAidPage() {
       <section className="pt-32 pb-16 bg-gradient-to-br from-primary/10 to-accent/10">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
-              Financial Aid & <span className="text-primary">Scholarships</span>
-            </h1>
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              We believe finances should never be a barrier to answering God's call. Discover the support available to
-              make your training possible.
-            </p>
+            <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">{t('title')}</h1>
+            <p className="text-xl text-muted-foreground leading-relaxed">{t('subtitle')}</p>
           </div>
         </div>
       </section>
@@ -35,27 +71,27 @@ export default function FinancialAidPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Cost of Attendance</h2>
-              <p className="text-xl text-muted-foreground">Understanding the investment in your training</p>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('costOfAttendance.title')}</h2>
+              <p className="text-xl text-muted-foreground">{t('costOfAttendance.subtitle')}</p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
               <Card className="p-8">
                 <div className="flex items-center gap-2 mb-6">
-                  <Badge className="bg-primary text-primary-foreground">Residential Program</Badge>
+                  <Badge className="bg-primary text-primary-foreground">{t('costOfAttendance.residential')}</Badge>
                 </div>
                 <div className="space-y-4 mb-6">
-                  <CostItem label="Tuition (per year)" amount="$2,000" />
-                  <CostItem label="Housing" amount="FREE" highlight />
-                  <CostItem label="Meals (3 daily)" amount="FREE" highlight />
-                  <CostItem label="Books & Materials" amount="$300" />
-                  <CostItem label="Travel to Ghana" amount="$800-2,000" note="Varies by location" />
-                  <CostItem label="Visa & Medical" amount="$200" />
-                  <CostItem label="Personal Expenses" amount="$500-1,000" note="Per year" />
+                  <CostItem label={t('costOfAttendance.tuition')} amount="$2,000" />
+                  <CostItem label={t('costOfAttendance.housing')} amount={t('costOfAttendance.free')} highlight />
+                  <CostItem label={t('costOfAttendance.meals')} amount={t('costOfAttendance.free')} highlight />
+                  <CostItem label={t('costOfAttendance.books')} amount="$300" />
+                  <CostItem label={t('costOfAttendance.travel')} amount="$800-2,000" note={t('costOfAttendance.variesByLocation')} />
+                  <CostItem label={t('costOfAttendance.visa')} amount="$200" />
+                  <CostItem label={t('costOfAttendance.personal')} amount="$500-1,000" note={t('costOfAttendance.perYear')} />
                 </div>
                 <div className="pt-4 border-t border-border">
                   <div className="flex justify-between items-center">
-                    <span className="text-lg font-bold text-foreground">Estimated Total (Year 1)</span>
+                    <span className="text-lg font-bold text-foreground">{t('costOfAttendance.estimatedTotal')}</span>
                     <span className="text-2xl font-bold text-primary">$3,800-5,500</span>
                   </div>
                 </div>
@@ -63,19 +99,19 @@ export default function FinancialAidPage() {
 
               <Card className="p-8">
                 <div className="flex items-center gap-2 mb-6">
-                  <Badge className="bg-secondary text-secondary-foreground">Anagkazo Online</Badge>
+                  <Badge className="bg-secondary text-secondary-foreground">{t('costOfAttendance.online')}</Badge>
                 </div>
                 <div className="space-y-4 mb-6">
-                  <CostItem label="Tuition (per year)" amount="$1,200" />
-                  <CostItem label="Digital Resources" amount="Included" highlight />
-                  <CostItem label="Live Classes" amount="Included" highlight />
-                  <CostItem label="E-Library Access" amount="Included" highlight />
-                  <CostItem label="Books (optional)" amount="$100-200" />
-                  <CostItem label="Internet Connection" amount="Self-provided" />
+                  <CostItem label={t('costOfAttendance.tuition')} amount="$1,200" />
+                  <CostItem label={t('costOfAttendance.digitalResources')} amount={t('costOfAttendance.included')} highlight />
+                  <CostItem label={t('costOfAttendance.liveClasses')} amount={t('costOfAttendance.included')} highlight />
+                  <CostItem label={t('costOfAttendance.eLibrary')} amount={t('costOfAttendance.included')} highlight />
+                  <CostItem label={`${t('costOfAttendance.books')} (${t('costOfAttendance.optional')})`} amount="$100-200" />
+                  <CostItem label={t('costOfAttendance.internet')} amount={t('costOfAttendance.selfProvided')} />
                 </div>
                 <div className="pt-4 border-t border-border">
                   <div className="flex justify-between items-center">
-                    <span className="text-lg font-bold text-foreground">Estimated Total (Year 1)</span>
+                    <span className="text-lg font-bold text-foreground">{t('costOfAttendance.estimatedTotal')}</span>
                     <span className="text-2xl font-bold text-primary">$1,300-1,400</span>
                   </div>
                 </div>
@@ -90,74 +126,14 @@ export default function FinancialAidPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Available Scholarships</h2>
-              <p className="text-xl text-muted-foreground">
-                Multiple scholarship opportunities to support your training
-              </p>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('scholarships.title')}</h2>
+              <p className="text-xl text-muted-foreground">{t('scholarships.subtitle')}</p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <ScholarshipCard
-                title="Merit Scholarship"
-                amount="Up to $1,500"
-                description="Awarded based on academic excellence and ministry potential"
-                criteria={[
-                  "Strong academic record",
-                  "Leadership experience",
-                  "Ministry involvement",
-                  "Compelling testimony",
-                ]}
-              />
-              <ScholarshipCard
-                title="Need-Based Aid"
-                amount="Up to $2,000"
-                description="Financial assistance for students with demonstrated need"
-                criteria={[
-                  "Financial need documentation",
-                  "Complete FAFSA or equivalent",
-                  "Personal statement",
-                  "Budget plan",
-                ]}
-              />
-              <ScholarshipCard
-                title="Regional Scholarships"
-                amount="Varies"
-                description="Special funding for students from specific regions or countries"
-                criteria={[
-                  "From designated region",
-                  "Strong calling to missions",
-                  "Church endorsement",
-                  "Good standing",
-                ]}
-              />
-              <ScholarshipCard
-                title="Ministry Partner Scholarship"
-                amount="Up to $1,000"
-                description="For students sent by partner churches and organizations"
-                criteria={[
-                  "Partner church member",
-                  "Church endorsement letter",
-                  "Ministry commitment",
-                  "Good references",
-                ]}
-              />
-              <ScholarshipCard
-                title="Travel Grant"
-                amount="Up to $1,500"
-                description="Assistance with international travel costs to Ghana"
-                criteria={[
-                  "Accepted student",
-                  "Financial need",
-                  "First-time international travel",
-                  "Complete application",
-                ]}
-              />
-              <ScholarshipCard
-                title="Family Scholarship"
-                amount="20% discount"
-                description="Reduced tuition for married couples enrolling together"
-                criteria={["Both spouses enrolled", "Good standing", "Complete applications", "Housing availability"]}
-              />
+              {scholarships.map((scholarship) => (
+                <ScholarshipCard key={scholarship.title} {...scholarship} />
+              ))}
             </div>
           </div>
         </div>
@@ -168,46 +144,26 @@ export default function FinancialAidPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">How to Apply for Financial Aid</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('howToApply.title')}</h2>
             </div>
 
             <div className="space-y-6">
-              <AidStep
-                number={1}
-                title="Complete Your Admission Application"
-                description="Submit your application for admission first. Financial aid is only available to accepted students."
-              />
-              <AidStep
-                number={2}
-                title="Submit Financial Aid Application"
-                description="Fill out the separate financial aid application form, including documentation of financial need."
-              />
-              <AidStep
-                number={3}
-                title="Provide Supporting Documents"
-                description="Submit required documents such as income statements, bank statements, and personal budget."
-              />
-              <AidStep
-                number={4}
-                title="Write Personal Statement"
-                description="Explain your financial situation, calling to ministry, and how aid would help you attend ABMTC."
-              />
-              <AidStep
-                number={5}
-                title="Receive Aid Decision"
-                description="Financial aid decisions are typically made within 2 weeks of receiving complete applications."
-              />
+              {aidSteps.map((step) => (
+                <AidStep
+                  key={step}
+                  number={step}
+                  title={t(`howToApply.step${step}`)}
+                  description={t(`howToApply.step${step}Desc`)}
+                />
+              ))}
             </div>
 
             <Card className="mt-12 p-6 bg-blue-50 dark:bg-blue-950/20 border-blue-200 dark:border-blue-800">
               <div className="flex items-start gap-3">
                 <AlertCircle className="w-6 h-6 text-blue-600 dark:text-blue-400 flex-shrink-0 mt-0.5" />
                 <div>
-                  <h3 className="font-bold text-foreground mb-2">Priority Deadline</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">
-                    Submit your financial aid application by May 31st for priority consideration. Late applications are
-                    reviewed on a rolling basis as funds are available.
-                  </p>
+                  <h3 className="font-bold text-foreground mb-2">{t('howToApply.priorityDeadline')}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{t('howToApply.priorityDesc')}</p>
                 </div>
               </div>
             </Card>
@@ -220,8 +176,8 @@ export default function FinancialAidPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Payment Options</h2>
-              <p className="text-xl text-muted-foreground">Flexible ways to manage your educational costs</p>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('paymentOptions.title')}</h2>
+              <p className="text-xl text-muted-foreground">{t('paymentOptions.subtitle')}</p>
             </div>
 
             <div className="grid md:grid-cols-3 gap-8">
@@ -231,10 +187,8 @@ export default function FinancialAidPage() {
                     <DollarSign className="w-8 h-8 text-primary" />
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-3">Payment Plans</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  Spread tuition payments over monthly installments throughout the academic year
-                </p>
+                <h3 className="text-xl font-bold text-foreground mb-3">{t('paymentOptions.paymentPlans')}</h3>
+                <p className="text-muted-foreground leading-relaxed">{t('paymentOptions.paymentPlansDesc')}</p>
               </Card>
 
               <Card className="p-8 text-center hover:shadow-lg transition-shadow">
@@ -243,10 +197,8 @@ export default function FinancialAidPage() {
                     <Users className="w-8 h-8 text-primary" />
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-3">Fundraising Support</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  We provide resources and guidance for raising support from churches and individuals
-                </p>
+                <h3 className="text-xl font-bold text-foreground mb-3">{t('paymentOptions.fundraising')}</h3>
+                <p className="text-muted-foreground leading-relaxed">{t('paymentOptions.fundraisingDesc')}</p>
               </Card>
 
               <Card className="p-8 text-center hover:shadow-lg transition-shadow">
@@ -255,10 +207,8 @@ export default function FinancialAidPage() {
                     <Heart className="w-8 h-8 text-primary" />
                   </div>
                 </div>
-                <h3 className="text-xl font-bold text-foreground mb-3">Sponsor Matching</h3>
-                <p className="text-muted-foreground leading-relaxed">
-                  We can connect you with potential sponsors and ministry partners who support students
-                </p>
+                <h3 className="text-xl font-bold text-foreground mb-3">{t('paymentOptions.sponsorMatching')}</h3>
+                <p className="text-muted-foreground leading-relaxed">{t('paymentOptions.sponsorMatchingDesc')}</p>
               </Card>
             </div>
           </div>
@@ -269,19 +219,16 @@ export default function FinancialAidPage() {
       <section className="py-24 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Don't Let Finances Hold You Back</h2>
-            <p className="text-xl text-primary-foreground/90 mb-8 leading-relaxed">
-              If God has called you to missions training, we'll work with you to make it financially possible. Apply
-              today and let's discuss your options.
-            </p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('cta.title')}</h2>
+            <p className="text-xl text-primary-foreground/90 mb-8 leading-relaxed">{t('cta.subtitle')}</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
                 asChild
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 group"
               >
-                <Link href="/apply">
-                  Apply Now
+                <Link href={`/${locale}/apply`}>
+                  {t('cta.applyNow')}
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
@@ -291,7 +238,7 @@ export default function FinancialAidPage() {
                 asChild
                 className="bg-white/10 hover:bg-white/20 text-white border-white/30 text-lg px-8"
               >
-                <Link href="/contact">Contact Financial Aid Office</Link>
+                <Link href={`/${locale}/contact`}>{t('cta.contactFinance')}</Link>
               </Button>
             </div>
           </div>

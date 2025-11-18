@@ -6,11 +6,51 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { ArrowRight, MapPin, Calendar, Users, BookOpen, Heart, Globe } from "lucide-react"
 import Link from "next/link"
-import { useTranslations, useLocale } from "next-intl"
+import { useTranslations } from "next-intl"
+
+const STORY_CONTENT = [
+  {
+    key: "sarahKim",
+    image:
+      "https://images.unsplash.com/photo-1650784854554-c077585b9720?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687",
+  },
+  {
+    key: "emmanuelBanda",
+    image:
+      "https://images.unsplash.com/photo-1631131431211-4f768d89087d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+  },
+  {
+    key: "mariaSantos",
+    image: "/young-brazilian-woman-student-smiling.jpg",
+  },
+] as const
+
+const TESTIMONIAL_CONTENT = [
+  { key: "jamesOsei" },
+  { key: "annaKowalski" },
+  { key: "samuelNguyen" },
+] as const
 
 export default function AlumniPage() {
   const t = useTranslations('alumni')
-  const locale = useLocale()
+  const featuredStories = STORY_CONTENT.map((story) => {
+    const impact = t.raw(`stories.items.${story.key}.impact`) as string[] | undefined
+    return {
+      ...story,
+      name: t(`stories.items.${story.key}.name`),
+      classYear: t(`stories.items.${story.key}.class`),
+      location: t(`stories.items.${story.key}.location`),
+      story: t(`stories.items.${story.key}.story`),
+      impact: impact ?? [],
+    }
+  })
+  const testimonials = TESTIMONIAL_CONTENT.map((testimonial) => ({
+    ...testimonial,
+    quote: t(`testimonials.items.${testimonial.key}.quote`),
+    name: t(`testimonials.items.${testimonial.key}.name`),
+    details: t(`testimonials.items.${testimonial.key}.details`),
+  }))
+
   return (
     <main className="min-h-screen">
       <Navigation />
@@ -58,40 +98,18 @@ export default function AlumniPage() {
             </div>
 
             <div className="space-y-12">
-              <AlumniStoryLarge
-                name="Sarah Kim"
-                class="Class of 2020"
-                location="Thailand"
-                image="https://images.unsplash.com/photo-1650784854554-c077585b9720?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687"
-                story="After graduating from ABMTC, Sarah moved to rural Thailand where she has planted three thriving churches with over 150 believers. Her ministry focuses on unreached villages in the northern provinces, combining evangelism with community development projects. Sarah credits her time at ABMTC for preparing her to navigate cross-cultural challenges and build sustainable ministry."
-                impact={["3 churches planted", "150+ believers", "5 villages reached", "10 local leaders trained"]}
-                t={t}
-              />
-
-              <AlumniStoryLarge
-                name="Emmanuel Banda"
-                class="Class of 2019"
-                location="Mozambique"
-                image="https://images.unsplash.com/photo-1631131431211-4f768d89087d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
-                story="Emmanuel returned to his home region in Southern Africa with a vision to reach unreached people groups. He has established two churches in Mozambique and trains local pastors through a discipleship program. His ministry has grown to include a Bible school that equips indigenous leaders for church planting. Emmanuel's story demonstrates the multiplying impact of ABMTC training."
-                impact={["2 churches established", "80+ members", "Bible school founded", "15 pastors trained"]}
-                t={t}
-              />
-
-              <AlumniStoryLarge
-                name="Maria Santos"
-                class="Class of 2021"
-                location="Peru"
-                image="/young-brazilian-woman-student-smiling.jpg"
-                story="From Brazil to Peru, Maria followed God's call to reach Latin America. She recently planted a church in Lima that has grown to 45 believers in just two years. Maria's ministry emphasizes discipleship and leadership development, ensuring sustainable growth. She regularly mentors young women in ministry and hosts training workshops for church planters across South America."
-                impact={[
-                  "1 church planted",
-                  "45 believers",
-                  "Weekly discipleship groups",
-                  "Regional training ministry",
-                ]}
-                t={t}
-              />
+              {featuredStories.map((story) => (
+                <AlumniStoryLarge
+                  key={story.key}
+                  name={story.name}
+                  class={story.classYear}
+                  location={story.location}
+                  image={story.image}
+                  story={story.story}
+                  impact={story.impact}
+                  t={t}
+                />
+              ))}
             </div>
           </div>
         </div>
@@ -153,21 +171,14 @@ export default function AlumniPage() {
             </div>
 
             <div className="space-y-8">
-              <TestimonialCard
-                quote="ABMTC didn't just give me theological knowledge - it transformed my character and prepared me for the realities of cross-cultural ministry. The practical training and international community were invaluable."
-                name="Pastor James Osei"
-                details="Class of 2016 • Serving in Burkina Faso"
-              />
-              <TestimonialCard
-                quote="The alumni network has been a lifeline in difficult seasons. Knowing I have brothers and sisters around the world praying for me and available for counsel makes all the difference."
-                name="Rev. Anna Kowalski"
-                details="Class of 2018 • Serving in Poland"
-              />
-              <TestimonialCard
-                quote="My two years at ABMTC were the best investment I could have made in my ministry. The training I received continues to bear fruit as I train others to plant churches."
-                name="Pastor Samuel Nguyen"
-                details="Class of 2019 • Serving in Vietnam"
-              />
+              {testimonials.map((testimonial) => (
+                <TestimonialCard
+                  key={testimonial.key}
+                  quote={testimonial.quote}
+                  name={testimonial.name}
+                  details={testimonial.details}
+                />
+              ))}
             </div>
           </div>
         </div>

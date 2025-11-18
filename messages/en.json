@@ -248,8 +248,10 @@
       "scholarshipsDesc": "Merit and need-based scholarships offset tuition costs for qualified students.",
       "travel": "Travel Assistance",
       "travelDesc": "Limited travel support is available for international students based on need.",
+      "caseByCase": "Case-by-case basis",
       "payment": "Flexible Payment Plans",
       "paymentDesc": "Interest-free payment arrangements help you manage remaining tuition comfortably.",
+      "zeroInterest": "0% interest",
       "merit": "Merit Scholarships",
       "meritDesc": "Awarded based on academic excellence and ministry experience",
       "need": "Need-Based Aid",
@@ -309,6 +311,7 @@
   },
   "ministry": {
     "hero": {
+      "badge": "Practical Ministry",
       "title": "Ministry Training",
       "subtitle": "Training men and women to win the lost and plant churches worldwide",
       "scripture": "\"Go into all the world and preach the gospel to all creation\" - Mark 16:15"
@@ -325,12 +328,90 @@
       "subtitle": "Comprehensive hands-on ministry training",
       "evangelism": "Evangelism & Soul Winning",
       "evangelismDesc": "Learn proven methods for effective evangelism through street preaching, door-to-door outreach, and mass crusades. Students participate in weekly evangelism activities.",
+      "evangelismHighlights": [
+        "Weekly street evangelism",
+        "Door-to-door outreach",
+        "Mass crusade participation",
+        "Cross-cultural evangelism",
+        "Follow-up and discipleship"
+      ],
       "churchPlanting": "Church Planting",
       "churchPlantingDesc": "Master the art of planting and growing churches from the ground up. Learn strategies for sustainable church multiplication across cultures.",
+      "churchPlantingHighlights": [
+        "Church planting principles",
+        "Leadership development",
+        "Discipleship systems",
+        "Sustainable growth strategies",
+        "Hands-on planting experience"
+      ],
       "missions": "Missions & Cross-Cultural Ministry",
       "missionsDesc": "Prepare for international missions with training in cross-cultural communication, contextualization, and missionary life.",
+      "missionsHighlights": [
+        "Cross-cultural communication",
+        "Mission field preparation",
+        "Unreached people groups",
+        "Contextualization strategies",
+        "International mission trips"
+      ],
       "discipleship": "Discipleship & Leadership",
-      "discipleshipDesc": "Develop skills to disciple new believers and raise up leaders who will continue the work of ministry in local churches."
+      "discipleshipDesc": "Develop skills to disciple new believers and raise up leaders who will continue the work of ministry in local churches.",
+      "discipleshipHighlights": [
+        "Discipleship frameworks",
+        "Leadership identification",
+        "Mentoring relationships",
+        "Multiplication principles",
+        "Team building skills"
+      ]
+    },
+    "impactStories": {
+      "title": "Alumni Impact Stories",
+      "subtitle": "See how ABMTC graduates are transforming nations through ministry",
+      "items": {
+        "emmanuelBanda": {
+          "name": "Pastor Emmanuel Banda",
+          "location": "Mozambique",
+          "story": "After graduating from ABMTC, Emmanuel planted two thriving churches in Mozambique and established a Bible school that trains indigenous leaders. His ministry has grown to reach over 80 believers and 15 trained pastors.",
+          "impact": [
+            "2 churches planted",
+            "80+ members",
+            "15 pastors trained",
+            "Bible school founded"
+          ]
+        },
+        "sarahKim": {
+          "name": "Sarah Kim",
+          "location": "Thailand",
+          "story": "Sarah moved to rural Thailand where she has planted three churches with over 150 believers. Her ministry focuses on unreached villages, combining evangelism with community development projects.",
+          "impact": [
+            "3 churches planted",
+            "150+ believers",
+            "5 villages reached",
+            "10 local leaders trained"
+          ]
+        }
+      }
+    },
+    "approach": {
+      "title": "Our Training Approach",
+      "subtitle": "Balanced, practical, and proven methods that produce effective ministers",
+      "items": {
+        "foundation": {
+          "title": "Biblical Foundation",
+          "description": "Solid scriptural grounding in all ministry practices"
+        },
+        "practice": {
+          "title": "Hands-On Practice",
+          "description": "Regular field experience in real ministry contexts"
+        },
+        "mentorship": {
+          "title": "Mentorship",
+          "description": "Personal guidance from experienced ministers"
+        },
+        "multiplication": {
+          "title": "Multiplication",
+          "description": "Training that produces leaders who train others"
+        }
+      }
     },
     "cta": {
       "title": "Ready to Experience ABMTC?",
@@ -478,7 +559,45 @@
       "title": "Alumni Success Stories",
       "subtitle": "See how ABMTC graduates are making an impact around the world",
       "ministryImpact": "Ministry Impact:",
-      "classOf": "Class of"
+      "classOf": "Class of",
+      "items": {
+        "sarahKim": {
+          "name": "Sarah Kim",
+          "class": "Class of 2020",
+          "location": "Thailand",
+          "story": "After graduating from ABMTC, Sarah moved to rural Thailand where she has planted three thriving churches with over 150 believers. Her ministry focuses on unreached villages in the northern provinces, combining evangelism with community development projects. Sarah credits her time at ABMTC for preparing her to navigate cross-cultural challenges and build sustainable ministry.",
+          "impact": [
+            "3 churches planted",
+            "150+ believers",
+            "5 villages reached",
+            "10 local leaders trained"
+          ]
+        },
+        "emmanuelBanda": {
+          "name": "Emmanuel Banda",
+          "class": "Class of 2019",
+          "location": "Mozambique",
+          "story": "Emmanuel returned to his home region in Southern Africa with a vision to reach unreached people groups. He has established two churches in Mozambique and trains local pastors through a discipleship program. His ministry has grown to include a Bible school that equips indigenous leaders for church planting. Emmanuel's story demonstrates the multiplying impact of ABMTC training.",
+          "impact": [
+            "2 churches established",
+            "80+ members",
+            "Bible school founded",
+            "15 pastors trained"
+          ]
+        },
+        "mariaSantos": {
+          "name": "Maria Santos",
+          "class": "Class of 2021",
+          "location": "Peru",
+          "story": "From Brazil to Peru, Maria followed God's call to reach Latin America. She recently planted a church in Lima that has grown to 45 believers in just two years. Maria's ministry emphasizes discipleship and leadership development, ensuring sustainable growth. She regularly mentors young women in ministry and hosts training workshops for church planters across South America.",
+          "impact": [
+            "1 church planted",
+            "45 believers",
+            "Weekly discipleship groups",
+            "Regional training ministry"
+          ]
+        }
+      }
     },
     "benefits": {
       "title": "Alumni Network Benefits",
@@ -509,7 +628,24 @@
       }
     },
     "testimonials": {
-      "title": "What Alumni Say"
+      "title": "What Alumni Say",
+      "items": {
+        "jamesOsei": {
+          "quote": "ABMTC didn't just give me theological knowledge - it transformed my character and prepared me for the realities of cross-cultural ministry. The practical training and international community were invaluable.",
+          "name": "Pastor James Osei",
+          "details": "Class of 2016 • Serving in Burkina Faso"
+        },
+        "annaKowalski": {
+          "quote": "The alumni network has been a lifeline in difficult seasons. Knowing I have brothers and sisters around the world praying for me and available for counsel makes all the difference.",
+          "name": "Rev. Anna Kowalski",
+          "details": "Class of 2018 • Serving in Poland"
+        },
+        "samuelNguyen": {
+          "quote": "My two years at ABMTC were the best investment I could have made in my ministry. The training I received continues to bear fruit as I train others to plant churches.",
+          "name": "Pastor Samuel Nguyen",
+          "details": "Class of 2019 • Serving in Vietnam"
+        }
+      }
     },
     "cta": {
       "title": "Join This Global Family",
@@ -595,7 +731,46 @@
     },
     "events": {
       "title": "Upcoming Events",
-      "subtitle": "Mark your calendar for these important dates"
+      "subtitle": "Mark your calendar for these important dates",
+      "featuredLabel": "Featured",
+      "items": {
+        "graduation": {
+          "title": "Graduation Ceremony 2025",
+          "dateDay": "15",
+          "dateMonth": "Nov",
+          "time": "10:00 AM",
+          "location": "ABMTC Campus, Mampong",
+          "description": "Join us as we celebrate our graduating class and commission them for ministry worldwide. This special ceremony features inspiring messages, testimonies, and the conferring of certificates.",
+          "category": "Graduation"
+        },
+        "openDay": {
+          "title": "Open Day & Campus Tour",
+          "dateDay": "20",
+          "dateMonth": "Jan",
+          "time": "9:00 AM - 3:00 PM",
+          "location": "ABMTC Campus, Mampong",
+          "description": "Prospective students and families are invited to visit our campus, meet faculty and students, tour facilities, and learn about our programs.",
+          "category": "Campus Event"
+        },
+        "missionsConference": {
+          "title": "Missions Conference",
+          "dateDay": "10-12",
+          "dateMonth": "Mar",
+          "time": "All Day",
+          "location": "ABMTC Campus, Mampong",
+          "description": "Three days of powerful teaching on missions, church planting, and evangelism with guest speakers from around the world.",
+          "category": "Conference"
+        },
+        "alumniReunion": {
+          "title": "Alumni Reunion",
+          "dateDay": "05",
+          "dateMonth": "Aug",
+          "time": "2:00 PM",
+          "location": "ABMTC Campus, Mampong",
+          "description": "Reconnect with fellow alumni, share ministry testimonies, and celebrate God's faithfulness. Open to all ABMTC graduates.",
+          "category": "Alumni Event"
+        }
+      }
     },
     "upcoming": {
       "title": "Upcoming Events",
@@ -603,14 +778,71 @@
     },
     "latest": {
       "title": "Latest News",
-      "subtitle": "Recent updates and announcements from ABMTC"
+      "subtitle": "Recent updates and announcements from ABMTC",
+      "items": {
+        "scholarshipProgram": {
+          "title": "New Scholarship Program Launched",
+          "date": "October 15, 2024",
+          "excerpt": "ABMTC announces expanded scholarship opportunities for students from underrepresented regions, making ministry training more accessible.",
+          "category": "Announcement"
+        },
+        "alumniPlanting": {
+          "title": "Alumni Plant 10 New Churches",
+          "date": "October 8, 2024",
+          "excerpt": "Recent graduates from the 2023 class have successfully planted 10 churches across 5 nations in their first year of ministry.",
+          "category": "Impact Story"
+        },
+        "campusExpansion": {
+          "title": "Campus Expansion Project Begins",
+          "date": "September 28, 2024",
+          "excerpt": "Construction begins on new dormitory facilities to accommodate growing student enrollment from international applicants.",
+          "category": "Campus News"
+        },
+        "internationalWeek": {
+          "title": "International Student Week",
+          "date": "September 15, 2024",
+          "excerpt": "Students from 40+ nations celebrated their diverse cultures through food, music, and testimonies during International Student Week.",
+          "category": "Campus Life"
+        },
+        "evangelismCrusade": {
+          "title": "Evangelism Crusade Reaches 5,000",
+          "date": "August 30, 2024",
+          "excerpt": "ABMTC students participated in a major evangelism crusade that reached over 5,000 people with the gospel message.",
+          "category": "Ministry"
+        },
+        "onlinePlatform": {
+          "title": "New Online Learning Platform",
+          "date": "August 20, 2024",
+          "excerpt": "ABMTC launches an enhanced online learning platform, making courses accessible to students worldwide.",
+          "category": "Technology"
+        }
+      }
     },
     "press": {
-      "title": "Press Releases"
+      "title": "Press Releases",
+      "items": {
+        "anniversary25": {
+          "title": "ABMTC Celebrates 25 Years of Training Ministers",
+          "date": "October 1, 2024",
+          "excerpt": "Anagkazo Bible and Ministry Training Centre marks a quarter-century of equipping ministers for global missions, with over 800 graduates serving in 45+ nations."
+        },
+        "missionPartnership": {
+          "title": "Partnership with International Mission Organizations",
+          "date": "September 10, 2024",
+          "excerpt": "ABMTC announces strategic partnerships with leading mission organizations to enhance student placement and support for graduates."
+        },
+        "recordEnrollment": {
+          "title": "Record Enrollment for 2024 Academic Year",
+          "date": "August 15, 2024",
+          "excerpt": "ABMTC welcomes its largest incoming class with students from 42 nations, reflecting growing global interest in missions training."
+        }
+      }
     },
     "cta": {
       "title": "Be Part of the Story",
-      "subtitle": "Join ABMTC and become part of a global movement transforming nations through the gospel."
+      "subtitle": "Join ABMTC and become part of a global movement transforming nations through the gospel.",
+      "applyNow": "Apply Now",
+      "contactUs": "Contact Us"
     }
   },
   "contact": {
@@ -908,7 +1140,139 @@
     "stillHaveQuestions": "Still Have Questions?",
     "admissionsHelp": "Our admissions team is here to help. Reach out and we'll get back to you within 24 hours.",
     "contactAdmissions": "Contact Admissions",
-    "scheduleCall": "Schedule a Call"
+    "scheduleCall": "Schedule a Call",
+    "sections": [
+      {
+        "title": "General",
+        "questions": [
+          {
+            "question": "What is Anagkazo Bible and Ministry Training Centre?",
+            "answer": "A world-class Christian training centre founded by Bishop Dag Heward-Mills to raise anointed ministers for the work of the ministry. We equip students from 40+ nations for global missions and church planting."
+          },
+          {
+            "question": "Where is Anagkazo located?",
+            "answer": "Located in Mampong, Ghana, with a peaceful campus atmosphere for spiritual and academic growth. Our campus provides an ideal environment for focused ministry training."
+          },
+          {
+            "question": "How long is the training program?",
+            "answer": "Programs range from a few months to multi-year advanced ministry courses. Our comprehensive three-year program provides thorough preparation for effective ministry."
+          },
+          {
+            "question": "Can I visit the campus?",
+            "answer": "Yes. Visitations are allowed during open days or by appointment. Contact us at least two weeks in advance to schedule your visit and campus tour."
+          },
+          {
+            "question": "How can I support Anagkazo?",
+            "answer": "You can give, partner, or sponsor a student via the 'Give / Partner' page. Your support enables us to train the next generation of ministers who will transform nations."
+          }
+        ]
+      },
+      {
+        "title": "Admissions",
+        "questions": [
+          {
+            "question": "Who can apply?",
+            "answer": "Anyone with a genuine call to ministry or passion to serve God can apply. We welcome students from all nations and backgrounds who have a heart for ministry and readiness to learn."
+          },
+          {
+            "question": "Do I need a pastoral background?",
+            "answer": "No, but a heart for ministry and readiness to learn are essential. We train students from various backgrounds who are committed to serving God."
+          },
+          {
+            "question": "Are scholarships available?",
+            "answer": "Yes, partial scholarships are offered based on merit and need. We believe finances should never be a barrier to answering God's call."
+          },
+          {
+            "question": "When is the next intake?",
+            "answer": "Intakes usually occur twice a year. Check the Admissions page for updates on application deadlines and start dates."
+          },
+          {
+            "question": "Can international students apply?",
+            "answer": "Yes. We welcome students from all nations; visa guidance is available. Currently, we have students from 40+ nations studying at ABMTC."
+          }
+        ]
+      },
+      {
+        "title": "Financial",
+        "questions": [
+          {
+            "question": "How much does the program cost?",
+            "answer": "The total cost for the 9-month residential program is approximately $3,500, which includes tuition, accommodation, meals, and materials. We offer various scholarship and financial aid options."
+          },
+          {
+            "question": "What scholarships are available?",
+            "answer": "We offer need-based scholarships (up to 100%), merit scholarships, country-specific scholarships, and work-study opportunities. Over 80% of our students receive some form of financial assistance."
+          },
+          {
+            "question": "Can I work while studying?",
+            "answer": "The program is intensive and requires full-time commitment. However, we offer work-study opportunities on campus that allow students to earn while learning without compromising their studies."
+          },
+          {
+            "question": "Are there payment plans available?",
+            "answer": "Yes, we offer flexible payment plans. Students can pay in installments throughout the program. We work with each student to create a manageable payment schedule."
+          }
+        ]
+      },
+      {
+        "title": "Programs",
+        "questions": [
+          {
+            "question": "How long is the program?",
+            "answer": "The residential program is 9 months (one academic year), running from September to May. We also offer a 2-year online program for those who cannot attend in person."
+          },
+          {
+            "question": "What subjects are covered?",
+            "answer": "The curriculum includes Biblical Studies, Theology, Church History, Missions, Church Planting, Leadership, Evangelism, Discipleship, Worship, and Practical Ministry. Students also participate in hands-on ministry experience."
+          },
+          {
+            "question": "Will I receive a certificate or degree?",
+            "answer": "Graduates receive a Certificate in Bible and Ministry from ABMTC. We are working toward accreditation for diploma and degree programs."
+          },
+          {
+            "question": "What is the daily schedule like?",
+            "answer": "Days typically include morning devotions (6:30 AM), classes (8 AM - 3 PM), practical ministry (afternoons), and evening worship or study time. Weekends include church services and community activities."
+          }
+        ]
+      },
+      {
+        "title": "Student Life",
+        "questions": [
+          {
+            "question": "Where will I live?",
+            "answer": "All students live on campus in shared dormitories. Accommodation includes beds, storage, and basic amenities. Meals are provided in our dining hall."
+          },
+          {
+            "question": "What should I bring?",
+            "answer": "Bring personal items, clothing suitable for Ghana's climate, study materials, Bible, and any necessary medications. We provide bedding, but you may bring personal items for comfort."
+          },
+          {
+            "question": "Is there internet access?",
+            "answer": "Yes, we provide WiFi access on campus for students to stay connected with family and for research purposes."
+          },
+          {
+            "question": "What about healthcare?",
+            "answer": "We have basic medical facilities on campus and partnerships with local clinics and hospitals. Students should have health insurance and bring necessary medications."
+          }
+        ]
+      },
+      {
+        "title": "After Graduation",
+        "questions": [
+          {
+            "question": "What support do graduates receive?",
+            "answer": "Graduates join our global alumni network with ongoing mentorship, ministry placement assistance, continued education opportunities, and access to resources for church planting and missions."
+          },
+          {
+            "question": "Where do graduates serve?",
+            "answer": "Our alumni serve in over 40 countries as pastors, church planters, missionaries, ministry leaders, and Christian workers. Many return to their home countries to plant churches and train others."
+          },
+          {
+            "question": "Can I continue my education after ABMTC?",
+            "answer": "Yes! Many graduates pursue further theological education. We have partnerships with several institutions and can provide recommendations and guidance for continued studies."
+          }
+        ]
+      }
+    ]
   },
   "financialAid": {
     "title": "Financial Aid & Scholarships",
@@ -943,21 +1307,57 @@
       "merit": "Merit Scholarship",
       "meritAmount": "Up to $1,500",
       "meritDesc": "Awarded based on academic excellence and ministry potential",
+      "meritCriteria": [
+        "Strong academic record",
+        "Leadership experience",
+        "Ministry involvement",
+        "Compelling testimony"
+      ],
       "needBased": "Need-Based Aid",
       "needAmount": "Up to $2,000",
       "needDesc": "Financial assistance for students with demonstrated need",
+      "needCriteria": [
+        "Financial need documentation",
+        "Complete FAFSA or equivalent",
+        "Personal statement",
+        "Budget plan"
+      ],
       "regional": "Regional Scholarships",
       "regionalAmount": "Varies",
       "regionalDesc": "Special funding for students from specific regions or countries",
+      "regionalCriteria": [
+        "From designated region",
+        "Strong calling to missions",
+        "Church endorsement",
+        "Good standing"
+      ],
       "partner": "Ministry Partner Scholarship",
       "partnerAmount": "Up to $1,000",
       "partnerDesc": "For students sent by partner churches and organizations",
+      "partnerCriteria": [
+        "Partner church member",
+        "Church endorsement letter",
+        "Ministry commitment",
+        "Good references"
+      ],
       "travel": "Travel Grant",
       "travelAmount": "Up to $1,500",
       "travelDesc": "Assistance with international travel costs to Ghana",
+      "travelCriteria": [
+        "Accepted student",
+        "Financial need",
+        "First-time international travel",
+        "Complete application"
+      ],
       "family": "Family Scholarship",
       "familyAmount": "20% discount",
       "familyDesc": "Reduced tuition for married couples enrolling together",
+      "familyCriteria": [
+        "Both spouses enrolled",
+        "Good standing",
+        "Complete applications",
+        "Housing availability"
+      ],
       "criteria": "Criteria:"
     },
     "howToApply": {
@@ -997,12 +1397,39 @@
       "title": "Global Impact",
       "subtitle": "See how ABMTC graduates are transforming nations through church planting, discipleship, and missions work around the world."
     },
+    "globe": {
+      "loading": "Loading global impact data..."
+    },
     "mapSection": {
       "title": "Global Impact",
       "subtitle": "🌍 Student Origins",
       "quote": "From Ghana to the ends of the earth, Anagkazo welcomes students from every continent — Africa, Europe, Asia, North and South America, Australia, and beyond.",
       "paragraph1": "Over the years, our campus has hosted men and women from diverse nations and backgrounds, all united by one divine purpose: to be trained and sent forth as laborers in God's harvest field.",
       "paragraph2": "This rich international blend makes Anagkazo a true global ministry training center, where cultures meet, destinies are shaped, and the Great Commission comes alive in a powerful, practical way."
+    },
+    "impactStories": {
+      "title": "Recent Impact Stories",
+      "subtitle": "Real testimonies from ABMTC graduates serving across the world",
+      "items": {
+        "thailandChurches": {
+          "title": "3 Churches Planted in Northern Thailand",
+          "description": "Sarah Kim and her team planted three thriving churches in rural Thailand, reaching unreached villages through evangelism and community development projects.",
+          "location": "Thailand",
+          "year": "2023"
+        },
+        "mozambiqueGrowth": {
+          "title": "Mozambique Ministry Expands",
+          "description": "Pastor Emmanuel Banda continues to disciple new believers, establish Bible schools, and train indigenous leaders for sustainable church planting.",
+          "location": "Mozambique",
+          "year": "2022"
+        },
+        "peruHarvest": {
+          "title": "New Church in Lima, Peru",
+          "description": "Maria Santos launched a dynamic church in Lima that already gathers 45 believers weekly and runs discipleship groups for young leaders.",
+          "location": "Peru",
+          "year": "2024"
+        }
+      }
     },
     "missionFocus": {
       "title": "Our Mission Focus",
@@ -1087,7 +1514,8 @@
       "grandFinal": "Grand Final Examination",
       "qualifyingPoints": "Students qualify with",
       "points": "points",
-      "programStructure": "Program Structure"
+      "programStructure": "Program Structure",
+      "qualifyingPointsFull": "Students qualify with {points} points."
     },
     "makarios": {
       "title": "The Makarios Diploma",
@@ -1099,7 +1527,28 @@
       "outcome": "Makarios Diploma",
       "rotationDesc": "Six-week rotations with End-of-Rotation Examinations consisting of an MCQ paper, a written assignment, and an oral examination.",
       "examDesc": "2-hour MCQ paper consisting of 200 MCQs",
-      "oralExam": "Oral Examination with External Examiners"
+      "oralExam": "Oral Examination with External Examiners",
+      "rotations": [
+        "Foundations for the Work of Ministry",
+        "Core Concepts of Shepherding",
+        "Loyalty",
+        "Fundamentals of Evangelism",
+        "The Art and Science of Applied Leadership",
+        "Practical Approaches to Church Growth",
+        "The Theory and Practice of Operating in the Anointing"
+      ],
+      "practicalComponents": [
+        "BMCDR three times and CAP if one is scheduled",
+        "SONTA work",
+        "Bacenta work observation for the first six months",
+        "Active Bacenta work for the last six months",
+        "Waiting on God"
+      ],
+      "finalExamDetails": [
+        "2-hour MCQ paper consisting of 200 MCQs",
+        "Oral Examination with External Examiners"
+      ],
+      "points": "1200"
     },
     "machaneh": {
       "title": "The Machaneh Diploma",
@@ -1110,7 +1559,36 @@
       "rotationDesc": "Four-week rotations with End-of-Rotation Examinations consisting of an MCQ paper, a written assignment, and an oral examination.",
       "rotationCount": "Academic Rotations (15)",
       "examDesc": "3-hour MCQ paper consisting of 300 MCQs",
-      "oralExam": "Oral Examination with External Examiners"
+      "oralExam": "Oral Examination with External Examiners",
+      "rotations": [
+        "Church History",
+        "Foundations for the Work of Ministry",
+        "Essential Charismatic Doctrines",
+        "Core Concepts of Shepherding",
+        "Loyalty and Disloyalty 1",
+        "Fundamentals of Evangelism",
+        "Principles of Financial Management in Ministry",
+        "The Art and Science of Applied Leadership 1",
+        "Practical Approaches to Church Growth",
+        "Principles of Spiritual Guidance",
+        "The Theory and Practice of Operating in the Anointing",
+        "Demonology: A Concise Guide",
+        "Illustrated Principles of Marriage Counselling",
+        "Loyalty and Disloyalty 2",
+        "The Art and Science of Applied Leadership 2"
+      ],
+      "practicalComponents": [
+        "BMCDR four times and CAP if any are scheduled",
+        "SONTA work",
+        "Bacenta work observation for the first six months",
+        "Active Bacenta work for the last twelve months",
+        "Waiting on God"
+      ],
+      "finalExamDetails": [
+        "3-hour MCQ paper consisting of 300 MCQs",
+        "Oral Examination with External Examiners"
+      ],
+      "points": "1500"
     },
     "manthano": {
       "title": "The Manthano Diploma",
@@ -1121,7 +1599,34 @@
       "outcome": "Manthano Diploma",
       "structureDesc": "This Diploma is made up of two Clerkships of 18 months each - Junior and Senior. Rotations are 4 weeks in Junior Clerkship, extending to 6-8 weeks in Senior Clerkship. Each rotation ends with End-of-Rotation Examinations consisting of an MCQ paper, a written assignment, and an oral examination.",
       "examDesc": "3-hour MCQ paper consisting of 300 MCQs",
-      "oralExam": "Oral Examination with External Examiners"
+      "oralExam": "Oral Examination with External Examiners",
+      "rotations": [
+        "Church History",
+        "Foundations for the Work of Ministry",
+        "Essential Charismatic Doctrines",
+        "Core Concepts of Shepherding",
+        "Loyalty and Disloyalty",
+        "Fundamentals of Evangelism",
+        "Principles of Financial Management in Ministry",
+        "The Art and Science of Applied Leadership",
+        "Practical Approaches to Church Growth",
+        "Principles of Spiritual Guidance",
+        "The Theory and Practice of Operating in the Anointing",
+        "Demonology: A Concise Guide",
+        "Illustrated Principles of Marriage Counselling"
+      ],
+      "practicalComponents": [
+        "BMCDR eight times and CAP if any are scheduled",
+        "SONTA work",
+        "Bacenta work observation for the first six months of Junior Clerkship",
+        "Active Bacenta work for the rest of the program",
+        "Waiting on God"
+      ],
+      "finalExamDetails": [
+        "3-hour MCQ paper consisting of 300 MCQs",
+        "Oral Examination with External Examiners"
+      ],
+      "points": "1500"
     },
     "anagkazo": {
       "title": "The Anagkazo Diploma",
@@ -1141,7 +1646,14 @@
       "researchPresentation": "Presentation of Research Findings (50%)",
       "researchDesc": "Present research conducted during Rural Rotation on church growth and missions.",
       "oralExam": "Grand Final Oral Examination (50%)",
-      "oralExamDesc": "Objective structured ministry-based examinations demonstrating how the student has applied all learning from three years on campus to field work."
+      "oralExamDesc": "Objective structured ministry-based examinations demonstrating how the student has applied all learning from three years on campus to field work.",
+      "adminList": [
+        "Training and supervision of treasurers",
+        "Fast-track audits",
+        "Managing church facilities",
+        "All twelve recognized church offices",
+        "Operations of councils"
+      ]
     },
     "cta": {
       "title": "Ready to Begin Your Training?",

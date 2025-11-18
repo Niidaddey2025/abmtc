@@ -248,8 +248,10 @@
       "scholarshipsDesc": "Des bourses basées sur le mérite et les besoins réduisent les frais de scolarité pour les étudiants qualifiés.",
       "travel": "Aide au voyage",
       "travelDesc": "Une aide limitée au voyage est disponible pour les étudiants internationaux selon les besoins.",
+      "caseByCase": "Selon les cas",
       "payment": "Plans de paiement flexibles",
       "paymentDesc": "Des arrangements de paiement sans intérêt vous aident à gérer le reste des frais de scolarité.",
+      "zeroInterest": "0% d'intérêt",
       "merit": "Bourses au mérite",
       "meritDesc": "Attribuées en fonction de l'excellence académique et de l'expérience ministérielle",
       "need": "Aide basée sur les besoins",
@@ -309,6 +311,7 @@
   },
   "ministry": {
     "hero": {
+      "badge": "Ministère pratique",
       "title": "Formation ministérielle",
       "subtitle": "Former des hommes et des femmes à gagner les perdus et à implanter des églises dans le monde entier",
       "scripture": "\"Allez dans le monde entier et prêchez l'Évangile à toute la création\" - Marc 16:15"
@@ -325,12 +328,90 @@
       "subtitle": "Formation ministérielle pratique complète",
       "evangelism": "Évangélisation et gain d'âmes",
       "evangelismDesc": "Apprenez des méthodes éprouvées pour une évangélisation efficace par la prédication de rue, la sensibilisation de porte à porte et les croisades de masse. Les étudiants participent à des activités d'évangélisation hebdomadaires.",
+      "evangelismHighlights": [
+        "Évangélisation de rue hebdomadaire",
+        "Sensibilisation de porte à porte",
+        "Participation aux croisades de masse",
+        "Évangélisation interculturelle",
+        "Suivi et discipulat"
+      ],
       "churchPlanting": "Implantation d'églises",
       "churchPlantingDesc": "Maîtrisez l'art d'implanter et de développer des églises à partir de zéro. Apprenez des stratégies pour une multiplication durable d'églises à travers les cultures.",
+      "churchPlantingHighlights": [
+        "Principes d'implantation",
+        "Développement du leadership",
+        "Systèmes de discipulat",
+        "Stratégies de croissance durable",
+        "Expérience pratique d'implantation"
+      ],
       "missions": "Missions et ministère interculturel",
       "missionsDesc": "Préparez-vous aux missions internationales avec une formation en communication interculturelle, contextualisation et vie missionnaire.",
+      "missionsHighlights": [
+        "Communication interculturelle",
+        "Préparation au champ missionnaire",
+        "Peuples non atteints",
+        "Stratégies de contextualisation",
+        "Voyages missionnaires internationaux"
+      ],
       "discipleship": "Discipulat et leadership",
-      "discipleshipDesc": "Développez des compétences pour faire des disciples de nouveaux croyants et former des leaders qui continueront l'œuvre du ministère dans les églises locales."
+      "discipleshipDesc": "Développez des compétences pour faire des disciples de nouveaux croyants et former des leaders qui continueront l'œuvre du ministère dans les églises locales.",
+      "discipleshipHighlights": [
+        "Cadres de discipulat",
+        "Identification des leaders",
+        "Relations de mentorat",
+        "Principes de multiplication",
+        "Compétences de travail en équipe"
+      ]
+    },
+    "impactStories": {
+      "title": "Histoires d'impact des anciens",
+      "subtitle": "Découvrez comment les diplômés de l'ABMTC transforment des nations par leur ministère",
+      "items": {
+        "emmanuelBanda": {
+          "name": "Pasteur Emmanuel Banda",
+          "location": "Mozambique",
+          "story": "Après l'ABMTC, Emmanuel a implanté deux églises florissantes au Mozambique et fondé une école biblique qui forme des leaders indigènes. Son ministère atteint plus de 80 croyants et 15 pasteurs formés.",
+          "impact": [
+            "2 églises plantées",
+            "80+ membres",
+            "15 pasteurs formés",
+            "École biblique fondée"
+          ]
+        },
+        "sarahKim": {
+          "name": "Sarah Kim",
+          "location": "Thaïlande",
+          "story": "Sarah s'est installée dans la Thaïlande rurale où elle a implanté trois églises regroupant plus de 150 croyants. Son ministère cible les villages non atteints en combinant évangélisation et développement communautaire.",
+          "impact": [
+            "3 églises plantées",
+            "150+ croyants",
+            "5 villages atteints",
+            "10 leaders locaux formés"
+          ]
+        }
+      }
+    },
+    "approach": {
+      "title": "Notre approche pédagogique",
+      "subtitle": "Une méthode équilibrée, pratique et éprouvée qui produit des ministres efficaces",
+      "items": {
+        "foundation": {
+          "title": "Fondement biblique",
+          "description": "Base scripturaire solide pour toutes les pratiques ministérielles"
+        },
+        "practice": {
+          "title": "Pratique sur le terrain",
+          "description": "Expériences régulières dans des contextes ministériels réels"
+        },
+        "mentorship": {
+          "title": "Mentorat",
+          "description": "Accompagnement personnel par des ministres expérimentés"
+        },
+        "multiplication": {
+          "title": "Multiplication",
+          "description": "Former des leaders qui en formeront d'autres"
+        }
+      }
     },
     "cta": {
       "title": "Prêt à découvrir l'ABMTC?",
@@ -478,7 +559,45 @@
       "title": "Histoires de réussite des anciens élèves",
       "subtitle": "Découvrez comment les diplômés de l'ABMTC ont un impact dans le monde entier",
       "ministryImpact": "Impact du ministère:",
-      "classOf": "Promotion de"
+      "classOf": "Promotion de",
+      "items": {
+        "sarahKim": {
+          "name": "Sarah Kim",
+          "class": "Promotion 2020",
+          "location": "Thaïlande",
+          "story": "Après avoir obtenu son diplôme de l'ABMTC, Sarah s'est installée dans la Thaïlande rurale où elle a planté trois églises florissantes totalisant plus de 150 croyants. Son ministère se concentre sur les villages non atteints du nord, combinant évangélisation et projets de développement communautaire. Elle attribue à l'ABMTC la capacité de relever les défis interculturels et de bâtir un ministère durable.",
+          "impact": [
+            "3 églises implantées",
+            "150+ croyants",
+            "5 villages atteints",
+            "10 leaders locaux formés"
+          ]
+        },
+        "emmanuelBanda": {
+          "name": "Emmanuel Banda",
+          "class": "Promotion 2019",
+          "location": "Mozambique",
+          "story": "Emmanuel est retourné dans sa région d'origine en Afrique australe avec la vision d'atteindre les peuples non évangélisés. Il a établi deux églises au Mozambique et forme des pasteurs locaux grâce à un programme de discipulat. Son ministère comprend désormais une école biblique qui équipe des leaders indigènes pour la plantation d'églises.",
+          "impact": [
+            "2 églises établies",
+            "80+ membres",
+            "École biblique fondée",
+            "15 pasteurs formés"
+          ]
+        },
+        "mariaSantos": {
+          "name": "Maria Santos",
+          "class": "Promotion 2021",
+          "location": "Pérou",
+          "story": "Du Brésil au Pérou, Maria a suivi l'appel de Dieu pour toucher l'Amérique latine. Elle a récemment planté une église à Lima qui compte 45 croyants en seulement deux ans. Son ministère met l'accent sur le discipulat et le développement du leadership, et elle forme régulièrement de jeunes femmes au ministère.",
+          "impact": [
+            "1 église plantée",
+            "45 croyants",
+            "Groupes de discipulat hebdomadaires",
+            "Ministère de formation régional"
+          ]
+        }
+      }
     },
     "benefits": {
       "title": "Avantages du réseau d'anciens élèves",
@@ -509,7 +628,24 @@
       }
     },
     "testimonials": {
-      "title": "Ce que disent les anciens élèves"
+      "title": "Ce que disent les anciens élèves",
+      "items": {
+        "jamesOsei": {
+          "quote": "L'ABMTC ne m'a pas seulement donné des connaissances théologiques – elle a transformé mon caractère et m'a préparé aux réalités du ministère interculturel. La formation pratique et la communauté internationale ont été inestimables.",
+          "name": "Pasteur James Osei",
+          "details": "Promotion 2016 • Sert au Burkina Faso"
+        },
+        "annaKowalski": {
+          "quote": "Le réseau des anciens a été une bouée de sauvetage dans les saisons difficiles. Savoir que j'ai des frères et sœurs dans le monde entier qui prient pour moi change tout.",
+          "name": "Rév. Anna Kowalski",
+          "details": "Promotion 2018 • Sert en Pologne"
+        },
+        "samuelNguyen": {
+          "quote": "Mes deux années à l'ABMTC ont été le meilleur investissement pour mon ministère. La formation reçue continue de porter du fruit alors que j'équipe d'autres pour planter des églises.",
+          "name": "Pasteur Samuel Nguyen",
+          "details": "Promotion 2019 • Sert au Vietnam"
+        }
+      }
     },
     "cta": {
       "title": "Rejoignez cette famille mondiale",
@@ -595,7 +731,46 @@
     },
     "events": {
       "title": "Événements à venir",
-      "subtitle": "Marquez votre calendrier pour ces dates importantes"
+      "subtitle": "Marquez votre calendrier pour ces dates importantes",
+      "featuredLabel": "À l'honneur",
+      "items": {
+        "graduation": {
+          "title": "Cérémonie de remise des diplômes 2025",
+          "dateDay": "15",
+          "dateMonth": "Nov",
+          "time": "10h00",
+          "location": "Campus ABMTC, Mampong",
+          "description": "Venez célébrer notre nouvelle promotion envoyée pour servir dans le monde entier. Messages inspirants, témoignages et remise officielle des certificats seront au programme.",
+          "category": "Remise des diplômes"
+        },
+        "openDay": {
+          "title": "Journée portes ouvertes & visite du campus",
+          "dateDay": "20",
+          "dateMonth": "Jan",
+          "time": "9h00 - 15h00",
+          "location": "Campus ABMTC, Mampong",
+          "description": "Étudiants potentiels et familles sont invités à découvrir nos installations, rencontrer les professeurs et en apprendre davantage sur nos programmes.",
+          "category": "Événement campus"
+        },
+        "missionsConference": {
+          "title": "Conférence missionnaire",
+          "dateDay": "10-12",
+          "dateMonth": "Mar",
+          "time": "Toute la journée",
+          "location": "Campus ABMTC, Mampong",
+          "description": "Trois jours d'enseignements puissants sur les missions, la plantation d'églises et l'évangélisation avec des orateurs invités du monde entier.",
+          "category": "Conférence"
+        },
+        "alumniReunion": {
+          "title": "Retrouvailles des anciens",
+          "dateDay": "05",
+          "dateMonth": "Aoû",
+          "time": "14h00",
+          "location": "Campus ABMTC, Mampong",
+          "description": "Retrouvez vos camarades de promotion, partagez vos témoignages de ministère et célébrez la fidélité de Dieu. Ouvert à tous les diplômés ABMTC.",
+          "category": "Événement anciens"
+        }
+      }
     },
     "upcoming": {
       "title": "Événements à venir",
@@ -603,14 +778,71 @@
     },
     "latest": {
       "title": "Dernières nouvelles",
-      "subtitle": "Mises à jour et annonces récentes de l'ABMTC"
+      "subtitle": "Mises à jour et annonces récentes de l'ABMTC",
+      "items": {
+        "scholarshipProgram": {
+          "title": "Nouveau programme de bourses lancé",
+          "date": "15 octobre 2024",
+          "excerpt": "L'ABMTC élargit ses possibilités de bourses pour les étudiants issus de régions sous-représentées, rendant la formation ministérielle plus accessible.",
+          "category": "Annonce"
+        },
+        "alumniPlanting": {
+          "title": "Les anciens plantent 10 nouvelles églises",
+          "date": "8 octobre 2024",
+          "excerpt": "Les diplômés de la promotion 2023 ont planté 10 églises dans 5 nations au cours de leur première année de ministère.",
+          "category": "Impact"
+        },
+        "campusExpansion": {
+          "title": "Début du projet d'extension du campus",
+          "date": "28 septembre 2024",
+          "excerpt": "Les travaux pour de nouveaux dortoirs commencent afin d'accueillir l'augmentation des inscriptions internationales.",
+          "category": "Vie de campus"
+        },
+        "internationalWeek": {
+          "title": "Semaine internationale des étudiants",
+          "date": "15 septembre 2024",
+          "excerpt": "Les étudiants de plus de 40 nations ont célébré leur diversité à travers la cuisine, la musique et les témoignages.",
+          "category": "Communauté"
+        },
+        "evangelismCrusade": {
+          "title": "Croisade d'évangélisation atteint 5 000 personnes",
+          "date": "30 août 2024",
+          "excerpt": "Les étudiants de l'ABMTC ont participé à une grande croisade d'évangélisation qui a touché plus de 5 000 personnes.",
+          "category": "Ministère"
+        },
+        "onlinePlatform": {
+          "title": "Nouvelle plateforme d'apprentissage en ligne",
+          "date": "20 août 2024",
+          "excerpt": "L'ABMTC lance une plateforme en ligne améliorée rendant les cours accessibles aux étudiants du monde entier.",
+          "category": "Technologie"
+        }
+      }
     },
     "press": {
-      "title": "Communiqués de presse"
+      "title": "Communiqués de presse",
+      "items": {
+        "anniversary25": {
+          "title": "L'ABMTC célèbre 25 ans de formation de ministres",
+          "date": "1er octobre 2024",
+          "excerpt": "L'ABMTC fête un quart de siècle d'équipement de ministres pour les missions mondiales, avec plus de 800 diplômés actifs dans 45+ nations."
+        },
+        "missionPartnership": {
+          "title": "Partenariat avec des organisations missionnaires internationales",
+          "date": "10 septembre 2024",
+          "excerpt": "L'ABMTC annonce des partenariats stratégiques pour améliorer le placement des étudiants et le soutien aux diplômés."
+        },
+        "recordEnrollment": {
+          "title": "Nombre d'inscriptions record pour l'année 2024",
+          "date": "15 août 2024",
+          "excerpt": "L'ABMTC accueille sa plus grande promotion avec des étudiants provenant de 42 nations, signe d'un intérêt mondial croissant pour la formation missionnaire."
+        }
+      }
     },
     "cta": {
       "title": "Faites partie de l'histoire",
-      "subtitle": "Rejoignez l'ABMTC et faites partie d'un mouvement mondial transformant les nations par l'Évangile."
+      "subtitle": "Rejoignez l'ABMTC et faites partie d'un mouvement mondial transformant les nations par l'Évangile.",
+      "applyNow": "Postuler maintenant",
+      "contactUs": "Contactez-nous"
     }
   },
   "contact": {
@@ -903,93 +1135,261 @@
     }
   },
   "faq": {
-    "title": "Preguntas frecuentes",
-    "subtitle": "Encuentra respuestas a preguntas comunes sobre ABMTC, nuestros programas, admisiones y vida estudiantil",
-    "stillHaveQuestions": "¿Aún tienes preguntas?",
-    "admissionsHelp": "Nuestro equipo de admisiones está aquí para ayudar. Contáctanos y te responderemos en 24 horas.",
-    "contactAdmissions": "Contactar admisiones",
-    "scheduleCall": "Programar una llamada"
+    "title": "Foire aux questions",
+    "subtitle": "Trouvez des réponses aux questions les plus fréquentes sur l'ABMTC, nos programmes, les admissions et la vie étudiante",
+    "stillHaveQuestions": "Vous avez encore des questions ?",
+    "admissionsHelp": "Notre équipe des admissions est là pour vous aider et répondra dans les 24 heures.",
+    "contactAdmissions": "Contacter les admissions",
+    "scheduleCall": "Planifier un appel",
+    "sections": [
+      {
+        "title": "Général",
+        "questions": [
+          {
+            "question": "Qu'est-ce que l'Anagkazo Bible and Ministry Training Centre ?",
+            "answer": "Un centre de formation chrétienne de renommée mondiale fondé par l'évêque Dag Heward-Mills pour former des ministres oints. Nous équipons des étudiants de plus de 40 nations pour les missions et l'implantation d'églises."
+          },
+          {
+            "question": "Où se situe Anagkazo ?",
+            "answer": "Le campus se trouve à Mampong, au Ghana, dans un environnement paisible propice à la croissance spirituelle et académique."
+          },
+          {
+            "question": "Quelle est la durée de la formation ?",
+            "answer": "Les programmes vont de quelques mois à plusieurs années. Notre parcours résidentiel principal couvre trois années de préparation complète au ministère."
+          },
+          {
+            "question": "Puis-je visiter le campus ?",
+            "answer": "Oui, lors des journées portes ouvertes ou sur rendez-vous. Merci de nous contacter au moins deux semaines à l'avance."
+          },
+          {
+            "question": "Comment puis-je soutenir Anagkazo ?",
+            "answer": "Vous pouvez donner, devenir partenaire ou parrainer un étudiant via la page 'Donner / Partenaires'. Votre soutien nous aide à former la prochaine génération de ministres."
+          }
+        ]
+      },
+      {
+        "title": "Admissions",
+        "questions": [
+          {
+            "question": "Qui peut postuler ?",
+            "answer": "Toute personne ayant un appel authentique au ministère ou un désir de servir Dieu. Nous accueillons des étudiants de toutes les nations et de tous les parcours."
+          },
+          {
+            "question": "Faut-il une expérience pastorale ?",
+            "answer": "Non, mais un cœur pour le ministère et la volonté d'apprendre sont indispensables. Nous formons des étudiants aux profils variés."
+          },
+          {
+            "question": "Des bourses sont-elles disponibles ?",
+            "answer": "Oui, des bourses partielles basées sur le mérite et le besoin. Nous faisons en sorte que les finances ne bloquent jamais l'appel de Dieu."
+          },
+          {
+            "question": "Quand a lieu la prochaine rentrée ?",
+            "answer": "Généralement deux fois par an. Consultez la page Admissions pour les dates mises à jour."
+          },
+          {
+            "question": "Les étudiants internationaux peuvent-ils candidater ?",
+            "answer": "Oui, nous accompagnons les étudiants du monde entier et fournissons des conseils pour les visas."
+          }
+        ]
+      },
+      {
+        "title": "Finances",
+        "questions": [
+          {
+            "question": "Quel est le coût du programme ?",
+            "answer": "Le programme résidentiel de 9 mois coûte environ 3 500 $ et inclut les frais de scolarité, l'hébergement, les repas et les supports pédagogiques."
+          },
+          {
+            "question": "Quelles bourses proposez-vous ?",
+            "answer": "Aide basée sur le besoin (jusqu'à 100 %), bourses au mérite, bourses régionales et opportunités travail-études."
+          },
+          {
+            "question": "Puis-je travailler pendant la formation ?",
+            "answer": "Le programme est intensif, mais nous offrons des postes travail-études sur le campus pour aider financièrement sans nuire aux études."
+          },
+          {
+            "question": "Des plans de paiement existent-ils ?",
+            "answer": "Oui, nous proposons des plans flexibles avec paiements échelonnés tout au long de l'année académique."
+          }
+        ]
+      },
+      {
+        "title": "Programmes",
+        "questions": [
+          {
+            "question": "Quelle est la durée du programme ?",
+            "answer": "Le programme résidentiel principal dure 9 mois (septembre à mai) et nous offrons également un parcours en ligne de 2 ans."
+          },
+          {
+            "question": "Quelles matières sont enseignées ?",
+            "answer": "Études bibliques, théologie, histoire de l'Église, missions, implantation d'églises, leadership, évangélisation, discipulat, adoration et ministère pratique."
+          },
+          {
+            "question": "Recevrai-je un diplôme ?",
+            "answer": "Les diplômés obtiennent un Certificat en Bible et Ministère de l'ABMTC. Nous travaillons vers une accréditation pour des diplômes supplémentaires."
+          },
+          {
+            "question": "À quoi ressemble une journée type ?",
+            "answer": "Dévotions matinales, cours de 8h à 15h, ministère pratique l'après-midi, puis adoration ou étude en soirée."
+          }
+        ]
+      },
+      {
+        "title": "Vie étudiante",
+        "questions": [
+          {
+            "question": "Où vais-je loger ?",
+            "answer": "Tous les étudiants résident sur le campus dans des dortoirs partagés. Les repas sont fournis dans notre réfectoire."
+          },
+          {
+            "question": "Que dois-je apporter ?",
+            "answer": "Effets personnels, vêtements adaptés au climat ghanéen, Bible, matériel d'étude et médicaments nécessaires."
+          },
+          {
+            "question": "Y a-t-il un accès Internet ?",
+            "answer": "Oui, le Wi-Fi est disponible pour la recherche et rester en contact avec la famille."
+          },
+          {
+            "question": "Quelles sont les options de santé ?",
+            "answer": "Nous disposons d'un service médical de base sur le campus et de partenariats avec des cliniques locales. Une assurance santé est recommandée."
+          }
+        ]
+      },
+      {
+        "title": "Après la graduation",
+        "questions": [
+          {
+            "question": "Quel soutien pour les diplômés ?",
+            "answer": "Accès au réseau mondial d'anciens, mentorat continu, aide au placement ministériel et ressources pour planter des églises."
+          },
+          {
+            "question": "Où servent les diplômés ?",
+            "answer": "Nos anciens servent dans plus de 40 pays comme pasteurs, missionnaires et leaders ministériels."
+          },
+          {
+            "question": "Puis-je poursuivre mes études ?",
+            "answer": "Oui, beaucoup poursuivent des études théologiques supplémentaires et nous fournissons des recommandations institutionnelles."
+          }
+        ]
+      }
+    ]
   },
   "financialAid": {
-    "title": "Ayuda financiera y becas",
-    "subtitle": "Creemos que las finanzas nunca deben ser una barrera para responder al llamado de Dios. Descubre el apoyo disponible para hacer posible tu formación.",
+    "title": "Aide financière et bourses",
+    "subtitle": "Nous croyons que les finances ne devraient jamais être un obstacle pour répondre à l'appel de Dieu. Découvrez le soutien disponible pour rendre votre formation possible.",
     "costOfAttendance": {
-      "title": "Costo de asistencia",
-      "subtitle": "Comprender la inversión en tu formación",
-      "residential": "Programa residencial",
-      "online": "Anagkazo en línea",
-      "tuition": "Matrícula (por año)",
-      "housing": "Alojamiento",
-      "meals": "Comidas (3 diarias)",
-      "books": "Libros y materiales",
-      "travel": "Viaje a Ghana",
-      "visa": "Visa y médico",
-      "personal": "Gastos personales",
-      "digitalResources": "Recursos digitales",
-      "liveClasses": "Clases en vivo",
-      "eLibrary": "Acceso a biblioteca electrónica",
-      "internet": "Conexión a Internet",
-      "estimatedTotal": "Total estimado (Año 1)",
-      "free": "GRATIS",
-      "included": "Incluido",
-      "selfProvided": "Autoabastecido",
-      "variesByLocation": "Varía según la ubicación",
-      "perYear": "Por año",
-      "optional": "opcional"
+      "title": "Coût de la formation",
+      "subtitle": "Comprendre l'investissement dans votre formation",
+      "residential": "Programme résidentiel",
+      "online": "Anagkazo en ligne",
+      "tuition": "Frais de scolarité (par an)",
+      "housing": "Hébergement",
+      "meals": "Repas (3 par jour)",
+      "books": "Livres et matériels",
+      "travel": "Voyage au Ghana",
+      "visa": "Visa et soins médicaux",
+      "personal": "Dépenses personnelles",
+      "digitalResources": "Ressources numériques",
+      "liveClasses": "Cours en direct",
+      "eLibrary": "Accès à la bibliothèque en ligne",
+      "internet": "Connexion Internet",
+      "estimatedTotal": "Total estimé (1ère année)",
+      "free": "GRATUIT",
+      "included": "Inclus",
+      "selfProvided": "À fournir soi-même",
+      "variesByLocation": "Varie selon la région",
+      "perYear": "Par an",
+      "optional": "optionnel"
     },
     "scholarships": {
-      "title": "Becas disponibles",
-      "subtitle": "Múltiples oportunidades de becas para apoyar tu formación",
-      "merit": "Beca por mérito",
-      "meritAmount": "Hasta $1,500",
-      "meritDesc": "Otorgada según la excelencia académica y el potencial ministerial",
-      "needBased": "Ayuda basada en necesidad",
-      "needAmount": "Hasta $2,000",
-      "needDesc": "Asistencia financiera para estudiantes con necesidad demostrada",
-      "regional": "Becas regionales",
-      "regionalAmount": "Varía",
-      "regionalDesc": "Financiamiento especial para estudiantes de regiones o países específicos",
-      "partner": "Beca de socio ministerial",
-      "partnerAmount": "Hasta $1,000",
-      "partnerDesc": "Para estudiantes enviados por iglesias y organizaciones asociadas",
-      "travel": "Subvención de viaje",
-      "travelAmount": "Hasta $1,500",
-      "travelDesc": "Asistencia con costos de viaje internacional a Ghana",
-      "family": "Beca familiar",
-      "familyAmount": "20% de descuento",
-      "familyDesc": "Matrícula reducida para parejas casadas que se inscriben juntas",
-      "criteria": "Criterios:"
+      "title": "Bourses disponibles",
+      "subtitle": "De multiples opportunités pour soutenir votre formation",
+      "merit": "Bourse au mérite",
+      "meritAmount": "Jusqu'à 1 500 $",
+      "meritDesc": "Attribuée selon l'excellence académique et le potentiel ministériel",
+      "meritCriteria": [
+        "Excellent dossier académique",
+        "Expérience en leadership",
+        "Implication dans le ministère",
+        "Témoignage convaincant"
+      ],
+      "needBased": "Aide basée sur le besoin",
+      "needAmount": "Jusqu'à 2 000 $",
+      "needDesc": "Assistance financière pour les étudiants ayant un besoin démontré",
+      "needCriteria": [
+        "Documents attestant du besoin financier",
+        "FAFSA ou équivalent complété",
+        "Déclaration personnelle",
+        "Plan budgétaire"
+      ],
+      "regional": "Bourses régionales",
+      "regionalAmount": "Variable",
+      "regionalDesc": "Financement spécial pour les étudiants de régions ou pays spécifiques",
+      "regionalCriteria": [
+        "Originaire d'une région désignée",
+        "Fort appel aux missions",
+        "Recommandation de l'église",
+        "Bon dossier"
+      ],
+      "partner": "Bourse des partenaires ministériels",
+      "partnerAmount": "Jusqu'à 1 000 $",
+      "partnerDesc": "Pour les étudiants envoyés par des églises ou organisations partenaires",
+      "partnerCriteria": [
+        "Membre d'une église partenaire",
+        "Lettre de recommandation de l'église",
+        "Engagement ministériel",
+        "Bonnes références"
+      ],
+      "travel": "Subvention de voyage",
+      "travelAmount": "Jusqu'à 1 500 $",
+      "travelDesc": "Aide aux frais de voyage international vers le Ghana",
+      "travelCriteria": [
+        "Étudiant accepté",
+        "Besoin financier",
+        "Premier voyage international",
+        "Dossier complet"
+      ],
+      "family": "Bourse familiale",
+      "familyAmount": "Réduction de 20 %",
+      "familyDesc": "Frais réduits pour les couples mariés inscrits ensemble",
+      "familyCriteria": [
+        "Les deux conjoints inscrits",
+        "Bon dossier",
+        "Dossiers complets",
+        "Logement disponible"
+      ],
+      "criteria": "Critères :"
     },
     "howToApply": {
-      "title": "Cómo solicitar ayuda financiera",
-      "step1": "Completa tu solicitud de admisión",
-      "step1Desc": "Envía primero tu solicitud de admisión. La ayuda financiera solo está disponible para estudiantes aceptados.",
-      "step2": "Envía la solicitud de ayuda financiera",
-      "step2Desc": "Completa el formulario de solicitud de ayuda financiera por separado, incluida la documentación de necesidad financiera.",
-      "step3": "Proporciona documentos de respaldo",
-      "step3Desc": "Envía los documentos requeridos como estados de ingresos, extractos bancarios y presupuesto personal.",
-      "step4": "Escribe una declaración personal",
-      "step4Desc": "Explica tu situación financiera, llamado al ministerio y cómo la ayuda te ayudaría a asistir a ABMTC.",
-      "step5": "Recibe la decisión de ayuda",
-      "step5Desc": "Las decisiones de ayuda financiera generalmente se toman dentro de 2 semanas de recibir las solicitudes completas.",
-      "priorityDeadline": "Fecha límite prioritaria",
-      "priorityDesc": "Envía tu solicitud de ayuda financiera antes del 31 de mayo para consideración prioritaria. Las solicitudes tardías se revisan de forma continua según la disponibilidad de fondos."
+      "title": "Comment demander une aide financière",
+      "step1": "Complétez votre demande d'admission",
+      "step1Desc": "Soumettez d'abord votre dossier d'admission. L'aide financière n'est disponible que pour les étudiants acceptés.",
+      "step2": "Soumettez la demande d'aide financière",
+      "step2Desc": "Remplissez le formulaire distinct d'aide financière avec les justificatifs de besoin.",
+      "step3": "Fournissez les pièces justificatives",
+      "step3Desc": "Envoyez les documents requis : revenus, relevés bancaires, budget personnel.",
+      "step4": "Rédigez une déclaration personnelle",
+      "step4Desc": "Expliquez votre situation financière, votre appel au ministère et comment l'aide vous aidera à fréquenter l'ABMTC.",
+      "step5": "Recevez la décision d'aide",
+      "step5Desc": "Les décisions sont généralement rendues sous deux semaines après réception du dossier complet.",
+      "priorityDeadline": "Date limite prioritaire",
+      "priorityDesc": "Soumettez votre demande avant le 31 mai pour une considération prioritaire. Les dossiers tardifs sont étudiés selon les fonds disponibles."
     },
     "paymentOptions": {
-      "title": "Opciones de pago",
-      "subtitle": "Formas flexibles de gestionar tus costos educativos",
-      "paymentPlans": "Planes de pago",
-      "paymentPlansDesc": "Distribuye los pagos de matrícula en cuotas mensuales durante el año académico",
-      "fundraising": "Apoyo para recaudación de fondos",
-      "fundraisingDesc": "Proporcionamos recursos y orientación para recaudar apoyo de iglesias e individuos",
-      "sponsorMatching": "Emparejamiento de patrocinadores",
-      "sponsorMatchingDesc": "Podemos conectarte con patrocinadores potenciales y socios ministeriales que apoyan a estudiantes"
+      "title": "Options de paiement",
+      "subtitle": "Des solutions flexibles pour gérer vos frais d'études",
+      "paymentPlans": "Plans de paiement",
+      "paymentPlansDesc": "Étalez les frais de scolarité en mensualités durant l'année académique",
+      "fundraising": "Soutien à la levée de fonds",
+      "fundraisingDesc": "Nous fournissons ressources et conseils pour mobiliser des soutiens",
+      "sponsorMatching": "Mise en relation avec des parrains",
+      "sponsorMatchingDesc": "Nous vous mettons en contact avec des partenaires et parrains potentiels"
     },
     "cta": {
-      "title": "No dejes que las finanzas te detengan",
-      "subtitle": "Si Dios te ha llamado a la formación misionera, trabajaremos contigo para hacerlo financieramente posible. Aplica hoy y hablemos de tus opciones.",
-      "applyNow": "Aplicar ahora",
-      "contactFinance": "Contactar oficina de ayuda financiera"
+      "title": "Ne laissez pas les finances vous freiner",
+      "subtitle": "Si Dieu vous appelle à la formation missionnaire, nous trouverons avec vous une solution financière. Postulez dès aujourd'hui.",
+      "applyNow": "Postuler maintenant",
+      "contactFinance": "Contacter le service d'aide financière"
     }
   },
   "impact": {
@@ -997,12 +1397,39 @@
       "title": "Impact Mondial",
       "subtitle": "Découvrez comment les diplômés d'ABMTC transforment les nations par l'implantation d'églises, le discipulat et le travail missionnaire à travers le monde."
     },
+    "globe": {
+      "loading": "Chargement des données d'impact mondial..."
+    },
     "mapSection": {
-      "title": "Impact Mondial",
-      "subtitle": "🌍 Origines des Étudiants",
-      "quote": "Du Ghana jusqu'aux extrémités de la terre, Anagkazo accueille des étudiants de tous les continents — Afrique, Europe, Asie, Amérique du Nord et du Sud, Australie et au-delà.",
-      "paragraph1": "Au fil des années, notre campus a accueilli des hommes et des femmes de diverses nations et origines, tous unis par un seul objectif divin : être formés et envoyés comme ouvriers dans le champ de moisson de Dieu.",
-      "paragraph2": "Ce riche mélange international fait d'Anagkazo un véritable centre de formation ministérielle mondiale, où les cultures se rencontrent, les destinées se façonnent et la Grande Commission prend vie d'une manière puissante et pratique."
+      "title": "Impact mondial",
+      "subtitle": "🌍 Origine des étudiants",
+      "quote": "Du Ghana aux extrémités de la terre, Anagkazo accueille des étudiants de tous les continents — Afrique, Europe, Asie, Amérique du Nord et du Sud, Australie, et au-delà.",
+      "paragraph1": "Au fil des années, notre campus a accueilli des hommes et des femmes de nations et d'horizons divers, tous unis par un seul but divin : être formés et envoyés comme ouvriers dans la moisson de Dieu.",
+      "paragraph2": "Ce riche mélange international fait d'Anagkazo un véritable centre mondial de formation ministérielle, où les cultures se rencontrent, les destinées sont façonnées et la Grande Commission prend vie de manière puissante et pratique."
+    },
+    "impactStories": {
+      "title": "Histoires d'impact récentes",
+      "subtitle": "Des témoignages réels de diplômés de l'ABMTC servant à travers le monde",
+      "items": {
+        "thailandChurches": {
+          "title": "3 églises implantées dans le nord de la Thaïlande",
+          "description": "Sarah Kim et son équipe ont implanté trois églises florissantes dans la Thaïlande rurale, atteignant des villages non évangélisés par l'évangélisation et le développement communautaire.",
+          "location": "Thaïlande",
+          "year": "2023"
+        },
+        "mozambiqueGrowth": {
+          "title": "Croissance du ministère au Mozambique",
+          "description": "Le pasteur Emmanuel Banda continue de faire des disciples, d'établir des écoles bibliques et de former des leaders indigènes pour une implantation d'églises durable.",
+          "location": "Mozambique",
+          "year": "2022"
+        },
+        "peruHarvest": {
+          "title": "Nouvelle église à Lima, Pérou",
+          "description": "Maria Santos a lancé une église dynamique à Lima qui rassemble déjà 45 croyants chaque semaine et anime des groupes de discipulat pour de jeunes leaders.",
+          "location": "Pérou",
+          "year": "2024"
+        }
+      }
     },
     "missionFocus": {
       "title": "Notre Focus Missionnaire",
@@ -1082,66 +1509,151 @@
       "duration": "Durée",
       "qualification": "Qualification",
       "outcome": "Résultat",
-      "academicRotations": "Rotations Académiques",
-      "practicalComponents": "Composantes de Ministère Pratique",
-      "grandFinal": "Examen Final Général",
+      "academicRotations": "Rotations académiques",
+      "practicalComponents": "Composantes pratiques",
+      "grandFinal": "Examen final",
       "qualifyingPoints": "Les étudiants se qualifient avec",
       "points": "points",
-      "programStructure": "Structure du Programme"
+      "programStructure": "Structure du programme",
+      "qualifyingPointsFull": "Les étudiants se qualifient avec {points} points."
     },
     "makarios": {
       "title": "Le Diplôme Makarios",
       "badge": "Fondation",
-      "duration": "1 An",
+      "duration": "1 an",
       "durationDetail": "12 mois",
-      "intakes": "(Mars-Février; Septembre-Août)",
+      "intakes": "(mars-février; septembre-août)",
       "qualification": "BECE ou équivalent",
       "outcome": "Diplôme Makarios",
-      "rotationDesc": "Rotations de six semaines avec Examens de Fin de Rotation comprenant un examen QCM, un devoir écrit et un examen oral.",
-      "examDesc": "Examen QCM de 2 heures composé de 200 QCM",
-      "oralExam": "Examen Oral avec Examinateurs Externes"
+      "rotationDesc": "Rotations de six semaines avec examens de fin de rotation comprenant un QCM, un devoir écrit et un examen oral.",
+      "examDesc": "Épreuve QCM de 2 heures comprenant 200 questions",
+      "oralExam": "Examen oral avec examinateurs externes",
+      "rotations": [
+        "Fondements pour l'œuvre du ministère",
+        "Concepts clés du pastorat",
+        "Loyauté",
+        "Principes fondamentaux de l'évangélisation",
+        "L'art et la science du leadership appliqué",
+        "Approches pratiques de la croissance de l'église",
+        "Théorie et pratique de l'onction"
+      ],
+      "practicalComponents": [
+        "BMCDR trois fois et CAP si programmé",
+        "Travail SONTA",
+        "Observation du travail Bacenta pendant les six premiers mois",
+        "Travail Bacenta actif pendant les six derniers mois",
+        "Attente devant Dieu"
+      ],
+      "finalExamDetails": [
+        "Épreuve QCM de 2 heures comprenant 200 questions",
+        "Examen oral avec examinateurs externes"
+      ],
+      "points": "1200"
     },
     "machaneh": {
       "title": "Le Diplôme Machaneh",
       "badge": "Intermédiaire",
-      "duration": "18 Mois",
+      "duration": "18 mois",
       "qualification": "BECE ou équivalent",
       "outcome": "Diplôme Machaneh",
-      "rotationDesc": "Rotations de quatre semaines avec Examens de Fin de Rotation comprenant un examen QCM, un devoir écrit et un examen oral.",
-      "rotationCount": "Rotations Académiques (15)",
-      "examDesc": "Examen QCM de 3 heures composé de 300 QCM",
-      "oralExam": "Examen Oral avec Examinateurs Externes"
+      "rotationDesc": "Rotations de quatre semaines avec examens de fin de rotation comprenant un QCM, un devoir écrit et un examen oral.",
+      "rotationCount": "Rotations académiques (15)",
+      "examDesc": "Épreuve QCM de 3 heures comprenant 300 questions",
+      "oralExam": "Examen oral avec examinateurs externes",
+      "rotations": [
+        "Histoire de l'Église",
+        "Fondements pour l'œuvre du ministère",
+        "Doctrines charismatiques essentielles",
+        "Concepts clés du pastorat",
+        "Loyauté et déloyauté 1",
+        "Principes fondamentaux de l'évangélisation",
+        "Principes de gestion financière dans le ministère",
+        "L'art et la science du leadership appliqué 1",
+        "Approches pratiques de la croissance de l'église",
+        "Principes de direction spirituelle",
+        "Théorie et pratique de l'onction",
+        "Démonologie : guide concis",
+        "Principes illustrés du conseil matrimonial",
+        "Loyauté et déloyauté 2",
+        "L'art et la science du leadership appliqué 2"
+      ],
+      "practicalComponents": [
+        "BMCDR quatre fois et CAP si programmé",
+        "Travail SONTA",
+        "Observation du travail Bacenta pendant les six premiers mois",
+        "Travail Bacenta actif pendant les douze derniers mois",
+        "Attente devant Dieu"
+      ],
+      "finalExamDetails": [
+        "Épreuve QCM de 3 heures comprenant 300 questions",
+        "Examen oral avec examinateurs externes"
+      ],
+      "points": "1500"
     },
     "manthano": {
       "title": "Le Diplôme Manthano",
       "badge": "Avancé",
-      "duration": "3 Ans",
+      "duration": "3 ans",
       "durationDetail": "36 mois (3 ans)",
       "qualification": "BECE ou équivalent",
       "outcome": "Diplôme Manthano",
-      "structureDesc": "Ce Diplôme est composé de deux Stages de 18 mois chacun - Junior et Senior. Les rotations sont de 4 semaines en Stage Junior, s'étendant à 6-8 semaines en Stage Senior. Chaque rotation se termine par des Examens de Fin de Rotation comprenant un examen QCM, un devoir écrit et un examen oral.",
-      "examDesc": "Examen QCM de 3 heures composé de 300 QCM",
-      "oralExam": "Examen Oral avec Examinateurs Externes"
+      "structureDesc": "Ce diplôme comprend deux stages de 18 mois chacun - Junior et Senior. Les rotations durent 4 semaines en stage junior, puis 6-8 semaines en stage senior. Chaque rotation se termine par un QCM, un devoir écrit et un examen oral.",
+      "examDesc": "Épreuve QCM de 3 heures comprenant 300 questions",
+      "oralExam": "Examen oral avec examinateurs externes",
+      "rotations": [
+        "Histoire de l'Église",
+        "Fondements pour l'œuvre du ministère",
+        "Doctrines charismatiques essentielles",
+        "Concepts clés du pastorat",
+        "Loyauté et déloyauté",
+        "Principes fondamentaux de l'évangélisation",
+        "Principes de gestion financière dans le ministère",
+        "L'art et la science du leadership appliqué",
+        "Approches pratiques de la croissance de l'église",
+        "Principes de direction spirituelle",
+        "Théorie et pratique de l'onction",
+        "Démonologie : guide concis",
+        "Principes illustrés du conseil matrimonial"
+      ],
+      "practicalComponents": [
+        "BMCDR huit fois et CAP si programmé",
+        "Travail SONTA",
+        "Observation du travail Bacenta pendant les six premiers mois du stage Junior",
+        "Travail Bacenta actif pour le reste du programme",
+        "Attente devant Dieu"
+      ],
+      "finalExamDetails": [
+        "Épreuve QCM de 3 heures comprenant 300 questions",
+        "Examen oral avec examinateurs externes"
+      ],
+      "points": "1500"
     },
     "anagkazo": {
       "title": "Le Diplôme Anagkazo",
       "badge": "Professionnel",
-      "duration": "4 Ans",
+      "duration": "4 ans",
       "durationDetail": "4 ans (48 mois)",
       "qualification": "BECE ou équivalent",
-      "outcome": "Diplôme Anagkazo + Nomination Pastorale",
+      "outcome": "Diplôme Anagkazo + Nomination pastorale",
       "structureDesc": "Le Diplôme Anagkazo comprend tout le contenu du Diplôme Manthano (3 ans) plus une quatrième année spécialisée avec trois rotations professionnelles.",
-      "fourthYearTitle": "Rotations Professionnelles de Quatrième Année",
-      "ruralRotation": "Rotation Rurale (9 mois)",
-      "ruralDesc": "L'étudiant est affecté pour pastorer une église locale sous la supervision d'un Évêque sélectionné. Pendant cette période, l'étudiant effectuera des recherches sur la croissance de l'église et les missions.",
-      "adminRotation": "Rotation Administrative (9 mois)",
-      "adminDesc": "L'étudiant observe et apprend les procédures administratives et de gouvernance de l'église, notamment:",
-      "evangelismRotation": "Rotation d'Évangélisation Pratique",
-      "evangelismDesc": "L'étudiant participe et assiste à au moins une campagne Jésus Guérit, impliqué depuis le début (équipe avancée), à travers la préparation (mobilisation, répétitions de chorale), et lors des soirées de croisade (installation et démontage).",
-      "researchPresentation": "Présentation des Résultats de Recherche (50%)",
-      "researchDesc": "Présenter la recherche effectuée pendant la Rotation Rurale sur la croissance de l'église et les missions.",
-      "oralExam": "Examen Oral Final Général (50%)",
-      "oralExamDesc": "Examens structurés objectifs basés sur le ministère démontrant comment l'étudiant a appliqué tout l'apprentissage de trois ans sur le campus au travail sur le terrain."
+      "fourthYearTitle": "Rotations professionnelles de quatrième année",
+      "ruralRotation": "Rotation rurale (9 mois)",
+      "ruralDesc": "L'étudiant est affecté à la direction d'une église locale sous la supervision d'un évêque et mène des recherches sur la croissance de l'église et les missions.",
+      "adminRotation": "Rotation administrative (9 mois)",
+      "adminDesc": "L'étudiant observe et apprend les procédures administratives et de gouvernance de l'église, y compris :",
+      "evangelismRotation": "Rotation d'évangélisation pratique",
+      "evangelismDesc": "L'étudiant participe à au moins une campagne Healing Jesus, depuis l'équipe d'avance jusqu'aux soirées de croisade.",
+      "researchPresentation": "Présentation des recherches (50 %)",
+      "researchDesc": "Présentation des recherches menées pendant la rotation rurale sur la croissance de l'église et les missions.",
+      "oralExam": "Grand examen oral final (50 %)",
+      "oralExamDesc": "Examens structurés démontrant comment l'étudiant a appliqué son apprentissage sur le terrain.",
+      "adminList": [
+        "Formation et supervision des trésoriers",
+        "Audits accélérés",
+        "Gestion des installations de l'église",
+        "Les douze bureaux reconnus de l'église",
+        "Fonctionnement des conseils"
+      ]
     },
     "cta": {
       "title": "Prêt à Commencer Votre Formation?",

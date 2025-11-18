@@ -41,22 +41,22 @@ export function Navigation() {
     { href: `/${locale}/about`, label: t('about') },
     { href: `/${locale}/programs`, label: t('academics') },
     { href: `/${locale}/student-life`, label: t('studentLife') },
-    { href: `/${locale}/ministry-training`, label: t('ministry') },
     { href: `/${locale}/alumni`, label: t('alumni') },
     { href: `/${locale}/admissions`, label: t('admissions') },
-    { href: `/${locale}/media`, label: t('media') },
-    { href: `/${locale}/give`, label: t('give') },
     { href: `/${locale}/online`, label: t('online') },
     { href: `/${locale}/financial-aid`, label: t('financialAid') },
     { href: `/${locale}/resources`, label: t('resources') },
-    { href: `/${locale}/news`, label: t('news') }
+    /* { href: `/${locale}/ministry-training`, label: t('ministry') }, */
+    /* { href: `/${locale}/media`, label: t('media') }, */
+    /* { href: `/${locale}/give`, label: t('give') }, */
+    /* { href: `/${locale}/news`, label: t('news') } */
   ]
 
   const primaryLinks = navLinks.filter((link) => [
     `/${locale}/about`,
     `/${locale}/programs`,
     `/${locale}/student-life`,
-    `/${locale}/ministry-training`,
+    /* `/${locale}/ministry-training`, */
     `/${locale}/alumni`,
   ].includes(link.href))
 

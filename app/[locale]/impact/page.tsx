@@ -8,18 +8,47 @@ import { ArrowRight, Heart, BookOpen, Users } from "lucide-react"
 import Link from "next/link"
 import { useTranslations, useLocale } from "next-intl"
 
-const AceternityGlobe = dynamic(() => import("@/components/aceternity-globe").then((mod) => ({ default: mod.AceternityGlobe })), {
-  ssr: false,
-  loading: () => (
+const IMPACT_STORIES = [
+  {
+    key: "thailandChurches",
+    image:
+      "https://images.unsplash.com/photo-1650784854554-c077585b9720?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687",
+  },
+  {
+    key: "mozambiqueGrowth",
+    image:
+      "https://images.unsplash.com/photo-1631131431211-4f768d89087d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+  },
+  {
+    key: "peruHarvest",
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1470&auto=format&fit=crop",
+  },
+] as const
+
+function GlobeFallback() {
+  const t = useTranslations('impact')
+  return (
     <div className="w-full h-[600px] md:h-[720px] mx-auto bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg flex items-center justify-center">
-      <div className="text-white text-lg">Loading Interactive Globe...</div>
+      <div className="text-white text-lg">{t('globe.loading')}</div>
     </div>
   )
+}
+
+const AceternityGlobe = dynamic(() => import("@/components/aceternity-globe").then((mod) => ({ default: mod.AceternityGlobe })), {
+  ssr: false,
+  loading: () => <GlobeFallback />,
 })
 
 export default function ImpactPage() {
   const t = useTranslations('impact')
   const locale = useLocale()
+  const impactStories = IMPACT_STORIES.map((story) => ({
+    ...story,
+    title: t(`impactStories.items.${story.key}.title`),
+    description: t(`impactStories.items.${story.key}.description`),
+    location: t(`impactStories.items.${story.key}.location`),
+    year: t(`impactStories.items.${story.key}.year`),
+  }))
   return (
     <main className="min-h-screen">
       <Navigation />
@@ -68,37 +97,29 @@ export default function ImpactPage() {
       </section>
 
       {/* Impact Stories Section */}
-      {/* <section className="py-24 bg-muted/30">
+      <section className="py-24 bg-muted/30">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-center text-foreground mb-12">Recent Impact Stories</h2>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">{t('impactStories.title')}</h2>
+              <p className="text-xl text-muted-foreground">{t('impactStories.subtitle')}</p>
+            </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <ImpactStoryCard
-                image="/placeholder.svg?key=story1"
-                title="3 Churches Planted in Thailand"
-                description="Sarah Kim and her team have established three thriving churches in rural Thailand, reaching over 150 believers."
-                location="Thailand"
-                year="2022"
-              />
-              <ImpactStoryCard
-                image="/placeholder.svg?key=story2"
-                title="Mozambique Ministry Growing"
-                description="Emmanuel Banda's church planting work in Mozambique continues to expand with 2 churches and 80+ members."
-                location="Mozambique"
-                year="2021"
-              />
-              <ImpactStoryCard
-                image="/placeholder.svg?key=story3"
-                title="New Church in Peru"
-                description="Maria Santos recently planted a church in Lima, Peru, with 45 believers and growing weekly."
-                location="Peru"
-                year="2023"
-              />
+              {impactStories.map((story) => (
+                <ImpactStoryCard
+                  key={story.key}
+                  image={story.image}
+                  title={story.title}
+                  description={story.description}
+                  location={story.location}
+                  year={story.year}
+                />
+              ))}
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Mission Focus Areas */}
       <section className="py-24 bg-background">
@@ -161,7 +182,7 @@ export default function ImpactPage() {
                 asChild
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 group"
               >
-                <Link href="/apply">
+                <Link href={`/${locale}/apply`}>
                   {t('cta.applyNow')}
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Link>
@@ -172,7 +193,7 @@ export default function ImpactPage() {
                 asChild
                 className="bg-white/10 hover:bg-white/20 text-white border-white/30 text-lg px-8"
               >
-                <Link href="/alumni">{t('cta.viewAlumni')}</Link>
+                <Link href={`/${locale}/alumni`}>{t('cta.viewAlumni')}</Link>
               </Button>
             </div>
           </div>

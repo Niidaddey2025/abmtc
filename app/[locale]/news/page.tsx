@@ -4,13 +4,81 @@ import { Navigation } from "@/components/navigation"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Calendar, MapPin, Clock, Users } from "lucide-react"
+import { ArrowRight, Calendar, MapPin, Clock } from "lucide-react"
 import Link from "next/link"
-import { useTranslations, useLocale } from "next-intl"
+import { useTranslations } from "next-intl"
+
+const UPCOMING_EVENTS = [
+  { key: "graduation", featured: true },
+  { key: "openDay" },
+  { key: "missionsConference" },
+  { key: "alumniReunion" },
+] as const
+
+const LATEST_NEWS = [
+  {
+    key: "scholarshipProgram",
+    image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1470&auto=format&fit=crop",
+  },
+  {
+    key: "alumniPlanting",
+    image: "https://images.unsplash.com/photo-1438232992991-995b7058bbb3?q=80&w=1473&auto=format&fit=crop",
+  },
+  {
+    key: "campusExpansion",
+    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1631&auto=format&fit=crop",
+  },
+  {
+    key: "internationalWeek",
+    image: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1632&auto=format&fit=crop",
+  },
+  {
+    key: "evangelismCrusade",
+    image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1470&auto=format&fit=crop",
+  },
+  {
+    key: "onlinePlatform",
+    image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1470&auto=format&fit=crop",
+  },
+] as const
+
+const PRESS_RELEASES = [
+  { key: "anniversary25" },
+  { key: "missionPartnership" },
+  { key: "recordEnrollment" },
+] as const
 
 export default function NewsPage() {
   const t = useTranslations('news')
-  const locale = useLocale()
+  const upcomingEvents = UPCOMING_EVENTS.map((event) => {
+    const hasFeaturedFlag = 'featured' in event && typeof event.featured === 'boolean'
+    return {
+      ...event,
+      title: t(`events.items.${event.key}.title`),
+      dateDay: t(`events.items.${event.key}.dateDay`),
+      dateMonth: t(`events.items.${event.key}.dateMonth`),
+      time: t(`events.items.${event.key}.time`),
+      location: t(`events.items.${event.key}.location`),
+      description: t(`events.items.${event.key}.description`),
+      category: t(`events.items.${event.key}.category`),
+      featured: hasFeaturedFlag ? (event as { featured: boolean }).featured : false,
+    }
+  })
+  const latestNews = LATEST_NEWS.map((item) => ({
+    ...item,
+    title: t(`latest.items.${item.key}.title`),
+    date: t(`latest.items.${item.key}.date`),
+    excerpt: t(`latest.items.${item.key}.excerpt`),
+    category: t(`latest.items.${item.key}.category`),
+  }))
+  const pressReleases = PRESS_RELEASES.map((press) => ({
+    ...press,
+    title: t(`press.items.${press.key}.title`),
+    date: t(`press.items.${press.key}.date`),
+    excerpt: t(`press.items.${press.key}.excerpt`),
+  }))
+  const featuredLabel = t('events.featuredLabel')
+
   return (
     <main className="min-h-screen">
       <Navigation />
@@ -41,42 +109,20 @@ export default function NewsPage() {
             </div>
 
             <div className="space-y-6">
-              <EventCard
-                title="Graduation Ceremony 2025"
-                date="November 15, 2025"
-                time="10:00 AM"
-                location="ABMTC Campus, Mampong"
-                description="Join us as we celebrate our graduating class and commission them for ministry worldwide. This special ceremony will feature inspiring messages, testimonies, and the conferring of certificates."
-                category="Graduation"
-                featured
-              />
-
-              <EventCard
-                title="Open Day & Campus Tour"
-                date="January 20, 2025"
-                time="9:00 AM - 3:00 PM"
-                location="ABMTC Campus, Mampong"
-                description="Prospective students and families are invited to visit our campus, meet faculty and current students, tour facilities, and learn about our programs."
-                category="Campus Event"
-              />
-
-              <EventCard
-                title="Missions Conference"
-                date="March 10-12, 2025"
-                time="All Day"
-                location="ABMTC Campus, Mampong"
-                description="Three days of powerful teaching on missions, church planting, and evangelism. Guest speakers from around the world will share insights and testimonies."
-                category="Conference"
-              />
-
-              <EventCard
-                title="Alumni Reunion"
-                date="August 5, 2025"
-                time="2:00 PM"
-                location="ABMTC Campus, Mampong"
-                description="Reconnect with fellow alumni, share ministry testimonies, and celebrate God's faithfulness. Open to all ABMTC graduates."
-                category="Alumni Event"
-              />
+              {upcomingEvents.map((event) => (
+                <EventCard
+                  key={event.key}
+                  title={event.title}
+                  dateDay={event.dateDay}
+                  dateMonth={event.dateMonth}
+                  time={event.time}
+                  location={event.location}
+                  description={event.description}
+                  category={event.category}
+                  featured={event.featured}
+                  featuredLabel={featuredLabel}
+                />
+              ))}
             </div>
           </div>
         </div>
@@ -87,60 +133,23 @@ export default function NewsPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Latest News</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('latest.title')}</h2>
               <p className="text-xl text-muted-foreground">
-                Recent updates and announcements from ABMTC
+                {t('latest.subtitle')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <NewsCard
-                title="New Scholarship Program Launched"
-                date="October 15, 2024"
-                excerpt="ABMTC announces expanded scholarship opportunities for students from underrepresented regions, making ministry training more accessible."
-                image="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1470&auto=format&fit=crop"
-                category="Announcement"
-              />
-
-              <NewsCard
-                title="Alumni Plant 10 New Churches"
-                date="October 8, 2024"
-                excerpt="Recent graduates from the 2023 class have successfully planted 10 churches across 5 nations in their first year of ministry."
-                image="https://images.unsplash.com/photo-1438232992991-995b7058bbb3?q=80&w=1473&auto=format&fit=crop"
-                category="Impact Story"
-              />
-
-              <NewsCard
-                title="Campus Expansion Project Begins"
-                date="September 28, 2024"
-                excerpt="Construction begins on new dormitory facilities to accommodate growing student enrollment from international applicants."
-                image="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1631&auto=format&fit=crop"
-                category="Campus News"
-              />
-
-              <NewsCard
-                title="International Student Week"
-                date="September 15, 2024"
-                excerpt="Students from 40+ nations celebrated their diverse cultures through food, music, and testimonies during International Student Week."
-                image="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1632&auto=format&fit=crop"
-                category="Campus Life"
-              />
-
-              <NewsCard
-                title="Evangelism Crusade Reaches 5,000"
-                date="August 30, 2024"
-                excerpt="ABMTC students participated in a major evangelism crusade that reached over 5,000 people with the gospel message."
-                image="https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1470&auto=format&fit=crop"
-                category="Ministry"
-              />
-
-              <NewsCard
-                title="New Online Learning Platform"
-                date="August 20, 2024"
-                excerpt="ABMTC launches enhanced online learning platform, making courses accessible to students worldwide."
-                image="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1470&auto=format&fit=crop"
-                category="Technology"
-              />
+              {latestNews.map((item) => (
+                <NewsCard
+                  key={item.key}
+                  title={item.title}
+                  date={item.date}
+                  excerpt={item.excerpt}
+                  image={item.image}
+                  category={item.category}
+                />
+              ))}
             </div>
           </div>
         </div>
@@ -151,27 +160,18 @@ export default function NewsPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Press Releases</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('press.title')}</h2>
             </div>
 
             <div className="space-y-6">
-              <PressReleaseCard
-                title="ABMTC Celebrates 25 Years of Training Ministers"
-                date="October 1, 2024"
-                excerpt="Anagkazo Bible and Ministry Training Centre marks a quarter-century of equipping ministers for global missions, with over 800 graduates serving in 45+ nations."
-              />
-
-              <PressReleaseCard
-                title="Partnership with International Mission Organizations"
-                date="September 10, 2024"
-                excerpt="ABMTC announces strategic partnerships with leading mission organizations to enhance student placement and support for graduates."
-              />
-
-              <PressReleaseCard
-                title="Record Enrollment for 2024 Academic Year"
-                date="August 15, 2024"
-                excerpt="ABMTC welcomes its largest incoming class with students from 42 nations, reflecting growing global interest in missions training."
-              />
+              {pressReleases.map((press) => (
+                <PressReleaseCard
+                  key={press.key}
+                  title={press.title}
+                  date={press.date}
+                  excerpt={press.excerpt}
+                />
+              ))}
             </div>
           </div>
         </div>
@@ -181,9 +181,9 @@ export default function NewsPage() {
       <section className="py-24 bg-primary text-primary-foreground">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Be Part of the Story</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">{t('cta.title')}</h2>
             <p className="text-xl text-primary-foreground/90 mb-8 leading-relaxed">
-              Join ABMTC and become part of a global movement transforming nations through the gospel.
+              {t('cta.subtitle')}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -192,7 +192,7 @@ export default function NewsPage() {
                 className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 group"
               >
                 <Link href="/apply">
-                  Apply Now
+                  {t('cta.applyNow')}
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
@@ -202,7 +202,7 @@ export default function NewsPage() {
                 asChild
                 className="bg-white/10 hover:bg-white/20 text-white border-white/30 text-lg px-8"
               >
-                <Link href="/contact">Contact Us</Link>
+                <Link href="/contact">{t('cta.contactUs')}</Link>
               </Button>
             </div>
           </div>
@@ -215,39 +215,41 @@ export default function NewsPage() {
 
 function EventCard({
   title,
-  date,
+  dateDay,
+  dateMonth,
   time,
   location,
   description,
   category,
   featured = false,
+  featuredLabel,
 }: {
   title: string
-  date: string
+  dateDay: string
+  dateMonth: string
   time: string
   location: string
   description: string
   category: string
   featured?: boolean
+  featuredLabel: string
 }) {
   return (
     <Card className={`p-8 hover:shadow-lg transition-shadow ${featured ? "border-2 border-primary" : ""}`}>
       <div className="flex flex-col lg:flex-row gap-6">
         <div className="flex-shrink-0">
           <div className="w-20 h-20 bg-primary/10 rounded-lg flex flex-col items-center justify-center">
-            <div className="text-2xl font-bold text-primary">
-              {new Date(date).getDate()}
-            </div>
-            <div className="text-xs text-muted-foreground uppercase">
-              {new Date(date).toLocaleString('default', { month: 'short' })}
-            </div>
+            <div className="text-2xl font-bold text-primary">{dateDay}</div>
+            <div className="text-xs text-muted-foreground uppercase">{dateMonth}</div>
           </div>
         </div>
         <div className="flex-1">
           <div className="flex items-start justify-between mb-3">
             <div>
               <Badge className="mb-2 bg-primary/10 text-primary">{category}</Badge>
-              {featured && <Badge className="mb-2 ml-2 bg-secondary text-secondary-foreground">Featured</Badge>}
+              {featured && (
+                <Badge className="mb-2 ml-2 bg-secondary text-secondary-foreground">{featuredLabel}</Badge>
+              )}
               <h3 className="text-2xl font-bold text-foreground">{title}</h3>
             </div>
           </div>

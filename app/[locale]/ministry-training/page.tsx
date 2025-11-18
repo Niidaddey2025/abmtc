@@ -8,10 +8,61 @@ import { ArrowRight, Heart, Users, Globe, BookOpen, Target, Zap, TrendingUp } fr
 import Link from "next/link"
 import { useTranslations, useLocale } from "next-intl"
 
+const PROGRAMS = [
+  { key: "evangelism", icon: Heart },
+  { key: "churchPlanting", icon: Users },
+  { key: "missions", icon: Globe },
+  { key: "discipleship", icon: BookOpen },
+] as const
+
+const IMPACT_STORIES = [
+  {
+    key: "emmanuelBanda",
+    image:
+      "https://images.unsplash.com/photo-1631131431211-4f768d89087d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+  },
+  {
+    key: "sarahKim",
+    image:
+      "https://images.unsplash.com/photo-1650784854554-c077585b9720?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687",
+  },
+] as const
+
+const APPROACH_ITEMS = [
+  { key: "foundation", icon: BookOpen },
+  { key: "practice", icon: Target },
+  { key: "mentorship", icon: Users },
+  { key: "multiplication", icon: TrendingUp },
+] as const
+
 export default function MinistryTrainingPage() {
   const t = useTranslations('ministry')
   const tCommon = useTranslations('common')
   const locale = useLocale()
+  const programCards = PROGRAMS.map((program) => {
+    const highlights = t.raw(`programs.${program.key}Highlights`) as string[] | undefined
+    return {
+      ...program,
+      title: t(`programs.${program.key}`),
+      description: t(`programs.${program.key}Desc`),
+      highlights: highlights ?? [],
+    }
+  })
+  const impactStories = IMPACT_STORIES.map((story) => {
+    const impact = t.raw(`impactStories.items.${story.key}.impact`) as string[] | undefined
+    return {
+      ...story,
+      name: t(`impactStories.items.${story.key}.name`),
+      location: t(`impactStories.items.${story.key}.location`),
+      story: t(`impactStories.items.${story.key}.story`),
+      impact: impact ?? [],
+    }
+  })
+  const approachCards = APPROACH_ITEMS.map((item) => ({
+    ...item,
+    title: t(`approach.items.${item.key}.title`),
+    description: t(`approach.items.${item.key}.description`),
+  }))
   return (
     <main className="min-h-screen">
       <Navigation />
@@ -20,7 +71,7 @@ export default function MinistryTrainingPage() {
       <section className="pt-32 pb-16 bg-gradient-to-br from-primary/10 to-accent/10">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <Badge className="mb-4 bg-primary text-primary-foreground">Practical Ministry</Badge>
+            <Badge className="mb-4 bg-primary text-primary-foreground">{t('hero.badge')}</Badge>
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
               {t('hero.title')}
             </h1>
@@ -66,57 +117,15 @@ export default function MinistryTrainingPage() {
             </div>
 
             <div className="space-y-8">
-              <ProgramCard
-                icon={Heart}
-                title={t('programs.evangelism')}
-                description={t('programs.evangelismDesc')}
-                highlights={[
-                  "Weekly street evangelism",
-                  "Door-to-door outreach",
-                  "Mass crusade participation",
-                  "Cross-cultural evangelism",
-                  "Follow-up and discipleship"
-                ]}
-              />
-
-              <ProgramCard
-                icon={Users}
-                title={t('programs.churchPlanting')}
-                description={t('programs.churchPlantingDesc')}
-                highlights={[
-                  "Church planting principles",
-                  "Leadership development",
-                  "Discipleship systems",
-                  "Sustainable growth strategies",
-                  "Hands-on planting experience"
-                ]}
-              />
-
-              <ProgramCard
-                icon={Globe}
-                title={t('programs.missions')}
-                description={t('programs.missionsDesc')}
-                highlights={[
-                  "Cross-cultural communication",
-                  "Mission field preparation",
-                  "Unreached people groups",
-                  "Contextualization strategies",
-                  "International mission trips"
-                ]}
-              />
-
-              <ProgramCard
-                icon={BookOpen}
-                title={t('programs.discipleship')}
-                description={t('programs.discipleshipDesc')}
-                highlights={[
-                  "Discipleship frameworks",
-                  "Leadership identification",
-                  "Mentoring relationships",
-                  "Multiplication principles",
-                  "Team building skills"
-                ]}
-              />
+              {programCards.map((program) => (
+                <ProgramCard
+                  key={program.key}
+                  icon={program.icon}
+                  title={program.title}
+                  description={program.description}
+                  highlights={program.highlights}
+                />
+              ))}
             </div>
           </div>
         </div>
@@ -127,28 +136,23 @@ export default function MinistryTrainingPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Alumni Impact Stories</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('impactStories.title')}</h2>
               <p className="text-xl text-muted-foreground">
-                See how ABMTC graduates are transforming nations through ministry
+                {t('impactStories.subtitle')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              <ImpactStoryCard
-                name="Pastor Emmanuel Banda"
-                location="Mozambique"
-                image="https://images.unsplash.com/photo-1631131431211-4f768d89087d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
-                story="After graduating from ABMTC, Emmanuel planted two thriving churches in Mozambique and established a Bible school that trains indigenous leaders. His ministry has grown to reach over 80 believers and 15 trained pastors."
-                impact={["2 churches planted", "80+ members", "15 pastors trained", "Bible school founded"]}
-              />
-
-              <ImpactStoryCard
-                name="Sarah Kim"
-                location="Thailand"
-                image="https://images.unsplash.com/photo-1650784854554-c077585b9720?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687"
-                story="Sarah moved to rural Thailand where she has planted three churches with over 150 believers. Her ministry focuses on unreached villages, combining evangelism with community development projects."
-                impact={["3 churches planted", "150+ believers", "5 villages reached", "10 local leaders trained"]}
-              />
+              {impactStories.map((story) => (
+                <ImpactStoryCard
+                  key={story.key}
+                  name={story.name}
+                  location={story.location}
+                  image={story.image}
+                  story={story.story}
+                  impact={story.impact}
+                />
+              ))}
             </div>
           </div>
         </div>
@@ -159,33 +163,21 @@ export default function MinistryTrainingPage() {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Our Training Approach</h2>
+              <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">{t('approach.title')}</h2>
               <p className="text-xl text-muted-foreground">
-                Balanced, practical, and proven methods that produce effective ministers
+                {t('approach.subtitle')}
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <ApproachCard
-                icon={BookOpen}
-                title="Biblical Foundation"
-                description="Solid scriptural grounding in all ministry practices"
-              />
-              <ApproachCard
-                icon={Target}
-                title="Hands-On Practice"
-                description="Regular field experience in real ministry contexts"
-              />
-              <ApproachCard
-                icon={Users}
-                title="Mentorship"
-                description="Personal guidance from experienced ministers"
-              />
-              <ApproachCard
-                icon={TrendingUp}
-                title="Multiplication"
-                description="Training that produces leaders who train others"
-              />
+              {approachCards.map((card) => (
+                <ApproachCard
+                  key={card.key}
+                  icon={card.icon}
+                  title={card.title}
+                  description={card.description}
+                />
+              ))}
             </div>
           </div>
         </div>

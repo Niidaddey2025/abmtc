@@ -246,10 +246,12 @@
       "housingDesc": "El alojamiento en el campus está completamente cubierto para que puedas enfocarte en tu crecimiento espiritual y académico.",
       "scholarships": "Becas disponibles",
       "scholarshipsDesc": "Las becas basadas en mérito y necesidad ayudan a reducir los costos de matrícula para los estudiantes calificados.",
-      "travel": "Asistencia para viajes",
-      "travelDesc": "Se ofrece apoyo de viaje limitado para estudiantes internacionales según la necesidad.",
+      "travel": "Ayuda para viajes",
+      "travelDesc": "Se dispone de apoyo limitado para viajes de estudiantes internacionales según la necesidad.",
+      "caseByCase": "Según el caso",
       "payment": "Planes de pago flexibles",
-      "paymentDesc": "Arreglos de pago sin intereses te ayudan a manejar cómodamente la matrícula restante.",
+      "paymentDesc": "Los acuerdos de pago sin intereses te ayudan a gestionar cómodamente el resto de la matrícula.",
+      "zeroInterest": "0% de interés",
       "merit": "Becas al mérito",
       "meritDesc": "Otorgadas en función de la excelencia académica y la experiencia ministerial",
       "need": "Ayuda basada en necesidad",
@@ -309,9 +311,10 @@
   },
   "ministry": {
     "hero": {
-      "title": "Formación ministerial",
-      "subtitle": "Capacitando hombres y mujeres para ganar a los perdidos y plantar iglesias en todo el mundo",
-      "scripture": "\"Id por todo el mundo y predicad el evangelio a toda criatura\" - Marcos 16:15"
+      "badge": "Ministerio práctico",
+      "title": "Entrenamiento ministerial",
+      "subtitle": "Formando hombres y mujeres para ganar a los perdidos y plantar iglesias en todo el mundo",
+      "scripture": "\"Vayan por todo el mundo y prediquen el evangelio a toda criatura\" - Marcos 16:15"
     },
     "intro": {
       "title": "Equipándote para un ministerio efectivo",
@@ -322,15 +325,93 @@
     },
     "programs": {
       "title": "Nuestros programas de formación",
-      "subtitle": "Formación ministerial práctica integral",
-      "evangelism": "Evangelismo y ganancia de almas",
-      "evangelismDesc": "Aprende métodos probados para evangelismo efectivo a través de predicación callejera, alcance puerta a puerta y cruzadas masivas. Los estudiantes participan en actividades de evangelismo semanales.",
+      "subtitle": "Formación ministerial práctica y completa",
+      "evangelism": "Evangelismo y alcance",
+      "evangelismDesc": "Aprende métodos comprobados de evangelismo eficaz a través de la predicación en las calles, la visita casa por casa y las cruzadas masivas. Los estudiantes participan en actividades semanales de evangelismo.",
+      "evangelismHighlights": [
+        "Evangelismo callejero semanal",
+        "Alcance puerta a puerta",
+        "Participación en cruzadas",
+        "Evangelismo intercultural",
+        "Seguimiento y discipulado"
+      ],
       "churchPlanting": "Plantación de iglesias",
-      "churchPlantingDesc": "Domina el arte de plantar y hacer crecer iglesias desde cero. Aprende estrategias para multiplicación sostenible de iglesias a través de culturas.",
-      "missions": "Misiones y ministerio transcultural",
-      "missionsDesc": "Prepárate para misiones internacionales con capacitación en comunicación transcultural, contextualización y vida misionera.",
+      "churchPlantingDesc": "Domina el arte de plantar y hacer crecer iglesias desde cero. Aprende estrategias para la multiplicación sostenible en diversas culturas.",
+      "churchPlantingHighlights": [
+        "Principios de plantación",
+        "Desarrollo de liderazgo",
+        "Sistemas de discipulado",
+        "Estrategias de crecimiento sostenible",
+        "Experiencia práctica de plantación"
+      ],
+      "missions": "Misiones y ministerio intercultural",
+      "missionsDesc": "Prepárate para las misiones internacionales con entrenamiento en comunicación intercultural, contextualización y vida misionera.",
+      "missionsHighlights": [
+        "Comunicación intercultural",
+        "Preparación para el campo misionero",
+        "Pueblos no alcanzados",
+        "Estrategias de contextualización",
+        "Viajes misioneros internacionales"
+      ],
       "discipleship": "Discipulado y liderazgo",
-      "discipleshipDesc": "Desarrolla habilidades para discipular a nuevos creyentes y formar líderes que continuarán la obra del ministerio en las iglesias locales."
+      "discipleshipDesc": "Desarrolla habilidades para discipular a nuevos creyentes y levantar líderes que continúen la obra del ministerio en las iglesias locales.",
+      "discipleshipHighlights": [
+        "Marcos de discipulado",
+        "Identificación de líderes",
+        "Relaciones de mentoría",
+        "Principios de multiplicación",
+        "Habilidades de trabajo en equipo"
+      ]
+    },
+    "impactStories": {
+      "title": "Historias de impacto de exalumnos",
+      "subtitle": "Conoce cómo los graduados de ABMTC están transformando naciones a través del ministerio",
+      "items": {
+        "emmanuelBanda": {
+          "name": "Pastor Emmanuel Banda",
+          "location": "Mozambique",
+          "story": "Después de graduarse de ABMTC, Emmanuel plantó dos iglesias florecientes en Mozambique y estableció una escuela bíblica que capacita a líderes indígenas. Su ministerio alcanza a más de 80 creyentes y 15 pastores formados.",
+          "impact": [
+            "2 iglesias plantadas",
+            "80+ miembros",
+            "15 pastores formados",
+            "Escuela bíblica fundada"
+          ]
+        },
+        "sarahKim": {
+          "name": "Sarah Kim",
+          "location": "Tailandia",
+          "story": "Sarah se mudó a la Tailandia rural donde ha plantado tres iglesias con más de 150 creyentes. Su ministerio se centra en aldeas no alcanzadas, combinando evangelismo con desarrollo comunitario.",
+          "impact": [
+            "3 iglesias plantadas",
+            "150+ creyentes",
+            "5 aldeas alcanzadas",
+            "10 líderes locales formados"
+          ]
+        }
+      }
+    },
+    "approach": {
+      "title": "Nuestro enfoque de formación",
+      "subtitle": "Métodos equilibrados, prácticos y comprobados que producen ministros eficaces",
+      "items": {
+        "foundation": {
+          "title": "Fundamento bíblico",
+          "description": "Base bíblica sólida para todas las prácticas ministeriales"
+        },
+        "practice": {
+          "title": "Práctica en el campo",
+          "description": "Experiencia regular en contextos reales de ministerio"
+        },
+        "mentorship": {
+          "title": "Mentoría",
+          "description": "Guía personal de ministros experimentados"
+        },
+        "multiplication": {
+          "title": "Multiplicación",
+          "description": "Formación que produce líderes que entrenan a otros"
+        }
+      }
     },
     "cta": {
       "title": "¿Listo para experimentar ABMTC?",
@@ -478,7 +559,45 @@
       "title": "Historias de éxito de exalumnos",
       "subtitle": "Vea cómo los graduados de ABMTC están teniendo un impacto en todo el mundo",
       "ministryImpact": "Impacto del ministerio:",
-      "classOf": "Promoción de"
+      "classOf": "Promoción de",
+      "items": {
+        "sarahKim": {
+          "name": "Sarah Kim",
+          "class": "Promoción 2020",
+          "location": "Tailandia",
+          "story": "Después de graduarse de ABMTC, Sarah se mudó a la Tailandia rural donde ha plantado tres iglesias prósperas con más de 150 creyentes. Su ministerio se enfoca en aldeas no alcanzadas del norte, combinando evangelismo con proyectos de desarrollo comunitario.",
+          "impact": [
+            "3 iglesias plantadas",
+            "150+ creyentes",
+            "5 aldeas alcanzadas",
+            "10 líderes locales formados"
+          ]
+        },
+        "emmanuelBanda": {
+          "name": "Emmanuel Banda",
+          "class": "Promoción 2019",
+          "location": "Mozambique",
+          "story": "Emmanuel regresó a su región en África Austral con la visión de alcanzar a los pueblos no evangelizados. Ha establecido dos iglesias en Mozambique y capacita a pastores locales a través de un programa de discipulado. Su ministerio ahora incluye una escuela bíblica que equipa a líderes indígenas para la plantación de iglesias.",
+          "impact": [
+            "2 iglesias establecidas",
+            "80+ miembros",
+            "Escuela bíblica fundada",
+            "15 pastores capacitados"
+          ]
+        },
+        "mariaSantos": {
+          "name": "Maria Santos",
+          "class": "Promoción 2021",
+          "location": "Perú",
+          "story": "De Brasil a Perú, Maria siguió el llamado de Dios para impactar América Latina. Plantó recientemente una iglesia en Lima que ha crecido a 45 creyentes en solo dos años. Su ministerio enfatiza el discipulado y el desarrollo de liderazgo, y forma regularmente a mujeres jóvenes en el ministerio.",
+          "impact": [
+            "1 iglesia plantada",
+            "45 creyentes",
+            "Grupos de discipulado semanales",
+            "Ministerio de formación regional"
+          ]
+        }
+      }
     },
     "benefits": {
       "title": "Beneficios de la red de exalumnos",
@@ -509,7 +628,24 @@
       }
     },
     "testimonials": {
-      "title": "Lo que dicen los exalumnos"
+      "title": "Lo que dicen los exalumnos",
+      "items": {
+        "jamesOsei": {
+          "quote": "ABMTC no solo me dio conocimiento teológico; transformó mi carácter y me preparó para las realidades del ministerio transcultural. La capacitación práctica y la comunidad internacional fueron invaluables.",
+          "name": "Pastor James Osei",
+          "details": "Promoción 2016 • Sirve en Burkina Faso"
+        },
+        "annaKowalski": {
+          "quote": "La red de exalumnos ha sido un salvavidas en temporadas difíciles. Saber que tengo hermanos y hermanas alrededor del mundo orando por mí hace toda la diferencia.",
+          "name": "Rev. Anna Kowalski",
+          "details": "Promoción 2018 • Sirve en Polonia"
+        },
+        "samuelNguyen": {
+          "quote": "Mis dos años en ABMTC fueron la mejor inversión para mi ministerio. La formación que recibí sigue dando fruto mientras entreno a otros para plantar iglesias.",
+          "name": "Pastor Samuel Nguyen",
+          "details": "Promoción 2019 • Sirve en Vietnam"
+        }
+      }
     },
     "cta": {
       "title": "Únete a esta familia global",
@@ -595,7 +731,46 @@
     },
     "events": {
       "title": "Próximos eventos",
-      "subtitle": "Marca tu calendario para estas fechas importantes"
+      "subtitle": "Marca tu calendario para estas fechas importantes",
+      "featuredLabel": "Destacado",
+      "items": {
+        "graduation": {
+          "title": "Ceremonia de graduación 2025",
+          "dateDay": "15",
+          "dateMonth": "Nov",
+          "time": "10:00 AM",
+          "location": "Campus ABMTC, Mampong",
+          "description": "Únete a nosotros para celebrar a nuestra clase graduada y enviarlos al ministerio mundial. Habrá mensajes inspiradores, testimonios y entrega de certificados.",
+          "category": "Graduación"
+        },
+        "openDay": {
+          "title": "Día abierto y visita al campus",
+          "dateDay": "20",
+          "dateMonth": "Ene",
+          "time": "9:00 AM - 3:00 PM",
+          "location": "Campus ABMTC, Mampong",
+          "description": "Estudiantes prospecto y familias están invitados a visitar el campus, conocer a los docentes y descubrir nuestros programas.",
+          "category": "Evento en campus"
+        },
+        "missionsConference": {
+          "title": "Conferencia misionera",
+          "dateDay": "10-12",
+          "dateMonth": "Mar",
+          "time": "Todo el día",
+          "location": "Campus ABMTC, Mampong",
+          "description": "Tres días de enseñanza poderosa sobre misiones, plantación de iglesias y evangelismo con oradores invitados de todo el mundo.",
+          "category": "Conferencia"
+        },
+        "alumniReunion": {
+          "title": "Reencuentro de exalumnos",
+          "dateDay": "05",
+          "dateMonth": "Ago",
+          "time": "2:00 PM",
+          "location": "Campus ABMTC, Mampong",
+          "description": "Reconéctate con exalumnos, comparte testimonios de ministerio y celebra la fidelidad de Dios. Abierto a todos los graduados de ABMTC.",
+          "category": "Evento de exalumnos"
+        }
+      }
     },
     "upcoming": {
       "title": "Próximos eventos",
@@ -603,14 +778,71 @@
     },
     "latest": {
       "title": "Últimas noticias",
-      "subtitle": "Actualizaciones y anuncios recientes de ABMTC"
+      "subtitle": "Actualizaciones y anuncios recientes de ABMTC",
+      "items": {
+        "scholarshipProgram": {
+          "title": "Nuevo programa de becas",
+          "date": "15 de octubre de 2024",
+          "excerpt": "ABMTC anuncia oportunidades ampliadas de becas para estudiantes de regiones subrepresentadas, haciendo la formación ministerial más accesible.",
+          "category": "Anuncio"
+        },
+        "alumniPlanting": {
+          "title": "Exalumnos plantan 10 nuevas iglesias",
+          "date": "8 de octubre de 2024",
+          "excerpt": "Graduados de la clase 2023 plantaron 10 iglesias en 5 naciones durante su primer año de ministerio.",
+          "category": "Historia de impacto"
+        },
+        "campusExpansion": {
+          "title": "Comienza la expansión del campus",
+          "date": "28 de septiembre de 2024",
+          "excerpt": "Comienzan las obras de nuevos dormitorios para recibir a más estudiantes internacionales.",
+          "category": "Noticias del campus"
+        },
+        "internationalWeek": {
+          "title": "Semana internacional estudiantil",
+          "date": "15 de septiembre de 2024",
+          "excerpt": "Estudiantes de más de 40 naciones celebraron su diversidad con comida, música y testimonios.",
+          "category": "Vida estudiantil"
+        },
+        "evangelismCrusade": {
+          "title": "Cruzada evangelística alcanza a 5,000 personas",
+          "date": "30 de agosto de 2024",
+          "excerpt": "Estudiantes de ABMTC participaron en una gran cruzada evangelística que alcanzó a más de 5,000 personas.",
+          "category": "Ministerio"
+        },
+        "onlinePlatform": {
+          "title": "Nueva plataforma de aprendizaje en línea",
+          "date": "20 de agosto de 2024",
+          "excerpt": "ABMTC lanza una plataforma en línea mejorada que hace sus cursos accesibles en todo el mundo.",
+          "category": "Tecnología"
+        }
+      }
     },
     "press": {
-      "title": "Comunicados de prensa"
+      "title": "Comunicados de prensa",
+      "items": {
+        "anniversary25": {
+          "title": "ABMTC celebra 25 años formando ministros",
+          "date": "1 de octubre de 2024",
+          "excerpt": "ABMTC conmemora 25 años equipando ministros para misiones globales, con más de 800 graduados sirviendo en 45+ naciones."
+        },
+        "missionPartnership": {
+          "title": "Alianza con organizaciones misioneras internacionales",
+          "date": "10 de septiembre de 2024",
+          "excerpt": "ABMTC anuncia alianzas estratégicas para mejorar la colocación y el apoyo a los graduados."
+        },
+        "recordEnrollment": {
+          "title": "Récord de inscripciones para 2024",
+          "date": "15 de agosto de 2024",
+          "excerpt": "ABMTC recibe a su clase más grande con estudiantes de 42 naciones, reflejando un creciente interés global en la formación ministerial."
+        }
+      }
     },
     "cta": {
       "title": "Sé parte de la historia",
-      "subtitle": "Únete a ABMTC y sé parte de un movimiento global transformando naciones a través del evangelio."
+      "subtitle": "Únete a ABMTC y sé parte de un movimiento global transformando naciones a través del evangelio.",
+      "applyNow": "Solicitar ahora",
+      "contactUs": "Contáctanos"
     }
   },
   "contact": {
@@ -908,7 +1140,139 @@
     "stillHaveQuestions": "¿Aún tienes preguntas?",
     "admissionsHelp": "Nuestro equipo de admisiones está aquí para ayudar. Contáctanos y te responderemos en 24 horas.",
     "contactAdmissions": "Contactar admisiones",
-    "scheduleCall": "Programar una llamada"
+    "scheduleCall": "Programar una llamada",
+    "sections": [
+      {
+        "title": "General",
+        "questions": [
+          {
+            "question": "¿Qué es Anagkazo Bible and Ministry Training Centre?",
+            "answer": "Un centro cristiano de clase mundial fundado por el Obispo Dag Heward-Mills para levantar ministros ungidos. Formamos estudiantes de más de 40 naciones para misiones y plantación de iglesias."
+          },
+          {
+            "question": "¿Dónde está ubicado Anagkazo?",
+            "answer": "En Mampong, Ghana, con un ambiente de campus tranquilo para el crecimiento espiritual y académico."
+          },
+          {
+            "question": "¿Cuánto dura la formación?",
+            "answer": "Los programas van desde unos meses hasta cursos ministeriales avanzados de varios años. Nuestro programa integral de tres años prepara completamente para el ministerio."
+          },
+          {
+            "question": "¿Puedo visitar el campus?",
+            "answer": "Sí, las visitas se permiten en días abiertos o con cita previa. Contáctanos con dos semanas de anticipación."
+          },
+          {
+            "question": "¿Cómo puedo apoyar a Anagkazo?",
+            "answer": "Puedes donar, asociarte o patrocinar a un estudiante desde la página 'Dar / Asociarse'. Tu apoyo ayuda a formar a futuros ministros."
+          }
+        ]
+      },
+      {
+        "title": "Admisiones",
+        "questions": [
+          {
+            "question": "¿Quién puede postular?",
+            "answer": "Cualquiera con un llamado genuino al ministerio o pasión por servir a Dios. Recibimos estudiantes de todas las naciones y contextos."
+          },
+          {
+            "question": "¿Necesito experiencia pastoral?",
+            "answer": "No, pero se requiere un corazón para el ministerio y disposición para aprender."
+          },
+          {
+            "question": "¿Hay becas disponibles?",
+            "answer": "Sí, ofrecemos becas parciales por mérito y necesidad. Creemos que las finanzas no deben ser un obstáculo."
+          },
+          {
+            "question": "¿Cuándo es la próxima convocatoria?",
+            "answer": "Generalmente tenemos dos ingresos al año. Consulta la página de admisiones para fechas actualizadas."
+          },
+          {
+            "question": "¿Aceptan estudiantes internacionales?",
+            "answer": "Sí, damos la bienvenida a estudiantes de todos los países y brindamos orientación de visa."
+          }
+        ]
+      },
+      {
+        "title": "Finanzas",
+        "questions": [
+          {
+            "question": "¿Cuánto cuesta el programa?",
+            "answer": "El programa residencial de 9 meses cuesta aproximadamente $3,500 incluyendo matrícula, alojamiento, comidas y materiales."
+          },
+          {
+            "question": "¿Qué becas existen?",
+            "answer": "Disponemos de becas por necesidad (hasta 100%), mérito, específicas por región y opciones de trabajo-estudio."
+          },
+          {
+            "question": "¿Puedo trabajar mientras estudio?",
+            "answer": "El programa requiere dedicación total, pero ofrecemos oportunidades de trabajo-estudio en el campus."
+          },
+          {
+            "question": "¿Existen planes de pago?",
+            "answer": "Sí, tenemos planes flexibles para pagar en cuotas durante el año académico."
+          }
+        ]
+      },
+      {
+        "title": "Programas",
+        "questions": [
+          {
+            "question": "¿Cuál es la duración del programa?",
+            "answer": "El programa residencial dura 9 meses (septiembre a mayo) y ofrecemos un programa en línea de 2 años."
+          },
+          {
+            "question": "¿Qué materias se imparten?",
+            "answer": "Biblia, teología, historia de la iglesia, misiones, plantación de iglesias, liderazgo, evangelismo, discipulado, adoración y ministerio práctico."
+          },
+          {
+            "question": "¿Recibiré un certificado o título?",
+            "answer": "Los graduados reciben un Certificado en Biblia y Ministerio. Estamos trabajando para ofrecer diplomas acreditados."
+          },
+          {
+            "question": "¿Cómo es el horario diario?",
+            "answer": "Devocionales temprano, clases durante el día, ministerio práctico por la tarde y adoración o estudio en la noche."
+          }
+        ]
+      },
+      {
+        "title": "Vida estudiantil",
+        "questions": [
+          {
+            "question": "¿Dónde viviré?",
+            "answer": "Todos los estudiantes viven en dormitorios compartidos dentro del campus con comidas incluidas."
+          },
+          {
+            "question": "¿Qué debo llevar?",
+            "answer": "Artículos personales, ropa para el clima de Ghana, Biblia, materiales de estudio y medicamentos necesarios."
+          },
+          {
+            "question": "¿Hay acceso a internet?",
+            "answer": "Sí, contamos con WiFi para investigación y comunicación."
+          },
+          {
+            "question": "¿Qué opciones de salud existen?",
+            "answer": "Disponemos de atención básica en el campus y convenios con clínicas locales; se recomienda seguro médico."
+          }
+        ]
+      },
+      {
+        "title": "Después de la graduación",
+        "questions": [
+          {
+            "question": "¿Qué apoyo reciben los graduados?",
+            "answer": "Acceso a la red global de exalumnos, mentoría continua, ayuda para colocación ministerial y recursos para plantar iglesias."
+          },
+          {
+            "question": "¿Dónde sirven los graduados?",
+            "answer": "Nuestros exalumnos sirven en más de 40 países como pastores, misioneros y líderes ministeriales."
+          },
+          {
+            "question": "¿Puedo continuar mis estudios?",
+            "answer": "Sí, muchos continúan con formación teológica adicional y brindamos recomendaciones institucionales."
+          }
+        ]
+      }
+    ]
   },
   "financialAid": {
     "title": "Ayuda financiera y becas",
@@ -943,21 +1307,57 @@
       "merit": "Beca por mérito",
       "meritAmount": "Hasta $1,500",
       "meritDesc": "Otorgada según la excelencia académica y el potencial ministerial",
+      "meritCriteria": [
+        "Expediente académico sólido",
+        "Experiencia en liderazgo",
+        "Participación en el ministerio",
+        "Testimonio convincente"
+      ],
       "needBased": "Ayuda basada en necesidad",
       "needAmount": "Hasta $2,000",
       "needDesc": "Asistencia financiera para estudiantes con necesidad demostrada",
+      "needCriteria": [
+        "Documentación de necesidad financiera",
+        "Completar FAFSA o equivalente",
+        "Declaración personal",
+        "Plan de presupuesto"
+      ],
       "regional": "Becas regionales",
       "regionalAmount": "Varía",
       "regionalDesc": "Financiamiento especial para estudiantes de regiones o países específicos",
+      "regionalCriteria": [
+        "Procedente de una región designada",
+        "Fuerte llamado a las misiones",
+        "Endoso de la iglesia",
+        "Buen estado académico"
+      ],
       "partner": "Beca de socio ministerial",
       "partnerAmount": "Hasta $1,000",
       "partnerDesc": "Para estudiantes enviados por iglesias y organizaciones asociadas",
+      "partnerCriteria": [
+        "Miembro de iglesia asociada",
+        "Carta de recomendación de la iglesia",
+        "Compromiso ministerial",
+        "Buenas referencias"
+      ],
       "travel": "Subvención de viaje",
       "travelAmount": "Hasta $1,500",
       "travelDesc": "Asistencia con costos de viaje internacional a Ghana",
+      "travelCriteria": [
+        "Estudiante aceptado",
+        "Necesidad financiera",
+        "Primer viaje internacional",
+        "Solicitud completa"
+      ],
       "family": "Beca familiar",
       "familyAmount": "20% de descuento",
       "familyDesc": "Matrícula reducida para parejas casadas que se inscriben juntas",
+      "familyCriteria": [
+        "Ambos cónyuges inscritos",
+        "Buen estado",
+        "Solicitudes completas",
+        "Disponibilidad de alojamiento"
+      ],
       "criteria": "Criterios:"
     },
     "howToApply": {
@@ -998,11 +1398,35 @@
       "subtitle": "Ve cómo los graduados de ABMTC están transformando naciones a través de la plantación de iglesias, el discipulado y el trabajo misionero en todo el mundo."
     },
     "mapSection": {
-      "title": "Impacto Global",
-      "subtitle": "🌍 Orígenes de los Estudiantes",
-      "quote": "Desde Ghana hasta los confines de la tierra, Anagkazo da la bienvenida a estudiantes de todos los continentes: África, Europa, Asia, América del Norte y del Sur, Australia y más allá.",
-      "paragraph1": "A lo largo de los años, nuestro campus ha albergado a hombres y mujeres de diversas naciones y orígenes, todos unidos por un propósito divino: ser capacitados y enviados como obreros en la cosecha de Dios.",
-      "paragraph2": "Esta rica mezcla internacional hace de Anagkazo un verdadero centro de formación ministerial global, donde las culturas se encuentran, los destinos se moldean y la Gran Comisión cobra vida de una manera poderosa y práctica."
+      "title": "Impacto global",
+      "subtitle": " Origen de los estudiantes",
+      "quote": "Desde Ghana hasta los confines de la tierra, Anagkazo recibe estudiantes de todos los continentes: África, Europa, Asia, Norteamérica, Sudamérica, Australia y más allá.",
+      "paragraph1": "A lo largo de los años, nuestro campus ha recibido hombres y mujeres de diversas naciones y contextos, todos unidos por un propósito divino: ser entrenados y enviados como obreros en la mies de Dios.",
+      "paragraph2": "Esta rica mezcla internacional hace de Anagkazo un verdadero centro global de formación ministerial, donde las culturas se encuentran, los destinos se forman y la Gran Comisión cobra vida de manera poderosa y práctica."
+    },
+    "impactStories": {
+      "title": "Historias de impacto recientes",
+      "subtitle": "Testimonios reales de graduados de ABMTC sirviendo alrededor del mundo",
+      "items": {
+        "thailandChurches": {
+          "title": "3 iglesias plantadas en el norte de Tailandia",
+          "description": "Sarah Kim y su equipo plantaron tres iglesias florecientes en la Tailandia rural, alcanzando aldeas no evangelizadas mediante evangelismo y proyectos de desarrollo comunitario.",
+          "location": "Tailandia",
+          "year": "2023"
+        },
+        "mozambiqueGrowth": {
+          "title": "Expansión del ministerio en Mozambique",
+          "description": "El pastor Emmanuel Banda continúa discipulando nuevos creyentes, estableciendo escuelas bíblicas y formando líderes indígenas para una plantación de iglesias sostenible.",
+          "location": "Mozambique",
+          "year": "2022"
+        },
+        "peruHarvest": {
+          "title": "Nueva iglesia en Lima, Perú",
+          "description": "Maria Santos lanzó una iglesia dinámica en Lima que ya reúne a 45 creyentes semanalmente y dirige grupos de discipulado para jóvenes líderes.",
+          "location": "Perú",
+          "year": "2024"
+        }
+      }
     },
     "missionFocus": {
       "title": "Nuestro enfoque misionero",
@@ -1082,66 +1506,151 @@
       "duration": "Duración",
       "qualification": "Calificación",
       "outcome": "Resultado",
-      "academicRotations": "Rotaciones Académicas",
-      "practicalComponents": "Componentes de Ministerio Práctico",
-      "grandFinal": "Examen Final General",
+      "academicRotations": "Rotaciones académicas",
+      "practicalComponents": "Componentes prácticos",
+      "grandFinal": "Examen final",
       "qualifyingPoints": "Los estudiantes califican con",
       "points": "puntos",
-      "programStructure": "Estructura del Programa"
+      "programStructure": "Estructura del programa",
+      "qualifyingPointsFull": "Los estudiantes califican con {points} puntos."
     },
     "makarios": {
       "title": "El Diploma Makarios",
       "badge": "Fundación",
-      "duration": "1 Año",
+      "duration": "1 año",
       "durationDetail": "12 meses",
-      "intakes": "(Marzo-Febrero; Septiembre-Agosto)",
+      "intakes": "(marzo-febrero; septiembre-agosto)",
       "qualification": "BECE o equivalente",
       "outcome": "Diploma Makarios",
-      "rotationDesc": "Rotaciones de seis semanas con Exámenes de Fin de Rotación que consisten en un examen MCQ, una tarea escrita y un examen oral.",
-      "examDesc": "Examen MCQ de 2 horas que consta de 200 MCQs",
-      "oralExam": "Examen Oral con Examinadores Externos"
+      "rotationDesc": "Rotaciones de seis semanas con exámenes al final que incluyen un cuestionario, una tarea escrita y un examen oral.",
+      "examDesc": "Prueba de opción múltiple de 2 horas con 200 preguntas",
+      "oralExam": "Examen oral con examinadores externos",
+      "rotations": [
+        "Fundamentos para la obra del ministerio",
+        "Conceptos centrales del pastoreo",
+        "Lealtad",
+        "Fundamentos del evangelismo",
+        "El arte y la ciencia del liderazgo aplicado",
+        "Enfoques prácticos para el crecimiento de la iglesia",
+        "Teoría y práctica de la unción"
+      ],
+      "practicalComponents": [
+        "BMCDR tres veces y CAP si se programa",
+        "Trabajo SONTA",
+        "Observación del trabajo de Bacenta durante los primeros seis meses",
+        "Trabajo activo de Bacenta durante los últimos seis meses",
+        "Esperar en Dios"
+      ],
+      "finalExamDetails": [
+        "Prueba de opción múltiple de 2 horas con 200 preguntas",
+        "Examen oral con examinadores externos"
+      ],
+      "points": "1200"
     },
     "machaneh": {
       "title": "El Diploma Machaneh",
       "badge": "Intermedio",
-      "duration": "18 Meses",
+      "duration": "18 meses",
       "qualification": "BECE o equivalente",
       "outcome": "Diploma Machaneh",
-      "rotationDesc": "Rotaciones de cuatro semanas con Exámenes de Fin de Rotación que consisten en un examen MCQ, una tarea escrita y un examen oral.",
-      "rotationCount": "Rotaciones Académicas (15)",
-      "examDesc": "Examen MCQ de 3 horas que consta de 300 MCQs",
-      "oralExam": "Examen Oral con Examinadores Externos"
+      "rotationDesc": "Rotaciones de cuatro semanas con exámenes al final que incluyen un cuestionario, una tarea escrita y un examen oral.",
+      "rotationCount": "Rotaciones académicas (15)",
+      "examDesc": "Prueba de opción múltiple de 3 horas con 300 preguntas",
+      "oralExam": "Examen oral con examinadores externos",
+      "rotations": [
+        "Historia de la iglesia",
+        "Fundamentos para la obra del ministerio",
+        "Doctrinas carismáticas esenciales",
+        "Conceptos centrales del pastoreo",
+        "Lealtad y deslealtad 1",
+        "Fundamentos del evangelismo",
+        "Principios de administración financiera en el ministerio",
+        "El arte y la ciencia del liderazgo aplicado 1",
+        "Enfoques prácticos para el crecimiento de la iglesia",
+        "Principios de guía espiritual",
+        "Teoría y práctica de la unción",
+        "Demonología: una guía concisa",
+        "Principios ilustrados de consejería matrimonial",
+        "Lealtad y deslealtad 2",
+        "El arte y la ciencia del liderazgo aplicado 2"
+      ],
+      "practicalComponents": [
+        "BMCDR cuatro veces y CAP si se programa",
+        "Trabajo SONTA",
+        "Observación del trabajo de Bacenta durante los primeros seis meses",
+        "Trabajo activo de Bacenta durante los últimos doce meses",
+        "Esperar en Dios"
+      ],
+      "finalExamDetails": [
+        "Prueba de opción múltiple de 3 horas con 300 preguntas",
+        "Examen oral con examinadores externos"
+      ],
+      "points": "1500"
     },
     "manthano": {
       "title": "El Diploma Manthano",
       "badge": "Avanzado",
-      "duration": "3 Años",
+      "duration": "3 años",
       "durationDetail": "36 meses (3 años)",
       "qualification": "BECE o equivalente",
       "outcome": "Diploma Manthano",
-      "structureDesc": "Este Diploma se compone de dos Pasantías de 18 meses cada una: Junior y Senior. Las rotaciones son de 4 semanas en la Pasantía Junior, extendiéndose a 6-8 semanas en la Pasantía Senior. Cada rotación termina con Exámenes de Fin de Rotación que consisten en un examen MCQ, una tarea escrita y un examen oral.",
-      "examDesc": "Examen MCQ de 3 horas que consta de 300 MCQs",
-      "oralExam": "Examen Oral con Examinadores Externos"
+      "structureDesc": "Este diploma se compone de dos internados de 18 meses cada uno: Junior y Senior. Las rotaciones duran 4 semanas en el internado junior y 6-8 semanas en el internado senior. Cada rotación termina con un cuestionario, una tarea escrita y un examen oral.",
+      "examDesc": "Prueba de opción múltiple de 3 horas con 300 preguntas",
+      "oralExam": "Examen oral con examinadores externos",
+      "rotations": [
+        "Historia de la iglesia",
+        "Fundamentos para la obra del ministerio",
+        "Doctrinas carismáticas esenciales",
+        "Conceptos centrales del pastoreo",
+        "Lealtad y deslealtad",
+        "Fundamentos del evangelismo",
+        "Principios de administración financiera en el ministerio",
+        "El arte y la ciencia del liderazgo aplicado",
+        "Enfoques prácticos para el crecimiento de la iglesia",
+        "Principios de guía espiritual",
+        "Teoría y práctica de la unción",
+        "Demonología: una guía concisa",
+        "Principios ilustrados de consejería matrimonial"
+      ],
+      "practicalComponents": [
+        "BMCDR ocho veces y CAP si se programa",
+        "Trabajo SONTA",
+        "Observación del trabajo de Bacenta durante los primeros seis meses del internado junior",
+        "Trabajo activo de Bacenta durante el resto del programa",
+        "Esperar en Dios"
+      ],
+      "finalExamDetails": [
+        "Prueba de opción múltiple de 3 horas con 300 preguntas",
+        "Examen oral con examinadores externos"
+      ],
+      "points": "1500"
     },
     "anagkazo": {
       "title": "El Diploma Anagkazo",
       "badge": "Profesional",
-      "duration": "4 Años",
+      "duration": "4 años",
       "durationDetail": "4 años (48 meses)",
       "qualification": "BECE o equivalente",
-      "outcome": "Diploma Anagkazo + Nombramiento Pastoral",
-      "structureDesc": "El Diploma Anagkazo consiste en todo el contenido del Diploma Manthano (3 años) más un cuarto año especializado con tres rotaciones profesionales.",
-      "fourthYearTitle": "Rotaciones Profesionales del Cuarto Año",
-      "ruralRotation": "Rotación Rural (9 meses)",
-      "ruralDesc": "El estudiante es asignado para pastorear una iglesia local bajo la supervisión de un Obispo seleccionado. Durante este período, el estudiante realizará investigaciones sobre crecimiento de iglesias y misiones.",
-      "adminRotation": "Rotación Administrativa (9 meses)",
+      "outcome": "Diploma Anagkazo + Nombramiento pastoral",
+      "structureDesc": "El Diploma Anagkazo incluye todo el contenido del Diploma Manthano (3 años) más un cuarto año especializado con tres rotaciones profesionales.",
+      "fourthYearTitle": "Rotaciones profesionales del cuarto año",
+      "ruralRotation": "Rotación rural (9 meses)",
+      "ruralDesc": "El estudiante es enviado a pastorear una iglesia local bajo la supervisión de un obispo y realiza investigaciones sobre crecimiento de la iglesia y misiones.",
+      "adminRotation": "Rotación administrativa (9 meses)",
       "adminDesc": "El estudiante observa y aprende procedimientos administrativos y de gobierno de la iglesia, incluyendo:",
-      "evangelismRotation": "Rotación de Evangelismo Práctico",
-      "evangelismDesc": "El estudiante participa y asiste al menos a una campaña de Sanidad de Jesús, involucrado desde el principio (equipo avanzado), a través de la preparación (movilización, ensayos del coro), y en las noches de cruzada (montaje y desmontaje).",
-      "researchPresentation": "Presentación de Hallazgos de Investigación (50%)",
-      "researchDesc": "Presentar la investigación realizada durante la Rotación Rural sobre crecimiento de iglesias y misiones.",
-      "oralExam": "Examen Oral Final General (50%)",
-      "oralExamDesc": "Exámenes estructurados objetivos basados en el ministerio que demuestran cómo el estudiante ha aplicado todo el aprendizaje de tres años en el campus al trabajo de campo."
+      "evangelismRotation": "Rotación de evangelismo práctico",
+      "evangelismDesc": "El estudiante participa en al menos una campaña Healing Jesus desde el equipo de avanzada hasta las noches de cruzada.",
+      "researchPresentation": "Presentación de investigación (50 %)",
+      "researchDesc": "Presenta la investigación realizada durante la rotación rural sobre crecimiento de la iglesia y misiones.",
+      "oralExam": "Examen oral final (50 %)",
+      "oralExamDesc": "Exámenes estructurados que muestran cómo el estudiante aplicó lo aprendido en el campo.",
+      "adminList": [
+        "Capacitación y supervisión de tesoreros",
+        "Auditorías aceleradas",
+        "Gestión de instalaciones de la iglesia",
+        "Los doce oficios reconocidos de la iglesia",
+        "Operaciones de los consejos"
+      ]
     },
     "cta": {
       "title": "¿Listo para Comenzar tu Capacitación?",
