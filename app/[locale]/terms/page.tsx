@@ -22,7 +22,7 @@ type ContactSection = {
 
 export default function TermsPage() {
   const t = useTranslations('terms')
-
+ 
   const sectionsData = t.raw('sections')
   const sections: TermsSection[] = Array.isArray(sectionsData) ? (sectionsData as TermsSection[]) : []
   const contactData = t.raw('contact') as ContactSection | undefined

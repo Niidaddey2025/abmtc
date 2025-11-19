@@ -7,7 +7,7 @@ type PrivacySection = {
   title: string
   body?: string[]
   items?: string[]
-}
+} 
 
 type ContactSection = {
   title: string
