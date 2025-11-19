@@ -1274,6 +1274,101 @@
       }
     ]
   },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: October 14, 2025",
+    "sections": [
+      {
+        "title": "Introduction",
+        "body": [
+          "At Anagkazo Bible & Ministry Training Center (ABMTC), we are committed to protecting your privacy and ensuring the security of your personal information.",
+          "This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or apply to our programs."
+        ]
+      },
+      {
+        "title": "Information We Collect",
+        "body": ["We collect information that you provide directly to us, including:"],
+        "items": [
+          "Personal identification information (name, email address, phone number, date of birth)",
+          "Application materials (educational background, ministry experience, references)",
+          "Financial information for scholarship and financial aid purposes",
+          "Communication preferences and correspondence with us"
+        ]
+      },
+      {
+        "title": "How We Use Your Information",
+        "body": ["We use the information we collect to:"],
+        "items": [
+          "Process and evaluate your application to ABMTC programs",
+          "Communicate with you about your application status and program information",
+          "Administer financial aid and scholarship programs",
+          "Improve our website and services",
+          "Send you updates, newsletters, and information about ABMTC (with your consent)",
+          "Comply with legal obligations and protect our rights"
+        ]
+      },
+      {
+        "title": "Information Sharing and Disclosure",
+        "body": [
+          "We do not sell, trade, or rent your personal information to third parties. We may share your information with:"],
+        "items": [
+          "Service providers who assist us in operating our website and conducting our programs",
+          "References and educational institutions for verification purposes",
+          "Legal authorities when required by law or to protect our rights",
+          "Partner organizations for ministry placement (with your consent)"
+        ]
+      },
+      {
+        "title": "Data Security",
+        "body": [
+          "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.",
+          "However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security."
+        ]
+      },
+      {
+        "title": "Your Rights",
+        "body": ["You have the right to:"],
+        "items": [
+          "Access and receive a copy of your personal information",
+          "Correct inaccurate or incomplete information",
+          "Request deletion of your information (subject to legal requirements)",
+          "Opt-out of marketing communications",
+          "Withdraw consent for data processing where applicable"
+        ]
+      },
+      {
+        "title": "Cookies and Tracking Technologies",
+        "body": [
+          "We use cookies and similar tracking technologies to enhance your experience on our website, analyze usage patterns, and deliver personalized content.",
+          "You can control cookie settings through your browser preferences."
+        ]
+      },
+      {
+        "title": "Children's Privacy",
+        "body": [
+          "Our services are not directed to individuals under the age of 18. We do not knowingly collect personal information from children.",
+          "If you believe we have collected information from a child, please contact us immediately."
+        ]
+      },
+      {
+        "title": "Changes to This Policy",
+        "body": [
+          "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the 'Last updated' date.",
+          "We encourage you to review this policy periodically."
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Contact Us",
+      "description": "If you have any questions about this Privacy Policy or our data practices, please contact us:",
+      "organization": "Anagkazo Bible & Ministry Training Center",
+      "addressLines": ["Mampong, Ghana"],
+      "emailLabel": "Email",
+      "email": "anagkazorecruitment@gmail.com",
+      "phoneLabel": "Phone",
+      "phones": ["+233 55 746 7460", "+233 59 231 9140"]
+    }
+  },
   "financialAid": {
     "title": "Financial Aid & Scholarships",
     "subtitle": "We believe finances should never be a barrier to answering God's call. Discover the support available to make your training possible.",
@@ -1813,100 +1908,108 @@
       "contact": "Contact Resource Center"
     }
   },
-  "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated:",
-    "introduction": {
-      "title": "Introduction",
-      "content": "At Anagkazo Bible & Ministry Training Center (ABMTC), we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or apply to our programs."
-    },
-    "informationCollected": {
-      "title": "Information We Collect",
-      "intro": "We collect information that you provide directly to us, including:"
-    },
-    "howWeUse": {
-      "title": "How We Use Your Information",
-      "intro": "We use the information we collect to:"
-    },
-    "sharing": {
-      "title": "Information Sharing and Disclosure",
-      "intro": "We do not sell, trade, or rent your personal information to third parties. We may share your information with:"
-    },
-    "security": {
-      "title": "Data Security",
-      "content": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security."
-    },
-    "rights": {
-      "title": "Your Rights",
-      "intro": "You have the right to:"
-    },
-    "cookies": {
-      "title": "Cookies and Tracking Technologies",
-      "content": "We use cookies and similar tracking technologies to enhance your experience on our website, analyze usage patterns, and deliver personalized content. You can control cookie settings through your browser preferences."
-    },
-    "children": {
-      "title": "Children's Privacy",
-      "content": "Our services are not directed to individuals under the age of 18. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately."
-    },
-    "changes": {
-      "title": "Changes to This Policy",
-      "content": "We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the \"Last updated\" date. We encourage you to review this policy periodically."
-    },
-    "contact": {
-      "title": "Contact Us",
-      "intro": "If you have any questions about this Privacy Policy or our data practices, please contact us:"
-    }
-  },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last updated:",
-    "agreement": {
-      "title": "Agreement to Terms",
-      "content": "By accessing or using the Anagkazo Bible & Ministry Training Center (ABMTC) website and services, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website or services."
-    },
-    "useOfServices": {
-      "title": "Use of Services",
-      "intro": "You agree to use our services only for lawful purposes and in accordance with these terms. You agree not to:"
-    },
-    "application": {
-      "title": "Application and Admission",
-      "intro": "Submitting an application to ABMTC does not guarantee admission. All applications are subject to review and approval by our admissions committee. We reserve the right to:"
-    },
-    "tuition": {
-      "title": "Tuition and Fees",
-      "content": "Tuition and fees are subject to change. Accepted students will receive detailed information about costs, payment schedules, and available financial aid. All fees must be paid according to the agreed schedule. Failure to pay may result in dismissal from the program."
-    },
-    "conduct": {
-      "title": "Student Conduct",
-      "intro": "Students are expected to maintain high standards of Christian conduct and adhere to ABMTC's code of conduct. This includes:"
-    },
-    "intellectualProperty": {
-      "title": "Intellectual Property",
-      "content": "All content on the ABMTC website, including text, graphics, logos, images, and software, is the property of ABMTC or its content suppliers and is protected by copyright and other intellectual property laws. You may not reproduce, distribute, or create derivative works without our written permission."
-    },
-    "disclaimer": {
-      "title": "Disclaimer of Warranties",
-      "content": "Our website and services are provided \"as is\" without warranties of any kind, either express or implied. We do not guarantee that our services will be uninterrupted, secure, or error-free. We are not responsible for any technical issues that may affect your access to our website."
-    },
-    "limitation": {
-      "title": "Limitation of Liability",
-      "content": "To the fullest extent permitted by law, ABMTC shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our services or inability to use our services, even if we have been advised of the possibility of such damages."
-    },
-    "termination": {
-      "title": "Termination",
-      "content": "We reserve the right to terminate or suspend access to our services immediately, without prior notice, for any reason, including breach of these Terms of Service. Upon termination, your right to use our services will immediately cease."
-    },
-    "governingLaw": {
-      "title": "Governing Law",
-      "content": "These Terms of Service shall be governed by and construed in accordance with the laws of Ghana, without regard to its conflict of law provisions. Any disputes arising from these terms shall be resolved in the courts of Ghana."
-    },
-    "changes": {
-      "title": "Changes to Terms",
-      "content": "We reserve the right to modify these Terms of Service at any time. We will notify users of any material changes by posting the updated terms on this page. Your continued use of our services after changes are posted constitutes acceptance of the modified terms."
-    },
+    "lastUpdated": "Last updated: October 14, 2025",
+    "sections": [
+      {
+        "title": "Agreement to Terms",
+        "body": [
+          "By accessing or using the Anagkazo Bible & Ministry Training Center (ABMTC) website and services, you agree to be bound by these Terms of Service.",
+          "If you do not agree to these terms, please do not use our website or services."
+        ]
+      },
+      {
+        "title": "Use of Services",
+        "body": ["You agree to use our services only for lawful purposes and in accordance with these terms. You agree not to:"],
+        "items": [
+          "Violate any applicable laws or regulations",
+          "Infringe upon the rights of others",
+          "Submit false or misleading information in applications",
+          "Attempt to gain unauthorized access to our systems",
+          "Interfere with the proper functioning of our website",
+          "Use our services for any commercial purpose without permission"
+        ]
+      },
+      {
+        "title": "Application and Admission",
+        "body": ["Submitting an application to ABMTC does not guarantee admission. All applications are subject to review and approval. We reserve the right to:"],
+        "items": [
+          "Accept or reject any application at our discretion",
+          "Request additional information or documentation",
+          "Verify information provided in applications",
+          "Modify admission requirements and deadlines"
+        ]
+      },
+      {
+        "title": "Tuition and Fees",
+        "body": [
+          "Tuition and fees are subject to change. Accepted students receive detailed information about costs, payment schedules, and available financial aid.",
+          "All fees must be paid according to the agreed schedule. Failure to pay may result in dismissal from the program."
+        ]
+      },
+      {
+        "title": "Student Conduct",
+        "body": ["Students are expected to maintain high standards of Christian conduct and adhere to ABMTC's code of conduct. This includes:"],
+        "items": [
+          "Respectful behavior toward staff, faculty, and fellow students",
+          "Regular attendance and participation in classes and activities",
+          "Adherence to biblical principles and ministry standards",
+          "Compliance with campus rules and regulations",
+          "Honest academic work and integrity in all matters"
+        ]
+      },
+      {
+        "title": "Intellectual Property",
+        "body": [
+          "All content on the ABMTC website, including text, graphics, logos, images, and software, is the property of ABMTC or its content suppliers and is protected by copyright and other laws.",
+          "You may not reproduce, distribute, or create derivative works without our written permission."
+        ]
+      },
+      {
+        "title": "Disclaimer of Warranties",
+        "body": [
+          "Our website and services are provided 'as is' without warranties of any kind, either express or implied.",
+          "We do not guarantee that our services will be uninterrupted, secure, or error-free and are not responsible for technical issues affecting access."
+        ]
+      },
+      {
+        "title": "Limitation of Liability",
+        "body": [
+          "To the fullest extent permitted by law, ABMTC shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of our services or inability to use our services, even if we have been advised of the possibility of such damages."
+        ]
+      },
+      {
+        "title": "Termination",
+        "body": [
+          "We reserve the right to terminate or suspend access to our services immediately, without prior notice, for any reason, including breach of these Terms of Service.",
+          "Upon termination, your right to use our services will cease immediately."
+        ]
+      },
+      {
+        "title": "Governing Law",
+        "body": [
+          "These Terms of Service are governed by the laws of Ghana, without regard to conflict of law provisions.",
+          "Any disputes arising from these terms shall be resolved in the courts of Ghana."
+        ]
+      },
+      {
+        "title": "Changes to Terms",
+        "body": [
+          "We reserve the right to modify these Terms of Service at any time. We will notify users of material changes by posting the updated terms on this page.",
+          "Your continued use of our services after changes are posted constitutes acceptance of the modified terms."
+        ]
+      }
+    ],
     "contact": {
       "title": "Contact Information",
-      "intro": "If you have any questions about these Terms of Service, please contact us:"
+      "description": "If you have any questions about these Terms of Service, please contact us:",
+      "organization": "Anagkazo Bible & Ministry Training Center",
+      "addressLines": ["Mampong, Ghana"],
+      "emailLabel": "Email",
+      "email": "anagkazorecruitment@gmail.com",
+      "phoneLabel": "Phone",
+      "phones": ["+233 55 746 7460", "+233 59 231 9140"]
     }
   }
 }

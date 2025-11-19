@@ -1814,99 +1814,201 @@
     }
   },
   "privacy": {
-    "title": "Política de privacidad",
-    "lastUpdated": "Última actualización:",
-    "introduction": {
-      "title": "Introducción",
-      "content": "En el Centro de Formación Bíblica y Ministerial Anagkazo (ABMTC), estamos comprometidos a proteger tu privacidad y garantizar la seguridad de tu información personal. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando visitas nuestro sitio web o solicitas nuestros programas."
-    },
-    "informationCollected": {
-      "title": "Información que recopilamos",
-      "intro": "Recopilamos información que nos proporcionas directamente, incluyendo:"
-    },
-    "howWeUse": {
-      "title": "Cómo usamos tu información",
-      "intro": "Usamos la información que recopilamos para:"
-    },
-    "sharing": {
-      "title": "Compartir y divulgación de información",
-      "intro": "No vendemos, intercambiamos ni alquilamos tu información personal a terceros. Podemos compartir tu información con:"
-    },
-    "security": {
-      "title": "Seguridad de datos",
-      "content": "Implementamos medidas técnicas y organizativas apropiadas para proteger tu información personal contra acceso no autorizado, alteración, divulgación o destrucción. Sin embargo, ningún método de transmisión por Internet es 100% seguro y no podemos garantizar seguridad absoluta."
-    },
-    "rights": {
-      "title": "Tus derechos",
-      "intro": "Tienes derecho a:"
-    },
-    "cookies": {
-      "title": "Cookies y tecnologías de seguimiento",
-      "content": "Usamos cookies y tecnologías de seguimiento similares para mejorar tu experiencia en nuestro sitio web, analizar patrones de uso y entregar contenido personalizado. Puedes controlar la configuración de cookies a través de las preferencias de tu navegador."
-    },
-    "children": {
-      "title": "Privacidad de los niños",
-      "content": "Nuestros servicios no están dirigidos a personas menores de 18 años. No recopilamos intencionalmente información personal de niños. Si crees que hemos recopilado información de un niño, contáctanos inmediatamente."
-    },
-    "changes": {
-      "title": "Cambios a esta política",
-      "content": "Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos de cualquier cambio publicando la nueva política en esta página y actualizando la fecha de \"Última actualización\". Te animamos a revisar esta política periódicamente."
-    },
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : 14 octobre 2025",
+    "sections": [
+      {
+        "title": "Introduction",
+        "body": [
+          "Au Centre de formation biblique et ministérielle Anagkazo (ABMTC), nous nous engageons à protéger votre vie privée et à garantir la sécurité de vos informations personnelles.",
+          "Cette Politique de confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous visitez notre site web ou postulez à nos programmes."
+        ]
+      },
+      {
+        "title": "Informations que nous collectons",
+        "body": ["Nous collectons les informations que vous nous fournissez directement, notamment :"],
+        "items": [
+          "Informations d'identification personnelle (nom, adresse e-mail, numéro de téléphone, date de naissance)",
+          "Dossiers de candidature (parcours scolaire, expérience ministérielle, références)",
+          "Informations financières pour les bourses et l'aide financière",
+          "Préférences de communication et correspondance avec nous"
+        ]
+      },
+      {
+        "title": "Comment nous utilisons vos informations",
+        "body": ["Nous utilisons les informations collectées pour :"],
+        "items": [
+          "Traiter et évaluer votre candidature aux programmes de l'ABMTC",
+          "Communiquer avec vous au sujet de votre admission et des informations sur le programme",
+          "Gérer les bourses et les programmes d'aide financière",
+          "Améliorer notre site web et nos services",
+          "Vous envoyer des mises à jour, des bulletins et des informations sur l'ABMTC (avec votre consentement)",
+          "Respecter nos obligations légales et protéger nos droits"
+        ]
+      },
+      {
+        "title": "Partage et divulgation des informations",
+        "body": ["Nous ne vendons pas, n'échangeons pas et ne louons pas vos informations personnelles. Nous pouvons partager vos données avec :"],
+        "items": [
+          "Des prestataires de services qui nous aident à faire fonctionner notre site web et nos programmes",
+          "Des références et établissements scolaires pour les vérifications",
+          "Les autorités légales lorsque la loi l'exige ou pour protéger nos droits",
+          "Des organisations partenaires pour des placements ministériels (avec votre consentement)"
+        ]
+      },
+      {
+        "title": "Sécurité des données",
+        "body": [
+          "Nous appliquons des mesures techniques et organisationnelles appropriées pour protéger vos informations contre l'accès, la modification ou la divulgation non autorisés.",
+          "Cependant, aucun moyen de transmission sur Internet n'est entièrement sûr et nous ne pouvons garantir une sécurité absolue."
+        ]
+      },
+      {
+        "title": "Vos droits",
+        "body": ["Vous avez le droit de :"],
+        "items": [
+          "Accéder à vos informations personnelles et en obtenir une copie",
+          "Corriger toute information inexacte ou incomplète",
+          "Demander la suppression de vos informations (sous réserve des obligations légales)",
+          "Refuser les communications marketing",
+          "Retirer votre consentement au traitement des données lorsque cela s'applique"
+        ]
+      },
+      {
+        "title": "Cookies et technologies de suivi",
+        "body": [
+          "Nous utilisons des cookies et des technologies similaires pour améliorer votre expérience, analyser l'utilisation du site et proposer du contenu personnalisé.",
+          "Vous pouvez gérer vos préférences via les paramètres de votre navigateur."
+        ]
+      },
+      {
+        "title": "Confidentialité des enfants",
+        "body": [
+          "Nos services ne s'adressent pas aux personnes de moins de 18 ans. Nous ne collectons pas sciemment d'informations auprès d'enfants.",
+          "Si vous pensez que nous avons reçu des données d'un enfant, veuillez nous contacter immédiatement."
+        ]
+      },
+      {
+        "title": "Modifications de cette politique",
+        "body": [
+          "Nous pouvons mettre à jour cette Politique de confidentialité. Nous publierons les changements sur cette page et actualiserons la date \"Dernière mise à jour\".",
+          "Nous vous encourageons à consulter régulièrement cette politique."
+        ]
+      }
+    ],
     "contact": {
-      "title": "Contáctanos",
-      "intro": "Si tienes alguna pregunta sobre esta Política de Privacidad o nuestras prácticas de datos, contáctanos:"
+      "title": "Contactez-nous",
+      "description": "Pour toute question concernant cette Politique de confidentialité ou nos pratiques de données, contactez-nous :",
+      "organization": "Anagkazo Bible & Ministry Training Center",
+      "addressLines": ["Mampong, Ghana"],
+      "emailLabel": "E-mail",
+      "email": "anagkazorecruitment@gmail.com",
+      "phoneLabel": "Téléphone",
+      "phones": ["+233 55 746 7460", "+233 59 231 9140"]
     }
   },
   "terms": {
-    "title": "Términos de servicio",
-    "lastUpdated": "Última actualización:",
-    "agreement": {
-      "title": "Acuerdo de términos",
-      "content": "Al acceder o usar el sitio web y los servicios del Centro de Formación Bíblica y Ministerial Anagkazo (ABMTC), aceptas estar sujeto a estos Términos de Servicio. Si no estás de acuerdo con estos términos, por favor no uses nuestro sitio web o servicios."
-    },
-    "useOfServices": {
-      "title": "Uso de servicios",
-      "intro": "Aceptas usar nuestros servicios solo para fines legales y de acuerdo con estos términos. Aceptas no:"
-    },
-    "application": {
-      "title": "Solicitud y admisión",
-      "intro": "Enviar una solicitud a ABMTC no garantiza la admisión. Todas las solicitudes están sujetas a revisión y aprobación por nuestro comité de admisiones. Nos reservamos el derecho de:"
-    },
-    "tuition": {
-      "title": "Matrícula y tarifas",
-      "content": "La matrícula y las tarifas están sujetas a cambios. Los estudiantes aceptados recibirán información detallada sobre costos, calendarios de pago y ayuda financiera disponible. Todas las tarifas deben pagarse según el calendario acordado. El incumplimiento del pago puede resultar en la expulsión del programa."
-    },
-    "conduct": {
-      "title": "Conducta estudiantil",
-      "intro": "Se espera que los estudiantes mantengan altos estándares de conducta cristiana y se adhieran al código de conducta de ABMTC. Esto incluye:"
-    },
-    "intellectualProperty": {
-      "title": "Propiedad intelectual",
-      "content": "Todo el contenido del sitio web de ABMTC, incluidos texto, gráficos, logotipos, imágenes y software, es propiedad de ABMTC o sus proveedores de contenido y está protegido por derechos de autor y otras leyes de propiedad intelectual. No puedes reproducir, distribuir o crear obras derivadas sin nuestro permiso por escrito."
-    },
-    "disclaimer": {
-      "title": "Descargo de garantías",
-      "content": "Nuestro sitio web y servicios se proporcionan \"tal cual\" sin garantías de ningún tipo, ya sean expresas o implícitas. No garantizamos que nuestros servicios serán ininterrumpidos, seguros o libres de errores. No somos responsables de ningún problema técnico que pueda afectar tu acceso a nuestro sitio web."
-    },
-    "limitation": {
-      "title": "Limitación de responsabilidad",
-      "content": "En la máxima medida permitida por la ley, ABMTC no será responsable de ningún daño indirecto, incidental, especial, consecuente o punitivo que surja de tu uso de nuestros servicios o la imposibilidad de usar nuestros servicios, incluso si hemos sido advertidos de la posibilidad de tales daños."
-    },
-    "termination": {
-      "title": "Terminación",
-      "content": "Nos reservamos el derecho de terminar o suspender el acceso a nuestros servicios inmediatamente, sin previo aviso, por cualquier motivo, incluido el incumplimiento de estos Términos de Servicio. Al terminar, tu derecho a usar nuestros servicios cesará inmediatamente."
-    },
-    "governingLaw": {
-      "title": "Ley aplicable",
-      "content": "Estos Términos de Servicio se regirán e interpretarán de acuerdo con las leyes de Ghana, sin tener en cuenta sus disposiciones sobre conflictos de leyes. Cualquier disputa que surja de estos términos se resolverá en los tribunales de Ghana."
-    },
-    "changes": {
-      "title": "Cambios a los términos",
-      "content": "Nos reservamos el derecho de modificar estos Términos de Servicio en cualquier momento. Notificaremos a los usuarios de cualquier cambio material publicando los términos actualizados en esta página. Tu uso continuado de nuestros servicios después de que se publiquen los cambios constituye la aceptación de los términos modificados."
-    },
+    "title": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : 14 octobre 2025",
+    "sections": [
+      {
+        "title": "Acceptation des conditions",
+        "body": [
+          "En accédant au site ou aux services de l'ABMTC, vous acceptez d'être lié par ces Conditions d'utilisation.",
+          "Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser notre site ou nos services."
+        ]
+      },
+      {
+        "title": "Utilisation des services",
+        "body": ["Vous vous engagez à utiliser nos services de manière légale et conforme à ces conditions. Il vous est interdit de :"],
+        "items": [
+          "Enfreindre les lois ou règlements applicables",
+          "Porter atteinte aux droits d'autrui",
+          "Soumettre des informations fausses ou trompeuses",
+          "Tenter d'accéder à nos systèmes sans autorisation",
+          "Perturber le bon fonctionnement du site",
+          "Utiliser nos services à des fins commerciales sans permission"
+        ]
+      },
+      {
+        "title": "Candidature et admission",
+        "body": ["Le dépôt d'une candidature n'assure pas l'admission. Nous nous réservons le droit de :"],
+        "items": [
+          "Accepter ou refuser toute candidature à notre discrétion",
+          "Demander des informations ou documents supplémentaires",
+          "Vérifier les informations fournies",
+          "Modifier les exigences et échéances d'admission"
+        ]
+      },
+      {
+        "title": "Frais de scolarité",
+        "body": [
+          "Les frais peuvent être ajustés. Les étudiants admis reçoivent les détails sur les coûts, calendriers de paiement et aides disponibles.",
+          "Tous les frais doivent être payés selon l'échéancier convenu, sous peine d'exclusion du programme."
+        ]
+      },
+      {
+        "title": "Conduite étudiante",
+        "body": ["Les étudiants doivent respecter des normes chrétiennes élevées. Cela inclut :"],
+        "items": [
+          "Respect du personnel, des enseignants et des autres étudiants",
+          "Participation régulière aux cours et activités",
+          "Adhésion aux principes bibliques et normes ministérielles",
+          "Respect des règles du campus",
+          "Intégrité académique et honnêteté"
+        ]
+      },
+      {
+        "title": "Propriété intellectuelle",
+        "body": [
+          "Tout le contenu du site ABMTC est protégé et appartient à l'ABMTC ou à ses fournisseurs.",
+          "Toute reproduction ou distribution nécessite notre autorisation écrite."
+        ]
+      },
+      {
+        "title": "Avertissement de garanties",
+        "body": [
+          "Nos services sont fournis \"en l'état\" sans garantie d'absence d'interruptions, de sécurité ou d'erreurs.",
+          "Nous ne sommes pas responsables des problèmes techniques affectant l'accès."
+        ]
+      },
+      {
+        "title": "Limitation de responsabilité",
+        "body": [
+          "Dans la mesure permise par la loi, l'ABMTC n'est pas responsable des dommages indirects ou consécutifs résultant de l'utilisation ou de l'impossibilité d'utiliser nos services."
+        ]
+      },
+      {
+        "title": "Résiliation",
+        "body": [
+          "Nous pouvons suspendre ou résilier l'accès sans préavis en cas de violation de ces conditions.",
+          "À la résiliation, votre droit d'utiliser nos services cesse immédiatement."
+        ]
+      },
+      {
+        "title": "Droit applicable",
+        "body": [
+          "Ces conditions sont régies par les lois du Ghana.",
+          "Tout litige sera tranché par les tribunaux ghanéens."
+        ]
+      },
+      {
+        "title": "Modifications",
+        "body": [
+          "Nous pouvons mettre à jour ces conditions et publierons toute modification sur cette page.",
+          "L'utilisation continue du site vaut acceptation des nouvelles conditions."
+        ]
+      }
+    ],
     "contact": {
-      "title": "Información de contacto",
-      "intro": "Si tienes alguna pregunta sobre estos Términos de Servicio, contáctanos:"
+      "title": "Informations de contact",
+      "description": "Pour toute question concernant ces conditions, contactez-nous :",
+      "organization": "Anagkazo Bible & Ministry Training Center",
+      "addressLines": ["Mampong, Ghana"],
+      "emailLabel": "E-mail",
+      "email": "anagkazorecruitment@gmail.com",
+      "phoneLabel": "Téléphone",
+      "phones": ["+233 55 746 7460", "+233 59 231 9140"]
     }
   }
 }

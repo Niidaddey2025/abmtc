@@ -1812,46 +1812,96 @@
   },
   "privacy": {
     "title": "Política de privacidad",
-    "lastUpdated": "Última actualización:",
-    "introduction": {
-      "title": "Introducción",
-      "content": "En el Centro de Formación Bíblica y Ministerial Anagkazo (ABMTC), estamos comprometidos a proteger tu privacidad y garantizar la seguridad de tu información personal. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando visitas nuestro sitio web o solicitas nuestros programas."
-    },
-    "informationCollected": {
-      "title": "Información que recopilamos",
-      "intro": "Recopilamos información que nos proporcionas directamente, incluyendo:"
-    },
-    "howWeUse": {
-      "title": "Cómo usamos tu información",
-      "intro": "Usamos la información que recopilamos para:"
-    },
-    "sharing": {
-      "title": "Compartir y divulgación de información",
-      "intro": "No vendemos, intercambiamos ni alquilamos tu información personal a terceros. Podemos compartir tu información con:"
-    },
-    "security": {
-      "title": "Seguridad de datos",
-      "content": "Implementamos medidas técnicas y organizativas apropiadas para proteger tu información personal contra acceso no autorizado, alteración, divulgación o destrucción. Sin embargo, ningún método de transmisión por Internet es 100% seguro y no podemos garantizar seguridad absoluta."
-    },
-    "rights": {
-      "title": "Tus derechos",
-      "intro": "Tienes derecho a:"
-    },
-    "cookies": {
-      "title": "Cookies y tecnologías de seguimiento",
-      "content": "Usamos cookies y tecnologías de seguimiento similares para mejorar tu experiencia en nuestro sitio web, analizar patrones de uso y entregar contenido personalizado. Puedes controlar la configuración de cookies a través de las preferencias de tu navegador."
-    },
-    "children": {
-      "title": "Privacidad de los niños",
-      "content": "Nuestros servicios no están dirigidos a personas menores de 18 años. No recopilamos intencionalmente información personal de niños. Si crees que hemos recopilado información de un niño, contáctanos inmediatamente."
-    },
-    "changes": {
-      "title": "Cambios a esta política",
-      "content": "Podemos actualizar esta Política de Privacidad de vez en cuando. Te notificaremos de cualquier cambio publicando la nueva política en esta página y actualizando la fecha de \"Última actualización\". Te animamos a revisar esta política periódicamente."
-    },
+    "lastUpdated": "Última actualización: 14 de octubre de 2025",
+    "sections": [
+      {
+        "title": "Introducción",
+        "body": [
+          "En el Centro de Formación Bíblica y Ministerial Anagkazo (ABMTC), estamos comprometidos a proteger tu privacidad y garantizar la seguridad de tu información personal.",
+          "Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando visitas nuestro sitio web o solicitas nuestros programas."
+        ]
+      },
+      {
+        "title": "Información que recopilamos",
+        "body": ["Recopilamos la información que nos proporcionas directamente, incluyendo:"],
+        "items": [
+          "Datos de identificación personal (nombre, correo electrónico, teléfono, fecha de nacimiento)",
+          "Materiales de solicitud (formación académica, experiencia ministerial, referencias)",
+          "Información financiera para becas y ayuda económica",
+          "Preferencias de comunicación y correspondencia con nosotros"
+        ]
+      },
+      {
+        "title": "Cómo usamos tu información",
+        "body": ["Utilizamos la información recopilada para:"],
+        "items": [
+          "Procesar y evaluar tu solicitud a los programas de ABMTC",
+          "Comunicarnos contigo sobre el estado de tu solicitud y detalles del programa",
+          "Administrar becas y programas de ayuda financiera",
+          "Mejorar nuestro sitio web y servicios",
+          "Enviar actualizaciones, boletines e información sobre ABMTC (con tu consentimiento)",
+          "Cumplir con obligaciones legales y proteger nuestros derechos"
+        ]
+      },
+      {
+        "title": "Compartir y divulgación de información",
+        "body": ["No vendemos ni alquilamos tu información personal. Podemos compartirla con:"],
+        "items": [
+          "Proveedores de servicios que nos ayudan a operar el sitio y los programas",
+          "Referencias e instituciones educativas para verificación",
+          "Autoridades legales cuando la ley lo requiere o para proteger nuestros derechos",
+          "Organizaciones asociadas para asignaciones ministeriales (con tu consentimiento)"
+        ]
+      },
+      {
+        "title": "Seguridad de los datos",
+        "body": [
+          "Aplicamos medidas técnicas y organizativas apropiadas para proteger tu información contra accesos o divulgaciones no autorizadas.",
+          "Sin embargo, ningún método de transmisión en Internet es completamente seguro y no podemos garantizar seguridad absoluta."
+        ]
+      },
+      {
+        "title": "Tus derechos",
+        "body": ["Tienes derecho a:"],
+        "items": [
+          "Acceder y recibir una copia de tu información personal",
+          "Corregir información inexacta o incompleta",
+          "Solicitar la eliminación de tus datos (según requisitos legales)",
+          "Optar por no recibir comunicaciones de marketing",
+          "Retirar tu consentimiento para el tratamiento de datos cuando aplique"
+        ]
+      },
+      {
+        "title": "Cookies y tecnologías de seguimiento",
+        "body": [
+          "Usamos cookies y tecnologías similares para mejorar tu experiencia, analizar el uso del sitio y ofrecer contenido personalizado.",
+          "Puedes controlar la configuración de cookies desde tu navegador."
+        ]
+      },
+      {
+        "title": "Privacidad de menores",
+        "body": [
+          "Nuestros servicios no están dirigidos a menores de 18 años y no recopilamos intencionalmente datos de niños.",
+          "Si crees que hemos recibido información de un menor, contáctanos de inmediato."
+        ]
+      },
+      {
+        "title": "Cambios a esta política",
+        "body": [
+          "Podemos actualizar esta Política de Privacidad periódicamente y publicaremos los cambios en esta página junto con la nueva fecha de actualización.",
+          "Te recomendamos revisarla regularmente."
+        ]
+      }
+    ],
     "contact": {
       "title": "Contáctanos",
-      "intro": "Si tienes alguna pregunta sobre esta Política de Privacidad o nuestras prácticas de datos, contáctanos:"
+      "description": "Si tienes preguntas sobre esta Política de Privacidad o nuestras prácticas de datos, contáctanos:",
+      "organization": "Anagkazo Bible & Ministry Training Center",
+      "addressLines": ["Mampong, Ghana"],
+      "emailLabel": "Correo",
+      "email": "anagkazorecruitment@gmail.com",
+      "phoneLabel": "Teléfono",
+      "phones": ["+233 55 746 7460", "+233 59 231 9140"]
     }
   },
   "terms": {
